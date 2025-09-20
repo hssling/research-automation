@@ -25,7 +25,7 @@ all: search dedupe screen extract meta prisma
 # -------------------------------
 search:
 	@echo ">>> Fetching articles from PubMed..."
-	python search_pubmed.py --query '("systematic review"[TI] OR "meta-analysis"[TI])' --retmax 1000 --out results/pubmed_results.csv
+python search_pubmed.py --query '"allergy"[MeSH] OR "asthma"[MeSH] OR "atopic dermatitis"[MeSH] AND "microbiome"[MeSH] OR "microbiota"[MeSH] OR "gut microbiome" AND "association"[sb] AND systematic[sb]' --retmax 1500 --out results/microbiome_allergy_results.csv
 	@echo "✅ Search completed. Results saved to results/pubmed_results.csv"
 
 # -------------------------------
