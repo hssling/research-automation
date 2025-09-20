@@ -158,21 +158,59 @@ Edit the configuration files in each phase directory:
 ### Example 1: Systematic Review
 
 ```bash
-# Search PubMed for COVID-19 vaccine studies
+# 1. Search PubMed for your research question
 python 01_systematic_reviews/search_pubmed.py \
-    "COVID-19 vaccine efficacy" \
+    "your search term" \
     --max-results 1000 \
-    --start-date 2020/01/01 \
-    --end-date 2023/12/31
+    --start-date YYYY/MM/DD \
+    --end-date YYYY/MM/DD
 
-# Deduplicate and screen results
+# 2. Deduplicate and screen results
 Rscript 01_systematic_reviews/dedupe_screen.R
 
-# Run meta-analysis
+# 3. Run meta-analysis
 Rscript 01_systematic_reviews/meta_analysis.R
 
-# Generate PRISMA diagram
+# 4. Generate PRISMA diagram
 Rscript 01_systematic_reviews/prisma_flow.R
+```
+
+### Example 2: Quick Meta-Analysis on Any Topic
+
+```bash
+# Navigate to systematic review directory
+cd 01_systematic_reviews
+
+# Step 1: Search PubMed database
+make search  # PubMed search using the query in Makefile
+
+# Step 2: Remove duplicates and screen
+make dedupe  # Deduplication and cleaning
+
+# Step 3: Run meta-analysis
+make meta    # Statistical synthesis
+
+# Step 4: Generate PRISMA flow diagram
+make prisma  # Flow diagram for publication
+
+# Run complete pipeline automatically
+make all
+```
+
+### Example Custom Search Queries
+
+```bash
+# Alzheimer's disease treatments
+python search_pubmed.py --query '("Alzheimer disease" OR dementia) AND (treatment OR therapy) AND clinical[trial]' --retmax 1500
+
+# Diabetes interventions
+python search_pubmed.py --query 'diabetes[MeSH] AND (intervention OR prevention) AND systematic[sb]' --retmax 2000
+
+# Mental health outcomes
+python search_pubmed.py --query 'mental health[MeSH] AND (outcome* OR effect*)' --retmax 1000
+
+# Cancer therapies
+python search_pubmed.py --query 'neoplasms[MeSH] AND (chemotherapy OR immunotherapy)' --retmax 2000
 ```
 
 ### Example 2: Bibliometric Analysis
