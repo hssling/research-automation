@@ -17,7 +17,7 @@ help:
 	@echo "  omics_single    - Run RNA-seq, microbiome, pharmacovigilance workflows"
 	@echo ""
 	@echo "Advanced Omics:"
-	@echo "  omics_advanced  - Run GWAS, single-cell, proteomics/metabolomics pipelines"
+	@echo "  omics_advanced  - Run MDR-TB multi-omics integration (host, microbiome, MTB genomics)"
 	@echo ""
 	@echo "Integration:"
 	@echo "  integration     - Run multi-omics integration and advanced analysis"
@@ -45,10 +45,11 @@ omics_single:
 	@echo "Running single omics pipeline..."
 	@$(MAKE) -C 03_omics_single all
 
-# Advanced Omics Pipeline
+# Advanced Omics Pipeline (Phase 4)
 omics_advanced:
-	@echo "Running advanced omics pipeline..."
-	@$(MAKE) -C 04_omics_advanced all
+	@echo "Running MDR-TB multi-omics integration pipeline..."
+	@echo "Phase 4: Advanced multi-omics analysis (DIABLO + ML stacking)"
+	@$(MAKE) -C 04_omics_advanced/mdrtb all
 
 # Integration Pipeline
 integration:

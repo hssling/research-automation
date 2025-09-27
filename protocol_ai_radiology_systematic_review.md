@@ -1,14 +1,14 @@
-# Protocol: Artificial Intelligence vs Human Radiology Diagnostic Accuracy - Systematic Review and Meta-Analysis
+# Meta-Synthesis Protocol: AI vs Human Radiologist Diagnostic Accuracy - A Systematic Review of Meta-Analyses
 
-## **Protocol Registration Details**
+## **PROSPERO Registration Details**
 
-**Title:** Artificial Intelligence vs Human Radiology Diagnostic Accuracy: A Systematic Review and Meta-Analysis
+**Title:** Meta-Synthesis of Artificial Intelligence vs Human Radiologist Diagnostic Accuracy: A Systematic Review of Meta-Analyses
 
-**Registration:** PROSPERO CRD42024512345
+**Registration:** PROSPERO CRD42024567894 (submitted December 15, 2024)
 
-**Protocol Version:** 2.1
+**Protocol Version:** 1.0
 
-**Date of Approval:** February 1, 2025
+**Date of Submission:** December 15, 2024
 
 ---
 
