@@ -1,0 +1,10 @@
+{
+  "identified": 14,
+  "title_screened": 14,
+  "title_excluded": 3,
+  "abstract_screened": 11,
+  "abstract_excluded": 1,
+  "full_text_screened": 10,
+  "full_text_excluded": 2,
+  "final_included": 8
+}

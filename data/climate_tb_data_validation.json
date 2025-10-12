@@ -1,0 +1,35 @@
+{
+  "overall_quality": 100.0,
+  "states_covered": 18,
+  "total_records": 1512,
+  "complete_records": 1512,
+  "temporal_coverage": {
+    "years": 7,
+    "months_per_year_avg": 18.0
+  },
+  "climatological_plausibility": {
+    "temperature_plausible_percent": 100.0,
+    "precipitation_plausible_percent": 99.0079365079365,
+    "humidity_plausible_percent": 100.0
+  },
+  "data_ranges": {
+    "temperature_range": {
+      "min": 10.82,
+      "max": 37.74,
+      "mean": 25.75,
+      "std": 5.29
+    },
+    "precipitation_range": {
+      "min": 0.0,
+      "max": 713.93,
+      "mean": 92.53,
+      "std": 118.01
+    },
+    "humidity_range": {
+      "min": 13.8,
+      "max": 92.18,
+      "mean": 61.29,
+      "std": 20.45
+    }
+  }
+}

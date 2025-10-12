@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: article
+title: "Network Meta-Analysis of Drug Class Sequencing for Optimizing Glycemic Control, Cardiovascular, and Renal Outcomes in Type 2 Diabetes Mellitus"
+abstract: "Comprehensive network meta-analysis comparing diabetes drug classes and combinations for optimizing glycemic control, cardiovascular protection, renal outcomes, hypoglycemia risk, and weight management in adults with type 2 diabetes."
+authors:
+  - family-names: "Siddalingaiah"
+    given-names: "H S"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    affiliation: "SIMSRH, Tumkur"
+    email: "hssling@yahoo.com"
+repository-code: "https://github.com/username/type-2-diabetes-drug-sequencing"
+url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+license: MIT
+year: 2025
+journal: "Publication Pending"
+month: 10
+day: 12

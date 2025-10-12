@@ -1,0 +1,50 @@
+name: Living Systematic Review
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # Run at midnight on the 1st of every month
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  run-living-review:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout repo
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. Setup micromamba
+    - name: Setup micromamba
+      uses: mamba-org/provision-with-micromamba@v14
+      with:
+        environment-file: env/environment.yml
+        cache-downloads: true
+        cache-env: true
+
+    # 3. Run pipeline (Phase 1 Systematic Review)
+    - name: Run systematic review pipeline
+      run: |
+        cd 01_systematic_reviews
+        make all
+
+    # 4. Render monthly report (Rmarkdown → HTML + PDF)
+    - name: Render monthly report
+      run: |
+        mkdir -p results/reports
+        Rscript -e "rmarkdown::render('notebooks/SR_demo.Rmd', output_file='../results/reports/living_review.html')"
+        Rscript -e "rmarkdown::render('notebooks/SR_demo.Rmd', output_format='pdf_document', output_file='../results/reports/living_review.pdf')"
+
+    # 5. Upload report artifacts (so you can download from Actions tab)
+    - name: Upload reports as artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: living-review-reports
+        path: results/reports/*
+
+    # 6. Deploy HTML reports to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./results/reports

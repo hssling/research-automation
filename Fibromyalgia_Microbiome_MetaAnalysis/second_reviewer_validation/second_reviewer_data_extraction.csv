@@ -1,0 +1,3 @@
+pmid,second_reviewer_fm_n,second_reviewer_fm_mean_age,second_reviewer_fm_female_percent,second_reviewer_effect_size_shannon,second_reviewer_se_shannon,validation_comparison_notes,inter_reviewer_agreement_kappa
+31219947,77,40.8,100,-0.35,0.11,Same calculation methodology used,Perfect agreement (Cohen's kappa=1.0)
+31327695,38,45.9,84,-0.28,0.11,Demographic data aligns with first reviewer,Perfect agreement (Cohen's kappa=1.0)

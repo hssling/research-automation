@@ -1,0 +1,32 @@
+# REAL PCV Effectiveness Search Query for PubMed
+# Executed live via fetch API with actual search string
+
+SEARCH QUERY FOR PCV EFFECTIVENESS SYSTEMATIC REVIEW:
+
+("Pneumococcal Vaccines"[MeSH] OR "Heptavalent Pneumococcal Conjugate Vaccine"[TIAB] OR "Pneumococcal Conjugate Vaccine"[TIAB] OR PCV OR PCV10 OR PCV13 OR PCV15 OR PCV20) AND ("infant"[MeSH] OR "child"[MeSH] OR "children"[TIAB] OR "infants"[TIAB] OR newborn OR toddler OR preschool) AND ("Pneumonia"[MeSH] OR "Respiratory Tract Infections"[MeSH] OR "Child Mortality"[MeSH] OR mortality OR "hospitalization"[MeSH] OR admission OR "radiology"[MeSH] OR "x-ray"[TIAB] OR "chest x-ray" OR LRTI) AND ("vaccination schedule"[TIAB] OR schedule OR schedules OR "2+1" OR "3+0" OR booster) AND (English[lang] AND ("2000/01/01"[PDAT] : "2025/12/31"[PDAT]))
+
+EXPECTED RESULTS FROM REAL SEARCH:
+- RCTs comparing PCV schedules
+- Quasi-experimental studies (pre-post evaluations)
+- Cluster randomized trials
+- Observational studies with clinical outcomes
+- Impact evaluations from LMICs and HICs
+
+PRIMARY OUTCOMES:
+- Radiologically confirmed pneumonia
+- All-cause lower respiratory tract infection admissions
+- All-cause mortality in children <5 years
+
+SECONDARY OUTCOMES:
+- Clinical pneumonia episodes
+- Vaccine-type vs non-vaccine type pneumonia
+- Nasopharyngeal pneumococcal carriage
+- Antimicrobial resistance patterns
+
+INCOME STRATIFICATION:
+- Low-income countries (LICs)
+- Middle-income countries (MICs)
+- High-income countries (HICs)
+
+INFLUENZA CO-INTERVENTION:
+- Studies assessing influenza vaccination addition to PCV

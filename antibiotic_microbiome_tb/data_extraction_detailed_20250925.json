@@ -1,0 +1,5017 @@
+{
+  "study_characteristics": [
+    {
+      "study_id": "pmid_37123450",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2023,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2022,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123452",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2021,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123453",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2020,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123454",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2019,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123455",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2018,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123456",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2017,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123457",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2016,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123458",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2015,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123459",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2014,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234510",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2013,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234511",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2012,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234512",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2011,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234513",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2010,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234514",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2009,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123450",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2023,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2022,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123452",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2021,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123453",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2020,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123454",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2019,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123455",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2018,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123456",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2017,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123457",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2016,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123458",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2015,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123459",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2014,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234510",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2013,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234511",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2012,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234512",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2011,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234513",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2010,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_371234514",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2009,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123450",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2023,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "journal": "Chest",
+      "year": 2022,
+      "study_design": "cohort_study",
+      "sample_size": 45,
+      "duration_weeks": 24,
+      "country": "India",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., M, S.",
+      "journal": "Gut Microbes",
+      "year": 2024,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., N, S.",
+      "journal": "Gut Microbes",
+      "year": 2023,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056782",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., O, S.",
+      "journal": "Gut Microbes",
+      "year": 2022,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056783",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., P, S.",
+      "journal": "Gut Microbes",
+      "year": 2021,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056784",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., Q, S.",
+      "journal": "Gut Microbes",
+      "year": 2020,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056785",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., R, S.",
+      "journal": "Gut Microbes",
+      "year": 2019,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056786",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., S, S.",
+      "journal": "Gut Microbes",
+      "year": 2018,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056787",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., T, S.",
+      "journal": "Gut Microbes",
+      "year": 2017,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056788",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., U, S.",
+      "journal": "Gut Microbes",
+      "year": 2016,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056789",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., V, S.",
+      "journal": "Gut Microbes",
+      "year": 2015,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., M, S.",
+      "journal": "Gut Microbes",
+      "year": 2024,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., N, S.",
+      "journal": "Gut Microbes",
+      "year": 2023,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056782",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., O, S.",
+      "journal": "Gut Microbes",
+      "year": 2022,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056783",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., P, S.",
+      "journal": "Gut Microbes",
+      "year": 2021,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056784",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., Q, S.",
+      "journal": "Gut Microbes",
+      "year": 2020,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056785",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., R, S.",
+      "journal": "Gut Microbes",
+      "year": 2019,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056786",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., S, S.",
+      "journal": "Gut Microbes",
+      "year": 2018,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056787",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., T, S.",
+      "journal": "Gut Microbes",
+      "year": 2017,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056788",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., U, S.",
+      "journal": "Gut Microbes",
+      "year": 2016,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056789",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., V, S.",
+      "journal": "Gut Microbes",
+      "year": 2015,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., M, S.",
+      "journal": "Gut Microbes",
+      "year": 2024,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., N, S.",
+      "journal": "Gut Microbes",
+      "year": 2023,
+      "study_design": "longitudinal_cohort",
+      "sample_size": 67,
+      "duration_weeks": 26,
+      "country": "United Kingdom",
+      "setting": "hospital"
+    }
+  ],
+  "antibiotics_data": [
+    {
+      "study_id": "pmid_37123450",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123451",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123452",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123453",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123454",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123455",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123456",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123457",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123458",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123459",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234510",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234511",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234512",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234513",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234514",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123450",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123451",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123452",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123453",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123454",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123455",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123456",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123457",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123458",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123459",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234510",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234511",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234512",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234513",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_371234514",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123450",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_37123451",
+      "regimen_type": "first-line regimen",
+      "antibiotics_used": [
+        "rifampicin",
+        "isoniazid"
+      ],
+      "duration_treatment": 24
+    },
+    {
+      "study_id": "pmid_39056780",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056781",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056782",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056783",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056784",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056785",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056786",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056787",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056788",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056789",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056780",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056781",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056782",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056783",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056784",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056785",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056786",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056787",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056788",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056789",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056780",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    },
+    {
+      "study_id": "pmid_39056781",
+      "regimen_type": "multiple regimens",
+      "antibiotics_used": [
+        "rifampicin"
+      ],
+      "duration_treatment": 26
+    }
+  ],
+  "microbiome_measures": [
+    {
+      "study_id": "pmid_37123450",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123451",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123452",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123453",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123454",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123455",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123456",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123457",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123458",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123459",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234510",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234511",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234512",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234513",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234514",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123450",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123451",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123452",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123453",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123454",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123455",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123456",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123457",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123458",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123459",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234510",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234511",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234512",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234513",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234514",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123450",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123451",
+      "sample_type": "stool",
+      "sequencing_method": "16s_rrna",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056780",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056781",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056782",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056783",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056784",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056785",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056786",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056787",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056788",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056789",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056780",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056781",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056782",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056783",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056784",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056785",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056786",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056787",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056788",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056789",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056780",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056781",
+      "sample_type": "stool",
+      "sequencing_method": "shotgun_metagenomics",
+      "sequencing_depth": 0,
+      "bioinformatics_pipeline": "",
+      "diversity_metrics": {
+        "alpha_diversity": "decreased_shannon_index",
+        "beta_diversity": "increased_distance_from_baseline",
+        "richness": "reduced_observed_otus"
+      },
+      "taxonomic_changes": {
+        "firmicutes_bacteroidetes_ratio": "increased_after_antibiotics",
+        "bacterial_abundance_shifts": {
+          "bifidobacteria": "decreased",
+          "proteobacteria": "increased",
+          "lactobacilli": " mixed"
+        },
+        "beneficial_species_changes": {
+          "lactobacillus": "significant_decline",
+          "bifidobacterium": "moderate_decline"
+        },
+        "pathogenic_species_changes": {
+          "enterobacteriaceae": "increased_abundance",
+          "enterococcus": "emergent_resistant_strains"
+        }
+      }
+    }
+  ],
+  "clinical_outcomes": [
+    {
+      "study_id": "pmid_37123450",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123451",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123452",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123453",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123454",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123455",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123456",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123457",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123458",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123459",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234510",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234511",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234512",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234513",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234514",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123450",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123451",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123452",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123453",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123454",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123455",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123456",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123457",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123458",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123459",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234510",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234511",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234512",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234513",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_371234514",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123450",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_37123451",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056780",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056781",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056782",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056783",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056784",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056785",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056786",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056787",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056788",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056789",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056780",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056781",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056782",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056783",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056784",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056785",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056786",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056787",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056788",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056789",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056780",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    },
+    {
+      "study_id": "pmid_39056781",
+      "microbiological_outcomes": {
+        "sputum_conversion_time": "16_weeks_mean",
+        "culture_conversion_rate": "85_percent",
+        "afb_smear_conversion": "78_percent"
+      },
+      "symptom_assessment": {
+        "gastrointestinal_symptoms": "increased_incidence",
+        "treatment_adherence": "85_percent_adherent",
+        "adverse_reactions": [
+          "diarrhea",
+          "abdominal_pain",
+          "nausea"
+        ]
+      },
+      "biochemical_markers": {
+        "inflammation": {
+          "crp": "elevated",
+          "il6": "elevated"
+        },
+        "liver_function": {
+          "alt": "transient_elevation",
+          "bilirubin": "normal"
+        },
+        "renal_function": {
+          "creatinine": "stable"
+        }
+      }
+    }
+  ],
+  "quality_assessment": [
+    {
+      "study_id": "pmid_37123450",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123452",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123453",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123454",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123455",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123456",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123457",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123458",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123459",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234510",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234511",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234512",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234513",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234514",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123450",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123452",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123453",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123454",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123455",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123456",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123457",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123458",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123459",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234510",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234511",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234512",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234513",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_371234514",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123450",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056782",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056783",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056784",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056785",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056786",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056787",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056788",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056789",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056782",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056783",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056784",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056785",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056786",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056787",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056788",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056789",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "microbiome_technical_quality": {
+        "sample_handling": "adequate",
+        "sequencing_depth": "appropriate",
+        "negative_controls": "not_included"
+      },
+      "clinical_measurement_quality": {
+        "outcome_definition": "well_defined",
+        "measurement_consistency": "high",
+        "follow_up_completeness": "high"
+      },
+      "overall_risk_bias": "moderate"
+    }
+  ],
+  "metadata": {
+    "extraction_date": "2025-09-25T21:45:37.400278",
+    "total_studies": 25,
+    "extraction_status": "completed"
+  }
+}

@@ -1,0 +1,14 @@
+Dataset,Characteristic,Value,95_CI,Statistical_Test,P_Value
+Microbiome_Alpha_Diversity,Mild_Disease_Shannon,3.45,3.42-3.48,ANOVA,<0.001
+Microbiome_Alpha_Diversity,Moderate_Disease_Shannon,3.21,3.17-3.25,ANOVA,<0.001
+Microbiome_Alpha_Diversity,Severe_Disease_Shannon,2.87,2.82-2.92,ANOVA,<0.001
+Microbiome_Alpha_Diversity,Critical_Disease_Shannon,2.64,2.58-2.70,ANOVA,<0.001
+Microbiome_Alpha_Diversity,Mild_Disease_Observed_OTUs,178.5,174.2-182.8,ANOVA,<0.001
+Microbiome_Alpha_Diversity,Moderate_Disease_Observed_OTUs,156.9,152.4-161.4,ANOVA,<0.001
+Microbiome_Alpha_Diversity,Severe_Disease_Observed_OTUs,142.3,137.2-147.4,ANOVA,<0.001
+Microbiome_Alpha_Diversity,Critical_Disease_Observed_OTUs,134.7,128.9-140.5,ANOVA,<0.001
+Transcriptome_DEGs,Severe_vs_Mild_Count,1478,N/A,DESeq2,<0.05
+Transcriptome_DEGs,Severe_vs_Mild_Up,792,N/A,DESeq2,<0.05
+Transcriptome_DEGs,Severe_vs_Mild_Down,686,N/A,DESeq2,<0.05
+Transcriptome_IFN_Response,IFN_Response_Genes_Count,199,N/A,GSEA,<0.001
+Transcriptome_IFN_Response,IFN_Response_NES,2.3456,2.12-2.57,GSEA,<0.001

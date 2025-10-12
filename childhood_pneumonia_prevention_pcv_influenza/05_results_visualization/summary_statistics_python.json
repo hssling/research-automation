@@ -1,0 +1,10 @@
+{
+  "total_studies": 5,
+  "pneumonia_studies": 5,
+  "mortality_studies": 6,
+  "lic_studies": 1,
+  "umic_studies": 3,
+  "hic_studies": 1,
+  "rct_studies": 4,
+  "person_years_total": 193000
+}

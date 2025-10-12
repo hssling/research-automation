@@ -1,0 +1,18 @@
+{
+  "total_studies": 12,
+  "databases_searched": [
+    "PubMed",
+    "Embase",
+    "Cochrane",
+    "PsycINFO"
+  ],
+  "search_strategies": {
+    "pubmed": "\n            (\"COVID-19\"[TIAB] OR \"SARS-CoV-2\"[TIAB] OR \"Long COVID\"[TIAB] OR \"Post-COVID\"[TIAB] OR\n             \"Post-acute COVID-19\"[TIAB] OR \"Chronic COVID\"[TIAB]) AND\n            (cogniti*[TIAB] OR neurocogniti*[TIAB] OR neuropsycholog*[TIAB] OR\n             \"cognitive impairment\"[TIAB] OR \"brain fog\"[TIAB] OR \"cognitive deficit\"[TIAB] OR\n             \"executive function\"[TIAB] OR \"processing speed\"[TIAB] OR attention[TIAB] OR memory[TIAB])\n            ",
+    "embase": "\n            'covid-19'/exp OR 'sars-cov-2'/exp OR 'long covid'/exp AND\n            ('cognitive'/exp OR 'neuropsychological'/exp OR 'neurocognitive'/exp OR\n             'executive function'/exp OR 'processing speed'/exp OR 'attention'/exp OR 'memory'/exp)\n            ",
+    "cochrane": "\n            COVID-19 OR \"SARS-CoV-2\" OR \"Long COVID\" OR \"Post-COVID\" OR \"Post-acute COVID-19\" AND\n            cognitive OR neuropsychological OR neurocognitive OR \"executive function\" OR \"processing speed\"\n            ",
+    "psychinfo": "\n            TI((COVID-19 OR SARS-CoV-2 OR \"Long COVID\" OR \"Post-COVID\") AND (cognitive OR neuropsychological OR neurocognitive OR memory OR attention OR \"executive function\"))\n            "
+  },
+  "date_range": "2020-present",
+  "language_restrictions": "English",
+  "study_types": "Observational studies, cohort studies, case-control studies"
+}

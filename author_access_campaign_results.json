@@ -1,0 +1,48 @@
+[
+  {
+    "paper_data": {
+      "title": "Emerging Therapies in Multi-Drug Resistant Tuberculosis",
+      "doi": "10.1093/infdis/jiz123",
+      "journal": "Journal of Infectious Diseases",
+      "field": "Tuberculosis Research"
+    },
+    "email_content": "\nSubject: Request for Preprint Manuscript: Emerging Therapies in Multi-Drug Resistant Tuberculosis\n\nDear C Loiseau,\n\nI hope this email finds you well. My name is Dr. Systematic Researcher and I am a researcher at Regional Medical Research Institute. I am currently conducting a systematic review in Tuberculosis Research and encountered your excellent publication:\n\n\"Emerging Therapies in Multi-Drug Resistant Tuberculosis\"\nDOI: 10.1093/infdis/jiz123\n\nI was unfortunately unable to access the full manuscript through traditional channels. Would you be willing to share a preprint version or reprint if available? This would greatly assist our research efforts and help ensure our review is as comprehensive as possible.\n\nI completely understand if you are unable to share the manuscript, and I respect your publishing agreements. If appropriate, I would also welcome any thoughts you might have on related works or ongoing research in this area.\n\nThank you very much for your time and consideration. I look forward to your response.\n\nBest regards,\nDr. Systematic Researcher\nInstitution: Regional Medical Research Institute\nEmail: research@university.edu\nResearch Field: Tuberculosis Research\n",
+    "recipient_email": "unknown@research.org",
+    "author_contacts": {
+      "emails": [],
+      "names": [
+        "C Loiseau",
+        "M Requena",
+        "M Nayrac",
+        "M Mavigner",
+        "M Cazabat",
+        "A L Iscache",
+        "N Carrere",
+        "B Suc",
+        "L Alric",
+        "J Izopet",
+        "P Delobel"
+      ]
+    },
+    "template_used": "preprint_request",
+    "generated_at": "2025-09-25T21:07:20.285870",
+    "send_status": "manual_required"
+  },
+  {
+    "paper_data": {
+      "title": "Gut Microbiome and Treatment Response in MDR-TB",
+      "doi": "10.1056/NEJMoa1800654",
+      "journal": "New England Journal of Medicine",
+      "field": "Microbiome Medicine"
+    },
+    "email_content": "\nSubject: Request for Preprint Manuscript: Gut Microbiome and Treatment Response in MDR-TB\n\nDear Research Author,\n\nI hope this email finds you well. My name is Dr. Systematic Researcher and I am a researcher at Regional Medical Research Institute. I am currently conducting a systematic review in Microbiome Medicine and encountered your excellent publication:\n\n\"Gut Microbiome and Treatment Response in MDR-TB\"\nDOI: 10.1056/NEJMoa1800654\n\nI was unfortunately unable to access the full manuscript through traditional channels. Would you be willing to share a preprint version or reprint if available? This would greatly assist our research efforts and help ensure our review is as comprehensive as possible.\n\nI completely understand if you are unable to share the manuscript, and I respect your publishing agreements. If appropriate, I would also welcome any thoughts you might have on related works or ongoing research in this area.\n\nThank you very much for your time and consideration. I look forward to your response.\n\nBest regards,\nDr. Systematic Researcher\nInstitution: Regional Medical Research Institute\nEmail: research@university.edu\nResearch Field: Microbiome Medicine\n",
+    "recipient_email": "unknown@research.org",
+    "author_contacts": {
+      "emails": [],
+      "names": []
+    },
+    "template_used": "preprint_request",
+    "generated_at": "2025-09-25T21:07:24.402958",
+    "send_status": "manual_required"
+  }
+]

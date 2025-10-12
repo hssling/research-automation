@@ -1,0 +1,250 @@
+{
+  "system": {
+    "name": "Drug-Resistant TB NMA Living Review System",
+    "version": "1.0.0",
+    "last_updated": "2025-10-12",
+    "contact": {
+      "coordinator": "Dr Siddalingaiah H S",
+      "email": "hssling@yahoo.com",
+      "institution": "Shridevi Institute of Medical Sciences and Research Hospital, Tumakuru"
+    }
+  },
+
+  "schedule": {
+    "literature_search": {
+      "frequency": "weekly",
+      "day": "monday",
+      "time": "02:00",
+      "enabled": true
+    },
+    "data_extraction": {
+      "frequency": "daily",
+      "time": "06:00",
+      "enabled": true
+    },
+    "analysis_update": {
+      "frequency": "biweekly",
+      "days": [1, 15],
+      "time": "03:00",
+      "enabled": true
+    },
+    "full_review": {
+      "frequency": "quarterly",
+      "day": 1,
+      "time": "04:00",
+      "enabled": true
+    }
+  },
+
+  "search": {
+    "databases": [
+      {
+        "name": "PubMed",
+        "api": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "method": "esearch",
+        "enabled": true,
+        "priority": 1
+      },
+      {
+        "name": "Embase",
+        "api": "https://www.embase.com/api/",
+        "method": "search",
+        "enabled": true,
+        "priority": 2
+      },
+      {
+        "name": "Cochrane CENTRAL",
+        "api": "https://www.cochranelibrary.com/central/",
+        "method": "search",
+        "enabled": true,
+        "priority": 3
+      },
+      {
+        "name": "Web of Science",
+        "api": "https://api.clarivate.com/",
+        "method": "search",
+        "enabled": true,
+        "priority": 4
+      },
+      {
+        "name": "ClinicalTrials.gov",
+        "api": "https://clinicaltrials.gov/api/",
+        "method": "search",
+        "enabled": true,
+        "priority": 5
+      }
+    ],
+    "search_terms": {
+      "primary": [
+        "drug-resistant tuberculosis",
+        "MDR-TB",
+        "RR-TB",
+        "multidrug-resistant tuberculosis",
+        "rifampicin-resistant tuberculosis"
+      ],
+      "interventions": [
+        "BPaL",
+        "BPaLM",
+        "bedaquiline-pretomanid-linezolid",
+        "bedaquiline-pretomanid-linezolid-moxifloxacin",
+        "short course MDR-TB regimen",
+        "individualized MDR-TB regimen"
+      ],
+      "outcomes": [
+        "treatment success",
+        "relapse",
+        "adverse events",
+        "mortality",
+        "culture conversion"
+      ]
+    },
+    "filters": {
+      "date_range": "last_week",
+      "language": "English",
+      "study_type": ["RCT", "observational", "retrospective"],
+      "sample_size_min": 10
+    }
+  },
+
+  "eligibility_criteria": {
+    "population": {
+      "age_min": 10,
+      "diagnosis": "bacteriologically_confirmed",
+      "conditions": ["MDR-TB", "RR-TB", "Pre-XDR-TB", "XDR-TB"],
+      "hiv_status": "any"
+    },
+    "interventions": [
+      "BPaL",
+      "BPaLM",
+      "short_MDR_regimen",
+      "individualized_long_regimen"
+    ],
+    "outcomes": [
+      "treatment_success",
+      "relapse",
+      "serious_adverse_events",
+      "mortality"
+    ],
+    "study_designs": [
+      "randomized_controlled_trial",
+      "prospective_observational",
+      "retrospective_cohort"
+    ]
+  },
+
+  "data_extraction": {
+    "fields": [
+      "study_id",
+      "title",
+      "authors",
+      "journal",
+      "publication_year",
+      "doi",
+      "abstract",
+      "sample_size",
+      "study_design",
+      "population_characteristics",
+      "intervention_details",
+      "outcome_data",
+      "risk_of_bias",
+      "funding_source"
+    ],
+    "validation": {
+      "double_extraction": true,
+      "reconciliation_threshold": 0.95,
+      "human_review_threshold": 0.85
+    }
+  },
+
+  "analysis": {
+    "statistical_model": "bayesian_nma",
+    "software": "gemtc_r",
+    "priors": {
+      "treatment_effect": "normal(0, 10000)",
+      "heterogeneity": "uniform(0, 5)"
+    },
+    "convergence": {
+      "psrf_threshold": 1.1,
+      "effective_samples": 1000
+    },
+    "updates": {
+      "incremental": true,
+      "full_rerun_threshold": 50
+    }
+  },
+
+  "change_detection": {
+    "statistical_significance": {
+      "treatment_effects": 0.95,
+      "ranking_changes": 10,
+      "heterogeneity_changes": 25
+    },
+    "clinical_significance": {
+      "success_rate_change": 5,
+      "safety_signal_threshold": 2,
+      "subgroup_effect_threshold": 10
+    }
+  },
+
+  "notifications": {
+    "stakeholders": [
+      {
+        "name": "Research Team",
+        "email": "research@drugresistanttb-nma.org",
+        "frequency": "immediate",
+        "types": ["major_changes", "safety_alerts", "new_studies"]
+      },
+      {
+        "name": "Clinicians",
+        "email": "clinicians@drugresistanttb-nma.org",
+        "frequency": "weekly",
+        "types": ["clinical_updates", "guideline_changes"]
+      },
+      {
+        "name": "Policy Makers",
+        "email": "policy@drugresistanttb-nma.org",
+        "frequency": "monthly",
+        "types": ["policy_briefs", "evidence_summaries"]
+      }
+    ],
+    "formats": ["email", "dashboard", "api"]
+  },
+
+  "quality_assurance": {
+    "automated_checks": {
+      "eligibility_accuracy": 0.95,
+      "extraction_accuracy": 0.90,
+      "analysis_integrity": 0.99
+    },
+    "human_oversight": {
+      "monthly_review_rate": 0.10,
+      "significant_change_review": 1.0,
+      "system_update_review": 0.25
+    }
+  },
+
+  "outputs": {
+    "directories": {
+      "new_studies": "01_literature_search/new_studies/",
+      "extracted_data": "02_data_extraction/incremental/",
+      "analysis_results": "03_statistical_analysis/updates/",
+      "change_reports": "04_results/change_summaries/",
+      "notifications": "07_publication/updates/"
+    },
+    "formats": ["csv", "json", "pdf", "html"]
+  },
+
+  "logging": {
+    "level": "INFO",
+    "file": "living_review.log",
+    "rotation": "daily",
+    "retention": 90
+  },
+
+  "error_handling": {
+    "retry_attempts": 3,
+    "retry_delay": 300,
+    "failure_notification": true,
+    "manual_intervention_threshold": 5
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "r.rterm.windows": "C:\\Program Files\\R\\R-4.5.1\\bin\\x64\\R.exe",
+  "r.rpath.windows": "C:\\Program Files\\R\\R-4.5.1\\bin\\x64\\R.exe",
+  "r.alwaysUseActiveTerminal": true,
+  "r.bracketedPaste": true,
+  "r.lsp.path": "C:\\Users\\hssli\\AppData\\Local\\R\\win-library\\4.5",
+  "r.rterm.option": ["--no-save", "--no-restore"]
+}

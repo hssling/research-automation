@@ -1,0 +1,11 @@
+sample,fastq_1,fastq_2,strandedness,condition
+GSM4758322,/data/raw/GSE157103/GSM4758322_Homo_sapiens_RNA-Seq_COVID_PBMC_Mild_Case_1.fastq.gz,/data/raw/GSE157103/GSM4758322_Homo_sapiens_RNA-Seq_COVID_PBMC_Mild_Case_1.fastq.gz,reverse,mild_covid
+GSM4758323,/data/raw/GSE157103/GSM4758323_Homo_sapiens_RNA-Seq_COVID_PBMC_Moderate_Case_2.fastq.gz,/data/raw/GSE157103/GSM4758323_Homo_sapiens_RNA-Seq_COVID_PBMC_Moderate_Case_2.fastq.gz,reverse,moderate_covid
+GSM4758324,/data/raw/GSE157103/GSM4758324_Homo_sapiens_RNA-Seq_COVID_PBMC_Severe_Case_3.fastq.gz,/data/raw/GSE157103/GSM4758324_Homo_sapiens_RNA-Seq_COVID_PBMC_Severe_Case_3.fastq.gz,reverse,severe_covid
+GSM4758325,/data/raw/GSE157103/GSM4758325_Homo_sapiens_RNA-Seq_Healthy_Control_1.fastq.gz,/data/raw/GSE157103/GSM4758325_Homo_sapiens_RNA-Seq_Healthy_Control_1.fastq.gz,reverse,healthy
+GSM4758326,/data/raw/GSE157103/GSM4758326_Homo_sapiens_RNA-Seq_Healthy_Control_2.fastq.gz,/data/raw/GSE157103/GSM4758326_Homo_sapiens_RNA-Seq_Healthy_Control_2.fastq.gz,reverse,healthy
+GSM4758327,/data/raw/GSE157103/GSM4758327_Homo_sapiens_RNA-Seq_COVID_PBMC_Asymptomatic_Case_4.fastq.gz,/data/raw/GSE157103/GSM4758327_Homo_sapiens_RNA-Seq_COVID_PBMC_Asymptomatic_Case_4.fastq.gz,reverse,asymptomatic
+GSM4758328,/data/raw/GSE157103/GSM4758328_Homo_sapiens_RNA-Seq_COVID_PBMC_Mild_Case_5.fastq.gz,/data/raw/GSE157103/GSM4758328_Homo_sapiens_RNA-Seq_COVID_PBMC_Mild_Case_5.fastq.gz,reverse,mild_covid
+GSM4758329,/data/raw/GSE157103/GSM4758329_Homo_sapiens_RNA-Seq_COVID_PBMC_Moderate_Case_6.fastq.gz,/data/raw/GSE157103/GSM4758329_Homo_sapiens_RNA-Seq_COVID_PBMC_Moderate_Case_6.fastq.gz,reverse,moderate_covid
+GSM4758330,/data/raw/GSE157103/GSM4758330_Homo_sapiens_RNA-Seq_Healthy_Control_3.fastq.gz,/data/raw/GSE157103/GSM4758330_Homo_sapiens_RNA-Seq_Healthy_Control_3.fastq.gz,reverse,healthy
+GSM4758331,/data/raw/GSE157103/GSM4758331_Homo_sapiens_RNA-Seq_Healthy_Control_4.fastq.gz,/data/raw/GSE157103/GSM4758331_Homo_sapiens_RNA-Seq_Healthy_Control_4.fastq.gz,reverse,healthy

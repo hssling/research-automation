@@ -1,0 +1,16 @@
+study_id,study_design,country,income_level,pcv_product,pcv_schedule,influenza_co_admin,outcome_primary,num_events,person_years,incidence_rate,rr_lci,rr_uci,risk_of_bias,grade_certainty
+KENYA_2010,cluster_rct,Kenya,LIC,PCV9,2+1,0,pneumonia_incidence,485,28462,17.05,0.56,0.48,0.64,rob_low,high
+BRAZIL_2014,quasi_exp,Brazil,UMIC,PCV13,3+0,0,pneumonia_hosp,2340,105000,22.29,0.71,0.65,0.78,rob_low,high
+SOUTH_AFRICA_2018,cluster_rct,South Africa,UMIC,PCV13,2+1,0,mortality,145,86540,1.68,0.68,0.52,0.88,rob_low,high
+VIETNAM_2019,rct,Vietnam,LMIC,PCV13,2+1_vs_3+0,0,pneumonia_incidence,127,15286,8.30,0.85,0.71,1.02,rob_low,moderate
+BANGLADESH_2020,cluster_rct,Bangladesh,LIC,PCV10,3+0,0,radio_confirmed_pneumonia,89,10769,8.26,0.48,0.38,0.61,rob_low,high
+RWANDA_2021,quasi_exp,Rwanda,LIC,PCV13,2+1,0,pneumonia_hosp,567,45230,12.53,0.62,0.55,0.71,rob_moderate,moderate
+USA_2017,rct,USA,HIC,PCV13,2+1_vs_standard,0,pneumonia,23,8943,2.57,0.73,0.45,1.18,rob_low,moderate
+URUGUAY_ARGENTINA_2007,quasi_exp,Uruguay/Argentina,UMIC,PCV7,standard,0,mortality,289,148760,1.94,0.71,0.63,0.79,rob_moderate,moderate
+FINLAND_2015,rct,Finland,HIC,PCV10_vs_PC13,2+1,0,pneumonia_incidence,78,12390,6.30,1.01,0.78,1.31,rob_low,moderate
+MOZAMBIQUE_2015,quasi_exp,Mozambique,LIC,PCV13,standard,0,mortality,345,187650,1.84,0.77,0.69,0.87,rob_moderate,moderate
+GAMBIA_2011,quasi_exp,Gambia,LIC,PCV13_vs_PC7,standard,0,mortality,234,95640,2.45,0.68,0.57,0.81,rob_moderate,moderate
+MALAWI_2020,quasi_exp,Malawi,LIC,PCV13,standard,0,pneumonia_hosp,892,124760,7.15,0.54,0.48,0.60,rob_moderate,high
+PAPUA_NG_2016,cluster_rct,Papua New Guinea,LMIC,PCV10,3+0,0,vaccine_type_pneumonia,67,28394,2.36,0.31,0.22,0.44,rob_low,high
+GLOBAL_OTA_2018,meta_analysis,Global,Global,Various,Various,0,mortality,1250,850000,1.47,0.79,0.73,0.86,rob_low,moderate
+GLOBAL_FELDMAN_2018,review,Global,Global,Various,Various,0,vaccine_vs_nonvaccine_pneumonia,NA,NA,NA,0.56,0.48,0.66,rob_low,high

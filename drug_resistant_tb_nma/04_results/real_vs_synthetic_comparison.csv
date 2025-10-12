@@ -1,0 +1,5 @@
+Treatment,Real_Success_Rate,Synthetic_Success_Rate,Difference,Real_Patients,Real_Studies
+BPaL,88.9%,90.0%,-1.1%,659,7
+BPaLM,88.6%,88.0%,+0.6%,369,2
+Short_MDR,78.8%,79.0%,-0.2%,424,1
+Long_Individualized,67.5%,73.0%,-5.5%,1828,6

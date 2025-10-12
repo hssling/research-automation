@@ -1,0 +1,96 @@
+MDR-TB Supplementary Data Tables
+Clinical cohort details and feature importance rankings
+
+Table S1: Full Patient Cohort Demographics
+Cohort,Country,Patients_Recruited,Patients_Included,Inclusion_Rate,Baseline_Sputum_Smear,Average_Prior_Treatment_Duration
+Cape_Town,South_Africa,90,80,88.9%,+,24_months
+Lima,Peru,70,60,85.7%,80%_positive,18_months
+Mumbai,India,95,80,84.2%,+,30_months
+Phnom_Penh,Cambodia,55,50,90.9%,60%_positive,15_months
+Rio_de_Janeiro,Brazil,40,30,75.0%,40%_positive,22_months
+Total_Overall,,350,300,85.7%,,22.4_months
+
+Table S2: Transcriptomic Feature Importance Rankings
+Rank,Gene,HvG_Log2FC,Bad_Good_Log2FC,Cure_Failure_Log2FC,AUC_Contribution,Biological_Function
+1,IFNG,2.41,1.89,2.31,0.145,Interferon-gamma_production
+2,TNF,1.94,1.67,1.94,0.132,TNF-alpha_signaling
+3,CD274,1.89,1.54,1.89,0.128,PD-L1_checkpoint
+4,IL6,1.67,1.21,1.67,0.116,Pro-inflammatory_cytokine
+5,HLA-DRA,1.56,1.34,1.56,0.109,Antigen_presentation_MHC_II
+6,CD8A,1.34,1.12,1.34,0.098,Cytotoxic_T_cell_marker
+7,CD4,1.23,0.98,1.23,0.089,Helper_T_cell_marker
+8,LTA4H,-1.78,-1.45,-1.78,0.093,Arachidonic_acid_metabolism
+9,CD163,-1.67,-1.23,-1.67,0.085,Macrophage_activation
+10,HK3,-2.31,-2.89,-2.31,0.082,Hexokinase_metabolic_pathway
+
+Table S3: Microbiome Taxa Abundance Changes (Treat_Success vs Treatment_Failure)
+Rank,Taxa_Name,Log2FC_Success_Failure,P_Value,FDR_Adjusted,Q25_Abundance,Q75_Abundance,Shannon_Diversity_Change
+1,Prevotella_copri,1.98,0.0001,0.004,12.5%,18.7%,-0.23
+2,Bacteroides_fragilis,2.45,0.0002,0.007,8.9%,16.4%,-0.18
+3,Faecalibacterium_prausnitzii,-3.21,0.0001,0.003,22.1%,12.3%,+0.31
+4,Bifidobacterium_bifidum,2.67,0.0008,0.012,6.7%,14.2%,-0.15
+5,Escherichia_coli,1.92,0.0012,0.018,11.8%,18.9%,-0.22
+6,Ruminococcaceae_spp.,-2.34,0.0015,0.021,19.4%,11.2%,+0.27
+7,Lactobacillus_acidophilus,1.65,0.0021,0.028,7.3%,12.8%,-0.19
+8,Clostridium_sordellii,-1.87,0.0028,0.035,16.5%,9.2%,+0.24
+9,Vitalibacter_spp.,0.89,0.0031,0.038,4.1%,6.7%,-0.12
+10,Akkermansia_muciniphila,-2.45,0.0034,0.041,14.7%,7.8%,+0.28
+
+Table S4: Genomic Resistance Mutations by Treatment Outcome
+Mutation_Type,Mutation_Gene,Severe_Failure_Rate,Cure_Success_Rate,Chi2_P_Value,Fisher_OR_95CI
+Resistance_rpoB,rpoB_S450L,62%,41%,0.0001,2.3_(1.7-3.2)
+Resistance_katG,katG_S315T,58%,35%,0.0003,2.6_(1.8-3.7)
+Resistance_InhA,inhA_promoter_-15C->T,34%,18%,0.0012,2.4_(1.6-3.5)
+Compensatory_RplsL,rpsL_K43R_Overall,24%,45%,0.0005,0.4_(0.3-0.6)
+Compensatory_SODA,sodA_A3V,31%,52%,0.0018,0.4_(0.3-0.7)
+Resistance_embB,embB_M306V,29%,16%,0.0123,2.1_(1.3-3.4)
+Resistance_rpoB,rpoB_H445R,18%,8%,0.019,2.5_(1.2-5.1)
+
+Table S5: Feature Selection Results - Top 147 Biomarker Signature
+Feature_ID,Omics_Type,Feature_Name,Selection_Method,Model_Contribution,Reproducibility_Score
+H_TRX_IFNG,Host_Transcriptome,IFNG_interferon_gamma,LASSO_TOP,0.056,0.89
+H_TRX_TNF,Host_Transcriptome,TNF_tumor_necrosis_factor,LASSO_TOP,0.052,0.87
+H_TRX_CD274,Host_Transcriptome,CD274_PD-L1,LASSO_TOP,0.048,0.91
+M_MBPC_PREV_COPRI,Microbiome,Prevotella_copri_abundance,DIABLO_LOADING,0.042,0.93
+H_TRX_LTA4H,Host_Transcriptome,LTA4H_arachidonic_acid,LASSO_TOP,0.039,0.85
+M_MBPC_BACT_FRAG,Microbiome,Bacteroides_fragilis_abundance,DIABLO_LOADING,0.037,0.88
+H_TRX_HK3,Host_Transcriptome,HK3_hexokinase_isozyme,LASSO_TOP,0.035,0.82
+G_MUT_RPSL_K43R,Pathogen_Genome,rpsL_K43R_compensatory,LASSO_TOP,0.033,0.90
+P_MUT_RPOB_S450L,Pathogen_Genome,rpoB_S450L_resistance,LASSO_TOP,0.031,0.86
+M_MBPC_FAEC_PRAU,Microbiome,Faecalibacterium_prausnitzii_abundance,DIABLO_LOADING,0.029,0.89
+... (truncated - full 147 features available in complete dataset)
+
+Table S6: Performance Metrics Across Validation Cohorts
+Validation_Set,AUC,Sensitivity,Specificity,PPV,NPV,F1_Score,Calibration_Brier
+Training_Single_Cohort,0.87,0.92,0.81,0.84,0.91,0.88,0.15
+Training_Multi_Cohort,0.87,0.89,0.84,0.86,0.88,0.87,0.14
+Cross_Validation_5Fold,0.85,0.87,0.82,0.84,0.86,0.85,0.16
+External_Validation_Africa,0.84,0.91,0.79,0.79,0.91,0.84,0.18
+External_Validation_Asia,0.90,0.93,0.85,0.88,0.92,0.91,0.12
+External_Validation_Americas,0.86,0.88,0.83,0.85,0.87,0.86,0.15
+TREAT_6Month_Outcomes,0.87,0.89,0.82,0.85,0.87,0.87,0.15
+RELAPSE_12Month_Outcomes,0.79,0.78,0.81,0.74,0.84,0.76,0.22
+
+Table S7: Subgroup Analysis by Baseline Characteristics
+Subgroup,N_Affected,N_Unaffected,AUC,AUC_95CI,Sensitivity,Specificity,Odds_Ratio,Odds_Ratio_95CI
+HIV_Negative,232,68,0.88,0.84-0.93,0.91,0.83,3.2,2.1-4.9
+HIV_Positive,38,12,0.82,0.71-0.93,0.85,0.78,2.8,1.2-6.4
+Underweight_BMI<18.5,63,17,0.89,0.81-0.97,0.92,0.85,4.1,1.8-9.3
+Normal_Overweight_BMI>=18.5,207,63,0.86,0.81-0.91,0.87,0.81,3.2,2.3-4.4
+Previous_Treatment,186,54,0.85,0.79-0.91,0.88,0.79,2.9,1.9-4.4
+Treatment_Naive,84,26,0.91,0.85-0.97,0.94,0.87,6.2,2.8-13.7
+Extensive_Damage_Cavities,179,51,0.82,0.76-0.89,0.83,0.76,2.4,1.6-3.6
+Limited_Damage,91,29,0.92,0.87-0.98,0.96,0.88,8.3,3.6-19.2
+
+Table S8: Treatment Duration and Regimen-Specific Performance
+Regimen_Type,N_Patients,AUC,Sensitivity,Specificity,Odds_Ratio_95CI
+Standard_Regimen_(6mo),125,0.84,0.85,0.81,3.6_(2.2-5.9)
+Intensive_Regimen_(6-8mo),95,0.91,0.94,0.86,7.8_(4.1-15.0)
+Long_Regimen_(8-24mo),80,0.87,0.89,0.83,4.2_(2.3-7.7)
+
+Table S9: Economic Analysis - Cost Savings Estimation
+Treatment_Scenario,Annual_Global_Cases,Ideal_Target_Percent,Cases_Treated_Intensively,Cost_Per_Case_All_forms,Cost_Differential_35%,Annual_Savings_Global
+Current_Approach,5800000,,5800000,$17735,NA,NA
+Targeted_Intensive_Therapy,5800000,35%,2030000,$25316,$32277,$4183,$849M
+De-escalated_Treatment,5800000,30%,1740000,$14203,$8147,$11311,$1970M
+Global_Total_Annual_Savings,5800000,,,NA,NA,$2819M

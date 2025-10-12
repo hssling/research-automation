@@ -1,0 +1,13 @@
+{
+  "search_timestamp": "2025-09-28T17:40:14.704285",
+  "databases_searched": [
+    "PubMed",
+    "CrossRef",
+    "Google Scholar",
+    "OpenAlex"
+  ],
+  "query_applied": "((fibromyalgia[Title/Abstract] OR fibromyalg*[Title/Abstract] OR \"chronic widespread pain\"[Title/Abstract] OR \"chronic diffuse pain\"[Title/Abstract] OR FM[Title/Abstract] OR fibromuscular pain[Title/Abstract]) AND (microbiome[Title/Abstract] OR microbiota[Title/Abstract] OR \"gut microbiome\"[Title/Abstract] OR \"intestinal microbiome\"[Title/Abstract] OR \"gut microbiota\"[Title/Abstract] OR \"intestinal microflora\"[Title/Abstract] OR metagenom*[Title/Abstract] OR \"16S rRNA\"[Title/Abstract] OR \"shotgun sequencing\"[Title/Abstract] OR \"microbial diversity\"[Title/Abstract]))",
+  "results_per_database": {},
+  "total_unique_articles": 0,
+  "fibromyalgia_microbiome_studies_found": 0
+}

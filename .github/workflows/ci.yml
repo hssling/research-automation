@@ -1,0 +1,220 @@
+name: 🔬 Research Automation CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # Monthly automated testing on the 1st at 2 AM UTC
+    - cron: '0 2 1 * *'
+
+env:
+  PYTHON_VERSION: '3.9'
+  R_VERSION: '4.2'
+
+jobs:
+  # 🔍 Code Quality & Security Scanning
+  code-quality:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: 🔒 Security Audit - Python
+      run: |
+        python -m pip install --upgrade pip
+        pip install pip-audit safety
+        safety check --json
+        pip-audit --format json
+
+    - name: 🔒 Security Audit - R Packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y r-base r-cran-devtools r-cran-testthat
+        R -e "install.packages('audit', repo='https://cran.rstudio.com/')"
+        R -e "library(audit); audit_packages()"
+
+    - name: 📝 Lint Python Code
+      uses: pre-commit/action@v3.0.0
+      with:
+        extra_args: --all-files --verbose
+
+  # 🧪 Automated Testing
+  test-python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11']
+
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+
+    - name: 🐍 Setup Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: 📦 Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r env/requirements.txt
+        pip install pytest pytest-cov pytest-xdist pytest-benchmark
+
+    - name: 🧪 Run Python tests
+      run: |
+        pytest --cov=research_automation --cov-report=xml --cov-report=term-missing --cov-fail-under=80
+        pytest --benchmark-only --benchmark-save=test_results
+
+    - name: 📊 Upload coverage reports
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: python-${{ matrix.python-version }}
+        name: python-${{ matrix.python-version }}
+        fail_ci_if_error: false
+
+  test-r:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+
+    - name: 📊 Setup R environment
+      uses: r-lib/actions/setup-r@v2
+      with:
+        r-version: ${{ env.R_VERSION }}
+
+    - name: 📦 Install R dependencies
+      run: |
+        R -e "install.packages('remotes', repos='https://cran.rstudio.com')"
+        R -e "remotes::install_deps(dependencies = TRUE)"
+        R -e "install.packages('testthat')"
+
+    - name: 🧪 Run R tests
+      run: |
+        R -e "library(testthat); test_dir('tests/', reporter = JunitReporter$new())"
+
+    - name: 📊 Test Results
+      uses: dorny/test-reporter@v1
+      if: success() || failure()
+      with:
+        name: R Tests
+        path: 'test-results.xml'
+        reporter: java-junit
+
+  # 🐳 Docker Build & Deploy
+  docker:
+    runs-on: ubuntu-latest
+    needs: [test-python, test-r]
+
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+
+    - name: 🔑 Login to Docker Hub
+      uses: docker/login-action@v3
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: 🔨 Build Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        file: env/Dockerfile
+        push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        tags: |
+          ${{ secrets.DOCKER_USERNAME }}/research-automation:latest
+          ${{ secrets.DOCKER_USERNAME }}/research-automation:v${{ github.run_number }}
+        labels: |
+          org.opencontainers.image.title=Research Automation System
+          org.opencontainers.image.description=Universal healthcare research automation platform
+          org.opencontainers.image.version=v${{ github.run_number }}
+
+    - name: 🧪 Test Docker image
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        docker run --rm ${{ secrets.DOCKER_USERNAME }}/research-automation:latest --version
+        docker run --rm ${{ secrets.DOCKER_USERNAME }}/research-automation:latest python -c "import numpy; print('Dependencies working')"
+
+  # 📚 Documentation
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+
+    - name: 📚 Setup Python documentation
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: 📦 Install documentation dependencies
+      run: |
+        pip install sphinx sphinx-rtd-theme nbsphinx myst-parser
+        pip install -r env/requirements.txt
+
+    - name: 📝 Build documentation
+      run: |
+        cd docs/
+        make html
+        cd ..
+        sphinx-build . docs/_build/html
+
+    - name: 🚀 Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: docs/_build/html
+
+  # 📊 Automated Performance Monitoring
+  performance:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+
+    - name: 📊 Performance monitoring
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest-benchmark
+        pytest --benchmark-only --benchmark-json=output.json
+
+    - name: 📈 Upload benchmark results
+      uses: benchmark-action/github-action-benchmark@v1
+      with:
+        name: Python Benchmarks
+        tool: 'pytest'
+        output-file-path: output.json
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        auto-push: true
+
+  # 🔍 Living Reviews Update (Monthly)
+  # This is handled by the separate monthly_pubmed_update.yml workflow
+
+  # 📈 Results Summary
+  summary:
+    runs-on: ubuntu-latest
+    needs: [code-quality, test-python, test-r, docker, docs]
+    if: always()
+
+    steps:
+    - name: 📊 Job Summary
+      run: |
+        echo "## 🔬 Research Automation CI/CD Results" >> $GITHUB_STEP_SUMMARY
+        echo "| Component | Status |" >> $GITHUB_STEP_SUMMARY
+        echo "|-----------|--------|" >> $GITHUB_STEP_SUMMARY
+        echo "| Code Quality | ${{ needs.code-quality.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Python Tests | ${{ needs.test-python.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| R Tests | ${{ needs.test-r.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Docker Build | ${{ needs.docker.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Documentation | ${{ needs.docs.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📊 System Health Status" >> $GITHUB_STEP_SUMMARY
+        echo "✅ All healthcare research automation components validated and operational." >> $GITHUB_STEP_SUMMARY

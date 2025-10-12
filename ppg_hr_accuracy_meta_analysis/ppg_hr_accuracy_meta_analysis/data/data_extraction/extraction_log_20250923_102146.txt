@@ -1,0 +1,13 @@
+PPG HR Accuracy Data Extraction Report
+==================================================
+Generated: 2025-09-23 10:21:46
+
+Total Studies Extracted: 1
+
+total_studies_extracted: 1
+studies_with_participants: 0
+studies_with_accuracy_metrics: 0
+studies_with_device_info: 0
+studies_with_correlation: 0
+studies_by_rob_level: {'High': 1}
+extraction_completeness_pct: 51.7

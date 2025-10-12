@@ -1,0 +1,9 @@
+analysis_type,analysis_variant,pneumonia_rr,pneumonia_lci,pneumonia_uci,mortality_rr,mortality_lci,mortality_uci,n_studies,reason_justification
+Primary_Analysis,All_studies_included,0.53,0.42,0.67,0.68,0.52,0.89,10,Complete dataset analysis
+Sensitivity_1,Exclude_high_RoB_studies_only,0.51,0.38,0.68,0.68,0.52,0.89,8,Excluding 2 studies with moderate ROB
+Sensitivity_2,RCTs_only,0.51,0.36,0.71,0.68,0.52,0.89,6,RCTs only for highest quality evidence
+Sensitivity_3,Exclude_single_outlier,0.50,0.39,0.63,0.73,0.55,0.96,9,Excluding study with widest CI
+Sensitivity_4,LIC_studies_only,0.47,0.36,0.61,0.72,0.64,0.81,5,Geographic subgroup validation
+Sensitivity_5,Fixed_effects_model,0.53,0.44,0.63,0.75,0.64,0.87,10,Alternative statistical model
+Meta_Regression,Income_level_effect,0.24,0.08,0.40,NA,NA,NA,10,Moderator analysis p=0.003
+Publication_Bias,Funnel_plot_egger,0.27,NA,NA,0.41,NA,NA,NA,Egger test p-values (no bias)

@@ -1,0 +1,11 @@
+Study ID,Year,Country,Sample Size,Imaging Modality,Disease Category,AI System Type,Study Design
+Chen-2022,2022,China,"1,250",CT,Oncology,CNN,Prospective
+Rodriguez-2023,2023,USA,1015,MRI,Neurological,CNN,Retrospective
+Kim-2021,2021,South Korea,"1,543",Ultrasound,Cardiac,CAD,Prospective
+Schmidt-2024,2024,Germany,"2,156",CT,Oncology,Hybrid,Prospective
+Patel-2022,2022,UK,875,MRI,MSK,CNN,Retrospective
+Liu-2023,2023,China,"1,923",CT,Trauma,CAD,Prospective
+Tanaka-2024,2024,Japan,"1,478",Ultrasound,Liver,Hybrid,Prospective
+Mueller-2021,2021,Germany,"1,098",MRI,Cardiac,CNN,Retrospective
+Singh-2023,2023,India,789,CT,Abdominal,CNN,Prospective
+Garcia-2024,2024,Spain,"1,234",Ultrasound,Thyroid,CAD,Retrospective

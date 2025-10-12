@@ -1,0 +1,118 @@
+author: Research Automation System
+created_date: '2025-09-24T23:22:34.679698'
+description: Systematic review pipeline for fibromyalgia microbiome meta-analysis
+global_config:
+  log_level: INFO
+  working_dir: data
+name: fibromyalgia_meta_analysis
+research_type: systematic_review
+steps:
+- dependencies: []
+  description: Search PubMed and other databases for fibromyalgia microbiome studies
+  inputs: {}
+  max_retries: 3
+  name: literature_search
+  outputs:
+  - data/literature_search_results/pubmed_search_results.csv
+  retry_count: 0
+  script_path: scripts/pubmed_search.py
+  validators:
+  - check_search_results
+- dependencies:
+  - literature_search
+  description: Remove duplicate studies using DOI, PMID, and title similarity
+  inputs: {}
+  max_retries: 3
+  name: deduplication
+  outputs:
+  - data/deduplicated_studies.csv
+  retry_count: 0
+  script_path: scripts/deduplication.py
+  validators:
+  - check_duplicates_removed
+- dependencies:
+  - deduplication
+  description: AI-assisted title and abstract screening
+  inputs: {}
+  max_retries: 3
+  name: screening
+  outputs:
+  - data/literature_screening/screened_studies.csv
+  retry_count: 0
+  script_path: fibromyalgia_meta_analysis/scripts/screening.py
+  validators:
+  - check_screening_complete
+- dependencies:
+  - screening
+  description: Extract structured data from included studies
+  inputs: {}
+  max_retries: 3
+  name: data_extraction
+  outputs:
+  - data/data_extraction/extracted_data.csv
+  retry_count: 0
+  script_path: Fibromyalgia_Microbiome_MetaAnalysis/scripts/data_extraction.py
+  validators:
+  - check_data_extraction
+- dependencies:
+  - data_extraction
+  description: Perform meta-analysis calculations
+  inputs: {}
+  max_retries: 3
+  name: meta_analysis
+  outputs:
+  - results/meta_analysis_results.json
+  retry_count: 0
+  script_path: Fibromyalgia_Microbiome_MetaAnalysis/scripts/meta_analysis.py
+  validators:
+  - check_meta_analysis
+- dependencies:
+  - meta_analysis
+  description: Generate visualization plots
+  inputs: {}
+  max_retries: 3
+  name: visualization
+  outputs:
+  - results/forest_plot.png
+  - results/funnel_plot.png
+  retry_count: 0
+  script_path: Fibromyalgia_Microbiome_MetaAnalysis/scripts/plot_generator.py
+  validators:
+  - check_plots_generated
+- dependencies:
+  - meta_analysis
+  description: Generate results tables in Markdown
+  inputs: {}
+  max_retries: 3
+  name: table_generation
+  outputs:
+  - results/table_1_study_characteristics.md
+  - results/results_tables.md
+  retry_count: 0
+  script_path: Fibromyalgia_Microbiome_MetaAnalysis/scripts/table_generator.py
+  validators:
+  - check_tables_generated
+- dependencies:
+  - visualization
+  - meta_analysis
+  - table_generation
+  description: Generate final manuscript in multiple formats
+  inputs: {}
+  max_retries: 3
+  name: manuscript_generation
+  outputs:
+  - final_manuscript.doc
+  - final_manuscript.pdf
+  - final_manuscript.md
+  - supplementary_materials.pdf
+  - supplementary_materials.md
+  - PRISMA_flowchart.md
+  - project_summary.pdf
+  - project_summary.md
+  - validation_methodology.pdf
+  - validation_methodology.md
+  retry_count: 0
+  script_path: Fibromyalgia_Microbiome_MetaAnalysis/scripts/generate_manuscript.py
+  validators:
+  - check_manuscript_generated
+version: 1.0.0

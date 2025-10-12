@@ -1,0 +1,4 @@
+screening_stage,total_screened,included,excluded,pending,completion_rate
+title_abstract_screening,30,8,12,291,8.9%
+full_text_screening,0,0,0,8,0%
+double_extraction,0,0,0,0,0%

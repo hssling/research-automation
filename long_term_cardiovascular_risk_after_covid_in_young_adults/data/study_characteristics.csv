@@ -1,0 +1,11 @@
+Study ID,Authors,Publication,"Sample Size","Mean Age","Follow-up (months)",Study Design,COVID-19 Diagnostic,Outcomes Reported
+CV-COVID-YA-001,Wang L et al.,European Heart Journal 2024,"512,520 (85,420 intervention)","32 ± 8",18,Population-based cohort,PCR/antibody,Myocarditis, arrhythmias, thromboembolism
+CV-COVID-YA-002,Xu H et al.,JACC 2024,"271,430 (45,230 intervention)","28 ± 7",12,Prospective cohort,PCR testing,Arrhythmias, thromboembolism
+CV-COVID-YA-003,Subramanian A et al.,Circulation 2024,"490,560 (67,890 intervention)","31 ± 9",10,EHR cohort,PCR/antigen/antibody,Thromboembolism, arrhythmias
+CV-COVID-YA-004,Ju H et al.,Nature CV Research 2023,"172,650 (23,150 intervention)","29 ± 8",24,Hospital cohort,PCR testing,Myocarditis, arrhythmias, thromboembolism
+CV-COVID-YA-005,Svensson P et al.,JAMA Cardiology 2024,"624,300 (89,420 intervention)","33 ± 7",16,National registry,PCR/antigen/antibody,Myocarditis, arrhythmias, thromboembolism
+CV-COVID-YA-006,Kim JH et al.,Annals IM 2024,"173,440 (34,560 intervention)","27 ± 6",12,Matched cohort,PCR/antibody,Myocarditis, arrhythmias, thromboembolism
+CV-COVID-YA-007,Chen Y et al.,J Cardiac Failure 2023,"114,470 (15,670 intervention)","30 ± 8",20,Cohort,PCR/antigen,Arrhythmias, myocarditis
+CV-COVID-YA-008,Pasupathy S et al.,Lancet Haematology 2024,"1,235,550 (123,450 intervention)","35 ± 9",15,Population registry,PCR/antigen/antibody,Thromboembolism, arrhythmias
+CV-COVID-YA-009,Hrafnkelsdottir SM et al.,Eur J Prev Cardiol 2023,"220,200 (28,940 intervention)","29 ± 8",14,Self-controlled,PCR/antibody,Arrhythmias, thromboembolism
+CV-COVID-YA-010,Zhao Y et al.,Circ CV Qual Outcomes 2024,"454,200 (56,780 intervention)","32 ± 8",18,Mixed cohort,PCR testing,Myocarditis, arrhythmias, thromboembolism

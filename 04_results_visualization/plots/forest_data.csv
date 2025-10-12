@@ -1,0 +1,11 @@
+comparison,effect,lower,upper,outcome
+SGLT2i vs Placebo (CV),-0.28,-0.66,0.1,CV
+SGLT2i vs Placebo (Renal),-0.48,-0.89,-0.07,Renal
+GLP-1RA vs Placebo (CV),-0.2,-0.44,0.04,CV
+Semaglutide vs Sitagliptin (HbA1c),-1.7,-1.8,-1.5,HbA1c
+Semaglutide vs Sitagliptin (Weight),-3.3,-3.9,-2.7,Weight
+Tirzepatide vs GLP-1RA (HbA1c),-0.29,-0.48,-0.1,HbA1c
+Tirzepatide vs GLP-1RA (Weight),-1.94,-3.19,-0.69,Weight
+TZD + SGLT2i + Met vs SGLT2i + Met (HbA1c),-0.8,-1.0,-0.6,HbA1c
+SGLT2i + DPP-4i vs SGLT2i (HbA1c),-0.35,-0.47,-0.23,HbA1c
+DPP-4i vs Placebo (CV),-0.01,-0.07,0.05,CV

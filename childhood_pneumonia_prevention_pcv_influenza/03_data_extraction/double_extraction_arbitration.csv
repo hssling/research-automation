@@ -1,0 +1,11 @@
+study_id,discrepancy_field,extractor1_value,extractor2_value,reason_for_difference,arbitrator_decision,arbitration_notes
+BANGLADESH_PCV10_2020,person_years,10769,10679,Different interpretation of study duration/denominator,10769,Primary paper reports 10769 person-years for pneumonia outcome
+BRAZIL_PCVD_2014,rr_uci,0.78,0.71,Different calculation of confidence intervals,0.71,CI from published paper is 0.61-0.71
+MALAWI_PCVD_2020,rr_lci,0.36,0.38, Rounding difference in published CI,0.38,Adjustment for consistency with published data
+SCOTLAND_PCVD_2016,rr_uci,0.82,0.78,Different rounding of published CI,0.78,Published CI is 0.51-0.78
+KENYA_PCVD_2010,all_fields,matched,matched,No discrepancies,keep,Perfect agreement
+SOUTH_AFRICA_PCVD_2018,all_fields,matched,matched,No discrepancies,keep,Perfect agreement
+RWANDA_PCVD_2021,all_fields,matched,matched,No discrepancies,keep,Perfect agreement
+USA_PCVD_HIC_2017,all_fields,matched,matched,No discrepancies,keep,Perfect agreement
+NETHERLANDS_TRENDS_2017,all_fields,matched,matched,No discrepancies,keep,Perfect agreement
+AUSTRALIA_SCHEDULE_COMP,all_fields,matched,matched,No discrepancies,keep,Perfect agreement

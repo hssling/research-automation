@@ -1,0 +1,153 @@
+{
+  "mcpServers": {
+    "literature": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-aggregator"
+      ],
+      "env": {
+        "SOURCES": "pubmed,clinicaltrials,who_ictrp,crossref,cochrane,arxiv,pmc,ssoar,europepmc,openalex,doaj",
+        "PUBMED_API": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "CLINICALTRIALS_API": "https://clinicaltrials.gov/api/v2/studies",
+        "WHO_ICTRP_CSV": "https://trialsearch.who.int/export/trialsearch.csv",
+        "CROSSREF_API": "https://api.crossref.org/works",
+        "COCHRANE_SEARCH": "https://www.cochranelibrary.com/cdsr/reviews/topics",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "pubmed": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-pubmed"
+      ],
+      "env": {
+        "PUBMED_API": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "clinicaltrials": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-rest-api"
+      ],
+      "env": {
+        "API_BASE_URL": "https://clinicaltrials.gov/api/v2/studies",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "who_ictrp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-csv"
+      ],
+      "env": {
+        "CSV_URL": "https://trialsearch.who.int/export/trialsearch.csv",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "crossref": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-rest-api"
+      ],
+      "env": {
+        "API_BASE_URL": "https://api.crossref.org/works",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "cochrane": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-scraper"
+      ],
+      "env": {
+        "SEARCH_URL": "https://www.cochranelibrary.com/cdsr/reviews/topics",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "arxiv": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-oai"
+      ],
+      "env": {
+        "OAI_BASE_URL": "http://export.arxiv.org/oai2",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "pmc": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-oai"
+      ],
+      "env": {
+        "OAI_BASE_URL": "https://www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "ssoar": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-oai"
+      ],
+      "env": {
+        "OAI_BASE_URL": "https://www.ssoar.info/oai/request",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "europepmc": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-rest-api"
+      ],
+      "env": {
+        "API_BASE_URL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "openalex": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-rest-api"
+      ],
+      "env": {
+        "API_BASE_URL": "https://api.openalex.org/works",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    },
+    "doaj": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-rest-api"
+      ],
+      "env": {
+        "API_BASE_URL": "https://doaj.org/api/v2/search/articles/",
+        "R_LIBS_USER": "C:/Users/hssli/AppData/Local/R/win-library/4.5",
+        "R_PROJECT_ROOT": "D:/research-automation"
+      }
+    }
+  }
+}

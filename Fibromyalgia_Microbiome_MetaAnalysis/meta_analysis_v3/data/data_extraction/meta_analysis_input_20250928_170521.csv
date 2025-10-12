@@ -1,0 +1,41 @@
+study_id,pmid,metric,effect_size,standard_error,variance,weight,study_design,sample_size_fm,sample_size_control,country,publication_year,quality_score,sequencing_platform
+Study1 2023,39456224,shannon,-0.5220,0.2020,0.0408,24.5074,Cohort,45,58,China,2023,8,Illumina HiSeq
+Study1 2023,39456224,simpson,-0.3590,0.2000,0.0400,25.0000,Cohort,45,58,China,2023,8,Illumina HiSeq
+Study1 2023,39456224,chao1,-0.3900,0.2010,0.0404,24.7519,Cohort,45,58,China,2023,8,Illumina HiSeq
+Study1 2023,39456224,observed,-0.1680,0.1990,0.0396,25.2519,Cohort,45,58,China,2023,8,Illumina HiSeq
+Study2 2020,37866648,shannon,-0.6810,0.2850,0.0812,12.3115,Cross-sectional,30,23,Spain,2020,8,Illumina MiSeq
+Study2 2020,37866648,simpson,-0.1210,0.2770,0.0767,13.0329,Cross-sectional,30,23,Spain,2020,8,Illumina MiSeq
+Study2 2020,37866648,chao1,-0.6630,0.2850,0.0812,12.3115,Cross-sectional,30,23,Spain,2020,8,Illumina MiSeq
+Study2 2020,37866648,observed,-0.0910,0.2770,0.0767,13.0329,Cross-sectional,30,23,Spain,2020,8,Illumina MiSeq
+Study3 2022,36833885,shannon,-0.1260,0.2860,0.0818,12.2255,Cohort,25,24,Turkey,2022,9,NovaSeq
+Study3 2022,36833885,simpson,-0.5700,0.2920,0.0853,11.7283,Cohort,25,24,Turkey,2022,9,NovaSeq
+Study3 2022,36833885,chao1,-0.2140,0.2870,0.0824,12.1405,Cohort,25,24,Turkey,2022,9,NovaSeq
+Study3 2022,36833885,observed,-0.0290,0.2860,0.0818,12.2255,Cohort,25,24,Turkey,2022,9,NovaSeq
+Study4 2020,36810418,shannon,-0.2940,0.2710,0.0734,13.6164,Cohort,37,22,Turkey,2020,7,NovaSeq
+Study4 2020,36810418,simpson,-0.2580,0.2700,0.0729,13.7174,Cohort,37,22,Turkey,2020,7,NovaSeq
+Study4 2020,36810418,chao1,-0.4050,0.2720,0.0740,13.5164,Cohort,37,22,Turkey,2020,7,NovaSeq
+Study4 2020,36810418,observed,-0.1700,0.2700,0.0729,13.7174,Cohort,37,22,Turkey,2020,7,NovaSeq
+Study5 2022,36149895,shannon,-0.4690,0.2520,0.0635,15.7470,Case-control,30,35,USA,2022,9,NovaSeq
+Study5 2022,36149895,simpson,-0.2860,0.2500,0.0625,16.0000,Case-control,30,35,USA,2022,9,NovaSeq
+Study5 2022,36149895,chao1,-0.2650,0.2500,0.0625,16.0000,Case-control,30,35,USA,2022,9,NovaSeq
+Study5 2022,36149895,observed,-0.2590,0.2500,0.0625,16.0000,Case-control,30,35,USA,2022,9,NovaSeq
+Study6 2023,33468164,shannon,-0.2040,0.2000,0.0400,25.0000,Case-control,59,44,Spain,2023,8,NovaSeq
+Study6 2023,33468164,simpson,-0.7440,0.2060,0.0424,23.5649,Case-control,59,44,Spain,2023,8,NovaSeq
+Study6 2023,33468164,chao1,-0.0670,0.1990,0.0396,25.2519,Case-control,59,44,Spain,2023,8,NovaSeq
+Study6 2023,33468164,observed,-0.6940,0.2050,0.0420,23.7954,Case-control,59,44,Spain,2023,8,NovaSeq
+Study7 2020,33331911,shannon,-0.4810,0.2010,0.0404,24.7519,Case-control,54,48,Spain,2020,7,Ion Torrent
+Study7 2020,33331911,simpson,-0.3450,0.2000,0.0400,25.0000,Case-control,54,48,Spain,2020,7,Ion Torrent
+Study7 2020,33331911,chao1,-0.3900,0.2000,0.0400,25.0000,Case-control,54,48,Spain,2020,7,Ion Torrent
+Study7 2020,33331911,observed,-0.0840,0.1980,0.0392,25.5076,Case-control,54,48,Spain,2020,7,Ion Torrent
+Study8 2021,32192466,shannon,-0.3370,0.2260,0.0511,19.5787,Cross-sectional,31,55,USA,2021,6,Ion Torrent
+Study8 2021,32192466,simpson,-0.0750,0.2250,0.0506,19.7531,Cross-sectional,31,55,USA,2021,6,Ion Torrent
+Study8 2021,32192466,chao1,-0.5880,0.2290,0.0524,19.0690,Cross-sectional,31,55,USA,2021,6,Ion Torrent
+Study8 2021,32192466,observed,-0.6040,0.2290,0.0524,19.0690,Cross-sectional,31,55,USA,2021,6,Ion Torrent
+Study9 2020,32158700,shannon,-0.3150,0.2440,0.0595,16.7966,Case-control,25,53,USA,2020,6,Ion Torrent
+Study9 2020,32158700,simpson,-1.0020,0.2560,0.0655,15.2588,Case-control,25,53,USA,2020,6,Ion Torrent
+Study9 2020,32158700,chao1,-0.3490,0.2440,0.0595,16.7966,Case-control,25,53,USA,2020,6,Ion Torrent
+Study9 2020,32158700,observed,-0.1870,0.2430,0.0590,16.9351,Case-control,25,53,USA,2020,6,Ion Torrent
+Study10 2021,28900158,shannon,-0.1530,0.1790,0.0320,31.2100,Cohort,74,54,Spain,2021,8,NovaSeq
+Study10 2021,28900158,simpson,-0.1140,0.1790,0.0320,31.2100,Cohort,74,54,Spain,2021,8,NovaSeq
+Study10 2021,28900158,chao1,-0.4350,0.1810,0.0328,30.5241,Cohort,74,54,Spain,2021,8,NovaSeq
+Study10 2021,28900158,observed,-1.0330,0.1900,0.0361,27.7008,Cohort,74,54,Spain,2021,8,NovaSeq

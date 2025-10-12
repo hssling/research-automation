@@ -1,0 +1,25 @@
+{
+  "total_studies": 8,
+  "total_participants_fm": 253,
+  "total_participants_control": 191,
+  "average_age_fm": 45.0,
+  "female_percent_fm": 85.0,
+  "countries_represented": 2,
+  "studies_by_design": {
+    "Case-control": 4,
+    "Cohort": 2,
+    "Cross-sectional": 1,
+    "Pilot": 1
+  },
+  "studies_by_quality": {
+    "Low": 6,
+    "Moderate": 2
+  },
+  "sequencing_platforms": {
+    "Illumina": 8
+  },
+  "body_sites": {
+    "gut": 7,
+    "stool": 1
+  }
+}

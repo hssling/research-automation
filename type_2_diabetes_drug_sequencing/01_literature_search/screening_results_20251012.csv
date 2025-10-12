@@ -1,0 +1,11 @@
+PMID,Title,Year,Study_Design,Population,Interventions,Outcomes,Eligibility_Status,Priority,Exclusion_Reason
+36335326,"Network meta-analysis on the effects of finerenone versus SGLT2 inhibitors and GLP-1 receptor agonists on cardiovascular and renal outcomes in patients with type 2 diabetes mellitus and chronic kidney disease",2022,NMA,T2DM + CKD,SGLT2i vs GLP-1RA vs Finerenone,CV outcomes, renal outcomes,Include,High,""
+32819262,"Efficacy and Cardiovascular Safety of DPP-4 Inhibitors",2021,Review,T2DM,DPP-4 inhibitors,CV safety,Include,Medium,""
+34248838,"Efficacy of Semaglutide in a Subcutaneous and an Oral Formulation",2021,Review,T2DM,Semaglutide (SC vs oral),HbA1c, weight,Include,High,""
+37828829,"Effect of tirzepatide on glycaemic control and weight loss compared with other glucagon-like peptide-1 receptor agonists in Japanese patients with type 2 diabetes mellitus",2024,RCT,T2DM,Tirzepatide vs GLP-1RA,HbA1c, weight,Include,High,""
+29756388,"Semaglutide for type 2 diabetes mellitus: A systematic review and meta-analysis",2018,SRMA,T2DM,Semaglutide,HbA1c, safety,Include,High,""
+38635113,"Dapagliflozin and Empagliflozin in Paediatric Indications: A Systematic Review",2024,SR,Pediatric,T2DM,SGLT2i,Pediatric outcomes,Exclude,,"Pediatric population"
+30954510,"Empagliflozin versus dapagliflozin in patients with type 2 diabetes inadequately controlled with metformin, glimepiride and dipeptidyl peptide 4 inhibitors: A 52-week prospective observational study",2019,Observational,T2DM,SGLT2i comparison,HbA1c, weight,Include,Medium,"Small sample size"
+39068060,"Efficacy and Safety of Pioglitazone Add-on in Patients with Type 2 Diabetes Mellitus Inadequately Controlled with Metformin and Dapagliflozin: A Multicenter, Randomized, Double-blind, and Placebo-controlled Study",2024,RCT,T2DM,Pioglitazone + metformin + dapagliflozin,HbA1c, safety,Include,High,""
+33074557,"Efficacy and safety of once-weekly semaglutide versus once-daily sitagliptin as add-on to metformin in patients with type 2 diabetes in SUSTAIN China: A 30-week, double-blind, phase 3a, randomized trial",2021,RCT,T2DM,Semaglutide vs sitagliptin,HbA1c, weight,Include,High,""
+29573110,"SGLT2 inhibitor plus DPP-4 inhibitor as combination therapy for type 2 diabetes: A systematic review and meta-analysis",2018,SRMA,T2DM,SGLT2i + DPP-4i,HbA1c, safety,Include,High,""

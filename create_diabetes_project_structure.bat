@@ -1,0 +1,12 @@
+@echo off
+mkdir "type_2_diabetes_drug_sequencing\02_data_extraction"
+mkdir "type_2_diabetes_drug_sequencing\03_statistical_analysis"
+mkdir "type_2_diabetes_drug_sequencing\04_results_visualization"
+mkdir "type_2_diabetes_drug_sequencing\05_manuscript"
+mkdir "type_2_diabetes_drug_sequencing\06_validation"
+mkdir "type_2_diabetes_drug_sequencing\07_technical_appendices"
+mkdir "type_2_diabetes_drug_sequencing\data"
+mkdir "type_2_diabetes_drug_sequencing\references"
+mkdir "type_2_diabetes_drug_sequencing\plots"
+mkdir "type_2_diabetes_drug_sequencing\output"
+echo Project structure created successfully!

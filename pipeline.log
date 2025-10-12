@@ -1,0 +1,180 @@
+2025-09-24 23:22:34,678 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:22:34,686 - __main__ - INFO - Created pipeline template: research-automation-core\pipelines\configs\fibromyalgia_meta_analysis_pipeline.yaml
+2025-09-24 23:22:46,499 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:22:46,503 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:26:35,192 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:28:30,028 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:28:51,063 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:28:51,086 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:29:11,597 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:29:47,417 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:29:47,420 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:29:47,421 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:29:47,421 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:29:47,421 - __main__ - INFO - Dry run - would execute: Search PubMed and other databases for fibromyalgia microbiome studies
+2025-09-24 23:29:47,421 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:29:47,422 - __main__ - INFO - Dry run - would execute: Remove duplicate studies using DOI, PMID, and title similarity
+2025-09-24 23:29:47,422 - __main__ - INFO - Executing step: screening
+2025-09-24 23:29:47,422 - __main__ - INFO - Dry run - would execute: AI-assisted title and abstract screening
+2025-09-24 23:30:09,461 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:30:09,464 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:30:09,464 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:30:09,464 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:30:09,464 - __main__ - INFO - Dry run - would execute: Search PubMed and other databases for fibromyalgia microbiome studies
+2025-09-24 23:30:09,465 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:30:09,465 - __main__ - INFO - Dry run - would execute: Remove duplicate studies using DOI, PMID, and title similarity
+2025-09-24 23:30:09,465 - __main__ - INFO - Executing step: screening
+2025-09-24 23:30:09,465 - __main__ - INFO - Dry run - would execute: AI-assisted title and abstract screening
+2025-09-24 23:30:46,747 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:30:46,750 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:30:46,751 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:30:46,751 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:30:46,752 - __main__ - INFO - Dry run - would execute: Search PubMed and other databases for fibromyalgia microbiome studies
+2025-09-24 23:30:46,752 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:30:46,752 - __main__ - INFO - Dry run - would execute: Remove duplicate studies using DOI, PMID, and title similarity
+2025-09-24 23:30:46,752 - __main__ - INFO - Executing step: screening
+2025-09-24 23:30:46,752 - __main__ - INFO - Dry run - would execute: AI-assisted title and abstract screening
+2025-09-24 23:30:46,753 - __main__ - INFO - Saved execution results: research-automation-core\pipelines\results\fibromyalgia_meta_analysis_result_20250924_233046.json
+2025-09-24 23:30:46,754 - __main__ - INFO - Pipeline fibromyalgia_meta_analysis completed. Success: True
+2025-09-24 23:38:36,028 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:38:36,063 - __main__ - ERROR - Failed to load pipeline config: while scanning a simple key
+  in "research-automation-core/pipelines/configs/fibromyalgia_meta_analysis_pipeline.yaml", line 96, column 3
+could not find expected ':'
+  in "research-automation-core/pipelines/configs/fibromyalgia_meta_analysis_pipeline.yaml", line 97, column 3
+2025-09-24 23:38:52,477 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:38:52,508 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:38:52,510 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:38:52,510 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:38:52,510 - __main__ - INFO - Dry run - would execute: Search PubMed and other databases for fibromyalgia microbiome studies
+2025-09-24 23:38:52,511 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:38:52,511 - __main__ - INFO - Dry run - would execute: Remove duplicate studies using DOI, PMID, and title similarity
+2025-09-24 23:38:52,511 - __main__ - INFO - Executing step: screening
+2025-09-24 23:38:52,511 - __main__ - INFO - Dry run - would execute: AI-assisted title and abstract screening
+2025-09-24 23:38:52,511 - __main__ - INFO - Executing step: data_extraction
+2025-09-24 23:38:52,511 - __main__ - INFO - Dry run - would execute: Extract structured data from included studies
+2025-09-24 23:38:52,511 - __main__ - INFO - Executing step: meta_analysis
+2025-09-24 23:38:52,512 - __main__ - INFO - Dry run - would execute: Perform meta-analysis calculations
+2025-09-24 23:38:52,512 - __main__ - INFO - Executing step: visualization
+2025-09-24 23:38:52,512 - __main__ - INFO - Dry run - would execute: Generate visualization plots
+2025-09-24 23:38:52,512 - __main__ - INFO - Executing step: table_generation
+2025-09-24 23:38:52,512 - __main__ - INFO - Dry run - would execute: Generate results tables in Markdown
+2025-09-24 23:38:52,512 - __main__ - INFO - Executing step: manuscript_generation
+2025-09-24 23:38:52,512 - __main__ - INFO - Dry run - would execute: Generate final manuscript in multiple formats
+2025-09-24 23:38:52,513 - __main__ - INFO - Saved execution results: research-automation-core\pipelines\results\fibromyalgia_meta_analysis_result_20250924_233852.json
+2025-09-24 23:38:52,513 - __main__ - INFO - Pipeline fibromyalgia_meta_analysis completed. Success: True
+2025-09-24 23:40:15,269 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:40:15,278 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:40:15,279 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:40:15,280 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:40:15,280 - __main__ - ERROR - Step literature_search failed: Script not found: fibromyalgia_meta_analysis\scripts\pubmed_search.py
+2025-09-24 23:40:15,280 - __main__ - INFO - Retrying step literature_search (attempt 1)
+2025-09-24 23:40:15,280 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:40:15,281 - __main__ - ERROR - Step deduplication failed: Script not found: fibromyalgia_meta_analysis\scripts\deduplication.py
+2025-09-24 23:40:15,281 - __main__ - INFO - Retrying step deduplication (attempt 1)
+2025-09-24 23:40:15,281 - __main__ - INFO - Executing step: screening
+2025-09-24 23:40:15,281 - __main__ - ERROR - Step screening failed: Script not found: fibromyalgia_meta_analysis\scripts\screening.py
+2025-09-24 23:40:15,281 - __main__ - INFO - Retrying step screening (attempt 1)
+2025-09-24 23:40:15,281 - __main__ - INFO - Executing step: data_extraction
+2025-09-24 23:40:15,282 - __main__ - ERROR - Step data_extraction failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\data_extraction.py
+2025-09-24 23:40:15,282 - __main__ - INFO - Retrying step data_extraction (attempt 1)
+2025-09-24 23:40:15,282 - __main__ - INFO - Executing step: meta_analysis
+2025-09-24 23:40:15,282 - __main__ - ERROR - Step meta_analysis failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\meta_analysis.py
+2025-09-24 23:40:15,282 - __main__ - INFO - Retrying step meta_analysis (attempt 1)
+2025-09-24 23:40:15,282 - __main__ - INFO - Executing step: visualization
+2025-09-24 23:40:15,282 - __main__ - ERROR - Step visualization failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\plot_generator.py
+2025-09-24 23:40:15,282 - __main__ - INFO - Retrying step visualization (attempt 1)
+2025-09-24 23:40:15,282 - __main__ - INFO - Executing step: table_generation
+2025-09-24 23:40:15,283 - __main__ - ERROR - Step table_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\table_generator.py
+2025-09-24 23:40:15,283 - __main__ - INFO - Retrying step table_generation (attempt 1)
+2025-09-24 23:40:15,283 - __main__ - INFO - Executing step: manuscript_generation
+2025-09-24 23:40:15,284 - __main__ - ERROR - Step manuscript_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\generate_manuscript.py
+2025-09-24 23:40:15,284 - __main__ - INFO - Retrying step manuscript_generation (attempt 1)
+2025-09-24 23:40:15,287 - __main__ - INFO - Saved execution results: research-automation-core\pipelines\results\fibromyalgia_meta_analysis_result_20250924_234015.json
+2025-09-24 23:40:15,287 - __main__ - INFO - Pipeline fibromyalgia_meta_analysis completed. Success: True
+2025-09-24 23:40:42,916 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:40:42,926 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:40:42,927 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:40:42,927 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:40:42,927 - __main__ - ERROR - Step literature_search failed: Script not found: fibromyalgia_meta_analysis\scripts\pubmed_search.py
+2025-09-24 23:40:42,927 - __main__ - INFO - Retrying step literature_search (attempt 1)
+2025-09-24 23:40:42,928 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:40:42,928 - __main__ - ERROR - Step deduplication failed: Script not found: fibromyalgia_meta_analysis\scripts\deduplication.py
+2025-09-24 23:40:42,929 - __main__ - INFO - Retrying step deduplication (attempt 1)
+2025-09-24 23:40:42,929 - __main__ - INFO - Executing step: screening
+2025-09-24 23:40:42,929 - __main__ - ERROR - Step screening failed: Script not found: fibromyalgia_meta_analysis\scripts\screening.py
+2025-09-24 23:40:42,930 - __main__ - INFO - Retrying step screening (attempt 1)
+2025-09-24 23:40:42,930 - __main__ - INFO - Executing step: data_extraction
+2025-09-24 23:40:42,930 - __main__ - ERROR - Step data_extraction failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\data_extraction.py
+2025-09-24 23:40:42,930 - __main__ - INFO - Retrying step data_extraction (attempt 1)
+2025-09-24 23:40:42,931 - __main__ - INFO - Executing step: meta_analysis
+2025-09-24 23:40:42,931 - __main__ - ERROR - Step meta_analysis failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\meta_analysis.py
+2025-09-24 23:40:42,931 - __main__ - INFO - Retrying step meta_analysis (attempt 1)
+2025-09-24 23:40:42,931 - __main__ - INFO - Executing step: visualization
+2025-09-24 23:40:42,931 - __main__ - ERROR - Step visualization failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\plot_generator.py
+2025-09-24 23:40:42,931 - __main__ - INFO - Retrying step visualization (attempt 1)
+2025-09-24 23:40:42,931 - __main__ - INFO - Executing step: table_generation
+2025-09-24 23:40:42,931 - __main__ - ERROR - Step table_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\table_generator.py
+2025-09-24 23:40:42,931 - __main__ - INFO - Retrying step table_generation (attempt 1)
+2025-09-24 23:40:42,932 - __main__ - INFO - Executing step: manuscript_generation
+2025-09-24 23:40:42,932 - __main__ - ERROR - Step manuscript_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\generate_manuscript.py
+2025-09-24 23:40:42,932 - __main__ - INFO - Retrying step manuscript_generation (attempt 1)
+2025-09-24 23:40:42,937 - __main__ - INFO - Saved execution results: research-automation-core\pipelines\results\fibromyalgia_meta_analysis_result_20250924_234042.json
+2025-09-24 23:40:42,937 - __main__ - INFO - Pipeline fibromyalgia_meta_analysis completed. Success: True
+2025-09-24 23:48:40,065 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:48:40,073 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:48:40,074 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:48:40,074 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:48:40,074 - __main__ - ERROR - Step literature_search failed: Script not found: fibromyalgia_meta_analysis\scripts\pubmed_search.py
+2025-09-24 23:48:40,074 - __main__ - INFO - Retrying step literature_search (attempt 1)
+2025-09-24 23:48:40,074 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:48:40,074 - __main__ - ERROR - Step deduplication failed: Script not found: fibromyalgia_meta_analysis\scripts\deduplication.py
+2025-09-24 23:48:40,074 - __main__ - INFO - Retrying step deduplication (attempt 1)
+2025-09-24 23:48:40,075 - __main__ - INFO - Executing step: screening
+2025-09-24 23:48:40,075 - __main__ - ERROR - Step screening failed: Script not found: fibromyalgia_meta_analysis\scripts\screening.py
+2025-09-24 23:48:40,075 - __main__ - INFO - Retrying step screening (attempt 1)
+2025-09-24 23:48:40,076 - __main__ - INFO - Executing step: data_extraction
+2025-09-24 23:48:40,076 - __main__ - ERROR - Step data_extraction failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\data_extraction.py
+2025-09-24 23:48:40,077 - __main__ - INFO - Retrying step data_extraction (attempt 1)
+2025-09-24 23:48:40,077 - __main__ - INFO - Executing step: meta_analysis
+2025-09-24 23:48:40,077 - __main__ - ERROR - Step meta_analysis failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\meta_analysis.py
+2025-09-24 23:48:40,077 - __main__ - INFO - Retrying step meta_analysis (attempt 1)
+2025-09-24 23:48:40,078 - __main__ - INFO - Executing step: visualization
+2025-09-24 23:48:40,078 - __main__ - ERROR - Step visualization failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\plot_generator.py
+2025-09-24 23:48:40,078 - __main__ - INFO - Retrying step visualization (attempt 1)
+2025-09-24 23:48:40,078 - __main__ - INFO - Executing step: table_generation
+2025-09-24 23:48:40,078 - __main__ - ERROR - Step table_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\table_generator.py
+2025-09-24 23:48:40,078 - __main__ - INFO - Retrying step table_generation (attempt 1)
+2025-09-24 23:48:40,079 - __main__ - INFO - Executing step: manuscript_generation
+2025-09-24 23:48:40,079 - __main__ - ERROR - Step manuscript_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\generate_manuscript.py
+2025-09-24 23:48:40,079 - __main__ - INFO - Retrying step manuscript_generation (attempt 1)
+2025-09-24 23:48:40,080 - __main__ - INFO - Saved execution results: research-automation-core\pipelines\results\fibromyalgia_meta_analysis_result_20250924_234840.json
+2025-09-24 23:48:40,080 - __main__ - INFO - Pipeline fibromyalgia_meta_analysis completed. Success: True
+2025-09-24 23:49:30,107 - __main__ - INFO - Pipeline Orchestrator initialized
+2025-09-24 23:49:30,138 - __main__ - INFO - Loaded pipeline: fibromyalgia_meta_analysis
+2025-09-24 23:49:30,139 - __main__ - INFO - Starting pipeline execution: fibromyalgia_meta_analysis
+2025-09-24 23:49:30,140 - __main__ - INFO - Executing step: literature_search
+2025-09-24 23:49:31,029 - __main__ - ERROR - Step literature_search failed: Command '['D:\\research-automation\\.venv\\Scripts\\python.exe', 'scripts\\pubmed_search.py']' returned non-zero exit status 1.
+2025-09-24 23:49:31,029 - __main__ - INFO - Retrying step literature_search (attempt 1)
+2025-09-24 23:49:31,029 - __main__ - INFO - Executing step: deduplication
+2025-09-24 23:49:31,029 - __main__ - ERROR - Step deduplication failed: Script not found: scripts\deduplication.py
+2025-09-24 23:49:31,030 - __main__ - INFO - Retrying step deduplication (attempt 1)
+2025-09-24 23:49:31,030 - __main__ - INFO - Executing step: screening
+2025-09-24 23:49:31,030 - __main__ - ERROR - Step screening failed: Script not found: fibromyalgia_meta_analysis\scripts\screening.py
+2025-09-24 23:49:31,030 - __main__ - INFO - Retrying step screening (attempt 1)
+2025-09-24 23:49:31,030 - __main__ - INFO - Executing step: data_extraction
+2025-09-24 23:49:31,030 - __main__ - ERROR - Step data_extraction failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\data_extraction.py
+2025-09-24 23:49:31,030 - __main__ - INFO - Retrying step data_extraction (attempt 1)
+2025-09-24 23:49:31,031 - __main__ - INFO - Executing step: meta_analysis
+2025-09-24 23:49:31,031 - __main__ - ERROR - Step meta_analysis failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\meta_analysis.py
+2025-09-24 23:49:31,031 - __main__ - INFO - Retrying step meta_analysis (attempt 1)
+2025-09-24 23:49:31,031 - __main__ - INFO - Executing step: visualization
+2025-09-24 23:49:31,031 - __main__ - ERROR - Step visualization failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\plot_generator.py
+2025-09-24 23:49:31,031 - __main__ - INFO - Retrying step visualization (attempt 1)
+2025-09-24 23:49:31,031 - __main__ - INFO - Executing step: table_generation
+2025-09-24 23:49:31,031 - __main__ - ERROR - Step table_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\table_generator.py
+2025-09-24 23:49:31,031 - __main__ - INFO - Retrying step table_generation (attempt 1)
+2025-09-24 23:49:31,032 - __main__ - INFO - Executing step: manuscript_generation
+2025-09-24 23:49:31,032 - __main__ - ERROR - Step manuscript_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\scripts\generate_manuscript.py
+2025-09-24 23:49:31,032 - __main__ - INFO - Retrying step manuscript_generation (attempt 1)
+2025-09-24 23:49:31,035 - __main__ - INFO - Saved execution results: research-automation-core\pipelines\results\fibromyalgia_meta_analysis_result_20250924_234930.json
+2025-09-24 23:49:31,035 - __main__ - INFO - Pipeline fibromyalgia_meta_analysis completed. Success: True

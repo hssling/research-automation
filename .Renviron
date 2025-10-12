@@ -1,0 +1,47 @@
+# R Environment Configuration for Research Automation
+# Updated: October 12, 2025
+
+# R Library Paths
+R_LIBS_USER="C:/Users/hssli/AppData/Local/R/win-library/4.5"
+R_LIBS_SITE="C:/Users/hssli/AppData/Local/R/win-library/4.5"
+
+# Research Project Paths
+R_PROJECT_ROOT="D:/research-automation"
+
+# Memory and Performance Settings
+R_MAX_MEM_SIZE=8Gb
+R_GC_MEM_PERC=70
+
+# Graphics and Output Settings
+R_DEFAULT_DEVICE=cairo_pdf
+R_PDF_DEVICE=cairo_pdf
+
+# Warning and Error Handling
+R_WARN=1
+R_ERROR_ON_WARNING=0
+
+# Package Installation Settings
+R_COMPILE_PKGS=1
+R_CHECK_PKG_SIZES=0
+
+# Network and Download Settings for Package Installation
+R_DOWNLOAD_BASE_URL=https://cran.rstudio.com/
+R_CURL_TIMEOUT=300
+
+# Meta-Analysis Specific Settings
+R_NETMETA_CORES=parallel::detectCores()
+R_BUGS_CORES=parallel::detectCores()
+
+# Temporary Directory
+R_TMPDIR="D:/research-automation/temp"
+
+# Graphics Device Settings
+R_GRAPHICS_WIDTH=10
+R_GRAPHICS_HEIGHT=8
+R_GRAPHICS_RES=300
+
+# Reporting and Reproducibility
+R_REPRODUCIBLE=1
+R_MARKDOWN_RUN_DOCX=1
+
+# END OF .Renviron

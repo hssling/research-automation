@@ -1,0 +1,11 @@
+study_id,study_design,country,income_level,outcome_primary,num_events,person_years,incidence_rate,rr_lci,rr_uci
+KENYA_PCVD_2010,cluster_rct,Kenya,LIC,radio_confirmed_pneumonia,485,28462,17.05,0.48,0.34,0.76
+BANGLADESH_PCV10_2020,cluster_rct,Bangladesh,LIC,radio_confirmed_pneumonia,89,10769,8.26,0.45,0.32,0.63
+BRAZIL_PCVD_2014,quasi_exp,Brazil,UMIC,radio_confirmed_pneumonia,2340,105000,22.29,0.65,0.59,0.78
+SOUTH_AFRICA_PCVD_2018,cluster_rct,South Africa,UMIC,all_cause_mortality,145,86540,1.68,0.68,0.52,0.89
+MALAWI_PCVD_2020,quasi_exp,Malawi,LIC,radio_confirmed_pneumonia,892,124760,7.15,0.48,0.36,0.64
+RWANDA_PCVD_2021,quasi_exp,Rwanda,LIC,radio_confirmed_pneumonia,567,45230,12.53,0.59,0.47,0.76
+USA_PCVD_HIC_2017,rct,USA,HIC,radio_confirmed_pneumonia,23,8943,2.57,1.05,0.68,1.61
+NETHERLANDS_TRENDS_2017,surveillance,Netherlands,HIC,radio_confirmed_pneumonia,NA,NA,NA,0.62,0.51,0.75
+SCOTLAND_PCVD_2016,quasi_exp,Scotland,HIC,radio_confirmed_pneumonia,NA,NA,NA,0.63,0.49,0.82
+AUSTRALIA_SCHEDULE_COMP,rct,Australia,HIC,radio_confirmed_pneumonia_3+0_vs_2+1,NA,NA,NA,0.93,0.72,1.21

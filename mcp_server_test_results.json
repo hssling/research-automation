@@ -1,0 +1,28 @@
+{
+  "test_timestamp": "2025-09-25T20:26:55.977576",
+  "total_servers_tested": 3,
+  "successful_servers": 3,
+  "results": {
+    "pubmed": {
+      "status": "success",
+      "count": 0
+    },
+    "clinicaltrials": {
+      "status": "success",
+      "code": 200
+    },
+    "crossref": {
+      "status": "success",
+      "total": 460867
+    }
+  },
+  "enhancement_sources": [
+    "arxiv",
+    "pmc",
+    "ssoar",
+    "europepmc",
+    "openalex",
+    "doaj"
+  ],
+  "notes": "Additional 6 sources configured but require MCP for testing"
+}

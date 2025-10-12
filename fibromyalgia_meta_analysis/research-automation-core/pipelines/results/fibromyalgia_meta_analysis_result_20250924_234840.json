@@ -1,0 +1,18 @@
+{
+  "pipeline_name": "fibromyalgia_meta_analysis",
+  "start_time": "2025-09-24T23:48:40.073877",
+  "end_time": "2025-09-24T23:48:40.079388",
+  "steps_executed": [],
+  "success": true,
+  "errors": [
+    "Step literature_search failed: Script not found: fibromyalgia_meta_analysis\\scripts\\pubmed_search.py",
+    "Step deduplication failed: Script not found: fibromyalgia_meta_analysis\\scripts\\deduplication.py",
+    "Step screening failed: Script not found: fibromyalgia_meta_analysis\\scripts\\screening.py",
+    "Step data_extraction failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\\scripts\\data_extraction.py",
+    "Step meta_analysis failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\\scripts\\meta_analysis.py",
+    "Step visualization failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\\scripts\\plot_generator.py",
+    "Step table_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\\scripts\\table_generator.py",
+    "Step manuscript_generation failed: Script not found: Fibromyalgia_Microbiome_MetaAnalysis\\scripts\\generate_manuscript.py"
+  ],
+  "output_paths": {}
+}

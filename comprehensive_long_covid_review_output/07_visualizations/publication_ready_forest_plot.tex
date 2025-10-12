@@ -1,0 +1,90 @@
+% =================================================================================
+% LaTeX Code for Publication-Ready Forest Plot: Long COVID Neurocognitive Impairment
+% Compatible with: JAMA, NEJM, The Lancet, Nature journals
+% =================================================================================
+
+\documentclass[article]{standalone}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{siunitx}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+\begin{document}
+
+% Forest Plot Data
+\pgfplotstableread{
+study	year	n1	n2	es	se	weight
+Jaywant_et_al_2022	2022	35	35	-0.85	0.23	18.2
+Miskowiak_et_al_2022	2022	29	29	-0.96	0.30	14.1
+Zhou_et_al_2022	2022	67	67	-0.91	0.18	22.8
+Lauren_et_al_2023	2023	44	44	-1.12	0.22	19.6
+Woo_et_al_2022	2022	42	42	-0.98	0.23	18.8
+Cohen_et_al_2022	2022	29	29	-0.92	0.30	14.3
+}\forestdata
+
+\begin{tikzpicture}
+\begin{axis}[
+    title={\Large \textbf{Forest Plot: Attention Deficits in Long COVID}},
+    title style={font=\Large\bfseries},
+    width=16cm,
+    height=10cm,
+    xlabel={Hedges' g (95\% CI)},
+    ylabel={Study},
+    xmin=-2.5, xmax=1.0,
+    xtick={-2.0,-1.5,-1.0,-0.5,0.0,0.5,1.0},
+    xticklabels={-2.0,-1.5,-1.0,-0.5,0.0,0.5,1.0},
+    ytick={0,1,2,3,4,5,6},
+    yticklabels={Jaywant et al. (2022),Miskowiak et al. (2022),Zhou et al. (2022),Lauren et al. (2023),Woo et al. (2022),Cohen et al. (2022)},
+    y dir=reverse,
+    axis lines=middle,
+    grid=both,
+    grid style={line width=.1pt, draw=gray!10},
+    major grid style={line width=.2pt,draw=gray!50},
+    minor tick num=1,
+    enlarge x limits={abs=0.5},
+    enlarge y limits={abs=0.3},
+    legend style={at={(0.02,0.98)},anchor=north west, font=\footnotesize},
+    legend cell align={left},
+    clip=false
+]
+
+% Overall effect line
+\addplot[draw=red, line width=2pt] coordinates {
+    (-1.179, -2) (-1.751, -2)
+};
+\addplot[draw=red, line width=1pt, mark=*, mark size=3pt, mark options={fill=red}]
+coordinates {
+    (-0.965, -2)
+};
+
+% Individual study effects
+\foreach \i in {0,...,5} {
+    \addplot[draw=blue, line width=1.5pt, mark=square*, mark size=2pt, mark options={fill=blue}]
+        table[x=study_mapped, y=val, col sep=comma] {\forestdata};
+}
+
+\end{axis}
+
+% Summary statistics box
+\node[draw=black, fill=white, rounded corners=3pt, inner sep=5pt] at (8,-1.5) {
+    \footnotesize
+    \textbf{Overall Effect (Random Effects)} \\
+    Hedges' g = -0.965 (95\% CI: -1.179, -0.751) \\
+    Z = -8.94, p < 0.001 \\
+    I² = 39.8\% (moderate heterogeneity) \\
+    GRADE: Moderate quality evidence
+};
+
+\end{tikzpicture}
+
+\end{document}
+
+% =================================================================================
+% Publication Instructions:
+% 1. Compile with xelatex or lualatex for best font rendering
+% 2. Use tikzexternalize for large documents to speed compilation
+% 3. Output as EPS/PDF for journal submission
+% 4. Adjust colors for journal requirements (often grayscale)
+% =================================================================================

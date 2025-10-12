@@ -1,0 +1,18 @@
+{
+  "pipeline_name": "fibromyalgia_meta_analysis",
+  "start_time": "2025-09-24T23:38:52.509623",
+  "end_time": "2025-09-24T23:38:52.512820",
+  "steps_executed": [
+    "literature_search",
+    "deduplication",
+    "screening",
+    "data_extraction",
+    "meta_analysis",
+    "visualization",
+    "table_generation",
+    "manuscript_generation"
+  ],
+  "success": true,
+  "errors": [],
+  "output_paths": {}
+}

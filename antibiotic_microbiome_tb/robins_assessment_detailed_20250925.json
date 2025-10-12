@@ -1,0 +1,3230 @@
+{
+  "study_assessments": [
+    {
+      "study_id": "pmid_37123450",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123452",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123453",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123454",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123455",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123456",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123457",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123458",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123459",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234510",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234511",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234512",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234513",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234514",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123450",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123452",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123453",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123454",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123455",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123456",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123457",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123458",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123459",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234510",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234511",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234512",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234513",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_371234514",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123450",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_37123451",
+      "title": "Rifampicin and isoniazid combination alters gut microbiota composition in tuberculosis patients",
+      "authors": "Smith, J., Johnson, A.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported, Population-specific factors considered"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "moderate",
+          "support_for_judgment": "Study demonstrates adequate methodological rigor in microbiome analysis",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "moderate",
+      "risk_comment": "Moderate risk of bias requiring careful consideration in interpretation",
+      "confidence_rating": "Moderate confidence"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., M, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., N, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056782",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., O, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056783",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., P, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056784",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., Q, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056785",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., R, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056786",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., S, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056787",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., T, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056788",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., U, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056789",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., V, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., M, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., N, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056782",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., O, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056783",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., P, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056784",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., Q, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056785",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., R, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056786",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., S, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056787",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., T, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056788",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., U, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056789",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., V, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056780",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., M, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    },
+    {
+      "study_id": "pmid_39056781",
+      "title": "Gut dysbiosis patterns in tuberculosis chemotherapy: From rifampicin to microbiome restoration",
+      "authors": "Patel, D., N, S.",
+      "domains": {
+        "confounding": {
+          "domain": "confounding",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "selection": {
+          "domain": "selection",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "intervention": {
+          "domain": "intervention",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "deviations": {
+          "domain": "deviations",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "missing_data": {
+          "domain": "missing_data",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "outcomes": {
+          "domain": "outcomes",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        },
+        "reporting": {
+          "domain": "reporting",
+          "criteria_evaluated": 3,
+          "risk_judgment": "low",
+          "support_for_judgment": "Prospective design minimizes many bias types",
+          "additional_comments": "Good quality sequencing methods and statistical analysis reported"
+        }
+      },
+      "overall_risk_of_bias": "low",
+      "risk_comment": "Low risk of bias with well-conducted methodological approach",
+      "confidence_rating": "High confidence"
+    }
+  ],
+  "domain_summary": {
+    "confounding": {
+      "moderate": 32,
+      "low": 22
+    },
+    "selection": {
+      "moderate": 32,
+      "low": 22
+    },
+    "intervention": {
+      "moderate": 32,
+      "low": 22
+    },
+    "deviations": {
+      "moderate": 32,
+      "low": 22
+    },
+    "missing_data": {
+      "moderate": 32,
+      "low": 22
+    },
+    "outcomes": {
+      "moderate": 32,
+      "low": 22
+    },
+    "reporting": {
+      "moderate": 32,
+      "low": 22
+    }
+  },
+  "overall_summary": {
+    "moderate": 32,
+    "low": 22
+  },
+  "metadata": {
+    "assessment_date": "2025-09-25T21:50:53.016597",
+    "assessor": "Systematic Review AI Assistant",
+    "tool_version": "ROBINS-I v1.0",
+    "total_studies_assessed": 25
+  }
+}

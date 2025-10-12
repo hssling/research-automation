@@ -1,0 +1,20 @@
+title: "REPLACE WITH YOUR TITLE"
+upload_type: "publication"
+publication_type: "preprint"
+description: >
+  Replace this with an abstract/description (HTML allowed). This deposition was
+  generated via an automated VS Code + Cline + FastChat → Zenodo workflow.
+
+creators:
+  - name: "Dr. Siddalingaiah H. S."
+    affiliation: "Professor of Community Medicine, Shridevi Institute of Medical Sciences & Research Hospital (SIMS&RH), Tumkur, Karnataka, India"
+    orcid: "0000-0002-4771-8285"
+
+contributors: []
+keywords: ["Network Meta-Analysis", "Automation", "VS Code", "Zenodo"]
+language: "eng"
+
+related_identifiers:
+  - relation: "isSupplementTo"
+    identifier: "https://github.com/your/repo"
+    resource_type: "software"

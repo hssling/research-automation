@@ -1,0 +1,11 @@
+study_id,assessment_tool,randomization,deviations,missing_data,measurement,selection,reporting,overall_risk,confidence_rating
+KENYA_PCVD_2010,ROB_2.0,Low,Low,Low,Low,Low,Low,Low,High
+BANGLADESH_PCV10_2020,ROB_2.0,Low,Low,Low,Low,Low,Low,Low,High
+BRAZIL_PCVD_2014,ROBINS_I,Low,Moderate,No Information,Low,Moderate,Low,Moderate,Moderate
+SOUTH_AFRICA_PCVD_2018,ROB_2.0,Low,Low,Low,Low,Low,Low,Low,High
+MALAWI_PCVD_2020,ROBINS_I,Low,Moderate,No Information,Low,Moderate,Low,Moderate,Moderate
+RWANDA_PCVD_2021,ROBINS_I,Low,Moderate,No Information,Low,Moderate,Low,Moderate,Moderate
+USA_PCVD_HIC_2017,ROB_2.0,Low,Low,Low,Low,Low,Low,Low,High
+NETHERLANDS_TRENDS_2017,ROBINS_I,Moderate,No Information,Low,Low,Moderate,Low,Moderate,Moderate
+SCOTLAND_PCVD_2016,ROBINS_I,Moderate,No Information,Low,Low,Moderate,Low,Moderate,Moderate
+AUSTRALIA_SCHEDULE_COMP,ROB_2.0,Low,Low,Low,Low,Low,Low,Low,High

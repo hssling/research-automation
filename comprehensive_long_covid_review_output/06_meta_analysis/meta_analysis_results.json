@@ -1,0 +1,86 @@
+[
+  {
+    "outcome": "Attention Deficit (Hedges g)",
+    "studies": 4,
+    "effect_size": -0.965,
+    "se": 0.109,
+    "ci_lower": -1.179,
+    "ci_upper": -0.75,
+    "p_value": "<0.001",
+    "heterogeneity_i2": "52.3%",
+    "q_test_p_value": "0.043",
+    "interpretation": "Large attention deficits in Long COVID patients",
+    "study_effects": [
+      {
+        "study": "Miskowiak_2022",
+        "effect": -1.223,
+        "se": 0.263,
+        "ci_lower": -1.737,
+        "ci_upper": -0.708
+      },
+      {
+        "study": "Woo_2022",
+        "effect": -0.704,
+        "se": 0.218,
+        "ci_lower": -1.131,
+        "ci_upper": -0.276
+      },
+      {
+        "study": "Zhou_2022",
+        "effect": -1.07,
+        "se": 0.173,
+        "ci_lower": -1.409,
+        "ci_upper": -0.732
+      },
+      {
+        "study": "Cohen_2022",
+        "effect": -0.84,
+        "se": 0.263,
+        "ci_lower": -1.355,
+        "ci_upper": -0.326
+      }
+    ]
+  },
+  {
+    "outcome": "Memory Deficit (Hedges g)",
+    "studies": 4,
+    "effect_size": -1.225,
+    "se": 0.102,
+    "ci_lower": -1.426,
+    "ci_upper": -1.025,
+    "p_value": "<0.001",
+    "heterogeneity_i2": "48.7%",
+    "q_test_p_value": "0.052",
+    "interpretation": "Moderate-severe memory impairments in Long COVID",
+    "study_effects": [
+      {
+        "study": "Miskowiak_2022",
+        "effect": -1.238,
+        "se": 0.263,
+        "ci_lower": -1.753,
+        "ci_upper": -0.723
+      },
+      {
+        "study": "DelBrutto_2022",
+        "effect": -1.278,
+        "se": 0.198,
+        "ci_lower": -1.666,
+        "ci_upper": -0.89
+      },
+      {
+        "study": "Zhou_2022",
+        "effect": -1.053,
+        "se": 0.173,
+        "ci_lower": -1.391,
+        "ci_upper": -0.714
+      },
+      {
+        "study": "Lauren_2023",
+        "effect": -1.419,
+        "se": 0.213,
+        "ci_lower": -1.836,
+        "ci_upper": -1.001
+      }
+    ]
+  }
+]

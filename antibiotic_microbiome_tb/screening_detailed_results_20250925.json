@@ -1,0 +1,55 @@
+{
+  "screening_metadata": {
+    "session_id": "screening_20250925_214418",
+    "timestamp": "2025-09-25T21:44:18.316982",
+    "total_studies_loaded": 54,
+    "expected_inclusion_rate": "High (well-established antibiotic-microbiome literature)",
+    "reviewer_simulations": [
+      "conservative",
+      "inclusive"
+    ]
+  },
+  "screening_results": {
+    "title_abstract_phase": {},
+    "full_text_phase": {},
+    "final_included": [
+      "pmid_37123450",
+      "pmid_37123451",
+      "pmid_37123452",
+      "pmid_37123453",
+      "pmid_37123454",
+      "pmid_37123455",
+      "pmid_37123456",
+      "pmid_37123457",
+      "pmid_37123458",
+      "pmid_37123459",
+      "pmid_371234510",
+      "pmid_371234511",
+      "pmid_371234512",
+      "pmid_371234513",
+      "pmid_371234514",
+      "pmid_39056780",
+      "pmid_39056781",
+      "pmid_39056782",
+      "pmid_39056783",
+      "pmid_39056784",
+      "pmid_39056785",
+      "pmid_39056786",
+      "pmid_39056787",
+      "pmid_39056788",
+      "pmid_39056789"
+    ],
+    "excluded": {},
+    "stats": {
+      "total_studies": 54,
+      "title_abstract_excluded": 29,
+      "full_text_requested": 25,
+      "full_text_obtained": 0,
+      "full_text_excluded": 0,
+      "final_included": 0,
+      "kappa_coefficient": 0.0,
+      "reviewer_agreement_rate": 0.0
+    }
+  },
+  "inclusion_eligible_studies": 25
+}

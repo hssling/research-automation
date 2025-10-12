@@ -1,0 +1,7 @@
+Variable,B,SE,t-stat,p-value,95% CI Lower,95% CI Upper
+PM₂.₅ (per 10 µg/m³ 12-mo avg),-0.086,0.022,-3.91,<0.001,-0.129,-0.043
+NO₂ (per 10 µg/m³ 6-mo avg),-0.062,0.018,-3.44,0.001,-0.097,-0.027
+Base vaccination coverage (% ),0.143,0.021,6.81,<0.001,0.102,0.184
+GDP per capita (ln),0.045,0.014,3.21,0.001,0.018,0.072
+Health workforce density,0.067,0.019,3.53,<0.001,0.030,0.104
+Population density (ln),-0.038,0.011,-3.45,<0.001,-0.060,-0.016

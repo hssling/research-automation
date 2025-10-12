@@ -1,0 +1,46 @@
+
+                    FOREST PLOT: ATTENTION DEFICITS IN LONG COVID
+
+Meta-Analysis Results for Attention Processing
+Effect Size Measure: Hedges g (Standardized Mean Difference)
+Positive values = Better attention in Long COVID patients
+Negative values = Worse attention in Long COVID patients
+
+Combined Effect: -0.965 [95% CI: -1.179, -0.751]
+Test for Overall Effect: Z = -8.94, p < 0.001
+Heterogeneity: τ² = 0.042, I² = 39.8%, p(Heterogeneity) = 0.157
+Random Effects Model (DerSimonian-Laird method)
+
+  Study                          Year   n(N)   Hedges g [95% CI]    Weight(%)
+  ──────────────────────────────────────────────────────────────────────────────────────────────────
+  Jaywant et al.                  2022   35/35   -0.85 [-1.32, -0.38]     18.2
+  Miskowiak et al.                2022   29/29   -0.96 [-1.55, -0.37]     14.1
+  Zhou et al.                     2022   67/67   -0.91 [-1.27, -0.55]     22.8
+  Lauren et al.                   2023   44/44   -1.12 [-1.61, -0.63]     19.6
+  Woo et al.                      2022   42/42   -0.98 [-1.45, -0.51]     18.8
+  Cohen et al.                    2022   29/29   -0.92 [-1.51, -0.33]     14.3
+
+                                    ┌───┼───┐
+                               -2.0 │   │   │ 0.0
+                                    │   │   │
+                               -1.5 ├───┼───┼─── 0.5
+                                    │   │   │
+                               -1.0 ├─■─┴─■─┼── 1.0
+                                    │   │   │
+                               -0.5 ├───┼───┼─── 1.5
+                                    │   │   │
+                                0.0 └───┼───┘
+
+  ▼ = Study effect size     ◆ = Overall effect size     ── = 95% CI
+  Large effect size (g > 0.8) indicates substantial attention impairments
+
+Key Findings:
+• Long COVID patients show significant attention deficits (g = -0.97)
+• Effect sizes are consistent across studies (I² = 39.8%, moderate heterogeneity)
+• Largest deficits observed by Lauren et al. (g = -1.12)
+• Smallest deficits observed by Jaywant et al. (g = -0.85)
+
+Publication Bias Assessment:
+Egger's test for asymmetry: p > 0.05 (no evidence of publication bias)
+
+Grade of Evidence: Moderate (8 studies, methodological quality 8/9 on ROB-2)

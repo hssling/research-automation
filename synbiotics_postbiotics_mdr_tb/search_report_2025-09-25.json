@@ -1,0 +1,48 @@
+{
+  "search_date": "2025-09-25",
+  "review_title": "Synbiotics and Postbiotics in MDR-TB Treatment Outcomes",
+  "total_databases_searched": 6,
+  "database_summary": {
+    "pubmed": {
+      "total_records": 2,
+      "detailed_records": 2,
+      "note": "",
+      "error": null
+    },
+    "embase": {
+      "total_records": 0,
+      "detailed_records": 0,
+      "note": "Skipped - requires institutional subscription",
+      "error": null
+    },
+    "cochrane": {
+      "total_records": 0,
+      "detailed_records": 0,
+      "note": "Skipped - requires institutional subscription",
+      "error": null
+    },
+    "web_of_science": {
+      "total_records": 0,
+      "detailed_records": 0,
+      "note": "Skipped - requires institutional subscription",
+      "error": null
+    },
+    "clinicaltrials_gov": {
+      "total_records": 0,
+      "detailed_records": 0,
+      "note": "",
+      "error": "400 Client Error: Bad Request for url: https://clinicaltrials.gov/api/v2/studies?query.cond=multidrug-resistant+tuberculosis+OR+MDR+tuberculosis&query.inter=probiotic+OR+synbiotic+OR+postbiotic+OR+prebiotic+OR+microbiome&query.outc=treatment+outcome+OR+cure+OR+conversion+OR+efficacy&filter.overallStatus=COMPLETED&pageSize=100&countTotal=true"
+    },
+    "who_ictrp": {
+      "total_records": 0,
+      "detailed_records": 0,
+      "note": "",
+      "error": "403 Client Error: Forbidden for url: https://trialsearch.who.int/API"
+    }
+  },
+  "deduplication_stats": {
+    "total_before_dedup": 2,
+    "total_after_dedup": 2,
+    "duplicates_removed": 0
+  }
+}

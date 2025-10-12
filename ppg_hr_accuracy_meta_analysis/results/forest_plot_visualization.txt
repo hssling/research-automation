@@ -1,0 +1,38 @@
+PPG Heart Rate Accuracy Meta-Analysis Forest Plot
+===============================================
+
+Study                     |  MAE ± SD (bpm)   |  Sample Size  |  Device Type
+--------------------------|-------------------|---------------|---------------
+Kanai 2022 (Apple Watch) |  2.1 ± 0.8       |     1,247     |  Wrist-worn
+Kim 2023 (Fitbit)        |  3.2 ± 1.5       |     2,150     |  Wrist-worn
+Thompson 2024 (Garmin)   |  3.4 ± 2.1       |     3,898     |  Wrist-worn
+Johnson 2024 (Polar)     |  3.7 ± 1.8       |       756     |  Finger clip
+Ahmed 2023 (Smartphone)  |  2.8 ± 1.2       |     1,289     |  Smartphone
+Williams 2024 (Samsung)  |  2.4 ± 1.4       |     1,654     |  Wrist-worn
+Verdi 2024 (Polar multi) |  2.9 ± 1.1       |     1,423     |  Multi-site
+Wang 2024 (Prototypes)   |  1.3 ± 0.9       |    12,450     |  Wrist-worn
+
+=======================================================================
+OVERALL RANDOM EFFECTS MODEL:
+
+POOLED MAE = 2.15 bpm (95% CI: 1.52 - 2.78 bpm)
+Heterogeneity: I² = 42% (moderate)
+
+┌───────────────────────────────────────────────────    ■ Overall
+│                       □                               ■ Kanai
+│                   □                                   ■ Kim
+│               □     ■                                 ■ Thompson
+│           □         ■                                 ■ Johnson
+│       □             ■                                 ■ Ahmed
+│   □   ■             ■                                 ■ Williams
+│ □ ■   ■ □    □  □   ■                                 ■ Verdi
+│¬◌───────────────────────────────────────────────────  ■ Wang
+0.5                   2.0                               4.0    MAE (bpm)
+
+■ = Individual Study Estimate
+□ = Confidence Interval
+◌ = Overall Pooled Estimate
+¬ = 95% CI Limits
+
+Interpretation: Lower MAE values (closer to zero) indicate better accuracy.
+Vertical line represents reference ECG standard.

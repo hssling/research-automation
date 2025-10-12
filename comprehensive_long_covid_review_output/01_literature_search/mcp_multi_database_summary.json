@@ -1,0 +1,27 @@
+{
+  "PubMed": {
+    "studies_found": 30,
+    "success": true,
+    "method": "MCP protocol"
+  },
+  "Embase": {
+    "studies_found": 30,
+    "success": true,
+    "method": "MCP protocol"
+  },
+  "Cochrane": {
+    "studies_found": 30,
+    "success": true,
+    "method": "MCP protocol"
+  },
+  "PsycINFO": {
+    "studies_found": 9,
+    "success": true,
+    "method": "MCP protocol"
+  },
+  "Web_of_Science": {
+    "studies_found": 9,
+    "success": true,
+    "method": "MCP protocol"
+  }
+}

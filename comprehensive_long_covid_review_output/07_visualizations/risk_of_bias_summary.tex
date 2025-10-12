@@ -1,0 +1,146 @@
+% =================================================================================
+% Risk of Bias Summary Plot (Traffic Light Format)
+% Standards: Cochrane Handbook, BMJ, JAMA, The Lancet
+% =================================================================================
+
+\documentclass[article]{standalone}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{tikz}
+\usepackage{colortbl}
+
+\begin{document}
+
+\begin{minipage}{\textwidth}
+\centering
+\scriptsize
+\textbf{Risk of Bias Summary for Long COVID Neurocognitive Studies}\\[\baselineskip]
+
+% Color coding legend
+\begin{tabular}{@{}lll@{}}
+\cellcolor{green!20} & Low risk & \\
+\cellcolor{yellow!30} & Some concerns & \\
+\cellcolor{red!20} & High risk &
+\end{tabular}
+\end{minipage}
+
+\bigskip
+
+% Risk of Bias Matrix - Study by Study
+\begin{minipage}{\textwidth}
+\centering
+\tiny
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+\textbf{Study} & \textbf{Randomization} & \textbf{Deviation} & \textbf{Missing Data} & \textbf{Measurement} & \textbf{Selection} & \textbf{Overall} \\
+\midrule
+Miskowiak et al. (2022) & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{yellow!30} B & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} \crule[green!60]{6pt}{6pt} \\
+Jaywant et al. (2022) & \cellcolor{green!20} A & \cellcolor{yellow!30} B & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} \crule[green!60]{6pt}{6pt} \\
+Zhou et al. (2022) & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} \crule[green!60]{6pt}{6pt} \\
+Lauren et al. (2023) & \cellcolor{green!20} A & \cellcolor{yellow!30} B & \cellcolor{yellow!30} B & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} \crule[green!60]{6pt}{6pt} \\
+Woo et al. (2022) & \cellcolor{yellow!30} B & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{yellow!30} B & \cellcolor{yellow!30} \crule[yellow!60]{6pt}{6pt} \\
+Cohen et al. (2022) & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{yellow!30} B & \cellcolor{green!20} A & \cellcolor{green!20} A & \cellcolor{green!20} \crule[green!60]{6pt}{6pt} \\
+\midrule
+\textbf{Percent (\%) Low Risk:} & 83\% & 67\% & 67\% & 100\% & 83\% & 83\% \\
+\bottomrule
+\end{tabular}
+
+\bigskip
+
+\begin{minipage}{0.5\textwidth}
+\centering
+\scriptsize
+\textbf{A = Low Risk} \\
+\textbf{B = Some Concerns} \\
+\textbf{C = High Risk}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\scriptsize
+\textbf{Overall Risk of Bias Legend:} \\
+\tikz{\fill[green!60] (0,0) rectangle (0.15,0.15);} Low Risk \\
+\tikz{\fill[yellow!60] (0,0) rectangle (0.15,0.15);} Some Concerns \\
+\tikz{\fill[red!60] (0,0) rectangle (0.15,0.15);} High Risk
+\end{minipage}
+
+\end{minipage}
+
+\end{document}
+
+% =================================================================================
+% Risk of Bias Visualization Instructions:
+% 1. Follow Cochrane ROB-2 tool domains precisely
+% 2. Use traffic light color coding (Green=Low, Yellow=Some Concerns, Red=High)
+% 3. Include percentage of studies with low risk for each domain at bottom
+% 4. Calculate overall risk based on most serious domain (worst score wins)
+% 5. Required for all systematic reviews and meta-analyses in top journals
+% =================================================================================
+
+% =================================================================================
+% Alternative ROB Summary Plot (Graphical)
+% =================================================================================
+
+\documentclass[article]{standalone}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{tikz}
+
+\begin{document}
+
+% Graphical Risk of Bias Summary
+\begin{tikzpicture}
+\begin{axis}[
+    title={Risk of Bias Summary (\% Studies)},
+    title style={font=\bfseries},
+    width=12cm,
+    height=8cm,
+    xlabel={Bias Domain},
+    ylabel={Percentage of Studies (\%)},
+    ymin=0, ymax=100,
+    ytick={0,20,40,60,80,100},
+    xtick={0,1,2,3,4,5},
+    xticklabels={
+        Randomization,
+        Deviation,
+        Missing Data,
+        Measurement,
+        Selection,
+        Overall
+    },
+    axis lines=left,
+    grid=both,
+    grid style={line width=.1pt, draw=gray!20},
+    major grid style={line width=.2pt, draw=gray!40},
+    enlarge x limits={abs=0.5},
+    legend style={at={(0.02,0.98)},anchor=north west, font=\footnotesize},
+    clip=false,
+    ybar stacked,
+    bar width=0.6cm,
+]
+
+\addplot[fill=red!40, draw=red!80] coordinates {(0,17) (1,33) (2,33) (3,0) (4,17) (5,17)};
+\addplot[fill=yellow!40, draw=yellow!80] coordinates {(0,0) (1,0) (2,0) (3,0) (4,0) (5,0)};
+\addplot[fill=green!40, draw=green!80] coordinates {(0,83) (1,67) (2,67) (3,100) (4,83) (5,83)};
+
+\legend{Low Risk, Some Concerns, High Risk}
+
+\end{axis}
+
+\end{tikzpicture}
+
+\end{document}
+
+% =================================================================================
+% Usage Notes:
+% 1. Matrix format preferred for detailed domain-by-domain assessment
+% 2. Bar chart format preferred for overview presentations
+% 3. Both formats required for high-impact publications
+% 4. Always calculate and report overall risk percentages
+% =================================================================================

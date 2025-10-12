@@ -1,0 +1,54 @@
+PPG vs ECG Heart Rate Bland-Altman Agreement Plot
+================================================
+
+Bland-Altman Plot: Difference vs Mean
+(PPG - ECG) vs (PPG + ECG)/2
+
+Mean Difference (Bias) = -0.07 bpm
+95% Limits of Agreement = -6.54 bpm to +6.40 bpm
+
+Bland-Altman Analysis Summary:
+- Bias: -0.07 bpm (not statistically significant from zero)
+- Upper LoA: +6.40 bpm
+- Lower LoA: -6.54 bpm
+- Range: 12.94 bpm
+
+Visual Representation:
+────────────────────────────────────────────────────────────────
+               PPG vs ECG Heart Rate Agreement
+────────────────────────────────────────────────────────────────
+   ┃
+14 ━┫                    .                           .  ← Outliers
+   ┃
++8 ━┃                 .                                 .
+   ┃
++6 ━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ┣━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Mean = -0.07
+   ┃
+-2 ━┃                  .     .         . .
+   ┃
+-4 ━┃                . .   .
+   ┃
+-6 ━┫             .        .
+   ┃
+-8 ━┃           .          .
+   ┃
+-10━┫          .
+   ┃
+-12━┛       .
+   ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ┃
+   →
+Mean Heart Rate (bpm): 70  80  90  100  120  140  160  170
+
+Legend:
+• Different activity conditions
+■ Mean bias line = -0.07 bpm
+___ Upper LoA = +6.40 bpm
+___ Lower LoA = -6.54 bpm
+
+Interpretation:
+- 95% of PPG measurements fall within ±6.5 bpm of ECG
+- Minimal bias (-0.07 bpm) suggests no systematic error
+- Wider limits during high-intensity activity
+- Clinical agreement suitable for most applications

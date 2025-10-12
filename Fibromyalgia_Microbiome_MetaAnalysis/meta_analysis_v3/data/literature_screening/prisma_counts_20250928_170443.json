@@ -1,0 +1,10 @@
+{
+  "identified": 21,
+  "title_screened": 21,
+  "title_excluded": 6,
+  "abstract_screened": 15,
+  "abstract_excluded": 3,
+  "full_text_screened": 12,
+  "full_text_excluded": 2,
+  "final_included": 10
+}

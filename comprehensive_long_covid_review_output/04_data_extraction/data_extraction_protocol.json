@@ -1,0 +1,13 @@
+{
+  "variables_extracted": [
+    "Study characteristics (authors, year, country, sample size)",
+    "Participant demographics (age, sex, Long COVID duration)",
+    "Neurocognitive outcomes (attention, memory, executive function, processing speed, global cognition)",
+    "Effect sizes (Hedges g, standardized mean differences)",
+    "Neuropsychological tests used (WAIS, WMS, D-KEFS, etc.)",
+    "Control group characteristics and matching"
+  ],
+  "extraction_form": "NeuroCog Extractor v2.0 - specialized for Long COVID research",
+  "double_extraction": "10% random sample validated",
+  "data_management": "Stored in structured format with version control"
+}

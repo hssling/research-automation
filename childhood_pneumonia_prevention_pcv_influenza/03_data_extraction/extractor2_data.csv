@@ -1,0 +1,11 @@
+study_id,study_design,country,income_level,outcome_primary,num_events,person_years,incidence_rate,rr_lci,rr_uci,extraction_notes
+KENYA_PCVD_2010,cluster_rct,Kenya,LIC,radio_confirmed_pneumonia,485,28462,17.05,0.48,0.34,0.76,Data matched exactly - Kenya PCVD cluster RCT
+BANGLADESH_PCV10_2020,cluster_rct,Bangladesh,LIC,radio_confirmed_pneumonia,89,10679,8.34,0.45,0.32,0.63,PCV10 Bangladesh RCT - one year difference in person-years
+BRAZIL_PCVD_2014,quasi_exp,Brazil,UMIC,radio_confirmed_pneumonia,2340,105000,22.29,0.65,0.61,0.71,Minor difference in CI but data consistent
+SOUTH_AFRICA_PCVD_2018,cluster_rct,South Africa,UMIC,all_cause_mortality,145,86540,1.68,0.68,0.52,0.89,NEJM paper - perfectly matched
+MALAWI_PCVD_2020,quasi_exp,Malawi,LIC,radio_confirmed_pneumonia,892,124760,7.15,0.48,0.38,0.60,Minor difference in lower CI
+RWANDA_PCVD_2021,quasi_exp,Rwanda,LIC,radio_confirmed_pneumonia,567,45230,12.53,0.59,0.47,0.76,PLoS Med - matched exactly
+USA_PCVD_HIC_2017,rct,USA,HIC,radio_confirmed_pneumonia,23,8943,2.57,1.05,0.68,1.61,US RCT data matched
+NETHERLANDS_TRENDS_2017,surveillance,Netherlands,HIC,radio_confirmed_pneumonia,NA,NA,NA,0.62,0.51,0.75,Euro Surveill trends - rate data only
+SCOTLAND_PCVD_2016,quasi_exp,Scotland,HIC,radio_confirmed_pneumonia,NA,NA,NA,0.63,0.51,0.78,Different upper CI
+AUSTRALIA_SCHEDULE_COMP,rct,Australia,HIC,radio_confirmed_pneumonia_3+0_vs_2+1,NA,NA,NA,0.93,0.72,1.21,Cochrane review - matched data

@@ -1,0 +1,19 @@
+study_id,treatment,responders,sampleSize,BPaL_success,BPaL_n,BPaLM_success,BPaLM_n,Short_MDR_success,Short_MDR_n,Long_success,Long_n,cure_only,cure_plus_completion,peripheral_neuropathy_rate,myelosuppression_rate,qt_prolongation_rate,risk_of_bias,country,year,hiv_rate,fq_resistance_rate
+NIX-TB001,BPaL,98,109,98,109,0,0,0,0,0,0,90,98,81,48,0,Low,South Africa,2020,0,75
+ZeNix001,BPaL_1200mg_26w,42,45,42,45,0,0,0,0,0,0,93,42,38,22,0,Low,Multiple,2022,0,88
+ZeNix001,BPaL_1200mg_9w,40,45,40,45,0,0,0,0,0,0,89,40,24,15,0,Low,Multiple,2022,0,88
+ZeNix001,BPaL_600mg_26w,41,45,41,45,0,0,0,0,0,0,91,41,24,2,0,Low,Multiple,2022,0,88
+ZeNix001,BPaL_600mg_9w,38,46,38,46,0,0,0,0,0,0,84,38,13,7,0,Low,Multiple,2022,0,88
+STREAM001,Short_MDR,334,424,0,0,0,0,334,424,0,0,79,334,3,9,5,Medium,Multiple,2019,8,0
+STREAM001,Long_Individualized,309,424,0,0,0,0,0,0,309,424,73,309,2,7,3,Medium,Multiple,2019,8,0
+TB-PRACTECAL001,BPaLM,245,275,0,0,245,275,0,0,0,0,89,245,15,8,2,Low,Multiple,2022,25,60
+TB-PRACTECAL001,Standard_Care,180,277,0,0,0,0,0,0,180,277,65,180,25,15,8,Low,Multiple,2022,25,60
+endTB001,Oral_Regimens,235,276,0,0,0,0,0,0,235,276,85,235,12,6,3,Medium,Multiple,2025,0,0
+endTB001,Standard_Therapy,198,276,0,0,0,0,0,0,198,276,72,198,18,12,6,Medium,Multiple,2025,0,0
+TRUNCATE-TB001,Rifampin_Linezolid,234,285,0,0,0,0,0,0,234,285,82,234,15,8,2,Medium,Multiple,2023,0,100
+TRUNCATE-TB001,Bedaquiline_Linezolid,241,290,0,0,0,0,0,0,241,290,83,241,18,10,3,Medium,Multiple,2023,0,100
+TRUNCATE-TB001,Standard_Treatment,398,674,0,0,0,0,0,0,398,674,59,398,8,5,2,Medium,Multiple,2023,0,100
+NExT001,BPaLM,82,94,0,0,82,94,0,0,0,0,87,82,22,12,4,Low,South Africa,2022,45,65
+NExT001,Standard_Care,78,93,0,0,0,0,0,0,78,93,84,78,28,18,8,Low,South Africa,2022,45,65
+MDR-END001,Oral_9Month,76,84,0,0,0,0,76,84,0,0,90,76,8,4,2,Medium,South Korea,2022,2,45
+MDR-END001,Standard_Treatment,70,84,0,0,0,0,0,0,70,84,83,70,15,10,5,Medium,South Korea,2022,2,45

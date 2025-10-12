@@ -1,0 +1,16 @@
+# SEARCH STRATEGY
+## PICOS Framework
+- **Population:**
+- **Intervention:**
+- **Comparison:**
+- **Outcome:**
+- **Study Design:**
+
+## Database Search Terms
+- PubMed: [terms]
+- Cochrane: [terms]
+- Embase: [terms]
+- Web of Science: [terms]
+
+## Search Date: YYYY-MM-DD
+## Search Update: YYYY-MM-DD

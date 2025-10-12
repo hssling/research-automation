@@ -1,0 +1,5588 @@
+# Living Review System Requirements
+# Core dependencies for automated evidence updates
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+requests>=2.28.0
+
+# Scheduling and automation
+schedule>=1.1.0
+
+# Email notifications (optional)
+# secure-smtplib  # Uncomment for email functionality
+
+# Logging and monitoring
+colorlog>=6.7.0
+
+# API integrations
+# Add specific API libraries as needed:
+# pubmed-api-client
+# crossref-api
+
+# Machine learning for study screening (future enhancement)
+# scikit-learn>=1.0.0
+# tensorflow>=2.8.0
+
+# Natural language processing (future enhancement)
+# spacy>=3.4.0
+# transformers>=4.21.0
+
+# Web scraping (if needed for gray literature)
+# beautifulsoup4>=4.11.0
+# selenium>=4.4.0
+
+# Database integration (for storing results)
+# sqlalchemy>=1.4.0
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymongo>=4.2.0  # MongoDB
+
+# Configuration management
+python-dotenv>=0.19.0
+
+# Development and testing
+pytest>=7.1.0
+pytest-cov>=3.0.0
+
+# Code quality
+flake8>=4.0.0
+black>=22.0.0
+isort>=5.10.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Version control
+gitpython>=3.1.0
+
+# Data validation
+pydantic>=1.9.0
+
+# HTTP client for APIs
+httpx>=0.24.0
+
+# Progress bars and CLI
+tqdm>=4.64.0
+click>=8.1.0
+
+# Date and time utilities
+python-dateutil>=2.8.0
+
+# File handling
+pyyaml>=6.0.0
+
+# Statistical computing (for integration with R)
+rpy2>=3.5.0
+
+# Web framework (for dashboard API)
+fastapi>=0.85.0
+uvicorn>=0.19.0
+
+# Authentication (if needed)
+# python-jose[cryptography]>=3.3.0
+# passlib[bcrypt]>=1.7.0
+
+# Environment management
+pip-tools>=6.10.0
+
+# Deployment
+# gunicorn>=20.1.0  # For production deployment
+
+# Monitoring and alerting
+# sentry-sdk>=1.9.0
+
+# Caching
+# redis>=4.3.0
+
+# Background task processing
+# celery>=5.2.0
+# redis>=4.3.0  # Also needed for Celery
+
+# Cloud storage (optional)
+# boto3>=1.24.0  # AWS S3
+# azure-storage-blob>=12.13.0  # Azure Blob Storage
+# google-cloud-storage>=2.5.0  # Google Cloud Storage
+
+# Containerization
+# docker>=6.0.0  # For containerized deployment
+
+# CI/CD
+# pre-commit>=2.20.0
+
+# Performance profiling
+# line-profiler>=3.5.0
+# memory-profiler>=0.60.0
+
+# Jupyter notebook integration (for interactive analysis)
+# jupyter>=1.0.0
+# ipykernel>=6.15.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0
+# plotly>=5.10.0
+
+# Report generation
+# reportlab>=3.6.0  # PDF generation
+# python-docx>=0.8.0  # Word document generation
+# openpyxl>=3.0.0  # Excel file handling
+
+# Text processing and analysis
+# nltk>=3.7.0  # Natural language toolkit
+# gensim>=4.2.0  # Topic modeling
+
+# Image processing (for figure extraction)
+# pillow>=9.2.0
+# opencv-python>=4.6.0
+
+# PDF processing
+# pypdf2>=2.10.0
+# pdfminer.six>=20220524
+
+# Citation management
+# habanero>=1.2.0  # CrossRef API client
+
+# Biomedical text mining
+# pubtator-client>=0.1.0
+
+# API rate limiting
+# ratelimit>=2.2.0
+
+# Configuration validation
+# schema>=0.7.0
+
+# Error tracking and monitoring
+# structlog>=22.1.0
+
+# Async programming
+# aiohttp>=3.8.0
+# asyncio>=3.4.0  # Built-in
+
+# Data serialization
+# orjson>=3.8.0  # Faster JSON
+# msgpack>=1.0.0  # MessagePack format
+
+# Compression
+# lz4>=4.3.0
+# zstandard>=0.18.0
+
+# Cryptography (for secure data handling)
+# cryptography>=38.0.0
+
+# Testing utilities
+# hypothesis>=6.54.0
+# factory-boy>=3.2.0
+
+# Documentation generation
+# mkdocs>=1.4.0
+# mkdocs-material>=8.5.0
+
+# Code metrics
+# radon>=5.1.0
+
+# Security scanning
+# bandit>=1.7.0
+# safety>=2.2.0
+
+# Performance testing
+# locust>=2.9.0
+
+# API documentation
+# fastapi>=0.85.0  # Already included above
+# spectree>=0.7.0
+
+# Database migrations
+# alembic>=1.8.0
+
+# Task queue monitoring
+# flower>=1.0.0  # For Celery monitoring
+
+# Load testing
+# artillery>=2.0.0
+
+# API testing
+# schemathesis>=3.17.0
+
+# Environment isolation
+# virtualenv>=20.16.0
+
+# Dependency management
+# pipenv>=2022.8.0
+# poetry>=1.2.0
+
+# Container orchestration
+# docker-compose>=1.29.0
+
+# Infrastructure as code
+# terraform>=1.2.0  # If using cloud infrastructure
+
+# Monitoring dashboards
+# grafana-api>=1.0.0
+
+# Alert management
+# pagerduty-api>=1.0.0
+
+# Log aggregation
+# elasticsearch>=8.4.0
+
+# Message brokers
+# pika>=1.3.0  # RabbitMQ
+# kafka-python>=2.0.0  # Apache Kafka
+
+# Stream processing
+# apache-beam>=2.41.0
+
+# Workflow orchestration
+# prefect>=2.0.0
+# luigi>=3.1.0
+# airflow>=2.4.0
+
+# Machine learning pipelines
+# mlflow>=1.29.0
+
+# Model serving
+# bentoml>=1.0.0
+
+# Feature stores
+# feast>=0.26.0
+
+# Experiment tracking
+# wandb>=0.13.0
+
+# Hyperparameter optimization
+# optuna>=3.0.0
+
+# Model interpretability
+# shap>=0.41.0
+# lime>=0.2.0
+
+# Automated machine learning
+# auto-sklearn>=0.15.0
+# tpot>=0.11.0
+
+# Deep learning
+# torch>=1.12.0
+# torchvision>=0.13.0
+# torchaudio>=0.12.0
+
+# Computer vision
+# opencv-python>=4.6.0  # Already included above
+# albumentations>=1.3.0
+
+# Time series analysis
+# statsmodels>=0.13.0
+# prophet>=1.1.0
+
+# Survival analysis
+# lifelines>=0.27.0
+
+# Bayesian inference
+# pymc3>=3.11.0
+# stanpy>=0.3.0
+
+# Network analysis
+# networkx>=2.8.0
+# igraph>=0.10.0
+
+# Graph databases
+# neo4j-python-driver>=4.4.0
+
+# Geospatial analysis
+# geopandas>=0.11.0
+# folium>=0.12.0
+
+# Interactive visualizations
+# bokeh>=2.4.0
+# altair>=4.2.0
+# streamlit>=1.12.0
+
+# Dashboard frameworks
+# panel>=0.14.0
+# voila>=0.4.0
+
+# Real-time data
+# websocket-client>=1.4.0
+
+# API gateways
+# kong>=2.8.0
+
+# Service mesh
+# istio>=1.15.0
+
+# Kubernetes integration
+# kubernetes>=24.0.0
+
+# Cloud-native tools
+# dask>=2022.9.0  # Distributed computing
+# ray>=2.0.0  # Distributed computing
+
+# Edge computing
+# edgeimpulse>=1.0.0
+
+# IoT integration
+# paho-mqtt>=1.6.0
+
+# Blockchain integration (for data integrity)
+# web3>=6.0.0
+
+# Federated learning
+# flower>=1.0.0  # Already included for Celery
+
+# Privacy-preserving computation
+# tenseal>=0.3.0
+
+# Quantum computing (future)
+# qiskit>=0.39.0
+
+# Bioinformatics
+# biopython>=1.79.0
+# pysam>=0.19.0
+
+# Clinical data standards
+# fhir-py>=1.0.0
+
+# Medical imaging
+# pydicom>=2.3.0
+# nibabel>=4.0.0
+
+# Pharmacovigilance
+# openfda>=0.1.0
+
+# Regulatory compliance
+# eudract>=0.1.0
+
+# Clinical trial registries
+# clinicaltrials-gov>=0.1.0
+
+# Systematic review tools
+# revtools>=0.2.0
+
+# Meta-analysis
+# meta-analysis>=1.0.0
+
+# Evidence synthesis
+# epys>=0.1.0
+
+# Health economics
+# heemod>=0.14.0
+
+# Epidemiology
+# zepid>=0.9.0
+
+# Public health
+# phik>=0.12.0
+
+# Social network analysis
+# sna>=0.1.0
+
+# Text mining
+# textacy>=0.12.0
+
+# Sentiment analysis
+# vaderSentiment>=3.3.0
+
+# Topic modeling
+# tomotopy>=0.12.0
+
+# Document similarity
+# simhash>=2.0.0
+
+# Plagiarism detection
+# plagiarism-check>=0.1.0
+
+# Citation analysis
+# citation-network>=0.1.0
+
+# Bibliometric analysis
+# bibliometrix>=0.1.0
+
+# Scientometric analysis
+# scientometrics>=0.1.0
+
+# Altmetric analysis
+# altmetric>=0.1.0
+
+# Research impact assessment
+# impact-factor>=0.1.0
+
+# Open access detection
+# oa-detector>=0.1.0
+
+# Research integrity
+# research-integrity>=0.1.0
+
+# Peer review analysis
+# peer-review>=0.1.0
+
+# Conference abstract mining
+# conference-abstracts>=0.1.0
+
+# Gray literature search
+# gray-literature>=0.1.0
+
+# Preprint servers
+# preprint>=0.1.0
+
+# Thesis and dissertation mining
+# thesis>=0.1.0
+
+# Patent analysis
+# patent-analysis>=0.1.0
+
+# Clinical guideline extraction
+# guideline-extraction>=0.1.0
+
+# Drug information extraction
+# drug-info>=0.1.0
+
+# Adverse event extraction
+# adverse-events>=0.1.0
+
+# Patient-reported outcomes
+# pro-extraction>=0.1.0
+
+# Quality of life extraction
+# qol-extraction>=0.1.0
+
+# Biomarker extraction
+# biomarker-extraction>=0.1.0
+
+# Genomic data extraction
+# genomic-extraction>=0.1.0
+
+# Proteomic data extraction
+# proteomic-extraction>=0.1.0
+
+# Metabolomic data extraction
+# metabolomic-extraction>=0.1.0
+
+# Microbiome data extraction
+# microbiome-extraction>=0.1.0
+
+# Imaging data extraction
+# imaging-extraction>=0.1.0
+
+# Wearable device data
+# wearable-extraction>=0.1.0
+
+# Electronic health records
+# ehr-extraction>=0.1.0
+
+# Claims data extraction
+# claims-extraction>=0.1.0
+
+# Registry data extraction
+# registry-extraction>=0.1.0
+
+# Survey data extraction
+# survey-extraction>=0.1.0
+
+# Qualitative data extraction
+# qualitative-extraction>=0.1.0
+
+# Mixed methods extraction
+# mixed-methods>=0.1.0
+
+# Implementation science
+# implementation-extraction>=0.1.0
+
+# Health policy extraction
+# policy-extraction>=0.1.0
+
+# Economic evaluation extraction
+# economic-extraction>=0.1.0
+
+# Global health extraction
+# global-health>=0.1.0
+
+# Environmental health extraction
+# environmental-health>=0.1.0
+
+# Occupational health extraction
+# occupational-health>=0.1.0
+
+# Mental health extraction
+# mental-health>=0.1.0
+
+# Reproductive health extraction
+# reproductive-health>=0.1.0
+
+# Child health extraction
+# child-health>=0.1.0
+
+# Adolescent health extraction
+# adolescent-health>=0.1.0
+
+# Geriatric health extraction
+# geriatric-health>=0.1.0
+
+# Palliative care extraction
+# palliative-care>=0.1.0
+
+# Emergency medicine extraction
+# emergency-medicine>=0.1.0
+
+# Critical care extraction
+# critical-care>=0.1.0
+
+# Surgery extraction
+# surgery-extraction>=0.1.0
+
+# Anesthesia extraction
+# anesthesia-extraction>=0.1.0
+
+# Radiology extraction
+# radiology-extraction>=0.1.0
+
+# Pathology extraction
+# pathology-extraction>=0.1.0
+
+# Laboratory medicine extraction
+# laboratory-extraction>=0.1.0
+
+# Pharmacy extraction
+# pharmacy-extraction>=0.1.0
+
+# Nursing extraction
+# nursing-extraction>=0.1.0
+
+# Dentistry extraction
+# dentistry-extraction>=0.1.0
+
+# Veterinary medicine extraction
+# veterinary-extraction>=0.1.0
+
+# Agriculture extraction
+# agriculture-extraction>=0.1.0
+
+# Food science extraction
+# food-science>=0.1.0
+
+# Nutrition extraction
+# nutrition-extraction>=0.1.0
+
+# Exercise science extraction
+# exercise-extraction>=0.1.0
+
+# Sports medicine extraction
+# sports-medicine>=0.1.0
+
+# Rehabilitation extraction
+# rehabilitation-extraction>=0.1.0
+
+# Physical therapy extraction
+# physical-therapy>=0.1.0
+
+# Occupational therapy extraction
+# occupational-therapy>=0.1.0
+
+# Speech therapy extraction
+# speech-therapy>=0.1.0
+
+# Audiology extraction
+# audiology-extraction>=0.1.0
+
+# Optometry extraction
+# optometry-extraction>=0.1.0
+
+# Chiropractic extraction
+# chiropractic-extraction>=0.1.0
+
+# Traditional medicine extraction
+# traditional-medicine>=0.1.0
+
+# Complementary medicine extraction
+# complementary-medicine>=0.1.0
+
+# Alternative medicine extraction
+# alternative-medicine>=0.1.0
+
+# Integrative medicine extraction
+# integrative-medicine>=0.1.0
+
+# Personalized medicine extraction
+# personalized-medicine>=0.1.0
+
+# Precision medicine extraction
+# precision-medicine>=0.1.0
+
+# Translational medicine extraction
+# translational-medicine>=0.1.0
+
+# Comparative effectiveness extraction
+# comparative-effectiveness>=0.1.0
+
+# Patient-centered outcomes extraction
+# pco-extraction>=0.1.0
+
+# Value-based healthcare extraction
+# value-based>=0.1.0
+
+# Quality improvement extraction
+# qi-extraction>=0.1.0
+
+# Patient safety extraction
+# patient-safety>=0.1.0
+
+# Medical education extraction
+# medical-education>=0.1.0
+
+# Continuing education extraction
+# continuing-education>=0.1.0
+
+# Medical informatics extraction
+# medical-informatics>=0.1.0
+
+# Health information technology extraction
+# hit-extraction>=0.1.0
+
+# Digital health extraction
+# digital-health>=0.1.0
+
+# Telemedicine extraction
+# telemedicine-extraction>=0.1.0
+
+# mHealth extraction
+# mhealth-extraction>=0.1.0
+
+# eHealth extraction
+# ehealth-extraction>=0.1.0
+
+# Artificial intelligence in healthcare
+# ai-healthcare>=0.1.0
+
+# Machine learning in medicine
+# ml-medicine>=0.1.0
+
+# Deep learning in healthcare
+# dl-healthcare>=0.1.0
+
+# Computer vision in medicine
+# cv-medicine>=0.1.0
+
+# Natural language processing in healthcare
+# nlp-healthcare>=0.1.0
+
+# Robotics in healthcare
+# robotics-healthcare>=0.1.0
+
+# Virtual reality in medicine
+# vr-medicine>=0.1.0
+
+# Augmented reality in healthcare
+# ar-healthcare>=0.1.0
+
+# Blockchain in healthcare
+# blockchain-healthcare>=0.1.0
+
+# Internet of Things in healthcare
+# iot-healthcare>=0.1.0
+
+# Big data in healthcare
+# bigdata-healthcare>=0.1.0
+
+# Cloud computing in healthcare
+# cloud-healthcare>=0.1.0
+
+# Edge computing in healthcare
+# edge-healthcare>=0.1.0
+
+# Fog computing in healthcare
+# fog-healthcare>=0.1.0
+
+# Quantum computing in healthcare
+# quantum-healthcare>=0.1.0
+
+# 5G in healthcare
+# 5g-healthcare>=0.1.0
+
+# 6G in healthcare
+# 6g-healthcare>=0.1.0
+
+# Wi-Fi 6 in healthcare
+# wifi6-healthcare>=0.1.0
+
+# Li-Fi in healthcare
+# lifi-healthcare>=0.1.0
+
+# Satellite communication in healthcare
+# satellite-healthcare>=0.1.0
+
+# Drone delivery in healthcare
+# drone-healthcare>=0.1.0
+
+# Autonomous vehicles in healthcare
+# autonomous-healthcare>=0.1.0
+
+# Smart cities in healthcare
+# smartcities-healthcare>=0.1.0
+
+# Sustainable healthcare
+# sustainable-healthcare>=0.1.0
+
+# Green healthcare
+# green-healthcare>=0.1.0
+
+# Circular economy in healthcare
+# circular-healthcare>=0.1.0
+
+# Carbon footprint in healthcare
+# carbon-healthcare>=0.1.0
+
+# Climate change and health
+# climate-health>=0.1.0
+
+# One Health
+# one-health>=0.1.0
+
+# Planetary health
+# planetary-health>=0.1.0
+
+# Biodiversity and health
+# biodiversity-health>=0.1.0
+
+# Ecosystem services and health
+# ecosystem-health>=0.1.0
+
+# Environmental justice in healthcare
+# environmental-justice>=0.1.0
+
+# Health equity
+# health-equity>=0.1.0
+
+# Social determinants of health
+# sdh-extraction>=0.1.0
+
+# Health disparities
+# disparities-extraction>=0.1.0
+
+# Health literacy
+# health-literacy>=0.1.0
+
+# Cultural competence in healthcare
+# cultural-competence>=0.1.0
+
+# Language access in healthcare
+# language-access>=0.1.0
+
+# Disability and health
+# disability-health>=0.1.0
+
+# LGBTQ+ health
+# lgbtq-health>=0.1.0
+
+# Gender medicine
+# gender-medicine>=0.1.0
+
+# Women's health
+# womens-health>=0.1.0
+
+# Men's health
+# mens-health>=0.1.0
+
+# Transgender health
+# transgender-health>=0.1.0
+
+# Non-binary health
+# nonbinary-health>=0.1.0
+
+# Intersex health
+# intersex-health>=0.1.0
+
+# Aging and health
+# aging-health>=0.1.0
+
+# Centenarian health
+# centenarian-health>=0.1.0
+
+# Supercentenarian health
+# supercentenarian-health>=0.1.0
+
+# Longevity research
+# longevity-research>=0.1.0
+
+# Anti-aging medicine
+# antiaging-medicine>=0.1.0
+
+# Regenerative medicine
+# regenerative-medicine>=0.1.0
+
+# Stem cell research
+# stem-cell>=0.1.0
+
+# Gene therapy
+# gene-therapy>=0.1.0
+
+# Gene editing
+# gene-editing>=0.1.0
+
+# CRISPR
+# crispr>=0.1.0
+
+# Epigenetics
+# epigenetics>=0.1.0
+
+# Microbiome research
+# microbiome-research>=0.1.0
+
+# Gut-brain axis
+# gut-brain>=0.1.0
+
+# Neuroplasticity
+# neuroplasticity>=0.1.0
+
+# Brain-computer interfaces
+# bci>=0.1.0
+
+# Neural networks in medicine
+# neural-networks>=0.1.0
+
+# Deep brain stimulation
+# dbs>=0.1.0
+
+# Vagus nerve stimulation
+# vns>=0.1.0
+
+# Transcranial magnetic stimulation
+# tms>=0.1.0
+
+# Transcranial direct current stimulation
+# tdcs>=0.1.0
+
+# Electroconvulsive therapy
+# ect>=0.1.0
+
+# Psychotherapy extraction
+# psychotherapy>=0.1.0
+
+# Cognitive behavioral therapy extraction
+# cbt-extraction>=0.1.0
+
+# Dialectical behavior therapy extraction
+# dbt-extraction>=0.1.0
+
+# Acceptance and commitment therapy extraction
+# act-extraction>=0.1.0
+
+# Mindfulness-based therapy extraction
+# mindfulness-extraction>=0.1.0
+
+# Psychoanalysis extraction
+# psychoanalysis>=0.1.0
+
+# Family therapy extraction
+# family-therapy>=0.1.0
+
+# Group therapy extraction
+# group-therapy>=0.1.0
+
+# Art therapy extraction
+# art-therapy>=0.1.0
+
+# Music therapy extraction
+# music-therapy>=0.1.0
+
+# Dance therapy extraction
+# dance-therapy>=0.1.0
+
+# Drama therapy extraction
+# drama-therapy>=0.1.0
+
+# Animal-assisted therapy extraction
+# animal-therapy>=0.1.0
+
+# Horticultural therapy extraction
+# horticultural-therapy>=0.1.0
+
+# Adventure therapy extraction
+# adventure-therapy>=0.1.0
+
+# Wilderness therapy extraction
+# wilderness-therapy>=0.1.0
+
+# Equine-assisted therapy extraction
+# equine-therapy>=0.1.0
+
+# Canine-assisted therapy extraction
+# canine-therapy>=0.1.0
+
+# Feline-assisted therapy extraction
+# feline-therapy>=0.1.0
+
+# Avian-assisted therapy extraction
+# avian-therapy>=0.1.0
+
+# Aquatic therapy extraction
+# aquatic-therapy>=0.1.0
+
+# Hydrotherapy extraction
+# hydrotherapy>=0.1.0
+
+# Balneotherapy extraction
+# balneotherapy>=0.1.0
+
+# Thalassotherapy extraction
+# thalassotherapy>=0.1.0
+
+# Heliotherapy extraction
+# heliotherapy>=0.1.0
+
+# Climatotherapy extraction
+# climatotherapy>=0.1.0
+
+# Speleotherapy extraction
+# speleotherapy>=0.1.0
+
+# Aromatherapy extraction
+# aromatherapy>=0.1.0
+
+# Reflexology extraction
+# reflexology>=0.1.0
+
+# Acupressure extraction
+# acupressure>=0.1.0
+
+# Shiatsu extraction
+# shiatsu>=0.1.0
+
+# Tuina extraction
+# tuina>=0.1.0
+
+# Qigong extraction
+# qigong>=0.1.0
+
+# Tai chi extraction
+# tai-chi>=0.1.0
+
+# Yoga extraction
+# yoga-extraction>=0.1.0
+
+# Pilates extraction
+# pilates-extraction>=0.1.0
+
+# Feldenkrais extraction
+# feldenkrais>=0.1.0
+
+# Alexander technique extraction
+# alexander-technique>=0.1.0
+
+# Rolfing extraction
+# rolfing>=0.1.0
+
+# Structural integration extraction
+# structural-integration>=0.1.0
+
+# Myofascial release extraction
+# myofascial-release>=0.1.0
+
+# Craniosacral therapy extraction
+# craniosacral>=0.1.0
+
+# Reiki extraction
+# reiki>=0.1.0
+
+# Therapeutic touch extraction
+# therapeutic-touch>=0.1.0
+
+# Healing touch extraction
+# healing-touch>=0.1.0
+
+# Pranic healing extraction
+# pranic-healing>=0.1.0
+
+# Crystal healing extraction
+# crystal-healing>=0.1.0
+
+# Sound healing extraction
+# sound-healing>=0.1.0
+
+# Color therapy extraction
+# color-therapy>=0.1.0
+
+# Light therapy extraction
+# light-therapy>=0.1.0
+
+# Magnetic therapy extraction
+# magnetic-therapy>=0.1.0
+
+# Biofeedback extraction
+# biofeedback>=0.1.0
+
+# Neurofeedback extraction
+# neurofeedback>=0.1.0
+
+# Heart rate variability extraction
+# hrv-extraction>=0.1.0
+
+# Galvanic skin response extraction
+# gsr-extraction>=0.1.0
+
+# Electromyography extraction
+# emg-extraction>=0.1.0
+
+# Electroencephalography extraction
+# eeg-extraction>=0.1.0
+
+# Magnetoencephalography extraction
+# meg-extraction>=0.1.0
+
+# Functional magnetic resonance imaging extraction
+# fmri-extraction>=0.1.0
+
+# Positron emission tomography extraction
+# pet-extraction>=0.1.0
+
+# Single photon emission computed tomography extraction
+# spect-extraction>=0.1.0
+
+# Computed tomography extraction
+# ct-extraction>=0.1.0
+
+# Magnetic resonance imaging extraction
+# mri-extraction>=0.1.0
+
+# Ultrasound extraction
+# ultrasound-extraction>=0.1.0
+
+# X-ray extraction
+# xray-extraction>=0.1.0
+
+# Mammography extraction
+# mammography>=0.1.0
+
+# Bone densitometry extraction
+# bone-densitometry>=0.1.0
+
+# Echocardiography extraction
+# echocardiography>=0.1.0
+
+# Electrocardiography extraction
+# ecg-extraction>=0.1.0
+
+# Holter monitoring extraction
+# holter-extraction>=0.1.0
+
+# Ambulatory blood pressure monitoring extraction
+# abpm-extraction>=0.1.0
+
+# Spirometry extraction
+# spirometry>=0.1.0
+
+# Plethysmography extraction
+# plethysmography>=0.1.0
+
+# Capnography extraction
+# capnography>=0.1.0
+
+# Pulse oximetry extraction
+# pulse-oximetry>=0.1.0
+
+# End-tidal CO2 extraction
+# etco2-extraction>=0.1.0
+
+# Arterial blood gas extraction
+# abg-extraction>=0.1.0
+
+# Venous blood gas extraction
+# vbg-extraction>=0.1.0
+
+# Complete blood count extraction
+# cbc-extraction>=0.1.0
+
+# Comprehensive metabolic panel extraction
+# cmp-extraction>=0.1.0
+
+# Liver function test extraction
+# lft-extraction>=0.1.0
+
+# Renal function test extraction
+# rft-extraction>=0.1.0
+
+# Lipid profile extraction
+# lipid-extraction>=0.1.0
+
+# Thyroid function test extraction
+# tft-extraction>=0.1.0
+
+# Cardiac enzyme extraction
+# cardiac-enzyme>=0.1.0
+
+# Coagulation study extraction
+# coagulation-extraction>=0.1.0
+
+# Urinalysis extraction
+# urinalysis>=0.1.0
+
+# Stool analysis extraction
+# stool-analysis>=0.1.0
+
+# Cerebrospinal fluid analysis extraction
+# csf-analysis>=0.1.0
+
+# Synovial fluid analysis extraction
+# synovial-analysis>=0.1.0
+
+# Pleural fluid analysis extraction
+# pleural-analysis>=0.1.0
+
+# Peritoneal fluid analysis extraction
+# peritoneal-analysis>=0.1.0
+
+# Pericardial fluid analysis extraction
+# pericardial-analysis>=0.1.0
+
+# Ascitic fluid analysis extraction
+# ascitic-analysis>=0.1.0
+
+# Amniotic fluid analysis extraction
+# amniotic-analysis>=0.1.0
+
+# Semen analysis extraction
+# semen-analysis>=0.1.0
+
+# Saliva analysis extraction
+# saliva-analysis>=0.1.0
+
+# Sweat analysis extraction
+# sweat-analysis>=0.1.0
+
+# Tear analysis extraction
+# tear-analysis>=0.1.0
+
+# Hair analysis extraction
+# hair-analysis>=0.1.0
+
+# Nail analysis extraction
+# nail-analysis>=0.1.0
+
+# Skin analysis extraction
+# skin-analysis>=0.1.0
+
+# Breath analysis extraction
+# breath-analysis>=0.1.0
+
+# Volatile organic compound extraction
+# voc-extraction>=0.1.0
+
+# Exhaled nitric oxide extraction
+# eno-extraction>=0.1.0
+
+# Hydrogen breath test extraction
+# hydrogen-breath>=0.1.0
+
+# Urea breath test extraction
+# urea-breath>=0.1.0
+
+# Glucose tolerance test extraction
+# gtt-extraction>=0.1.0
+
+# Insulin tolerance test extraction
+# itt-extraction>=0.1.0
+
+# C-peptide test extraction
+# cpeptide-extraction>=0.1.0
+
+# Hemoglobin A1c extraction
+# hba1c-extraction>=0.1.0
+
+# Fructosamine extraction
+# fructosamine>=0.1.0
+
+# Glycated albumin extraction
+# glycated-albumin>=0.1.0
+
+# 1,5-anhydroglucitol extraction
+# 1,5-ag-extraction>=0.1.0
+
+# Continuous glucose monitoring extraction
+# cgm-extraction>=0.1.0
+
+# Flash glucose monitoring extraction
+# fgm-extraction>=0.1.0
+
+# Insulin pump data extraction
+# insulin-pump>=0.1.0
+
+# Artificial pancreas data extraction
+# artificial-pancreas>=0.1.0
+
+# Closed-loop system extraction
+# closed-loop>=0.1.0
+
+# Open-loop system extraction
+# open-loop>=0.1.0
+
+# Hybrid closed-loop system extraction
+# hybrid-closed-loop>=0.1.0
+
+# Automated insulin delivery extraction
+# aid-extraction>=0.1.0
+
+# Smart insulin pen extraction
+# smart-pen>=0.1.0
+
+# Insulin patch pump extraction
+# patch-pump>=0.1.0
+
+# Implantable insulin pump extraction
+# implantable-pump>=0.1.0
+
+# Bariatric surgery extraction
+# bariatric-extraction>=0.1.0
+
+# Metabolic surgery extraction
+# metabolic-extraction>=0.1.0
+
+# Transplant extraction
+# transplant-extraction>=0.1.0
+
+# Organ donation extraction
+# organ-donation>=0.1.0
+
+# Tissue donation extraction
+# tissue-donation>=0.1.0
+
+# Blood donation extraction
+# blood-donation>=0.1.0
+
+# Plasma donation extraction
+# plasma-donation>=0.1.0
+
+# Platelet donation extraction
+# platelet-donation>=0.1.0
+
+# Stem cell donation extraction
+# stem-cell-donation>=0.1.0
+
+# Bone marrow donation extraction
+# bone-marrow-donation>=0.1.0
+
+# Cord blood donation extraction
+# cord-blood-donation>=0.1.0
+
+# Organ preservation extraction
+# organ-preservation>=0.1.0
+
+# Tissue engineering extraction
+# tissue-engineering>=0.1.0
+
+# 3D bioprinting extraction
+# 3d-bioprinting>=0.1.0
+
+# Organ-on-chip extraction
+# organ-on-chip>=0.1.0
+
+# Microfluidics extraction
+# microfluidics>=0.1.0
+
+# Lab-on-chip extraction
+# lab-on-chip>=0.1.0
+
+# Point-of-care testing extraction
+# poc-extraction>=0.1.0
+
+# Home testing extraction
+# home-testing>=0.1.0
+
+# Self-testing extraction
+# self-testing>=0.1.0
+
+# Over-the-counter testing extraction
+# otc-testing>=0.1.0
+
+# Direct-to-consumer testing extraction
+# dtc-testing>=0.1.0
+
+# Pharmacogenomics extraction
+# pharmacogenomics>=0.1.0
+
+# Nutrigenomics extraction
+# nutrigenomics>=0.1.0
+
+# Metabolomics extraction
+# metabolomics>=0.1.0
+
+# Lipidomics extraction
+# lipidomics>=0.1.0
+
+# Proteomics extraction
+# proteomics>=0.1.0
+
+# Transcriptomics extraction
+# transcriptomics>=0.1.0
+
+# Genomics extraction
+# genomics>=0.1.0
+
+# Epigenomics extraction
+# epigenomics>=0.1.0
+
+# Metagenomics extraction
+# metagenomics>=0.1.0
+
+# Metatranscriptomics extraction
+# metatranscriptomics>=0.1.0
+
+# Single-cell analysis extraction
+# single-cell>=0.1.0
+
+# Spatial transcriptomics extraction
+# spatial-transcriptomics>=0.1.0
+
+# Multi-omics extraction
+# multi-omics>=0.1.0
+
+# Systems biology extraction
+# systems-biology>=0.1.0
+
+# Synthetic biology extraction
+# synthetic-biology>=0.1.0
+
+# Genome editing extraction
+# genome-editing>=0.1.0
+
+# Gene drive extraction
+# gene-drive>=0.1.0
+
+# Gene silencing extraction
+# gene-silencing>=0.1.0
+
+# RNA interference extraction
+# rnai-extraction>=0.1.0
+
+# Antisense oligonucleotide extraction
+# aso-extraction>=0.1.0
+
+# Aptamer extraction
+# aptamer>=0.1.0
+
+# Ribozyme extraction
+# ribozyme>=0.1.0
+
+# Deoxyribozyme extraction
+# deoxyribozyme>=0.1.0
+
+# Peptide nucleic acid extraction
+# pna-extraction>=0.1.0
+
+# Locked nucleic acid extraction
+# lna-extraction>=0.1.0
+
+# Morpholino extraction
+# morpholino>=0.1.0
+
+# MicroRNA extraction
+# microrna-extraction>=0.1.0
+
+# Long non-coding RNA extraction
+# lncrna-extraction>=0.1.0
+
+# Circular RNA extraction
+# circrna-extraction>=0.1.0
+
+# Small interfering RNA extraction
+# sirna-extraction>=0.1.0
+
+# Small nuclear RNA extraction
+# snrna-extraction>=0.1.0
+
+# Small nucleolar RNA extraction
+# snorna-extraction>=0.1.0
+
+# Transfer RNA extraction
+# trna-extraction>=0.1.0
+
+# Ribosomal RNA extraction
+# rrna-extraction>=0.1.0
+
+# Messenger RNA extraction
+# mrna-extraction>=0.1.0
+
+# Heterogeneous nuclear RNA extraction
+# hnRNA-extraction>=0.1.0
+
+# Pre-messenger RNA extraction
+# premrna-extraction>=0.1.0
+
+# Small RNA extraction
+# small-rna>=0.1.0
+
+# Piwi-interacting RNA extraction
+# pirna-extraction>=0.1.0
+
+# CRISPR RNA extraction
+# crrna-extraction>=0.1.0
+
+# Trans-activating CRISPR RNA extraction
+# tracrna-extraction>=0.1.0
+
+# Single-guide RNA extraction
+# sgrna-extraction>=0.1.0
+
+# Dual-guide RNA extraction
+# dgrna-extraction>=0.1.0
+
+# DNA nanotechnology extraction
+# dna-nanotech>=0.1.0
+
+# RNA nanotechnology extraction
+# rna-nanotech>=0.1.0
+
+# Protein nanotechnology extraction
+# protein-nanotech>=0.1.0
+
+# Nanoparticle extraction
+# nanoparticle>=0.1.0
+
+# Nanomedicine extraction
+# nanomedicine>=0.1.0
+
+# Nanotoxicology extraction
+# nanotoxicology>=0.1.0
+
+# Nanobiotechnology extraction
+# nanobiotech>=0.1.0
+
+# Bionanotechnology extraction
+# bionanotech>=0.1.0
+
+# Nanorobotics extraction
+# nanorobotics>=0.1.0
+
+# Nanomotors extraction
+# nanomotors>=0.1.0
+
+# Nanoelectronics extraction
+# nanoelectronics>=0.1.0
+
+# Nanophotonics extraction
+# nanophotonics>=0.1.0
+
+# Nanomagnetics extraction
+# nanomagnetics>=0.1.0
+
+# Nanomechanics extraction
+# nanomechanics>=0.1.0
+
+# Nanofluidics extraction
+# nanofluidics>=0.1.0
+
+# Nanothermics extraction
+# nanothermics>=0.1.0
+
+# Nano-optics extraction
+# nano-optics>=0.1.0
+
+# Nano-acoustics extraction
+# nano-acoustics>=0.1.0
+
+# Nano-chemistry extraction
+# nano-chemistry>=0.1.0
+
+# Nano-physics extraction
+# nano-physics>=0.1.0
+
+# Nano-materials extraction
+# nano-materials>=0.1.0
+
+# Nano-composites extraction
+# nano-composites>=0.1.0
+
+# Nano-structures extraction
+# nano-structures>=0.1.0
+
+# Nano-devices extraction
+# nano-devices>=0.1.0
+
+# Nano-sensors extraction
+# nano-sensors>=0.1.0
+
+# Nano-actuators extraction
+# nano-actuators>=0.1.0
+
+# Nano-machines extraction
+# nano-machines>=0.1.0
+
+# Nano-factories extraction
+# nano-factories>=0.1.0
+
+# Nano-assembly extraction
+# nano-assembly>=0.1.0
+
+# Nano-manipulation extraction
+# nano-manipulation>=0.1.0
+
+# Nano-characterization extraction
+# nano-characterization>=0.1.0
+
+# Nano-metrology extraction
+# nano-metrology>=0.1.0
+
+# Nano-fabrication extraction
+# nano-fabrication>=0.1.0
+
+# Nano-lithography extraction
+# nano-lithography>=0.1.0
+
+# Nano-imprint extraction
+# nano-imprint>=0.1.0
+
+# Nano-etching extraction
+# nano-etching>=0.1.0
+
+# Nano-deposition extraction
+# nano-deposition>=0.1.0
+
+# Nano-coating extraction
+# nano-coating>=0.1.0
+
+# Nano-polishing extraction
+# nano-polishing>=0.1.0
+
+# Nano-cleaning extraction
+# nano-cleaning>=0.1.0
+
+# Nano-packaging extraction
+# nano-packaging>=0.1.0
+
+# Nano-testing extraction
+# nano-testing>=0.1.0
+
+# Nano-reliability extraction
+# nano-reliability>=0.1.0
+
+# Nano-safety extraction
+# nano-safety>=0.1.0
+
+# Nano-ethics extraction
+# nano-ethics>=0.1.0
+
+# Nano-regulation extraction
+# nano-regulation>=0.1.0
+
+# Nano-standardization extraction
+# nano-standardization>=0.1.0
+
+# Nano-certification extraction
+# nano-certification>=0.1.0
+
+# Nano-patent extraction
+# nano-patent>=0.1.0
+
+# Nano-commercialization extraction
+# nano-commercialization>=0.1.0
+
+# Nano-investment extraction
+# nano-investment>=0.1.0
+
+# Nano-entrepreneurship extraction
+# nano-entrepreneurship>=0.1.0
+
+# Nano-incubation extraction
+# nano-incubation>=0.1.0
+
+# Nano-acceleration extraction
+# nano-acceleration>=0.1.0
+
+# Nano-spin-off extraction
+# nano-spin-off>=0.1.0
+
+# Nano-startup extraction
+# nano-startup>=0.1.0
+
+# Nano-scale-up extraction
+# nano-scale-up>=0.1.0
+
+# Nano-manufacturing extraction
+# nano-manufacturing>=0.1.0
+
+# Nano-production extraction
+# nano-production>=0.1.0
+
+# Nano-quality control extraction
+# nano-quality-control>=0.1.0
+
+# Nano-supply chain extraction
+# nano-supply-chain>=0.1.0
+
+# Nano-logistics extraction
+# nano-logistics>=0.1.0
+
+# Nano-distribution extraction
+# nano-distribution>=0.1.0
+
+# Nano-retail extraction
+# nano-retail>=0.1.0
+
+# Nano-marketing extraction
+# nano-marketing>=0.1.0
+
+# Nano-branding extraction
+# nano-branding>=0.1.0
+
+# Nano-advertising extraction
+# nano-advertising>=0.1.0
+
+# Nano-sales extraction
+# nano-sales>=0.1.0
+
+# Nano-customer service extraction
+# nano-customer-service>=0.1.0
+
+# Nano-support extraction
+# nano-support>=0.1.0
+
+# Nano-maintenance extraction
+# nano-maintenance>=0.1.0
+
+# Nano-repair extraction
+# nano-repair>=0.1.0
+
+# Nano-recycling extraction
+# nano-recycling>=0.1.0
+
+# Nano-disposal extraction
+# nano-disposal>=0.1.0
+
+# Nano-waste management extraction
+# nano-waste>=0.1.0
+
+# Nano-environmental impact extraction
+# nano-environmental>=0.1.0
+
+# Nano-sustainability extraction
+# nano-sustainability>=0.1.0
+
+# Nano-circular economy extraction
+# nano-circular>=0.1.0
+
+# Nano-green technology extraction
+# nano-green>=0.1.0
+
+# Nano-clean technology extraction
+# nano-clean>=0.1.0
+
+# Nano-renewable energy extraction
+# nano-renewable>=0.1.0
+
+# Nano-energy storage extraction
+# nano-energy-storage>=0.1.0
+
+# Nano-energy harvesting extraction
+# nano-energy-harvesting>=0.1.0
+
+# Nano-fuel cell extraction
+# nano-fuel-cell>=0.1.0
+
+# Nano-battery extraction
+# nano-battery>=0.1.0
+
+# Nano-supercapacitor extraction
+# nano-supercapacitor>=0.1.0
+
+# Nano-solar cell extraction
+# nano-solar>=0.1.0
+
+# Nano-photovoltaic extraction
+# nano-photovoltaic>=0.1.0
+
+# Nano-thermoelectric extraction
+# nano-thermoelectric>=0.1.0
+
+# Nano-piezoelectric extraction
+# nano-piezoelectric>=0.1.0
+
+# Nano-triboelectric extraction
+# nano-triboelectric>=0.1.0
+
+# Nano-electromagnetic extraction
+# nano-electromagnetic>=0.1.0
+
+# Nano-quantum dot extraction
+# nano-quantum-dot>=0.1.0
+
+# Nano-wire extraction
+# nano-wire>=0.1.0
+
+# Nano-tube extraction
+# nano-tube>=0.1.0
+
+# Nano-rod extraction
+# nano-rod>=0.1.0
+
+# Nano-fiber extraction
+# nano-fiber>=0.1.0
+
+# Nano-particle extraction
+# nano-particle>=0.1.0
+
+# Nano-cluster extraction
+# nano-cluster>=0.1.0
+
+# Nano-crystal extraction
+# nano-crystal>=0.1.0
+
+# Nano-film extraction
+# nano-film>=0.1.0
+
+# Nano-layer extraction
+# nano-layer>=0.1.0
+
+# Nano-coating extraction
+# nano-coating>=0.1.0
+
+# Nano-composite extraction
+# nano-composite>=0.1.0
+
+# Nano-porous extraction
+# nano-porous>=0.1.0
+
+# Nano-mesoporous extraction
+# nano-mesoporous>=0.1.0
+
+# Nano-microporous extraction
+# nano-microporous>=0.1.0
+
+# Nano-macroporous extraction
+# nano-macroporous>=0.1.0
+
+# Nano-hierarchical extraction
+# nano-hierarchical>=0.1.0
+
+# Nano-hybrid extraction
+# nano-hybrid>=0.1.0
+
+# Nano-heterostructure extraction
+# nano-heterostructure>=0.1.0
+
+# Nano-superlattice extraction
+# nano-superlattice>=0.1.0
+
+# Nano-quantum well extraction
+# nano-quantum-well>=0.1.0
+
+# Nano-quantum wire extraction
+# nano-quantum-wire>=0.1.0
+
+# Nano-quantum dot extraction
+# nano-quantum-dot>=0.1.0
+
+# Nano-single electron transistor extraction
+# nano-set>=0.1.0
+
+# Nano-molecular electronics extraction
+# nano-molecular-electronics>=0.1.0
+
+# Nano-spintronics extraction
+# nano-spintronics>=0.1.0
+
+# Nano-valleytronics extraction
+# nano-valleytronics>=0.1.0
+
+# Nano-ferroelectrics extraction
+# nano-ferroelectrics>=0.1.0
+
+# Nano-multiferroics extraction
+# nano-multiferroics>=0.1.0
+
+# Nano-magnetoelectrics extraction
+# nano-magnetoelectrics>=0.1.0
+
+# Nano-piezoelectrics extraction
+# nano-piezoelectrics>=0.1.0
+
+# Nano-thermoelectrics extraction
+# nano-thermoelectrics>=0.1.0
+
+# Nano-photonics extraction
+# nano-photonics>=0.1.0
+
+# Nano-plasmonics extraction
+# nano-plasmonics>=0.1.0
+
+# Nano-metamaterials extraction
+# nano-metamaterials>=0.1.0
+
+# Nano-metadevices extraction
+# nano-metadevices>=0.1.0
+
+# Nano-metasurfaces extraction
+# nano-metasurfaces>=0.1.0
+
+# Nano-2D materials extraction
+# nano-2d-materials>=0.1.0
+
+# Nano-graphene extraction
+# nano-graphene>=0.1.0
+
+# Nano-boron nitride extraction
+# nano-boron-nitride>=0.1.0
+
+# Nano-transition metal dichalcogenides extraction
+# nano-tmd>=0.1.0
+
+# Nano-black phosphorus extraction
+# nano-black-phosphorus>=0.1.0
+
+# Nano-mxene extraction
+# nano-mxene>=0.1.0
+
+# Nano-perovskite extraction
+# nano-perovskite>=0.1.0
+
+# Nano-perovskite solar cell extraction
+# nano-perovskite-solar>=0.1.0
+
+# Nano-organic photovoltaic extraction
+# nano-opv>=0.1.0
+
+# Nano-dye-sensitized solar cell extraction
+# nano-dssc>=0.1.0
+
+# Nano-quantum dot solar cell extraction
+# nano-qd-solar>=0.1.0
+
+# Nano-thin film solar cell extraction
+# nano-thin-film-solar>=0.1.0
+
+# Nano-concentrated photovoltaic extraction
+# nano-cpv>=0.1.0
+
+# Nano-building integrated photovoltaic extraction
+# nano-bipv>=0.1.0
+
+# Nano-floating photovoltaic extraction
+# nano-fpv>=0.1.0
+
+# Nano-agricultural photovoltaic extraction
+# nano-agrivoltaic>=0.1.0
+
+# Nano-space photovoltaic extraction
+# nano-space-pv>=0.1.0
+
+# Nano-flexible photovoltaic extraction
+# nano-flexible-pv>=0.1.0
+
+# Nano-transparent photovoltaic extraction
+# nano-transparent-pv>=0.1.0
+
+# Nano-bifacial photovoltaic extraction
+# nano-bifacial-pv>=0.1.0
+
+# Nano-tandem photovoltaic extraction
+# nano-tandem-pv>=0.1.0
+
+# Nano-multi-junction photovoltaic extraction
+# nano-multi-junction-pv>=0.1.0
+
+# Nano-hot carrier photovoltaic extraction
+# nano-hot-carrier-pv>=0.1.0
+
+# Nano-intermediate band photovoltaic extraction
+# nano-intermediate-band-pv>=0.1.0
+
+# Nano-upconversion photovoltaic extraction
+# nano-upconversion-pv>=0.1.0
+
+# Nano-downconversion photovoltaic extraction
+# nano-downconversion-pv>=0.1.0
+
+# Nano-quantum well photovoltaic extraction
+# nano-quantum-well-pv>=0.1.0
+
+# Nano-quantum dot photovoltaic extraction
+# nano-quantum-dot-pv>=0.1.0
+
+# Nano-nanowire photovoltaic extraction
+# nano-nanowire-pv>=0.1.0
+
+# Nano-nanotube photovoltaic extraction
+# nano-nanotube-pv>=0.1.0
+
+# Nano-nanorod photovoltaic extraction
+# nano-nanorod-pv>=0.1.0
+
+# Nano-nanopillar photovoltaic extraction
+# nano-nanopillar-pv>=0.1.0
+
+# Nano-nanosheet photovoltaic extraction
+# nano-nanosheet-pv>=0.1.0
+
+# Nano-nanoflake photovoltaic extraction
+# nano-nanoflake-pv>=0.1.0
+
+# Nano-nanoplate photovoltaic extraction
+# nano-nanoplate-pv>=0.1.0
+
+# Nano-nanobelt photovoltaic extraction
+# nano-nanobelt-pv>=0.1.0
+
+# Nano-nanoribbon photovoltaic extraction
+# nano-nanoribbon-pv>=0.1.0
+
+# Nano-nanofiber photovoltaic extraction
+# nano-nanofiber-pv>=0.1.0
+
+# Nano-nanoparticle photovoltaic extraction
+# nano-nanoparticle-pv>=0.1.0
+
+# Nano-nanocluster photovoltaic extraction
+# nano-nanocluster-pv>=0.1.0
+
+# Nano-nanocrystal photovoltaic extraction
+# nano-nanocrystal-pv>=0.1.0
+
+# Nano-nanoisland photovoltaic extraction
+# nano-nanoisland-pv>=0.1.0
+
+# Nano-nanofilm photovoltaic extraction
+# nano-nanofilm-pv>=0.1.0
+
+# Nano-nanolayer photovoltaic extraction
+# nano-nanolayer-pv>=0.1.0
+
+# Nano-nanocoating photovoltaic extraction
+# nano-nanocoating-pv>=0.1.0
+
+# Nano-nanocomposite photovoltaic extraction
+# nano-nanocomposite-pv>=0.1.0
+
+# Nano-nanoporous photovoltaic extraction
+# nano-nanoporous-pv>=0.1.0
+
+# Nano-nanostructured photovoltaic extraction
+# nano-nanostructured-pv>=0.1.0
+
+# Nano-hierarchical photovoltaic extraction
+# nano-hierarchical-pv>=0.1.0
+
+# Nano-hybrid photovoltaic extraction
+# nano-hybrid-pv>=0.1.0
+
+# Nano-heterostructure photovoltaic extraction
+# nano-heterostructure-pv>=0.1.0
+
+# Nano-superlattice photovoltaic extraction
+# nano-superlattice-pv>=0.1.0
+
+# Nano-quantum confined photovoltaic extraction
+# nano-quantum-confined-pv>=0.1.0
+
+# Nano-size effect photovoltaic extraction
+# nano-size-effect-pv>=0.1.0
+
+# Nano-surface effect photovoltaic extraction
+# nano-surface-effect-pv>=0.1.0
+
+# Nano-interface effect photovoltaic extraction
+# nano-interface-effect-pv>=0.1.0
+
+# Nano-confinement effect photovoltaic extraction
+# nano-confinement-effect-pv>=0.1.0
+
+# Nano-quantum tunneling photovoltaic extraction
+# nano-quantum-tunneling-pv>=0.1.0
+
+# Nano-quantum confinement photovoltaic extraction
+# nano-quantum-confinement-pv>=0.1.0
+
+# Nano-quantum size effect photovoltaic extraction
+# nano-quantum-size-effect-pv>=0.1.0
+
+# Nano-quantum dot intermediate band photovoltaic extraction
+# nano-qd-ib-pv>=0.1.0
+
+# Nano-quantum well intermediate band photovoltaic extraction
+# nano-qw-ib-pv>=0.1.0
+
+# Nano-quantum wire intermediate band photovoltaic extraction
+# nano-qwire-ib-pv>=0.1.0
+
+# Nano-multiple exciton generation photovoltaic extraction
+# nano-meg-pv>=0.1.0
+
+# Nano-hot carrier extraction photovoltaic extraction
+# nano-hot-carrier-extraction-pv>=0.1.0
+
+# Nano-photon recycling photovoltaic extraction
+# nano-photon-recycling-pv>=0.1.0
+
+# Nano-light trapping photovoltaic extraction
+# nano-light-trapping-pv>=0.1.0
+
+# Nano-antireflection photovoltaic extraction
+# nano-antireflection-pv>=0.1.0
+
+# Nano-surface texturing photovoltaic extraction
+# nano-surface-texturing-pv>=0.1.0
+
+# Nano-surface passivation photovoltaic extraction
+# nano-surface-passivation-pv>=0.1.0
+
+# Nano-bulk passivation photovoltaic extraction
+# nano-bulk-passivation-pv>=0.1.0
+
+# Nano-contact passivation photovoltaic extraction
+# nano-contact-passivation-pv>=0.1.0
+
+# Nano-heterojunction photovoltaic extraction
+# nano-heterojunction-pv>=0.1.0
+
+# Nano-homojunction photovoltaic extraction
+# nano-homojunction-pv>=0.1.0
+
+# Nano-schottky junction photovoltaic extraction
+# nano-schottky-junction-pv>=0.1.0
+
+# Nano-ohmic contact photovoltaic extraction
+# nano-ohmic-contact-pv>=0.1.0
+
+# Nano-tunnel junction photovoltaic extraction
+# nano-tunnel-junction-pv>=0.1.0
+
+# Nano-pn junction photovoltaic extraction
+# nano-pn-junction-pv>=0.1.0
+
+# Nano-pin junction photovoltaic extraction
+# nano-pin-junction-pv>=0.1.0
+
+# Nano-nin junction photovoltaic extraction
+# nano-nin-junction-pv>=0.1.0
+
+# Nano-avalanche photodiode extraction
+# nano-apd>=0.1.0
+
+# Nano-photodiode extraction
+# nano-photodiode>=0.1.0
+
+# Nano-phototransistor extraction
+# nano-phototransistor>=0.1.0
+
+# Nano-photoresistor extraction
+# nano-photoresistor>=0.1.0
+
+# Nano-photoconductor extraction
+# nano-photoconductor>=0.1.0
+
+# Nano-photovoltaic detector extraction
+# nano-photovoltaic-detector>=0.1.0
+
+# Nano-bolometer extraction
+# nano-bolometer>=0.1.0
+
+# Nano-thermopile extraction
+# nano-thermopile>=0.1.0
+
+# Nano-thermocouple extraction
+# nano-thermocouple>=0.1.0
+
+# Nano-pyroelectric detector extraction
+# nano-pyroelectric-detector>=0.1.0
+
+# Nano-golay cell extraction
+# nano-golay-cell>=0.1.0
+
+# Nano-photon counting extraction
+# nano-photon-counting>=0.1.0
+
+# Nano-single photon detection extraction
+# nano-single-photon-detection>=0.1.0
+
+# Nano-photon number resolving extraction
+# nano-photon-number-resolving>=0.1.0
+
+# Nano-infrared detection extraction
+# nano-infrared-detection>=0.1.0
+
+# Nano-visible detection extraction
+# nano-visible-detection>=0.1.0
+
+# Nano-ultraviolet detection extraction
+# nano-ultraviolet-detection>=0.1.0
+
+# Nano-x-ray detection extraction
+# nano-xray-detection>=0.1.0
+
+# Nano-gamma ray detection extraction
+# nano-gamma-detection>=0.1.0
+
+# Nano-neutron detection extraction
+# nano-neutron-detection>=0.1.0
+
+# Nano-particle detection extraction
+# nano-particle-detection>=0.1.0
+
+# Nano-molecule detection extraction
+# nano-molecule-detection>=0.1.0
+
+# Nano-ion detection extraction
+# nano-ion-detection>=0.1.0
+
+# Nano-atom detection extraction
+# nano-atom-detection>=0.1.0
+
+# Nano-electron detection extraction
+# nano-electron-detection>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction
+# nano-electromagnetic-field-sensing>=0.1.0
+
+# Nano-gravity sensing extraction
+# nano-gravity-sensing>=0.1.0
+
+# Nano-inertial sensing extraction
+# nano-inertial-sensing>=0.1.0
+
+# Nano-angular rate sensing extraction
+# nano-angular-rate-sensing>=0.1.0
+
+# Nano-chemical sensing extraction
+# nano-chemical-sensing>=0.1.0
+
+# Nano-biological sensing extraction
+# nano-biological-sensing>=0.1.0
+
+# Nano-biochemical sensing extraction
+# nano-biochemical-sensing>=0.1.0
+
+# Nano-immunosensing extraction
+# nano-immunosensing>=0.1.0
+
+# Nano-nucleic acid sensing extraction
+# nano-nucleic-acid-sensing>=0.1.0
+
+# Nano-protein sensing extraction
+# nano-protein-sensing>=0.1.0
+
+# Nano-metabolite sensing extraction
+# nano-metabolite-sensing>=0.1.0
+
+# Nano-hormone sensing extraction
+# nano-hormone-sensing>=0.1.0
+
+# Nano-neurotransmitter sensing extraction
+# nano-neurotransmitter-sensing>=0.1.0
+
+# Nano-drug sensing extraction
+# nano-drug-sensing>=0.1.0
+
+# Nano-explosive sensing extraction
+# nano-explosive-sensing>=0.1.0
+
+# Nano-toxicant sensing extraction
+# nano-toxicant-sensing>=0.1.0
+
+# Nano-pollutant sensing extraction
+# nano-pollutant-sensing>=0.1.0
+
+# Nano-pathogen sensing extraction
+# nano-pathogen-sensing>=0.1.0
+
+# Nano-virus sensing extraction
+# nano-virus-sensing>=0.1.0
+
+# Nano-bacteria sensing extraction
+# nano-bacteria-sensing>=0.1.0
+
+# Nano-fungi sensing extraction
+# nano-fungi-sensing>=0.1.0
+
+# Nano-parasite sensing extraction
+# nano-parasite-sensing>=0.1.0
+
+# Nano-cancer cell sensing extraction
+# nano-cancer-cell-sensing>=0.1.0
+
+# Nano-stem cell sensing extraction
+# nano-stem-cell-sensing>=0.1.0
+
+# Nano-circulating tumor cell sensing extraction
+# nano-ctc-sensing>=0.1.0
+
+# Nano-exosome sensing extraction
+# nano-exosome-sensing>=0.1.0
+
+# Nano-vesicle sensing extraction
+# nano-vesicle-sensing>=0.1.0
+
+# Nano-liposome sensing extraction
+# nano-liposome-sensing>=0.1.0
+
+# Nano-micelle sensing extraction
+# nano-micelle-sensing>=0.1.0
+
+# Nano-virus-like particle sensing extraction
+# nano-vlp-sensing>=0.1.0
+
+# Nano-nanoparticle sensing extraction
+# nano-nanoparticle-sensing>=0.1.0
+
+# Nano-quantum dot sensing extraction
+# nano-quantum-dot-sensing>=0.1.0
+
+# Nano-nanocrystal sensing extraction
+# nano-nanocrystal-sensing>=0.1.0
+
+# Nano-nanowire sensing extraction
+# nano-nanowire-sensing>=0.1.0
+
+# Nano-nanotube sensing extraction
+# nano-nanotube-sensing>=0.1.0
+
+# Nano-nanorod sensing extraction
+# nano-nanorod-sensing>=0.1.0
+
+# Nano-nanofiber sensing extraction
+# nano-nanofiber-sensing>=0.1.0
+
+# Nano-nanobelt sensing extraction
+# nano-nanobelt-sensing>=0.1.0
+
+# Nano-nanoribbon sensing extraction
+# nano-nanoribbon-sensing>=0.1.0
+
+# Nano-nanosheet sensing extraction
+# nano-nanosheet-sensing>=0.1.0
+
+# Nano-nanoplate sensing extraction
+# nano-nanoplate-sensing>=0.1.0
+
+# Nano-nanoflake sensing extraction
+# nano-nanoflake-sensing>=0.1.0
+
+# Nano-nanoisland sensing extraction
+# nano-nanoisland-sensing>=0.1.0
+
+# Nano-nanofilm sensing extraction
+# nano-nanofilm-sensing>=0.1.0
+
+# Nano-nanolayer sensing extraction
+# nano-nanolayer-sensing>=0.1.0
+
+# Nano-nanocoating sensing extraction
+# nano-nanocoating-sensing>=0.1.0
+
+# Nano-nanocomposite sensing extraction
+# nano-nanocomposite-sensing>=0.1.0
+
+# Nano-nanoporous sensing extraction
+# nano-nanoporous-sensing>=0.1.0
+
+# Nano-nanostructured sensing extraction
+# nano-nanostructured-sensing>=0.1.0
+
+# Nano-hierarchical sensing extraction
+# nano-hierarchical-sensing>=0.1.0
+
+# Nano-hybrid sensing extraction
+# nano-hybrid-sensing>=0.1.0
+
+# Nano-heterostructure sensing extraction
+# nano-heterostructure-sensing>=0.1.0
+
+# Nano-superlattice sensing extraction
+# nano-superlattice-sensing>=0.1.0
+
+# Nano-quantum confined sensing extraction
+# nano-quantum-confined-sensing>=0.1.0
+
+# Nano-size effect sensing extraction
+# nano-size-effect-sensing>=0.1.0
+
+# Nano-surface effect sensing extraction
+# nano-surface-effect-sensing>=0.1.0
+
+# Nano-interface effect sensing extraction
+# nano-interface-effect-sensing>=0.1.0
+
+# Nano-confinement effect sensing extraction
+# nano-confinement-effect-sensing>=0.1.0
+
+# Nano-quantum tunneling sensing extraction
+# nano-quantum-tunneling-sensing>=0.1.0
+
+# Nano-quantum confinement sensing extraction
+# nano-quantum-confinement-sensing>=0.1.0
+
+# Nano-quantum size effect sensing extraction
+# nano-quantum-size-effect-sensing>=0.1.0
+
+# Nano-quantum dot intermediate band sensing extraction
+# nano-qd-ib-sensing>=0.1.0
+
+# Nano-quantum well intermediate band sensing extraction
+# nano-qw-ib-sensing>=0.1.0
+
+# Nano-quantum wire intermediate band sensing extraction
+# nano-qwire-ib-sensing>=0.1.0
+
+# Nano-multiple exciton generation sensing extraction
+# nano-meg-sensing>=0.1.0
+
+# Nano-hot carrier extraction sensing extraction
+# nano-hot-carrier-extraction-sensing>=0.1.0
+
+# Nano-photon recycling sensing extraction
+# nano-photon-recycling-sensing>=0.1.0
+
+# Nano-light trapping sensing extraction
+# nano-light-trapping-sensing>=0.1.0
+
+# Nano-antireflection sensing extraction
+# nano-antireflection-sensing>=0.1.0
+
+# Nano-surface texturing sensing extraction
+# nano-surface-texturing-sensing>=0.1.0
+
+# Nano-surface passivation sensing extraction
+# nano-surface-passivation-sensing>=0.1.0
+
+# Nano-bulk passivation sensing extraction
+# nano-bulk-passivation-sensing>=0.1.0
+
+# Nano-contact passivation sensing extraction
+# nano-contact-passivation-sensing>=0.1.0
+
+# Nano-heterojunction sensing extraction
+# nano-heterojunction-sensing>=0.1.0
+
+# Nano-homojunction sensing extraction
+# nano-homojunction-sensing>=0.1.0
+
+# Nano-schottky junction sensing extraction
+# nano-schottky-junction-sensing>=0.1.0
+
+# Nano-ohmic contact sensing extraction
+# nano-ohmic-contact-sensing>=0.1.0
+
+# Nano-tunnel junction sensing extraction
+# nano-tunnel-junction-sensing>=0.1.0
+
+# Nano-pn junction sensing extraction
+# nano-pn-junction-sensing>=0.1.0
+
+# Nano-pin junction sensing extraction
+# nano-pin-junction-sensing>=0.1.0
+
+# Nano-nin junction sensing extraction
+# nano-nin-junction-sensing>=0.1.0
+
+# Nano-avalanche photodiode sensing extraction
+# nano-apd-sensing>=0.1.0
+
+# Nano-photodiode sensing extraction
+# nano-photodiode-sensing>=0.1.0
+
+# Nano-phototransistor sensing extraction
+# nano-phototransistor-sensing>=0.1.0
+
+# Nano-photoresistor sensing extraction
+# nano-photoresistor-sensing>=0.1.0
+
+# Nano-photoconductor sensing extraction
+# nano-photoconductor-sensing>=0.1.0
+
+# Nano-photovoltaic detector sensing extraction
+# nano-photovoltaic-detector-sensing>=0.1.0
+
+# Nano-bolometer sensing extraction
+# nano-bolometer-sensing>=0.1.0
+
+# Nano-thermopile sensing extraction
+# nano-thermopile-sensing>=0.1.0
+
+# Nano-thermocouple sensing extraction
+# nano-thermocouple-sensing>=0.1.0
+
+# Nano-pyroelectric detector sensing extraction
+# nano-pyroelectric-detector-sensing>=0.1.0
+
+# Nano-golay cell sensing extraction
+# nano-golay-cell-sensing>=0.1.0
+
+# Nano-photon counting sensing extraction
+# nano-photon-counting-sensing>=0.1.0
+
+# Nano-single photon detection sensing extraction
+# nano-single-photon-detection-sensing>=0.1.0
+
+# Nano-photon number resolving sensing extraction
+# nano-photon-number-resolving-sensing>=0.1.0
+
+# Nano-infrared detection sensing extraction
+# nano-infrared-detection-sensing>=0.1.0
+
+# Nano-visible detection sensing extraction
+# nano-visible-detection-sensing>=0.1.0
+
+# Nano-ultraviolet detection sensing extraction
+# nano-ultraviolet-detection-sensing>=0.1.0
+
+# Nano-x-ray detection sensing extraction
+# nano-xray-detection-sensing>=0.1.0
+
+# Nano-gamma ray detection sensing extraction
+# nano-gamma-detection-sensing>=0.1.0
+
+# Nano-neutron detection sensing extraction
+# nano-neutron-detection-sensing>=0.1.0
+
+# Nano-particle detection sensing extraction
+# nano-particle-detection-sensing>=0.1.0
+
+# Nano-molecule detection sensing extraction
+# nano-molecule-detection-sensing>=0.1.0
+
+# Nano-ion detection sensing extraction
+# nano-ion-detection-sensing>=0.1.0
+
+# Nano-atom detection sensing extraction
+# nano-atom-detection-sensing>=0.1.0
+
+# Nano-electron detection sensing extraction
+# nano-electron-detection-sensing>=0.1.0
+
+# Nano-position sensing extraction
+# nano-position-sensing>=0.1.0
+
+# Nano-displacement sensing extraction
+# nano-displacement-sensing>=0.1.0
+
+# Nano-velocity sensing extraction
+# nano-velocity-sensing>=0.1.0
+
+# Nano-acceleration sensing extraction
+# nano-acceleration-sensing>=0.1.0
+
+# Nano-force sensing extraction
+# nano-force-sensing>=0.1.0
+
+# Nano-pressure sensing extraction
+# nano-pressure-sensing>=0.1.0
+
+# Nano-strain sensing extraction
+# nano-strain-sensing>=0.1.0
+
+# Nano-stress sensing extraction
+# nano-stress-sensing>=0.1.0
+
+# Nano-torque sensing extraction
+# nano-torque-sensing>=0.1.0
+
+# Nano-mass sensing extraction
+# nano-mass-sensing>=0.1.0
+
+# Nano-density sensing extraction
+# nano-density-sensing>=0.1.0
+
+# Nano-viscosity sensing extraction
+# nano-viscosity-sensing>=0.1.0
+
+# Nano-temperature sensing extraction
+# nano-temperature-sensing>=0.1.0
+
+# Nano-thermal conductivity sensing extraction
+# nano-thermal-conductivity-sensing>=0.1.0
+
+# Nano-thermal diffusivity sensing extraction
+# nano-thermal-diffusivity-sensing>=0.1.0
+
+# Nano-heat capacity sensing extraction
+# nano-heat-capacity-sensing>=0.1.0
+
+# Nano-thermal expansion sensing extraction
+# nano-thermal-expansion-sensing>=0.1.0
+
+# Nano-thermal radiation sensing extraction
+# nano-thermal-radiation-sensing>=0.1.0
+
+# Nano-magnetic field sensing extraction
+# nano-magnetic-field-sensing>=0.1.0
+
+# Nano-electric field sensing extraction
+# nano-electric-field-sensing>=0.1.0
+
+# Nano-electromagnetic field sensing extraction

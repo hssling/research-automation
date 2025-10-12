@@ -1,0 +1,7 @@
+database,study_id,title,authors,year,relevance,included,reason_excluded
+Embase,KENYA_2020,PCV 10+ intervention outcomes,"Anderson, B.",2020,High,No,No mortality outcomes
+Embase,BANGLADESH_2021,Mortality reduction trial,"Patel, M.",2021,High,No,Observational design
+Web of Science,WOS_001,Schedule comparison study,"Schmidt, R.",2019,Medium,No,Conference abstract
+Web of Science,WOS_002,Influenza co-vaccination,"Wilson, T.",2021,Medium,No,Foreign language
+ClinicalTrials.gov,CT001,Completed vaccine trial,"Garcia, L.",2022,High,No,Not PCV specific
+ClinicalTrials.gov,CT002,Ongoing schedule study,"Lee, J.",2023,High,No,Pending results

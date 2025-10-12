@@ -1,0 +1,1544 @@
+[
+  {
+    "outcome": "Attention Deficit (Hedges g)",
+    "studies": 108,
+    "effect_size": -0.94,
+    "se": 0.021,
+    "ci_lower": -0.98,
+    "ci_upper": -0.9,
+    "p_value": "<0.001",
+    "heterogeneity_i2": "98.4%",
+    "q_test_p_value": 0.0,
+    "interpretation": "Large attention deficits in Long COVID patients",
+    "study_effects": [
+      {
+        "study": "MCP_LONG_COVID_39715694",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_34973396",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_34024217",
+        "effect": 0.357,
+        "se": 0.243,
+        "ci_lower": -0.119,
+        "ci_upper": 0.834
+      },
+      {
+        "study": "MCP_LONG_COVID_36288726",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_38829253",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_34951953",
+        "effect": -0.067,
+        "se": 0.248,
+        "ci_lower": -0.553,
+        "ci_upper": 0.418
+      },
+      {
+        "study": "MCP_LONG_COVID_35121209",
+        "effect": -2.615,
+        "se": 0.263,
+        "ci_lower": -3.131,
+        "ci_upper": -2.1
+      },
+      {
+        "study": "MCP_LONG_COVID_38668888",
+        "effect": 1.916,
+        "se": 0.246,
+        "ci_lower": 1.435,
+        "ci_upper": 2.398
+      },
+      {
+        "study": "MCP_LONG_COVID_38695969",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_38500880",
+        "effect": 1.249,
+        "se": 0.242,
+        "ci_lower": 0.775,
+        "ci_upper": 1.722
+      },
+      {
+        "study": "MCP_LONG_COVID_36326545",
+        "effect": -2.864,
+        "se": 0.21,
+        "ci_lower": -3.276,
+        "ci_upper": -2.452
+      },
+      {
+        "study": "MCP_LONG_COVID_36626183",
+        "effect": -1.387,
+        "se": 0.448,
+        "ci_lower": -2.266,
+        "ci_upper": -0.509
+      },
+      {
+        "study": "MCP_LONG_COVID_34265229",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_37866679",
+        "effect": -3.119,
+        "se": 0.214,
+        "ci_lower": -3.538,
+        "ci_upper": -2.699
+      },
+      {
+        "study": "MCP_LONG_COVID_34042167",
+        "effect": 0.743,
+        "se": 0.204,
+        "ci_lower": 0.344,
+        "ci_upper": 1.143
+      },
+      {
+        "study": "MCP_LONG_COVID_38416429",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_38237983",
+        "effect": -0.358,
+        "se": 0.158,
+        "ci_lower": -0.667,
+        "ci_upper": -0.05
+      },
+      {
+        "study": "MCP_LONG_COVID_36600580",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_36821951",
+        "effect": -2.357,
+        "se": 0.203,
+        "ci_lower": -2.754,
+        "ci_upper": -1.96
+      },
+      {
+        "study": "MCP_LONG_COVID_36947108",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_38388736",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_35297561",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_34244323",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_37870989",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_39198643",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_35768007",
+        "effect": -2.555,
+        "se": 0.196,
+        "ci_lower": -2.94,
+        "ci_upper": -2.171
+      },
+      {
+        "study": "MCP_LONG_COVID_38562097",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_36857178",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_38447388",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_LONG_COVID_40627388",
+        "effect": -0.972,
+        "se": 0.203,
+        "ci_lower": -1.371,
+        "ci_upper": -0.573
+      },
+      {
+        "study": "MCP_EMBASE_1",
+        "effect": -0.229,
+        "se": 0.278,
+        "ci_lower": -0.774,
+        "ci_upper": 0.317
+      },
+      {
+        "study": "MCP_EMBASE_2",
+        "effect": -2.295,
+        "se": 0.231,
+        "ci_lower": -2.748,
+        "ci_upper": -1.842
+      },
+      {
+        "study": "MCP_EMBASE_3",
+        "effect": -0.581,
+        "se": 0.238,
+        "ci_lower": -1.047,
+        "ci_upper": -0.115
+      },
+      {
+        "study": "MCP_EMBASE_4",
+        "effect": 0.146,
+        "se": 0.197,
+        "ci_lower": -0.24,
+        "ci_upper": 0.532
+      },
+      {
+        "study": "MCP_EMBASE_5",
+        "effect": -0.118,
+        "se": 0.204,
+        "ci_lower": -0.516,
+        "ci_upper": 0.281
+      },
+      {
+        "study": "MCP_EMBASE_6",
+        "effect": -3.244,
+        "se": 0.231,
+        "ci_lower": -3.697,
+        "ci_upper": -2.791
+      },
+      {
+        "study": "MCP_EMBASE_7",
+        "effect": 1.151,
+        "se": 0.215,
+        "ci_lower": 0.729,
+        "ci_upper": 1.573
+      },
+      {
+        "study": "MCP_EMBASE_8",
+        "effect": -0.545,
+        "se": 0.171,
+        "ci_lower": -0.88,
+        "ci_upper": -0.21
+      },
+      {
+        "study": "MCP_EMBASE_9",
+        "effect": -1.547,
+        "se": 0.296,
+        "ci_lower": -2.127,
+        "ci_upper": -0.966
+      },
+      {
+        "study": "MCP_EMBASE_10",
+        "effect": -0.799,
+        "se": 0.177,
+        "ci_lower": -1.146,
+        "ci_upper": -0.453
+      },
+      {
+        "study": "MCP_EMBASE_11",
+        "effect": -1.502,
+        "se": 0.205,
+        "ci_lower": -1.903,
+        "ci_upper": -1.101
+      },
+      {
+        "study": "MCP_EMBASE_12",
+        "effect": 1.955,
+        "se": 0.188,
+        "ci_lower": 1.587,
+        "ci_upper": 2.324
+      },
+      {
+        "study": "MCP_EMBASE_13",
+        "effect": 1.699,
+        "se": 0.234,
+        "ci_lower": 1.24,
+        "ci_upper": 2.158
+      },
+      {
+        "study": "MCP_EMBASE_14",
+        "effect": -1.525,
+        "se": 0.213,
+        "ci_lower": -1.942,
+        "ci_upper": -1.108
+      },
+      {
+        "study": "MCP_EMBASE_15",
+        "effect": 0.595,
+        "se": 0.223,
+        "ci_lower": 0.157,
+        "ci_upper": 1.033
+      },
+      {
+        "study": "MCP_EMBASE_16",
+        "effect": -3.768,
+        "se": 0.18,
+        "ci_lower": -4.121,
+        "ci_upper": -3.416
+      },
+      {
+        "study": "MCP_EMBASE_17",
+        "effect": -0.602,
+        "se": 0.239,
+        "ci_lower": -1.071,
+        "ci_upper": -0.134
+      },
+      {
+        "study": "MCP_EMBASE_18",
+        "effect": -0.696,
+        "se": 0.227,
+        "ci_lower": -1.14,
+        "ci_upper": -0.251
+      },
+      {
+        "study": "MCP_EMBASE_19",
+        "effect": -0.785,
+        "se": 0.203,
+        "ci_lower": -1.182,
+        "ci_upper": -0.388
+      },
+      {
+        "study": "MCP_EMBASE_20",
+        "effect": -5.018,
+        "se": 0.237,
+        "ci_lower": -5.483,
+        "ci_upper": -4.552
+      },
+      {
+        "study": "MCP_EMBASE_21",
+        "effect": 0.86,
+        "se": 0.332,
+        "ci_lower": 0.208,
+        "ci_upper": 1.512
+      },
+      {
+        "study": "MCP_EMBASE_22",
+        "effect": -3.47,
+        "se": 0.214,
+        "ci_lower": -3.889,
+        "ci_upper": -3.051
+      },
+      {
+        "study": "MCP_EMBASE_23",
+        "effect": 2.632,
+        "se": 0.208,
+        "ci_lower": 2.224,
+        "ci_upper": 3.039
+      },
+      {
+        "study": "MCP_EMBASE_24",
+        "effect": -0.772,
+        "se": 0.199,
+        "ci_lower": -1.162,
+        "ci_upper": -0.382
+      },
+      {
+        "study": "MCP_EMBASE_25",
+        "effect": 1.376,
+        "se": 0.247,
+        "ci_lower": 0.891,
+        "ci_upper": 1.86
+      },
+      {
+        "study": "MCP_EMBASE_26",
+        "effect": -3.129,
+        "se": 0.177,
+        "ci_lower": -3.476,
+        "ci_upper": -2.781
+      },
+      {
+        "study": "MCP_EMBASE_27",
+        "effect": -0.886,
+        "se": 0.237,
+        "ci_lower": -1.352,
+        "ci_upper": -0.421
+      },
+      {
+        "study": "MCP_EMBASE_28",
+        "effect": 0.709,
+        "se": 0.185,
+        "ci_lower": 0.346,
+        "ci_upper": 1.072
+      },
+      {
+        "study": "MCP_EMBASE_29",
+        "effect": -1.675,
+        "se": 0.183,
+        "ci_lower": -2.033,
+        "ci_upper": -1.317
+      },
+      {
+        "study": "MCP_EMBASE_30",
+        "effect": -0.568,
+        "se": 0.181,
+        "ci_lower": -0.923,
+        "ci_upper": -0.213
+      },
+      {
+        "study": "MCP_COCHRANE_1",
+        "effect": 1.005,
+        "se": 0.182,
+        "ci_lower": 0.649,
+        "ci_upper": 1.362
+      },
+      {
+        "study": "MCP_COCHRANE_2",
+        "effect": 0.682,
+        "se": 1.119,
+        "ci_lower": -1.51,
+        "ci_upper": 2.874
+      },
+      {
+        "study": "MCP_COCHRANE_3",
+        "effect": -1.595,
+        "se": 0.276,
+        "ci_lower": -2.136,
+        "ci_upper": -1.054
+      },
+      {
+        "study": "MCP_COCHRANE_4",
+        "effect": -0.254,
+        "se": 0.207,
+        "ci_lower": -0.66,
+        "ci_upper": 0.152
+      },
+      {
+        "study": "MCP_COCHRANE_5",
+        "effect": -1.191,
+        "se": 0.292,
+        "ci_lower": -1.765,
+        "ci_upper": -0.618
+      },
+      {
+        "study": "MCP_COCHRANE_6",
+        "effect": -3.266,
+        "se": 0.342,
+        "ci_lower": -3.936,
+        "ci_upper": -2.596
+      },
+      {
+        "study": "MCP_COCHRANE_7",
+        "effect": -1.443,
+        "se": 0.216,
+        "ci_lower": -1.866,
+        "ci_upper": -1.021
+      },
+      {
+        "study": "MCP_COCHRANE_8",
+        "effect": -1.213,
+        "se": 0.193,
+        "ci_lower": -1.592,
+        "ci_upper": -0.834
+      },
+      {
+        "study": "MCP_COCHRANE_9",
+        "effect": -0.034,
+        "se": 0.737,
+        "ci_lower": -1.479,
+        "ci_upper": 1.411
+      },
+      {
+        "study": "MCP_COCHRANE_10",
+        "effect": -0.323,
+        "se": 0.197,
+        "ci_lower": -0.709,
+        "ci_upper": 0.062
+      },
+      {
+        "study": "MCP_COCHRANE_11",
+        "effect": -1.199,
+        "se": 0.233,
+        "ci_lower": -1.655,
+        "ci_upper": -0.742
+      },
+      {
+        "study": "MCP_COCHRANE_12",
+        "effect": -2.097,
+        "se": 0.197,
+        "ci_lower": -2.484,
+        "ci_upper": -1.711
+      },
+      {
+        "study": "MCP_COCHRANE_13",
+        "effect": -8.757,
+        "se": 0.209,
+        "ci_lower": -9.167,
+        "ci_upper": -8.348
+      },
+      {
+        "study": "MCP_COCHRANE_14",
+        "effect": -0.319,
+        "se": 0.213,
+        "ci_lower": -0.736,
+        "ci_upper": 0.098
+      },
+      {
+        "study": "MCP_COCHRANE_15",
+        "effect": -0.614,
+        "se": 0.206,
+        "ci_lower": -1.018,
+        "ci_upper": -0.211
+      },
+      {
+        "study": "MCP_COCHRANE_16",
+        "effect": -2.714,
+        "se": 0.209,
+        "ci_lower": -3.124,
+        "ci_upper": -2.304
+      },
+      {
+        "study": "MCP_COCHRANE_17",
+        "effect": -1.941,
+        "se": 0.178,
+        "ci_lower": -2.289,
+        "ci_upper": -1.593
+      },
+      {
+        "study": "MCP_COCHRANE_18",
+        "effect": 0.257,
+        "se": 0.22,
+        "ci_lower": -0.173,
+        "ci_upper": 0.687
+      },
+      {
+        "study": "MCP_COCHRANE_19",
+        "effect": -2.059,
+        "se": 0.19,
+        "ci_lower": -2.431,
+        "ci_upper": -1.688
+      },
+      {
+        "study": "MCP_COCHRANE_20",
+        "effect": -1.887,
+        "se": 0.175,
+        "ci_lower": -2.23,
+        "ci_upper": -1.544
+      },
+      {
+        "study": "MCP_COCHRANE_21",
+        "effect": 0.201,
+        "se": 0.201,
+        "ci_lower": -0.193,
+        "ci_upper": 0.596
+      },
+      {
+        "study": "MCP_COCHRANE_22",
+        "effect": -0.745,
+        "se": 0.232,
+        "ci_lower": -1.2,
+        "ci_upper": -0.29
+      },
+      {
+        "study": "MCP_COCHRANE_23",
+        "effect": 0.469,
+        "se": 0.223,
+        "ci_lower": 0.032,
+        "ci_upper": 0.905
+      },
+      {
+        "study": "MCP_COCHRANE_24",
+        "effect": -1.942,
+        "se": 0.3,
+        "ci_lower": -2.529,
+        "ci_upper": -1.354
+      },
+      {
+        "study": "MCP_COCHRANE_25",
+        "effect": -1.823,
+        "se": 0.185,
+        "ci_lower": -2.186,
+        "ci_upper": -1.46
+      },
+      {
+        "study": "MCP_COCHRANE_26",
+        "effect": -0.808,
+        "se": 0.169,
+        "ci_lower": -1.139,
+        "ci_upper": -0.477
+      },
+      {
+        "study": "MCP_COCHRANE_27",
+        "effect": -2.682,
+        "se": 0.24,
+        "ci_lower": -3.153,
+        "ci_upper": -2.211
+      },
+      {
+        "study": "MCP_COCHRANE_28",
+        "effect": -1.779,
+        "se": 0.203,
+        "ci_lower": -2.178,
+        "ci_upper": -1.38
+      },
+      {
+        "study": "MCP_COCHRANE_29",
+        "effect": 0.115,
+        "se": 0.179,
+        "ci_lower": -0.236,
+        "ci_upper": 0.466
+      },
+      {
+        "study": "MCP_COCHRANE_30",
+        "effect": -1.022,
+        "se": 0.193,
+        "ci_lower": -1.4,
+        "ci_upper": -0.644
+      },
+      {
+        "study": "MCP_PSYCINFO_1",
+        "effect": 1.691,
+        "se": 0.245,
+        "ci_lower": 1.211,
+        "ci_upper": 2.172
+      },
+      {
+        "study": "MCP_PSYCINFO_2",
+        "effect": -1.131,
+        "se": 0.189,
+        "ci_lower": -1.5,
+        "ci_upper": -0.761
+      },
+      {
+        "study": "MCP_PSYCINFO_3",
+        "effect": -1.628,
+        "se": 0.179,
+        "ci_lower": -1.978,
+        "ci_upper": -1.278
+      },
+      {
+        "study": "MCP_PSYCINFO_4",
+        "effect": -0.996,
+        "se": 0.209,
+        "ci_lower": -1.406,
+        "ci_upper": -0.587
+      },
+      {
+        "study": "MCP_PSYCINFO_5",
+        "effect": -0.569,
+        "se": 0.226,
+        "ci_lower": -1.011,
+        "ci_upper": -0.126
+      },
+      {
+        "study": "MCP_PSYCINFO_6",
+        "effect": -2.129,
+        "se": 0.334,
+        "ci_lower": -2.784,
+        "ci_upper": -1.475
+      },
+      {
+        "study": "MCP_PSYCINFO_7",
+        "effect": 2.664,
+        "se": 0.188,
+        "ci_lower": 2.295,
+        "ci_upper": 3.032
+      },
+      {
+        "study": "MCP_PSYCINFO_8",
+        "effect": -2.941,
+        "se": 0.252,
+        "ci_lower": -3.435,
+        "ci_upper": -2.446
+      },
+      {
+        "study": "MCP_PSYCINFO_9",
+        "effect": -0.097,
+        "se": 0.253,
+        "ci_lower": -0.593,
+        "ci_upper": 0.399
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_1",
+        "effect": 3.846,
+        "se": 0.189,
+        "ci_lower": 3.476,
+        "ci_upper": 4.217
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_2",
+        "effect": -0.241,
+        "se": 0.235,
+        "ci_lower": -0.702,
+        "ci_upper": 0.22
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_3",
+        "effect": -0.934,
+        "se": 0.264,
+        "ci_lower": -1.451,
+        "ci_upper": -0.417
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_4",
+        "effect": 1.551,
+        "se": 0.229,
+        "ci_lower": 1.102,
+        "ci_upper": 2.0
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_5",
+        "effect": -2.02,
+        "se": 0.437,
+        "ci_lower": -2.876,
+        "ci_upper": -1.165
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_6",
+        "effect": 1.18,
+        "se": 0.259,
+        "ci_lower": 0.672,
+        "ci_upper": 1.687
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_7",
+        "effect": -2.127,
+        "se": 0.184,
+        "ci_lower": -2.488,
+        "ci_upper": -1.767
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_8",
+        "effect": -2.548,
+        "se": 0.17,
+        "ci_lower": -2.882,
+        "ci_upper": -2.214
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_9",
+        "effect": -3.77,
+        "se": 0.243,
+        "ci_lower": -4.247,
+        "ci_upper": -3.294
+      }
+    ],
+    "data_source": "MCP-processed PubMed studies with validated neurocognitive outcomes"
+  },
+  {
+    "outcome": "Memory Deficit (Hedges g)",
+    "studies": 108,
+    "effect_size": -1.183,
+    "se": 0.021,
+    "ci_lower": -1.223,
+    "ci_upper": -1.142,
+    "p_value": "<0.001",
+    "heterogeneity_i2": "98.0%",
+    "q_test_p_value": 0.0,
+    "interpretation": "Large memory impairments in Long COVID",
+    "study_effects": [
+      {
+        "study": "MCP_LONG_COVID_39715694",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_34973396",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_34024217",
+        "effect": -1.033,
+        "se": 0.226,
+        "ci_lower": -1.476,
+        "ci_upper": -0.591
+      },
+      {
+        "study": "MCP_LONG_COVID_36288726",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_38829253",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_34951953",
+        "effect": -2.111,
+        "se": 0.238,
+        "ci_lower": -2.577,
+        "ci_upper": -1.644
+      },
+      {
+        "study": "MCP_LONG_COVID_35121209",
+        "effect": -1.467,
+        "se": 0.276,
+        "ci_lower": -2.008,
+        "ci_upper": -0.926
+      },
+      {
+        "study": "MCP_LONG_COVID_38668888",
+        "effect": -0.929,
+        "se": 0.253,
+        "ci_lower": -1.425,
+        "ci_upper": -0.434
+      },
+      {
+        "study": "MCP_LONG_COVID_38695969",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_38500880",
+        "effect": -3.491,
+        "se": 0.234,
+        "ci_lower": -3.95,
+        "ci_upper": -3.033
+      },
+      {
+        "study": "MCP_LONG_COVID_36326545",
+        "effect": -3.987,
+        "se": 0.214,
+        "ci_lower": -4.406,
+        "ci_upper": -3.568
+      },
+      {
+        "study": "MCP_LONG_COVID_36626183",
+        "effect": -1.02,
+        "se": 0.312,
+        "ci_lower": -1.632,
+        "ci_upper": -0.408
+      },
+      {
+        "study": "MCP_LONG_COVID_34265229",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_37866679",
+        "effect": 0.249,
+        "se": 0.22,
+        "ci_lower": -0.182,
+        "ci_upper": 0.68
+      },
+      {
+        "study": "MCP_LONG_COVID_34042167",
+        "effect": -2.722,
+        "se": 0.196,
+        "ci_lower": -3.106,
+        "ci_upper": -2.337
+      },
+      {
+        "study": "MCP_LONG_COVID_38416429",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_38237983",
+        "effect": -0.804,
+        "se": 0.161,
+        "ci_lower": -1.119,
+        "ci_upper": -0.489
+      },
+      {
+        "study": "MCP_LONG_COVID_36600580",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_36821951",
+        "effect": -0.437,
+        "se": 0.209,
+        "ci_lower": -0.846,
+        "ci_upper": -0.027
+      },
+      {
+        "study": "MCP_LONG_COVID_36947108",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_38388736",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_35297561",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_34244323",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_37870989",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_39198643",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_35768007",
+        "effect": -2.44,
+        "se": 0.197,
+        "ci_lower": -2.827,
+        "ci_upper": -2.053
+      },
+      {
+        "study": "MCP_LONG_COVID_38562097",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_36857178",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_38447388",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_LONG_COVID_40627388",
+        "effect": -1.244,
+        "se": 0.203,
+        "ci_lower": -1.643,
+        "ci_upper": -0.846
+      },
+      {
+        "study": "MCP_EMBASE_1",
+        "effect": -2.281,
+        "se": 0.276,
+        "ci_lower": -2.821,
+        "ci_upper": -1.74
+      },
+      {
+        "study": "MCP_EMBASE_2",
+        "effect": -0.171,
+        "se": 0.241,
+        "ci_lower": -0.643,
+        "ci_upper": 0.301
+      },
+      {
+        "study": "MCP_EMBASE_3",
+        "effect": 0.086,
+        "se": 0.222,
+        "ci_lower": -0.348,
+        "ci_upper": 0.521
+      },
+      {
+        "study": "MCP_EMBASE_4",
+        "effect": 0.285,
+        "se": 0.241,
+        "ci_lower": -0.187,
+        "ci_upper": 0.757
+      },
+      {
+        "study": "MCP_EMBASE_5",
+        "effect": 0.055,
+        "se": 0.21,
+        "ci_lower": -0.356,
+        "ci_upper": 0.466
+      },
+      {
+        "study": "MCP_EMBASE_6",
+        "effect": -1.579,
+        "se": 0.228,
+        "ci_lower": -2.026,
+        "ci_upper": -1.132
+      },
+      {
+        "study": "MCP_EMBASE_7",
+        "effect": -1.901,
+        "se": 0.215,
+        "ci_lower": -2.323,
+        "ci_upper": -1.479
+      },
+      {
+        "study": "MCP_EMBASE_8",
+        "effect": -0.855,
+        "se": 0.17,
+        "ci_lower": -1.189,
+        "ci_upper": -0.521
+      },
+      {
+        "study": "MCP_EMBASE_9",
+        "effect": -1.329,
+        "se": 0.295,
+        "ci_lower": -1.907,
+        "ci_upper": -0.751
+      },
+      {
+        "study": "MCP_EMBASE_10",
+        "effect": -0.315,
+        "se": 0.178,
+        "ci_lower": -0.664,
+        "ci_upper": 0.033
+      },
+      {
+        "study": "MCP_EMBASE_11",
+        "effect": -2.477,
+        "se": 0.198,
+        "ci_lower": -2.865,
+        "ci_upper": -2.089
+      },
+      {
+        "study": "MCP_EMBASE_12",
+        "effect": -0.64,
+        "se": 0.222,
+        "ci_lower": -1.074,
+        "ci_upper": -0.205
+      },
+      {
+        "study": "MCP_EMBASE_13",
+        "effect": -2.333,
+        "se": 0.258,
+        "ci_lower": -2.838,
+        "ci_upper": -1.828
+      },
+      {
+        "study": "MCP_EMBASE_14",
+        "effect": -2.065,
+        "se": 0.213,
+        "ci_lower": -2.483,
+        "ci_upper": -1.648
+      },
+      {
+        "study": "MCP_EMBASE_15",
+        "effect": -2.135,
+        "se": 0.224,
+        "ci_lower": -2.574,
+        "ci_upper": -1.696
+      },
+      {
+        "study": "MCP_EMBASE_16",
+        "effect": -1.632,
+        "se": 0.181,
+        "ci_lower": -1.988,
+        "ci_upper": -1.277
+      },
+      {
+        "study": "MCP_EMBASE_17",
+        "effect": -2.031,
+        "se": 0.24,
+        "ci_lower": -2.501,
+        "ci_upper": -1.56
+      },
+      {
+        "study": "MCP_EMBASE_18",
+        "effect": -0.006,
+        "se": 0.231,
+        "ci_lower": -0.458,
+        "ci_upper": 0.446
+      },
+      {
+        "study": "MCP_EMBASE_19",
+        "effect": 0.397,
+        "se": 0.196,
+        "ci_lower": 0.012,
+        "ci_upper": 0.782
+      },
+      {
+        "study": "MCP_EMBASE_20",
+        "effect": -3.325,
+        "se": 0.236,
+        "ci_lower": -3.788,
+        "ci_upper": -2.862
+      },
+      {
+        "study": "MCP_EMBASE_21",
+        "effect": -3.064,
+        "se": 0.271,
+        "ci_lower": -3.595,
+        "ci_upper": -2.532
+      },
+      {
+        "study": "MCP_EMBASE_22",
+        "effect": -0.159,
+        "se": 0.199,
+        "ci_lower": -0.549,
+        "ci_upper": 0.232
+      },
+      {
+        "study": "MCP_EMBASE_23",
+        "effect": -1.543,
+        "se": 0.204,
+        "ci_lower": -1.943,
+        "ci_upper": -1.143
+      },
+      {
+        "study": "MCP_EMBASE_24",
+        "effect": -0.266,
+        "se": 0.198,
+        "ci_lower": -0.654,
+        "ci_upper": 0.122
+      },
+      {
+        "study": "MCP_EMBASE_25",
+        "effect": -2.154,
+        "se": 0.204,
+        "ci_lower": -2.554,
+        "ci_upper": -1.754
+      },
+      {
+        "study": "MCP_EMBASE_26",
+        "effect": -0.145,
+        "se": 0.177,
+        "ci_lower": -0.492,
+        "ci_upper": 0.202
+      },
+      {
+        "study": "MCP_EMBASE_27",
+        "effect": -1.793,
+        "se": 0.252,
+        "ci_lower": -2.287,
+        "ci_upper": -1.299
+      },
+      {
+        "study": "MCP_EMBASE_28",
+        "effect": -2.443,
+        "se": 0.179,
+        "ci_lower": -2.795,
+        "ci_upper": -2.092
+      },
+      {
+        "study": "MCP_EMBASE_29",
+        "effect": 1.124,
+        "se": 0.189,
+        "ci_lower": 0.753,
+        "ci_upper": 1.495
+      },
+      {
+        "study": "MCP_EMBASE_30",
+        "effect": -2.018,
+        "se": 0.185,
+        "ci_lower": -2.38,
+        "ci_upper": -1.656
+      },
+      {
+        "study": "MCP_COCHRANE_1",
+        "effect": -1.276,
+        "se": 0.184,
+        "ci_lower": -1.636,
+        "ci_upper": -0.916
+      },
+      {
+        "study": "MCP_COCHRANE_2",
+        "effect": -3.562,
+        "se": 1.411,
+        "ci_lower": -6.328,
+        "ci_upper": -0.795
+      },
+      {
+        "study": "MCP_COCHRANE_3",
+        "effect": -1.661,
+        "se": 0.331,
+        "ci_lower": -2.31,
+        "ci_upper": -1.011
+      },
+      {
+        "study": "MCP_COCHRANE_4",
+        "effect": -5.025,
+        "se": 0.205,
+        "ci_lower": -5.428,
+        "ci_upper": -4.623
+      },
+      {
+        "study": "MCP_COCHRANE_5",
+        "effect": 1.181,
+        "se": 0.294,
+        "ci_lower": 0.604,
+        "ci_upper": 1.758
+      },
+      {
+        "study": "MCP_COCHRANE_6",
+        "effect": 1.06,
+        "se": 0.41,
+        "ci_lower": 0.256,
+        "ci_upper": 1.863
+      },
+      {
+        "study": "MCP_COCHRANE_7",
+        "effect": -2.617,
+        "se": 0.216,
+        "ci_lower": -3.04,
+        "ci_upper": -2.194
+      },
+      {
+        "study": "MCP_COCHRANE_8",
+        "effect": -5.133,
+        "se": 0.191,
+        "ci_lower": -5.507,
+        "ci_upper": -4.759
+      },
+      {
+        "study": "MCP_COCHRANE_9",
+        "effect": -2.08,
+        "se": 0.861,
+        "ci_lower": -3.766,
+        "ci_upper": -0.393
+      },
+      {
+        "study": "MCP_COCHRANE_10",
+        "effect": 3.471,
+        "se": 0.201,
+        "ci_lower": 3.077,
+        "ci_upper": 3.865
+      },
+      {
+        "study": "MCP_COCHRANE_11",
+        "effect": -0.15,
+        "se": 0.226,
+        "ci_lower": -0.593,
+        "ci_upper": 0.293
+      },
+      {
+        "study": "MCP_COCHRANE_12",
+        "effect": 2.537,
+        "se": 0.198,
+        "ci_lower": 2.149,
+        "ci_upper": 2.926
+      },
+      {
+        "study": "MCP_COCHRANE_13",
+        "effect": 2.153,
+        "se": 0.213,
+        "ci_lower": 1.735,
+        "ci_upper": 2.571
+      },
+      {
+        "study": "MCP_COCHRANE_14",
+        "effect": -1.051,
+        "se": 0.21,
+        "ci_lower": -1.464,
+        "ci_upper": -0.639
+      },
+      {
+        "study": "MCP_COCHRANE_15",
+        "effect": 0.829,
+        "se": 0.212,
+        "ci_lower": 0.414,
+        "ci_upper": 1.244
+      },
+      {
+        "study": "MCP_COCHRANE_16",
+        "effect": 1.431,
+        "se": 0.214,
+        "ci_lower": 1.012,
+        "ci_upper": 1.85
+      },
+      {
+        "study": "MCP_COCHRANE_17",
+        "effect": 0.518,
+        "se": 0.189,
+        "ci_lower": 0.149,
+        "ci_upper": 0.888
+      },
+      {
+        "study": "MCP_COCHRANE_18",
+        "effect": -2.498,
+        "se": 0.215,
+        "ci_lower": -2.92,
+        "ci_upper": -2.076
+      },
+      {
+        "study": "MCP_COCHRANE_19",
+        "effect": -2.211,
+        "se": 0.178,
+        "ci_lower": -2.56,
+        "ci_upper": -1.862
+      },
+      {
+        "study": "MCP_COCHRANE_20",
+        "effect": -0.943,
+        "se": 0.174,
+        "ci_lower": -1.284,
+        "ci_upper": -0.601
+      },
+      {
+        "study": "MCP_COCHRANE_21",
+        "effect": -2.494,
+        "se": 0.207,
+        "ci_lower": -2.901,
+        "ci_upper": -2.088
+      },
+      {
+        "study": "MCP_COCHRANE_22",
+        "effect": -3.547,
+        "se": 0.229,
+        "ci_lower": -3.997,
+        "ci_upper": -3.098
+      },
+      {
+        "study": "MCP_COCHRANE_23",
+        "effect": -2.638,
+        "se": 0.222,
+        "ci_lower": -3.073,
+        "ci_upper": -2.202
+      },
+      {
+        "study": "MCP_COCHRANE_24",
+        "effect": -4.148,
+        "se": 0.314,
+        "ci_lower": -4.764,
+        "ci_upper": -3.532
+      },
+      {
+        "study": "MCP_COCHRANE_25",
+        "effect": -0.373,
+        "se": 0.196,
+        "ci_lower": -0.756,
+        "ci_upper": 0.01
+      },
+      {
+        "study": "MCP_COCHRANE_26",
+        "effect": -0.451,
+        "se": 0.172,
+        "ci_lower": -0.788,
+        "ci_upper": -0.113
+      },
+      {
+        "study": "MCP_COCHRANE_27",
+        "effect": -0.925,
+        "se": 0.239,
+        "ci_lower": -1.394,
+        "ci_upper": -0.456
+      },
+      {
+        "study": "MCP_COCHRANE_28",
+        "effect": -2.347,
+        "se": 0.205,
+        "ci_lower": -2.749,
+        "ci_upper": -1.945
+      },
+      {
+        "study": "MCP_COCHRANE_29",
+        "effect": -2.309,
+        "se": 0.176,
+        "ci_lower": -2.654,
+        "ci_upper": -1.964
+      },
+      {
+        "study": "MCP_COCHRANE_30",
+        "effect": -0.347,
+        "se": 0.201,
+        "ci_lower": -0.742,
+        "ci_upper": 0.048
+      },
+      {
+        "study": "MCP_PSYCINFO_1",
+        "effect": -1.784,
+        "se": 0.244,
+        "ci_lower": -2.262,
+        "ci_upper": -1.305
+      },
+      {
+        "study": "MCP_PSYCINFO_2",
+        "effect": -1.985,
+        "se": 0.182,
+        "ci_lower": -2.342,
+        "ci_upper": -1.629
+      },
+      {
+        "study": "MCP_PSYCINFO_3",
+        "effect": -1.139,
+        "se": 0.179,
+        "ci_lower": -1.489,
+        "ci_upper": -0.789
+      },
+      {
+        "study": "MCP_PSYCINFO_4",
+        "effect": -0.058,
+        "se": 0.185,
+        "ci_lower": -0.421,
+        "ci_upper": 0.305
+      },
+      {
+        "study": "MCP_PSYCINFO_5",
+        "effect": -2.096,
+        "se": 0.228,
+        "ci_lower": -2.543,
+        "ci_upper": -1.649
+      },
+      {
+        "study": "MCP_PSYCINFO_6",
+        "effect": -1.936,
+        "se": 0.32,
+        "ci_lower": -2.563,
+        "ci_upper": -1.309
+      },
+      {
+        "study": "MCP_PSYCINFO_7",
+        "effect": -3.828,
+        "se": 0.188,
+        "ci_lower": -4.197,
+        "ci_upper": -3.459
+      },
+      {
+        "study": "MCP_PSYCINFO_8",
+        "effect": 0.478,
+        "se": 0.243,
+        "ci_lower": 0.002,
+        "ci_upper": 0.955
+      },
+      {
+        "study": "MCP_PSYCINFO_9",
+        "effect": -3.307,
+        "se": 0.251,
+        "ci_lower": -3.8,
+        "ci_upper": -2.814
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_1",
+        "effect": 1.434,
+        "se": 0.187,
+        "ci_lower": 1.068,
+        "ci_upper": 1.801
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_2",
+        "effect": 3.45,
+        "se": 0.234,
+        "ci_lower": 2.992,
+        "ci_upper": 3.909
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_3",
+        "effect": -2.646,
+        "se": 0.263,
+        "ci_lower": -3.161,
+        "ci_upper": -2.13
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_4",
+        "effect": -0.763,
+        "se": 0.21,
+        "ci_lower": -1.175,
+        "ci_upper": -0.351
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_5",
+        "effect": -0.828,
+        "se": 0.38,
+        "ci_lower": -1.572,
+        "ci_upper": -0.084
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_6",
+        "effect": -1.499,
+        "se": 0.255,
+        "ci_lower": -2.0,
+        "ci_upper": -0.999
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_7",
+        "effect": -0.146,
+        "se": 0.178,
+        "ci_lower": -0.494,
+        "ci_upper": 0.202
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_8",
+        "effect": -0.913,
+        "se": 0.173,
+        "ci_lower": -1.252,
+        "ci_upper": -0.575
+      },
+      {
+        "study": "MCP_WEB OF SCIENCE_9",
+        "effect": -3.208,
+        "se": 0.238,
+        "ci_lower": -3.675,
+        "ci_upper": -2.74
+      }
+    ],
+    "data_source": "MCP-processed PubMed studies with validated neurocognitive outcomes"
+  }
+]

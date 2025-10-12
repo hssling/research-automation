@@ -1,0 +1,6 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath	run_accession	covid_status	severity	treatment
+SRR11373875	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373875/SRR11373875.lighting.gz	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373875/SRR11373875.lighting_1.gz	SRR11373875	covid_positive	mild	none
+SRR11373876	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373876/SRR11373876.lighting.gz	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373876/SRR11373876.lighting_1.gz	SRR11373876	covid_positive	moderate	antiviral
+SRR11373877	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373877/SRR11373877.lighting.gz	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373877/SRR11373877.lighting_1.gz	SRR11373877	covid_positive	severe	lung_ventilation
+SRR11373878	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373878/SRR11373878.lighting.gz	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373878/SRR11373878.lighting_1.gz	SRR11373878	covid_negative	none	none
+SRR11373879	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373879/SRR11373879.lighting.gz	https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11373879/SRR11373879.lighting_1.gz	SRR11373879	covid_positive	asymptomatic	none

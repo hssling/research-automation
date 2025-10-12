@@ -1,0 +1,43 @@
+name: research-automation
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Nextflow workflow orchestration
+  - nextflow
+  - openjdk=17
+
+  # R packages for omics analysis
+  - r-deseq2
+  - r-qiime2
+  - r-epitools
+  - bioconductor-dada2
+  - r-tidyverse
+  - bioconductor-phyloseq
+  - r-vegans
+  - r-mixomics
+  - r-knitr
+  - r-kableextra
+
+  # Python data science stack
+  - python=3.11
+  - pandas
+  - requests
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+
+  # Database connectors and document processing
+  - mysql-connector-python
+  - python-docx
+  - lxml
+
+  # Multi-omics integration (R/Quarto for notebooks)
+  - r-quarto
+  - jupyterlab
+
+  # Docker support (conda installation for Docker CLI)
+  - docker

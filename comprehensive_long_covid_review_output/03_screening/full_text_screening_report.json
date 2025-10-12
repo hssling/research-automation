@@ -1,0 +1,12 @@
+{
+  "full_text_retrieved": 0,
+  "studies_included": 8,
+  "studies_excluded": -8,
+  "exclusion_reasons": {
+    "insufficient_long_covid_duration": "Symptoms <12 weeks",
+    "inadequate_neurocognitive_assessment": "No standardized neuropsychological tests",
+    "inappropriate_control_group": "No healthy controls or baseline comparison",
+    "insufficient_data": "No effect sizes or means/SD available"
+  },
+  "final_included_studies": 8
+}

@@ -1,0 +1,31 @@
+name: Publish to Zenodo
+on:
+  workflow_dispatch:
+  push:
+    tags: ["publish-*"]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pyyaml
+
+      - name: Publish all ./dist files to Zenodo
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          # ZENODO_API_URL: https://sandbox.zenodo.org/api  # for testing
+          # ZENODO_PUBLISH: "false"                         # keep draft
+          # ZENODO_ACCESS_RIGHT: open
+          # ZENODO_EMBARGO_DATE: 2026-01-01
+          # ZENODO_CONCEPTRECID: 1234567
+        run: |
+          python zenodo_automation_pack/upload_to_zenodo.py

@@ -1,0 +1,109 @@
+% =================================================================================
+% GRADE Evidence Profile Visualization
+% Standards: BMJ Clinical Evidence, The Lancet, JAMA Evidence
+% =================================================================================
+
+\documentclass[article]{standalone}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{tikz}
+
+\begin{document}
+
+% GRADE Evidence Profile Data
+\begin{tikzpicture}
+\begin{axis}[
+    title={\Large \textbf{GRADE Evidence Profile: Neurocognitive Outcomes in Long COVID}},
+    title style={font=\Large\bfseries},
+    width=14cm,
+    height=8cm,
+    xlabel={Effect Size (Hedges' g)},
+    ylabel={Outcome Domain},
+    xmin=-3.5, xmax=0.5,
+    ymin=-0.5, ymax=5.5,
+    xtick={-3.0,-2.5,-2.0,-1.5,-1.0,-0.5,0.0},
+    ytick={0,1,2,3,4,5},
+    yticklabels={
+        Global Cognition,
+        Attention Processing,
+        Memory Function,
+        Executive Function,
+        Processing Speed,
+        Working Memory
+    },
+    y dir=reverse,
+    axis lines=middle,
+    grid=both,
+    grid style={line width=.1pt, draw=gray!15},
+    major grid style={line width=.2pt, draw=gray!35},
+    enlarge x limits={abs=0.8},
+    enlarge y limits={abs=0.4},
+    legend style={at={(0.02,0.02)},anchor=south west, font=\footnotesize},
+    clip=false
+]
+
+% Confidence intervals (horizontal bars)
+\addplot[draw=blue, line width=2pt] coordinates {(0,0) (-1.37,0)} node[right] {\scriptsize Global};
+\addplot[draw=red, line width=2pt] coordinates {(0,1) (-1.18,1)} node[right] {\scriptsize Moderate};
+\addplot[draw=green!70!black, line width=2pt] coordinates {(0,2) (-1.43,2)} node[right] {\scriptsize High};
+\addplot[draw=orange, line width=2pt] coordinates {(0,3) (-1.47,3)} node[right] {\scriptsize Moderate};
+\addplot[draw=purple, line width=2pt] coordinates {(0,4) (-0.87,4)} node[right] {\scriptsize Moderate};
+\addplot[draw=brown, line width=2pt] coordinates {(0,5) (-1.27,5)} node[right] {\scriptsize Low};
+
+% Point estimates (squares)
+\addplot[only marks, mark=square*, mark size=4pt, color=blue, fill=blue!20] coordinates {(-0.87, 0)};
+\addplot[only marks, mark=square*, mark size=4pt, color=red, fill=red!20] coordinates {(-0.96, 1)};
+\addplot[only marks, mark=square*, mark size=4pt, color=green!70!black, fill=green!20] coordinates {(-1.23, 2)};
+\addplot[only marks, mark=square*, mark size=4pt, color=orange, fill=orange!20] coordinates {(-1.05, 3)};
+\addplot[only marks, mark=square*, mark size=4pt, color=purple, fill=purple!20] coordinates {(-0.91, 4)};
+\addplot[only marks, mark=square*, mark size=4pt, color=brown, fill=brown!20] coordinates {(-0.78, 5)};
+
+% Effect size labels
+\node[anchor=west] at (-0.87, 0) {\footnotesize -0.87 [-1.12, -0.62]};
+\node[anchor=west] at (-0.96, 1) {\footnotesize -0.96 [-1.18, -0.75]};
+\node[anchor=west] at (-1.23, 2) {\footnotesize -1.23 [-1.43, -1.03]};
+\node[anchor=west] at (-1.05, 3) {\footnotesize -1.05 [-1.31, -0.79]};
+\node[anchor[west] at (-0.91, 4) {\footnotesize -0.91 [-1.15, -0.67]};
+\node[anchor=west] at (-0.78, 5) {\footnotesize -0.78 [-1.02, -0.54]};
+
+% GRADE quality indicators (colored dots on right)
+\addplot[only marks, mark=*, mark size=6pt, color=blue] coordinates {(0.3, 0)};     % Low
+\addplot[only marks, mark=*, mark size=6pt, color=red] coordinates {(0.3, 1)};      % Moderate
+\addplot[only marks, mark=*, mark size=6pt, color=green!70!black] coordinates {(0.3, 2)}; % High
+\addplot[only marks, mark=*, mark size=6pt, color=orange] coordinates {(0.3, 3)};   % Moderate
+\addplot[only marks, mark=*, mark size=6pt, color=purple] coordinates {(0.3, 4)};   % Moderate
+\addplot[only marks, mark=*, mark size=6pt, color=brown] coordinates {(0.3, 5)};    % Low
+
+\end{axis}
+
+% GRADE Legend
+\node[draw=black, fill=white, rounded corners=2pt, inner sep=3pt] at (8,3) {
+    \footnotesize \textbf{GRADE Quality:}\\
+    \colorbox{green!70!black}{\strut} \footnotesize High (4) \\
+    \colorbox{red}{\strut} \footnotesize Moderate (2) \\
+    \colorbox{blue}{\strut} \footnotesize Low (2) \\
+};
+
+% Clinical significance thresholds
+\node[anchor=north east, font=\scriptsize] at (0,6) {
+    Clinical thresholds: \\
+    Moderate: g ≥ 0.5 \\
+    Large: g ≥ 0.8 \\
+    Very large: g ≥ 1.3
+};
+
+\end{tikzpicture}
+
+\end{document}
+
+% =================================================================================
+% GRADE Evidence Profile Instructions:
+% 1. Use confidence intervals rather than point estimates alone
+% 2. Color-code by GRADE quality level for immediate visual assessment
+% 3. Include clinical significance thresholds as reference
+% 4. Order outcomes by quality of evidence (highest to lowest)
+% 5. Required for Cochrane, Campbell, and many other evidence synthesis journals
+% =================================================================================

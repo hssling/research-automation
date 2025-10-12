@@ -1,0 +1,85 @@
+date,scenario,scenario_description,mdr_percentage,year
+2024-01-01,Baseline,No additional interventions,14.028798154434181,2024
+2025-01-01,Baseline,No additional interventions,14.334980863231761,2025
+2026-01-01,Baseline,No additional interventions,14.421909600068314,2026
+2027-01-01,Baseline,No additional interventions,14.23953376244339,2027
+2028-01-01,Baseline,No additional interventions,14.051765078584722,2028
+2029-01-01,Baseline,No additional interventions,13.60166054623162,2029
+2030-01-01,Baseline,No additional interventions,12.700383538695016,2030
+2031-01-01,Baseline,No additional interventions,11.904653585258155,2031
+2032-01-01,Baseline,No additional interventions,11.883784743736626,2032
+2033-01-01,Baseline,No additional interventions,11.169968706762186,2033
+2034-01-01,Baseline,No additional interventions,10.638670825904507,2034
+2035-01-01,Baseline,No additional interventions,9.967222443268243,2035
+2024-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,13.377772584266726,2024
+2025-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,13.054874865715053,2025
+2026-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,12.176622977684875,2026
+2027-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,11.281990778968911,2027
+2028-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,10.193110607741406,2028
+2029-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,8.092902024907817,2029
+2030-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,6.086612315524377,2030
+2031-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,4.728411563481898,2031
+2032-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,3.629603900308694,2032
+2033-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,2.032720204841277,2033
+2034-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,2.0,2034
+2035-01-01,BPaL_ScaleUp,BPaL regimen scale-up to 80% coverage,2.0,2035
+2024-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,14.135366262100678,2024
+2025-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,14.28854282761846,2025
+2026-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,13.805824945551649,2026
+2027-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,13.407858391064376,2027
+2028-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,12.040129037652626,2028
+2029-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,10.828226349467911,2029
+2030-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,9.472632180014262,2030
+2031-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,7.709579081304807,2031
+2032-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,6.908483152046644,2032
+2033-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,5.187676853933009,2033
+2034-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,4.249575428729502,2034
+2035-01-01,Drug_Surveillance,Enhanced drug resistance surveillance,3.274824842305702,2035
+2024-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,13.658712043303806,2024
+2025-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,13.652459746867883,2025
+2026-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,12.623005807379723,2026
+2027-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,11.565236831526786,2027
+2028-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,10.464625192069102,2028
+2029-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,9.619849843340441,2029
+2030-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,7.969294092958429,2030
+2031-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,6.243539499840105,2031
+2032-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,4.505379254735601,2032
+2033-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,3.890612302190093,2033
+2034-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,2.5218003439820387,2034
+2035-01-01,Diagnostic_Access,Improved diagnosis access in remote areas,2.0,2035
+2024-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,13.799921031992216,2024
+2025-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,13.18383531245022,2025
+2026-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,11.986975618962846,2026
+2027-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,10.565728019529896,2027
+2028-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,9.146897138367184,2028
+2029-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,7.239325987448419,2029
+2030-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,5.2468168224462115,2030
+2031-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,3.16703115043532,2031
+2032-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,2.0,2032
+2033-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,2.0,2033
+2034-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,2.0,2034
+2035-01-01,Combination_BPaL_Drug,BPaL + drug surveillance combination,2.0,2035
+2024-01-01,Full_Package,Complete intervention package (all above),13.46756061691136,2024
+2025-01-01,Full_Package,Complete intervention package (all above),12.454971131582514,2025
+2026-01-01,Full_Package,Complete intervention package (all above),10.903148418622163,2026
+2027-01-01,Full_Package,Complete intervention package (all above),9.347718153377413,2027
+2028-01-01,Full_Package,Complete intervention package (all above),6.7995218066289045,2028
+2029-01-01,Full_Package,Complete intervention package (all above),5.238740403256044,2029
+2030-01-01,Full_Package,Complete intervention package (all above),3.268658690094875,2030
+2031-01-01,Full_Package,Complete intervention package (all above),2.446791309681929,2031
+2032-01-01,Full_Package,Complete intervention package (all above),2.0,2032
+2033-01-01,Full_Package,Complete intervention package (all above),2.0,2033
+2034-01-01,Full_Package,Complete intervention package (all above),2.0,2034
+2035-01-01,Full_Package,Complete intervention package (all above),2.0,2035
+2024-01-01,Delayed_Response,Delayed intervention implementation,13.345662971184879,2024
+2025-01-01,Delayed_Response,Delayed intervention implementation,13.335117173389634,2025
+2026-01-01,Delayed_Response,Delayed intervention implementation,12.991890375741809,2026
+2027-01-01,Delayed_Response,Delayed intervention implementation,13.329509041680833,2027
+2028-01-01,Delayed_Response,Delayed intervention implementation,13.895787257520762,2028
+2029-01-01,Delayed_Response,Delayed intervention implementation,14.8796357148999,2029
+2030-01-01,Delayed_Response,Delayed intervention implementation,15.723599532394388,2030
+2031-01-01,Delayed_Response,Delayed intervention implementation,17.857304145040423,2031
+2032-01-01,Delayed_Response,Delayed intervention implementation,20.47637694023495,2032
+2033-01-01,Delayed_Response,Delayed intervention implementation,23.230310678137467,2033
+2034-01-01,Delayed_Response,Delayed intervention implementation,27.04146334722536,2034
+2035-01-01,Delayed_Response,Delayed intervention implementation,31.240553050232947,2035

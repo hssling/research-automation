@@ -1,0 +1,15 @@
+{
+  "studies_screened": 12,
+  "studies_passed": 0,
+  "exclusion_reasons": {
+    "not_long_covid": 12,
+    "not_neurocognitive": 12,
+    "no_comparison_group": 12
+  },
+  "criteria_applied": [
+    "long_covid_terms",
+    "neurocognitive_terms",
+    "comparison_group",
+    "sufficient_detail"
+  ]
+}

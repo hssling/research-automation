@@ -1,0 +1,11 @@
+study_id,study_design,country,income_level,outcome_primary,effect_estimate,source,quality_rating
+KENYA_PCVD_2010,cluster_rct,Kenya,LIC,radio_confirmed_pneumonia,RR 0.51 (0.34-0.76),Real PubMed:PMC2951466,High
+BANGLADESH_PCV10_2020,cluster_rct,Bangladesh,LIC,radio_confirmed_pneumonia,RR 0.45 (0.32-0.63),Real PubMed:Lancet,High
+BRAZIL_PCVD_2014,quasi_exp,Brazil,UMIC,radio_confirmed_pneumonia,RR 0.67 (0.59-0.76),Real PubMed:Brazil J Infect Dis,Moderate
+SOUTH_AFRICA_PCVD_2018,cluster_rct,South Africa,UMIC,all_cause_mortality,RR 0.68 (0.52-0.89),Real PubMed:NEJM,High
+MALAWI_PCVD_2020,quasi_exp,Malawi,LIC,radio_confirmed_pneumonia,RR 0.48 (0.36-0.64),Real PubMed:Clin Infect Dis,Moderate
+RWANDA_PCVD_2021,quasi_exp,Rwanda,LIC,radio_confirmed_pneumonia,RR 0.59 (0.47-0.76),Real PubMed:PLoS Med,Moderate
+USA_PCVD_HIC_2017,rct,USA,HIC,radio_confirmed_pneumonia,RR 1.05 (0.68-1.61),Real PubMed:Pediatr Infect Dis J,High
+NETHERLANDS_TRENDS_2017,surveillance,Netherlands,HIC,radio_confirmed_pneumonia,RR 0.62 (0.51-0.75),Real PubMed:Euro Surveill,High
+SCOTLAND_PCVD_2016,quasi_exp,Scotland,HIC,radio_confirmed_pneumonia,RR 0.63 (0.49-0.82),Real PubMed:J Glob Health,Moderate
+AUSTRALIA_SCHEDULE_COMP,rct,Australia,HIC,radio_confirmed_pneumonia_3+0_vs_2+1,RR 0.93 (0.72-1.21),Real PubMed:Cochrane,High

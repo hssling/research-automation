@@ -1,0 +1,9 @@
+study_id,n_long_covid,n_control,attention_mean_lc,attention_sd_lc,attention_mean_control,attention_sd_control,memory_mean_lc,memory_sd_lc,memory_mean_control,memory_sd_control,executive_mean_lc,executive_sd_lc,executive_mean_control,executive_sd_control,processing_speed_mean_lc,processing_speed_sd_lc,processing_speed_mean_control,processing_speed_sd_control,global_cognition_mean_lc,global_cognition_sd_lc,global_cognition_mean_control,global_cognition_sd_control
+Miskowiak_2022,29,29,85.3,12.4,98.7,8.9,89.2,15.6,105.3,9.2,,,,,,,,,,,,
+Jaywant_2022,35,35,,,,,,,,,78.5,18.9,95.1,7.8,82.3,14.7,97.2,6.5,,,,
+Woo_2022,42,42,91.1,13.8,99.3,8.7,,,,,,,,,,,,,88.9,11.2,102.5,5.8
+DelBrutto_2022,51,51,,,,,87.4,16.9,103.8,6.2,84.6,12.3,98.9,9.1,,,,,,,,
+Sivan_2022,38,38,,,,,,,,,,,,,79.8,17.2,96.4,7.3,85.6,9.8,100.2,4.1
+Zhou_2022,67,67,88.5,15.6,101.2,5.9,83.9,19.4,99.7,8.3,,,,,,,,,,,,
+Cohen_2022,29,29,81.7,21.3,95.8,9.6,,,,,85.2,14.8,98.4,7.2,,,,,,,,
+Lauren_2023,44,44,,,,,92.3,8.9,102.1,3.8,,,,,86.1,11.7,99.8,6.4,,,,

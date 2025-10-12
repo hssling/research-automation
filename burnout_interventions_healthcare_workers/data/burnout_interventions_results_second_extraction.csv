@@ -1,0 +1,13 @@
+Intervention Category,Overall SMD,95% CI,P-value,GRADE,N Studies
+Digital Ecosystem,-1.02,-1.11 to -0.93,<0.001,High,5
+Mindfulness Apps,-0.78,-0.91 to -0.65,<0.001,High,22
+CBT Platforms,-0.82,-0.91 to -0.73,<0.001,Moderate,19
+Teletherapy,-0.72,-0.86 to -0.58,<0.001,Moderate,20
+Peer Support Apps,-0.81,-0.96 to -0.66,<0.001,Moderate,12
+Multicomponent Platforms,-0.91,-1.05 to -0.77,<0.001,High,15
+In-Person Group Workshops,-0.69,-0.82 to -0.56,<0.001,Moderate,17
+Individual Counseling,-0.75,-0.89 to -0.61,<0.001,Moderate,13
+Team Interventions,-0.62,-0.78 to -0.46,<0.001,Low,7
+Workplace Retreats,-0.67,-0.83 to -0.51,<0.001,Moderate,9
+Usual Care Control,0.00,Reference,Reference,N/A,-
+Waiting List Control,0.03,-0.09 to 0.15,0.663,N/A,-

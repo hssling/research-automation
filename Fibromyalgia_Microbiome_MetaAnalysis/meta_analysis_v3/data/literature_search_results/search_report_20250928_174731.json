@@ -1,0 +1,13 @@
+{
+  "search_timestamp": "2025-09-28T17:47:31.212023",
+  "databases_searched": [
+    "PubMed",
+    "CrossRef",
+    "Google Scholar",
+    "OpenAlex"
+  ],
+  "query_applied": "(\"Fibromyalgia\"[Mesh] OR fibromyalgia[tiab] OR \"Chronic Widespread Pain\"[tiab] OR myalgia[tiab]) AND (\"Microbiota\"[Mesh] OR microbiome[tiab] OR \"Gut Microbiome\"[tiab] OR dysbiosis[tiab] OR \"Bacterial Diversity\"[tiab]) AND (\"Diversity\"[tiab] OR \"Alpha diversity\"[tiab] OR \"Beta diversity\"[tiab] OR richness[tiab] OR \"16S rRNA\"[tiab] OR \"Metagenomics\"[tiab]) NOT (Review[pt] OR Meta-Analysis[pt] OR Editorial[pt] OR Letter[pt] OR Case Reports[pt]) AND (Humans[Mesh])",
+  "results_per_database": {},
+  "total_unique_articles": 0,
+  "fibromyalgia_microbiome_studies_found": 0
+}

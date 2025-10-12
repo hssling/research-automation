@@ -1,0 +1,74 @@
+
+R version 4.5.1 (2025-06-13 ucrt) -- "Great Square Root"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> install.packages('languageserver', repos='https://cran.rstudio.com/')
+Installing package into 'C:/Users/hssli/AppData/Local/R/win-library/4.5'
+(as 'lib' is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/languageserver_0.3.16.zip'
+Content type 'application/zip' length 837784 bytes (818 KB)
+==================================================
+downloaded 818 KB
+
+package 'languageserver' successfully unpacked and MD5 sums checked
+Warning: cannot remove prior installation of package 'languageserver'
+Warning: restored 'languageserver'
+
+The downloaded binary packages are in
+	C:\Users\hssli\AppData\Local\Temp\RtmpKYiKhH\downloaded_packages
+Warning message:
+In file.copy(savedcopy, lib, recursive = TRUE) :
+  problem copying C:\Users\hssli\AppData\Local\R\win-library\4.5\00LOCK\languageserver\libs\x64\languageserver.dll to C:\Users\hssli\AppData\Local\R\win-library\4.5\languageserver\libs\x64\languageserver.dll: Permission denied
+> install.packages('rlang', repos='https://cran.rstudio.com/')
+Installing package into 'C:/Users/hssli/AppData/Local/R/win-library/4.5'
+(as 'lib' is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/rlang_1.1.6.zip'
+Content type 'application/zip' length 1626379 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+package 'rlang' successfully unpacked and MD5 sums checked
+Warning: cannot remove prior installation of package 'rlang'
+Warning: restored 'rlang'
+
+The downloaded binary packages are in
+	C:\Users\hssli\AppData\Local\Temp\RtmpKYiKhH\downloaded_packages
+Warning message:
+In file.copy(savedcopy, lib, recursive = TRUE) :
+  problem copying C:\Users\hssli\AppData\Local\R\win-library\4.5\00LOCK\rlang\libs\x64\rlang.dll to C:\Users\hssli\AppData\Local\R\win-library\4.5\rlang\libs\x64\rlang.dll: Permission denied
+> install.packages('fs', repos='https://cran.rstudio.com/')
+Installing package into 'C:/Users/hssli/AppData/Local/R/win-library/4.5'
+(as 'lib' is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/fs_1.6.6.zip'
+Content type 'application/zip' length 409771 bytes (400 KB)
+==================================================
+downloaded 400 KB
+
+package 'fs' successfully unpacked and MD5 sums checked
+Warning: cannot remove prior installation of package 'fs'
+Warning: restored 'fs'
+
+The downloaded binary packages are in
+	C:\Users\hssli\AppData\Local\Temp\RtmpKYiKhH\downloaded_packages
+Warning message:
+In file.copy(savedcopy, lib, recursive = TRUE) :
+  problem copying C:\Users\hssli\AppData\Local\R\win-library\4.5\00LOCK\fs\libs\x64\fs.dll to C:\Users\hssli\AppData\Local\R\win-library\4.5\fs\libs\x64\fs.dll: Permission denied
+> 
+> proc.time()
+   user  system elapsed 
+   3.81    1.68   12.17 

@@ -1,0 +1,4 @@
+Outcome,Studies,Participants,Model,Effect Size,95% CI,P-value,I²,GRADE
+Depression Risk,69,"864,521",Random Effects,0.83,0.76-0.91,<0.001,68%,High
+Anxiety Risk,40,"552,433",Random Effects,0.89,0.82-0.96,<0.001,61%,Moderate
+Cognitive Decline,46,"406,832",Random Effects,0.81,0.73-0.89,<0.001,74%,High

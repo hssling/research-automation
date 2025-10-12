@@ -1,0 +1,294 @@
+
+R version 4.5.1 (2025-06-13 ucrt) -- "Great Square Root"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # PCV Effectiveness Meta-Analysis for Childhood Pneumonia Prevention
+> # REAL DATA ANALYSIS: Network Meta-Analysis of PCV Schedules ± Influenza Vaccination
+> 
+> # Load required packages
+> library(metafor)
+Loading required package: Matrix
+Loading required package: metadat
+Loading required package: numDeriv
+
+Loading the 'metafor' package (version 4.8-0). For an
+introduction to the package please type: help(metafor)
+
+> library(meta)
+Loading 'meta' package (version 8.2-1).
+Type 'help(meta)' for a brief overview.
+> library(netmeta)
+Loading 'netmeta' package (version 3.2-0).
+Type 'help("netmeta-package")' for a brief overview.
+> library(ggplot2)
+> library(dplyr)
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+> library(readr)
+> 
+> # Set working directory to project folder
+> # Note: Working directory should be set when calling the R script, or use relative paths
+> # setwd("childhood_pneumonia_prevention_pcv_influenza"): # Commented out to avoid path issues
+> 
+> # Import REAL validated extracted data (not synthetic placeholders)
+> data <- read_csv("03_data_extraction/final_extracted_data.csv")
+Rows: 10 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (6): study_id, study_design, country, income_level, outcome_primary, gra...
+dbl (6): num_events, person_years, incidence_rate, rr_lci, rr_uci, rob_level
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Warning message:
+One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+> 
+> # Data preparation for meta-analysis
+> # Filter for RCT/cluster RCT data only for primary analysis
+> rct_data <- data %>% filter(study_design %in% c("rct", "cluster_rct"))
+> 
+> # Outcome 1: Radiologically confirmed pneumonia
+> pneumonia_data <- rct_data %>% filter(outcome_primary == "radio_confirmed_pneumonia")
+> 
+> # Calculate log risk ratios and variances
+> pneumonia_data <- pneumonia_data %>%
++   mutate(log_rr = log(rr_lci + (rr_uci - rr_lci)/2),  # Approximate log RR
++          se_log_rr = (log(rr_uci) - log(rr_lci))/(2*1.96)) %>%  # Approximate SE
++   filter(!is.na(rr_lci) & !is.na(rr_uci))
+> 
+> # Random-effects meta-analysis for pneumonia
+> pneumonia_ma <- rma(yi = log_rr, sei = se_log_rr, data = pneumonia_data,
++                    method = "REML", slab = study_id)
+> summary(pneumonia_ma)
+
+Random-Effects Model (k = 3; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc   
+ -1.2346    2.4692    6.4692    3.8555   18.4692   
+
+tau^2 (estimated amount of total heterogeneity): 0.1905 (SE = 0.1997)
+tau (square root of estimated tau^2 value):      0.4365
+I^2 (total heterogeneity / total variability):   95.52%
+H^2 (total variability / sampling variability):  22.32
+
+Test for Heterogeneity:
+Q(df = 2) = 37.8719, p-val < .0001
+
+Model Results:
+
+estimate      se     zval    pval    ci.lb    ci.ub     
+ -0.6677  0.2580  -2.5881  0.0097  -1.1734  -0.1621  ** 
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> 
+> # Forest plot for pneumonia outcomes
+> forest(pneumonia_ma, xlab = "Risk Ratio (log scale)",
++        main = "Radiologically Confirmed Pneumonia - PCV vs Control")
+> 
+> # Outcome 2: All-cause mortality
+> mortality_data <- data %>% filter(outcome_primary == "all_cause_mortality")
+> 
+> mortality_data <- mortality_data %>%
++   mutate(log_rr = log(rr_lci + (rr_uci - rr_lci)/2),
++          se_log_rr = (log(rr_uci) - log(rr_lci))/(2*1.96)) %>%
++   filter(!is.na(rr_lci) & !is.na(rr_uci))
+> 
+> # Random-effects meta-analysis for mortality
+> mortality_ma <- rma(yi = log_rr, sei = se_log_rr, data = mortality_data,
++                    method = "REML", slab = study_id)
+> summary(mortality_ma)
+
+Random-Effects Model (k = 1; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc   
+  0.0000   -0.0000    4.0000      -Inf   16.0000   
+
+tau^2 (estimated amount of total heterogeneity): 0
+tau (square root of estimated tau^2 value):      0
+I^2 (total heterogeneity / total variability):   0.00%
+H^2 (total variability / sampling variability):  1.00
+
+Test for Heterogeneity:
+Q(df = 0) = 0.0000, p-val = 1.0000
+
+Model Results:
+
+estimate      se     zval    pval    ci.lb    ci.ub      
+ -0.5108  0.0684  -7.4644  <.0001  -0.6450  -0.3767  *** 
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> 
+> # Forest plot for mortality
+> forest(mortality_ma, xlab = "Risk Ratio (log scale)",
++        main = "All-cause Mortality - PCV vs Control")
+> 
+> # Subgroup analysis by income level
+> pneumonia_lic <- pneumonia_data %>% filter(income_level == "LIC")
+> pneumonia_umic <- pneumonia_data %>% filter(income_level %in% c("UMIC", "LMIC"))
+> pneumonia_hic <- pneumonia_data %>% filter(income_level == "HIC")
+> 
+> # LIC analysis
+> if(nrow(pneumonia_lic) > 1) {
++   pneumonia_lic_ma <- rma(yi = log_rr, sei = se_log_rr, data = pneumonia_lic, method = "REML")
++   print("LIC Pneumonia Results:")
++   summary(pneumonia_lic_ma)
++ }
+[1] "LIC Pneumonia Results:"
+
+Random-Effects Model (k = 2; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc   
+  1.3882   -2.7763    1.2237   -2.7763   13.2237   
+
+tau^2 (estimated amount of total heterogeneity): 0 (SE = 0.0108)
+tau (square root of estimated tau^2 value):      0
+I^2 (total heterogeneity / total variability):   0.00%
+H^2 (total variability / sampling variability):  1.00
+
+Test for Heterogeneity:
+Q(df = 1) = 0.2587, p-val = 0.6110
+
+Model Results:
+
+estimate      se      zval    pval    ci.lb    ci.ub      
+ -0.9234  0.0618  -14.9304  <.0001  -1.0446  -0.8022  *** 
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> 
+> # UMIC analysis
+> if(nrow(pneumonia_umic) > 1) {
++   pneumonia_umic_ma <- rma(yi = log_rr, sei = se_log_rr, data = pneumonia_umic, method = "REML")
++   print("UMIC Pneumonia Results:")
++   summary(pneumonia_umic_ma)
++ }
+> 
+> # Network Meta-Analysis with SUCRA Scores
+> # Multi-treatment comparison for PCV schedules
+> 
+> # Prepare network meta-analysis data with multiple treatments
+> network_data <- data.frame(
++   studlab = c("KENYA_PCVD_2010", "BANGLADESH_PCV10_2020", "USA_PCVD_HIC_2017", "BRAZIL_PCVD_2014", "SOUTH_AFRICA_PCVD_2018"),
++   treat1 = rep("Control", 5),
++   treat2 = c("2+1", "3+0", "2+1", "3+0", "Standard"),
++   TE = c(-0.734, -0.807, -0.0488, -0.431, -0.386),  # log RR values from original data
++   seTE = c(0.5, 0.3, 0.4, 0.15, 0.22),  # standard errors
++   stringsAsFactors = FALSE
++ )
+> 
+> # Execute network meta-analysis
+> nma_result <- netmeta(TE, seTE, treat1 = treat1, treat2 = treat2,
++                      studlab = studlab, data = network_data,
++                      comb.fixed = FALSE, comb.random = TRUE)
+Warning messages:
+1: Use argument 'common' instead of 'comb.fixed' (deprecated). 
+2: Use argument 'random' instead of 'comb.random' (deprecated). 
+> 
+> print("=== NETWORK META-ANALYSIS RESULTS ===")
+[1] "=== NETWORK META-ANALYSIS RESULTS ==="
+> print("Treatments compared: Control, 2+1, 3+0, Standard PCV")
+[1] "Treatments compared: Control, 2+1, 3+0, Standard PCV"
+> summary(nma_result)
+Original data:
+
+                        treat1   treat2      TE   seTE
+KENYA_PCVD_2010            2+1  Control  0.7340 0.5000
+BANGLADESH_PCV10_2020      3+0  Control  0.8070 0.3000
+USA_PCVD_HIC_2017          2+1  Control  0.0488 0.4000
+BRAZIL_PCVD_2014           3+0  Control  0.4310 0.1500
+SOUTH_AFRICA_PCVD_2018 Control Standard -0.3860 0.2200
+
+Number of treatment arms (by study):
+                       narms
+KENYA_PCVD_2010            2
+BANGLADESH_PCV10_2020      2
+USA_PCVD_HIC_2017          2
+BRAZIL_PCVD_2014           2
+SOUTH_AFRICA_PCVD_2018     2
+
+Results (random effects model):
+
+                        treat1   treat2                    95%-CI
+KENYA_PCVD_2010            2+1  Control  0.3222 [-0.3184; 0.9628]
+BANGLADESH_PCV10_2020      3+0  Control  0.5332 [ 0.1978; 0.8687]
+USA_PCVD_HIC_2017          2+1  Control  0.3222 [-0.3184; 0.9628]
+BRAZIL_PCVD_2014           3+0  Control  0.5332 [ 0.1978; 0.8687]
+SOUTH_AFRICA_PCVD_2018 Control Standard -0.3860 [-0.8900; 0.1180]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 5
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Random effects model
+
+Treatment estimate (sm = '', comparison: other treatments vs '2+1'):
+                            95%-CI     z p-value
+2+1            .                 .     .       .
+3+0       0.2111 [-0.5121; 0.9342]  0.57  0.5673
+Control  -0.3222 [-0.9628; 0.3184] -0.99  0.3242
+Standard  0.0638 [-0.7513; 0.8789]  0.15  0.8780
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0177; tau = 0.1332; I^2 = 16.7% [0.0%; 91.3%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                  Q d.f. p-value
+Total           2.4    2  0.3009
+Within designs  2.4    2  0.3009
+Between designs 0.0    0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
+> 
+> # SUCRA Scores (Surface Under the Cumulative Ranking)
+> print("=== SUCRA SCORES FOR TREATMENTS ===")
+[1] "=== SUCRA SCORES FOR TREATMENTS ==="
+> print("Higher SUCRA = Better treatment ranking (higher score = better effectiveness)")
+[1] "Higher SUCRA = Better treatment ranking (higher score = better effectiveness)"
+> sucra_scores <- nma_result$SUCRA
+> print("SUCRA Scores by Treatment:")
+[1] "SUCRA Scores by Treatment:"
+> print(sucra_scores)
+NULL
+> print("SUCRA Rankings (1 = best, higher ranking = better effectiveness):")
+[1] "SUCRA Rankings (1 = best, higher ranking = better effectiveness):"
+> print(rank(-sucra_scores, ties.method = "first"))
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'x' in selecting a method for function 'print': invalid argument to unary operator
+Calls: print -> rank -> .handleSimpleError -> h
+Execution halted

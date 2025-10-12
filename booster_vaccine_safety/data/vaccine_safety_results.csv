@@ -1,0 +1,5 @@
+Vaccine Type,Studies,RR (95% CI),I²,GRADE Rating
+COVID-19,12,1.18 (1.11-1.25),71%,High
+Influenza,5,1.09 (0.97-1.23),49%,Moderate
+HPV,4,1.11 (0.98-1.27),62%,Moderate
+Overall,21,1.15 (1.08-1.22),68%,High

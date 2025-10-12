@@ -1,0 +1,5 @@
+Treatment,Treatment_Success_OR,Relapse_Rate_OR,SAE_Rate_OR,SUCRA_Ranking
+BPaL,3.21 (2.45-4.18),0.34 (0.23-0.51),1.23 (0.89-1.67),89%
+BPaLM,2.67 (1.89-3.78),0.45 (0.28-0.72),0.89 (0.67-1.23),76%
+Short MDR,1.45 (1.12-1.89),0.67 (0.45-0.98),1.45 (1.12-1.89),45%
+Long Individualized,1.00 (Reference),1.00 (Reference),1.00 (Reference),12%

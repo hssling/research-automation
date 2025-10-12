@@ -1,0 +1,20 @@
+{
+  "search_date": "2025-09-24T23:12:27.143666",
+  "total_studies_found": 111,
+  "research_domains": 5,
+  "research_gaps": [
+    "Longitudinal microbiome studies tracking resistance development",
+    "Multi-omics integration (microbiome + transcriptome + metabolome)",
+    "Causal mechanisms linking gut dysbiosis to pulmonary susceptibility",
+    "Prospective clinical trials validating microbiome signatures"
+  ],
+  "methodological_concerns": [
+    "Small sample sizes in microbiome studies",
+    "Confounding factors in gut-lung microbiome correlations",
+    "Limited validation across diverse populations",
+    "Technological variability in sequencing approaches"
+  ],
+  "evidence_level": "Moderate - Emerging Field",
+  "clinical_potential": "High - Promising Biomarkers",
+  "translation_readiness": "Development Stage"
+}

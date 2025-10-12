@@ -1,0 +1,12 @@
+{
+  "research_question": "Reduced Gut Microbiome Diversity in Fibromyalgia",
+  "total_studies_searched": 20,
+  "diversity_studies_identified": 0,
+  "search_date": "2025-09-25T00:13:59.757213",
+  "screening_criteria": "PubMed search filtered for diversity terminology",
+  "next_steps": [
+    "Full-text screening",
+    "Data extraction for diversity metrics",
+    "Meta-analysis"
+  ]
+}

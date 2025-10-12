@@ -1,0 +1,81 @@
+# 📊 Codecov Configuration for Research Automation System
+
+coverage:
+  status:
+    project:
+      default:
+        target: 80%
+        threshold: 1%
+    patch:
+      default:
+        target: 80%
+        threshold: 1%
+
+  range: 70..90
+
+comment:
+  layout: "reach,diff,flags,tree"
+  behavior: default
+  require_changes: no
+  require_base: no
+  require_head: yes
+
+github_checks:
+  annotations: true
+
+ignore:
+  - "tests/"
+  - "docs/"
+  - "scripts/"
+  - "env/"
+  - ".github/"
+  - "setup.py"
+  - "**/test_*.py"
+  - "**/*_test.py"
+
+flags:
+  # 🐍 Python Backend Coverage
+  python-backend:
+    paths:
+      - research_automation/
+    carryforward: true
+
+  # 📊 R Scripts Coverage
+  r-scripts:
+    paths:
+      - research-automation/**/*.R
+    carryforward: true
+
+  # 🧪 Tests Coverage
+  tests:
+    paths:
+      - tests/
+    carryforward: false
+
+component_management:
+  individual_components:
+    # Core research automation functionality
+    - component_id: "core-research"
+      name: "Core Research Automation"
+      paths:
+        - research_automation/cli.py
+        - research_automation/search.py
+        - research_automation/analysis.py
+
+    # Systematic review tools
+    - component_id: "systematic-review"
+      name: "Systematic Review Tools"
+      paths:
+        - research_automation/systematic_review/
+
+    # Meta-analysis functionality
+    - component_id: "meta-analysis"
+      name: "Meta-Analysis"
+      paths:
+        - research_automation/meta_analysis/
+
+    # Publication quality tools
+    - component_id: "publication"
+      name: "Publication Quality"
+      paths:
+        - research_automation/publication/

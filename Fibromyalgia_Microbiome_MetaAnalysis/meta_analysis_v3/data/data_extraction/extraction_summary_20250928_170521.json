@@ -1,0 +1,29 @@
+{
+  "total_studies": 10,
+  "total_participants_fm": 410,
+  "total_participants_control": 416,
+  "average_age_fm": 46.1,
+  "female_percent_fm": 86.9,
+  "countries_represented": 4,
+  "studies_by_design": {
+    "Cohort": 4,
+    "Case-control": 4,
+    "Cross-sectional": 2
+  },
+  "studies_by_quality": {
+    "Low": 6,
+    "Moderate": 4
+  },
+  "sequencing_platforms": {
+    "NovaSeq": 5,
+    "Ion Torrent": 3,
+    "Illumina MiSeq": 1,
+    "Illumina HiSeq": 1
+  },
+  "body_sites": {
+    "gut": 3,
+    "intestinal": 3,
+    "feces": 3,
+    "stool": 1
+  }
+}

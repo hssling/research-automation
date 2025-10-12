@@ -1,0 +1,318 @@
+{
+  "pubmed": {
+    "total_count": 2,
+    "detailed_count": 2,
+    "results": [
+      {
+        "pmid": "39464394",
+        "title": "Screening of novel narrow-spectrum benzofuroxan derivatives for the treatment of multidrug-resistant tuberculosis through in silico, in vitro, and in vivo approaches.",
+        "authors": [
+          {
+            "name": "Campos DL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Canales CSC",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Demarqui FM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Fernandes GFS",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dos Santos CG",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Prates JLB",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "da Silva IGM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Barros-Cordeiro KB",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Báo SN",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "de Andrade LN",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Abichabki N",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zacharias LV",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "de Campos MMA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dos Santos JL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Pavan FR",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "journal": "Frontiers in microbiology",
+        "pub_date": "2024",
+        "doi": "doi: 10.3389/fmicb.2024.1487829",
+        "database": "PubMed"
+      },
+      {
+        "pmid": "30685590",
+        "title": "Improving treatment outcomes for MDR-TB - Novel host-directed therapies and personalised medicine of the future.",
+        "authors": [
+          {
+            "name": "Rao M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ippolito G",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mfinanga S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ntoumi F",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yeboah-Manu D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Vilaplana C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zumla A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Maeurer M",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "pub_date": "2019 Mar",
+        "doi": "doi: 10.1016/j.ijid.2019.01.039",
+        "database": "PubMed"
+      }
+    ]
+  },
+  "embase": {
+    "total_count": 0,
+    "detailed_count": 0,
+    "results": [],
+    "note": "Skipped - requires institutional subscription",
+    "status": "skipped_institutional"
+  },
+  "cochrane": {
+    "total_count": 0,
+    "detailed_count": 0,
+    "results": [],
+    "note": "Skipped - requires institutional subscription",
+    "status": "skipped_institutional"
+  },
+  "web_of_science": {
+    "total_count": 0,
+    "detailed_count": 0,
+    "results": [],
+    "note": "Skipped - requires institutional subscription",
+    "status": "skipped_institutional"
+  },
+  "clinicaltrials_gov": {
+    "total_count": 0,
+    "detailed_count": 0,
+    "results": [],
+    "error": "400 Client Error: Bad Request for url: https://clinicaltrials.gov/api/v2/studies?query.cond=multidrug-resistant+tuberculosis+OR+MDR+tuberculosis&query.inter=probiotic+OR+synbiotic+OR+postbiotic+OR+prebiotic+OR+microbiome&query.outc=treatment+outcome+OR+cure+OR+conversion+OR+efficacy&filter.overallStatus=COMPLETED&pageSize=100&countTotal=true"
+  },
+  "who_ictrp": {
+    "total_count": 0,
+    "detailed_count": 0,
+    "results": [],
+    "error": "403 Client Error: Forbidden for url: https://trialsearch.who.int/API"
+  },
+  "deduplicated": {
+    "total_before_dedup": 2,
+    "total_after_dedup": 2,
+    "duplicate_count": 0,
+    "results": [
+      {
+        "pmid": "39464394",
+        "title": "Screening of novel narrow-spectrum benzofuroxan derivatives for the treatment of multidrug-resistant tuberculosis through in silico, in vitro, and in vivo approaches.",
+        "authors": [
+          {
+            "name": "Campos DL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Canales CSC",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Demarqui FM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Fernandes GFS",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dos Santos CG",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Prates JLB",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "da Silva IGM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Barros-Cordeiro KB",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Báo SN",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "de Andrade LN",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Abichabki N",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zacharias LV",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "de Campos MMA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dos Santos JL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Pavan FR",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "journal": "Frontiers in microbiology",
+        "pub_date": "2024",
+        "doi": "doi: 10.3389/fmicb.2024.1487829",
+        "database": "PubMed"
+      },
+      {
+        "pmid": "30685590",
+        "title": "Improving treatment outcomes for MDR-TB - Novel host-directed therapies and personalised medicine of the future.",
+        "authors": [
+          {
+            "name": "Rao M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ippolito G",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mfinanga S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ntoumi F",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yeboah-Manu D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Vilaplana C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zumla A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Maeurer M",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "pub_date": "2019 Mar",
+        "doi": "doi: 10.1016/j.ijid.2019.01.039",
+        "database": "PubMed"
+      }
+    ]
+  }
+}
