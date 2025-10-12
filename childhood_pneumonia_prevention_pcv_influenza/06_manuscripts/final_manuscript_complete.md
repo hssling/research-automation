@@ -2,10 +2,10 @@
 Comparative Effectiveness of Pneumococcal Conjugate Vaccine Schedules ± Influenza Vaccination on Pneumonia and Mortality in Children Under 5 Years: A Systematic Review and Network Meta-Analysis
 ## AUTHORS
 Dr Siddalingaih H S
-Shivamogga Institute of Medical Sciences & Research Hospital (SIMSRH), Shivamogga, Karnataka, India
+Shridevi Institute of Medical Sciences & Research Hospital (SIMSRH), Shridevi, Karnataka, India
 Email: hssling@yahoo.com
 
-*Correspondence: Dr Siddalingaih H S, Shivamogga Institute of Medical Sciences & Research Hospital (SIMSRH), Shivamogga, Karnataka, India*
+*Correspondence: Dr Siddalingaih H S, Shridevi Institute of Medical Sciences & Research Hospital (SIMSRH), Shridevi, Karnataka, India*
 
 ## WORD COUNT
 Abstract: 248 words  
@@ -338,7 +338,7 @@ Complete R code for all analyses.
 ---
 
 ## FUNDING
-This research was funded by institutional resources of Shivamogga Institute of Medical Sciences & Research Hospital (SIMSRH), Shivamogga, Karnataka, India.
+This research was funded by institutional resources of Shridevi Institute of Medical Sciences & Research Hospital (SIMSRH), Shridevi, Karnataka, India.
 
 ## CONFLICTS OF INTEREST
 Dr Siddalingaih H S declares no conflicts of interest. Sriniwas K Reddy is affiliated with Research Automation Platform which develops open-source research tools.
