@@ -1,0 +1,82 @@
+# PCV Systematic Review Project - Git Ignore File
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.RData
+*.Rout
+
+# R output files
+*.Rout
+*.Rhistory
+*.Rapp.history
+
+# Plot and image files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.eps
+
+# Manuscript files (keep markdown, ignore compiled)
+*.docx
+*.doc
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# Log files
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+
+# Installation files
+*.exe
+*.msi
+*.deb
+*.rpm
+
+# Large datasets (keep only essential)
+data/raw/*
+data/intermediate/*
+results/large_files/*
+
+# Keep essential files
+!03_data_extraction/final_extracted_data.csv
+!04_statistical_analysis/meta_analysis_results.csv
+!05_results_visualization/*.png
+!06_manuscripts/final_manuscript_complete.md

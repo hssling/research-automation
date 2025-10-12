@@ -1,0 +1,23 @@
+# PCV Meta-Analysis Dashboard Requirements
+
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Visualization libraries
+plotly>=5.0.0
+streamlit>=1.20.0
+
+# Optional: For enhanced functionality
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Web framework (if needed for deployment)
+# flask>=2.0.0
+
+# Data validation (optional)
+# pydantic>=1.10.0
+
+# For reading various file formats (if needed)
+# openpyxl>=3.0.0  # Excel files
+# PyPDF2>=2.0.0    # PDF files
