@@ -1,8 +1,19 @@
-# Research Automation Platform
+# 🔬 Research Automation Repository
 
-This is a full research automation platform with PDF extraction, summarization, RAG indexing, and a Streamlit dashboard.
+This repository is a **modular framework for automated research pipelines**.  
+It covers **systematic reviews, bibliometrics, omics pipelines (RNA-seq, GWAS, microbiome, single-cell, proteomics/metabolomics), multi-omics integration, and cutting-edge approaches** like living systematic reviews and knowledge graph mining.  
 
-## Setup
+Designed for **VS Code + AI coding agents (Codex, Cursor, Windsurf, etc.)**, the repo supports reproducibility with **Makefiles, Nextflow, Conda/Docker, and GitHub Actions**.
+
+---
+
+## 📂 Repository Structure
+
+## 🌐 Full Research-Automation Platform + Dashboard
+
+This section describes the full research automation platform with PDF extraction, summarization, RAG indexing, and a Streamlit dashboard.
+
+### Setup
 
 1. Activate the virtual environment: `.\.venv\Scripts\activate`
 
@@ -14,7 +25,7 @@ This is a full research automation platform with PDF extraction, summarization, 
 
 5. Add PDFs to ./data/pdfs and run the pipeline.
 
-## Features
+### Features
 
 - PDF text extraction
 

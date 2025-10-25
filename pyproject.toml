@@ -1,0 +1,275 @@
+# 📊 Python Project Configuration for Research Automation System V1.0
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-automation-system"
+version = "1.0.0"
+description = "Universal healthcare research automation platform - transforms any medical challenge into comprehensive evidence synthesis packages"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["research", "automation", "healthcare", "systematic-review", "meta-analysis", "evidence-synthesis"]
+authors = [
+    {name = "Research Automation System", email = "system@research-automation.com"},
+]
+maintainers = [
+    {name = "Healthcare Research Automation Team", email = "admin@research-automation.com"},
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: R",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.3.0",
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0",
+    "plotly>=5.0.0",
+    "biopython>=1.79",
+    "requests>=2.25.0",
+    "typer>=0.4.0",
+    "rich>=10.0.0",
+    "click>=8.0.0",
+    "networkx>=2.6.0",
+    "scikit-learn>=1.0.0",
+    "statsmodels>=0.13.0",
+    "patsy>=0.5.0",
+    "tqdm>=4.60.0",
+    "openpyxl>=3.0.0",
+    "xlrd>=2.0.0",
+    "python-dotenv>=0.19.0",
+    "pyyaml>=6.0",
+    "jsonschema>=4.0.0",
+    "loguru>=0.6.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "black>=22.0.0",
+    "isort>=5.10.0",
+    "flake8>=4.0.0",
+    "mypy>=0.950",
+    "pre-commit>=2.17.0",
+    "pytest>=6.2.0",
+    "pytest-cov>=2.12.0",
+    "pytest-xdist>=2.5.0",
+    "pytest-benchmark>=3.4.0",
+    "sphinx>=4.2.0",
+    "sphinx-rtd-theme>=1.0.0",
+    "nbQA>=1.7.0",
+    "safety>=2.0.0",
+    "bandit>=1.7.0",
+    "pip-audit>=2.0.0",
+]
+r = [
+    "rpy2>=3.5.0",
+]
+docs = [
+    "sphinx>=4.2.0",
+    "sphinx-rtd-theme>=1.0.0",
+    "myst-parser>=0.18.0",
+    "sphinx-copybutton>=0.5.0",
+    "nbsphinx>=0.8.0",
+]
+all = [
+    "research-automation-system[dev,r,docs]",
+]
+
+[project.urls]
+Homepage = "https://github.com/hssling/research-automation"
+Documentation = "https://research-automation.readthedocs.io/"
+Repository = "https://github.com/hssling/research-automation.git"
+"Bug Reports" = "https://github.com/hssling/research-automation/issues"
+"Source" = "https://github.com/hssling/research-automation"
+Changelog = "https://github.com/hssling/research-automation/blob/main/CHANGELOG.md"
+
+[project.scripts]
+research-automation = "research_automation.cli:main"
+search-pubmed = "research_automation.pubmed_cli:search"
+meta-analyze = "research_automation.meta_cli:analyze"
+
+# 🔧 Tool Configurations
+
+# Black code formatting
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+  | venv
+)/
+'''
+
+# isort import sorting
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+known_first_party = ["research_automation"]
+skip = ["env", "venv", ".venv", ".tox", "dist", "build"]
+extend_skip_glob = ["**/migrations/*.py"]
+
+# Flake8 linting
+[tool.flake8]
+max-line-length = 100
+extend-ignore = ["E203", "W503"]
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".tox",
+    ".venv",
+    "venv",
+    "env",
+    "docs",
+    "data",
+    "results",
+]
+
+# MyPy type checking
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+show_error_codes = true
+
+[[tool.mypy.overrides]]
+module = [
+    "biopython.*",
+    "networkx.*",
+    "plotly.*",
+    "sklearn.*",
+]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = [
+    "tests.*",
+    "scripts.*",
+]
+ignore_errors = true
+
+# Pytest testing
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=research_automation",
+    "--cov-report=xml:coverage.xml",
+    "--cov-report=term-missing",
+    "--cov-fail-under=80",
+]
+testpaths = ["tests"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+    "performance: marks tests as performance tests",
+    "healthcare: marks tests related to healthcare functionality",
+    "research: marks tests related to research functionality",
+]
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+# Coverage reporting
+[tool.coverage.run]
+source = ["research_automation"]
+omit = [
+    "*/tests/*",
+    "*/test_*.py",
+    "scripts/*",
+    "docs/*",
+    "setup.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+# Setuptools configuration
+[tool.setuptools]
+zip-safe = false
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*", "docs*", "scripts*"]
+
+[tool.setuptools.package-data]
+research_automation = ["py.typed"]
+
+[tool.setuptools.dynamic]
+version = {attr = "research_automation.__version__"}
+
+# Bandit security linting
+[tool.bandit]
+exclude_dirs = ["tests", "docs", "scripts", "env", "venv"]
+skips = ["B101", "B601"]  # Skip assert checks and shell usage
+
+# Safety vulnerability checking
+[tool.safety]
+ignore.cvss-severity = [
+    "low",
+    "medium",
+]
+
+# Doc8 documentation linting
+[tool.doc8]
+max-line-length = 88
+file-encoding = "utf8"
+ignore = ["D004"]  # Allow first line to not end with period
