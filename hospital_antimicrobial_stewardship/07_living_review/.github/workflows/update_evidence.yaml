@@ -1,0 +1,83 @@
+name: Update Living Review Evidence
+
+on:
+  schedule:
+    # Run weekly on Mondays at 2 AM UTC
+    - cron: '0 2 * * 1'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  update-evidence:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 selenium lxml pandas numpy scholarly
+
+    - name: Run automated literature search
+      run: |
+        cd hospital_antimicrobial_stewardship
+        python ../automated_literature_search.py
+
+    - name: Update meta-analysis with new data
+      run: |
+        cd hospital_antimicrobial_stewardship/03_statistical_analysis
+        Rscript antimicrobial_stewardship_meta_analysis.R
+
+    - name: Generate updated visualizations
+      run: |
+        python ../generate_updated_visualizations.py
+
+    - name: Update living review manuscript
+      run: |
+        python ../update_manuscript_with_new_data.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+
+        # Add all new/modified files
+        git add .
+
+        # Check if there are changes to commit
+        if git diff --cached --exit-code; then
+          echo "No changes to commit"
+        else
+          # Get current date for commit message
+          DATE=$(date +"%Y-%m-%d")
+          git commit -m "🤖 Weekly evidence update - $DATE
+
+          • Automated literature search completed
+          • Meta-analysis refreshed with new studies
+          • Visualizations updated
+          • Manuscript synchronized"
+
+          # Force push to main branch
+          git push origin main --force-with-lease
+        fi
+
+    - name: Create evidence update summary
+      run: |
+        python ../create_update_summary.py > evidence_update_summary.md
+        git add evidence_update_summary.md
+        git commit -m "📊 Evidence update summary added"
+        git push origin main --force-with-lease
+
+    - name: Update GitHub Pages (optional)
+      if: success()
+      run: |
+        # If you have GitHub Pages set up, you can add deployment steps here
+        echo "Evidence update completed successfully"

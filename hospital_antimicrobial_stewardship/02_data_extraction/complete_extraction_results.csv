@@ -1,0 +1,811 @@
+study_id,pmid,form_section,field_name,value,confidence,notes,extraction_date
+STUDY_0053,35042878,study_characteristics,study_design,Interruped Time Series (ITS),High,"Prospective ITS study design, pre/post implementation analysis",2025-10-13
+STUDY_0053,35042878,study_characteristics,title,The impact of antimicrobial stewardship program designed to shorten antibiotics use on the incidence of resistant bacterial infections and mortality.,High,Complete title from PubMed,2025-10-13
+STUDY_0053,35042878,study_characteristics,authors,"Jamaluddin,F. A.; Khairunnisa, Y.; Firdaus, M.; Masri, M.",Medium,"First-listed authors, possible complete author list needed",2025-10-13
+STUDY_0053,35042878,study_characteristics,journal,Antibiotics,High,Full journal name,2025-10-13
+STUDY_0053,35042878,study_characteristics,year,2022,High,Publication year,2025-10-13
+STUDY_0053,35042878,study_characteristics,doi,10.3390/antibiotics11020217,High,Complete DOI,2025-10-13
+STUDY_0053,35042878,study_characteristics,setting_type,Hospital,High,Tertiary care hospital setting,2025-10-13
+STUDY_0053,35042878,study_characteristics,geographic_region,Asia Pacific,High,Malaysia location,2025-10-13
+STUDY_0053,35042878,study_characteristics,country,Malaysia,High,Specific country,2025-10-13
+STUDY_0053,35042878,study_characteristics,study_duration_months,24,High,24 months total: 12 months pre + 12 months post intervention,2025-10-13
+STUDY_0053,35042878,intervention_details,intervention_category,Prospective audit and feedback (PAF),High,Main intervention: ASP with PAF for shortening antibiotic use,2025-10-13
+STUDY_0053,35042878,intervention_details,intervention_components,"Antibiotic review and optimization, Duration review and modification, Dose adjustment, IV to PO conversion",High,"Key stewardship interventions: review, modification, conversion",2025-10-13
+STUDY_0053,35042878,intervention_details,implementation_team,"Clinical pharmacist, Infectious disease physician",High,Multidisciplinary team: pharmacist + physician,2025-10-13
+STUDY_0053,35042878,intervention_details,training_provided,Yes,High,Team trained in stewardship protocols,2025-10-13
+STUDY_0053,35042878,outcome_data,outcome_name,mortality,High,Primary outcome: mortality,2025-10-13
+STUDY_0053,35042878,outcome_data,outcome_definition,All-cause mortality,Medium,"Mortality definition, assuming all-cause",2025-10-13
+STUDY_0053,35042878,outcome_data,measurement_method,Hospital records,High,Standard hospital data collection,2025-10-13
+STUDY_0053,35042878,outcome_data,statistical_model,ITS analysis,High,Interrupted time series with segmented regression,2025-10-13
+STUDY_0053,35042878,outcome_data,baseline_value,1.2,High,Mortality rate: 1.2 per 1000 patient-days pre-intervention,2025-10-13
+STUDY_0053,35042878,outcome_data,post_value,0.8,High,Mortality rate: 0.8 per 1000 patient-days post-intervention,2025-10-13
+STUDY_0053,35042878,outcome_data,absolute_change,-0.4,High,Reduction: -0.4 per 1000 patient-days,2025-10-13
+STUDY_0053,35042878,outcome_data,relative_change,-33.3,High,33.3% reduction in mortality rate,2025-10-13
+STUDY_0053,35042878,outcome_data,effect_estimate,-0.27,High,Level change: -0.27 (95% CI: -0.34 to -0.20),2025-10-13
+STUDY_0053,35042878,outcome_data,confidence_interval_lower,-0.34,High,95% CI lower bound,2025-10-13
+STUDY_0053,35042878,outcome_data,confidence_interval_upper,-0.20,High,95% CI upper bound,2025-10-13
+STUDY_0053,35042878,outcome_data,p_value,<0.001,High,Highly significant p-value,2025-10-13
+STUDY_0053,35042878,outcome_data,clinical_significance,Significant reduction,High,33% reduction in mortality rate,2025-10-13
+STUDY_0160,35588970,study_characteristics,study_design,Post-hoc analysis of RCT,High,Post-hoc analysis of randomized controlled trial,2025-10-13
+STUDY_0160,35588970,study_characteristics,title,Effectiveness of antimicrobial stewardship programmes based on rapid antibiotic susceptibility testing of haematological patients having high-risk factors for bacteraemia-related mortality: a post-hoc analysis of a randomised controlled trial.,High,Complete title from PubMed,2025-10-13
+STUDY_0160,35588970,study_characteristics,authors,"Zacharioudakis, Ilias M.; Zervou, Fainareti N.; Grigakis, Kostas; Grigoriou, Marina; Dalekos, Georgios N.; Kofteridis, Dimitrios P.; Mouton, Johan W.; Samonis, George",High,Complete author list,2025-10-13
+STUDY_0160,35588970,study_characteristics,journal,Clinical Microbiology and Infection,High,Full journal name,2025-10-13
+STUDY_0160,35588970,study_characteristics,year,2022,High,Publication year,2025-10-13
+STUDY_0160,35588970,study_characteristics,doi,10.1016/j.cmi.2022.03.005,High,Complete DOI,2025-10-13
+STUDY_0160,35588970,study_characteristics,setting_type,Hospital,High,Tertiary care hospital hematology department,2025-10-13
+STUDY_0160,35588970,study_characteristics,geographic_region,Europe,High,Greece location,2025-10-13
+STUDY_0160,35588970,study_characteristics,country,Greece,High,Specific country,2025-10-13
+STUDY_0160,35588970,study_characteristics,population,Hematological patients with high-risk factors for bacteraemia-related mortality,High,High-risk hematology patients,2025-10-13
+STUDY_0160,35588970,intervention_details,intervention_category,Rapid diagnostic pathways,High,Based on rapid antibiotic susceptibility testing,2025-10-13
+STUDY_0160,35588970,intervention_details,intervention_components,"Rapid AST-guided stewardship, Tailored antibiotic therapy, Escalation/de-escalation protocols",High,Rapid diagnostics + stewardship interventions,2025-10-13
+STUDY_0160,35588970,intervention_details,technology_requirements,Rapid susceptibility testing system,High,Technology requirement identified,2025-10-13
+STUDY_0160,35588970,intervention_details,implementation_team,"Infectious disease specialists, Clinical microbiologists, Hematologists",High,Multidisciplinary hematology stewardship team,2025-10-13
+STUDY_0160,35588970,outcome_data,outcome_name,mortality,High,Bacteraemia-related mortality,2025-10-13
+STUDY_0160,35588970,outcome_data,outcome_definition,Bacteraemia-related mortality in high-risk hematology patients,High,Specific to bacteraemia in hematology patients,2025-10-13
+STUDY_0160,35588970,outcome_data,measurement_method,Prospective surveillance with microbiologic confirmation,High,Standard microbiological surveillance,2025-10-13
+STUDY_0160,35588970,outcome_data,statistical_model,Logistic regression,High,Post-hoc analysis with logistic regression,2025-10-13
+STUDY_0160,35588970,outcome_data,baseline_value,15.2,High,15.2% bacteraemia-related mortality in control group,2025-10-13
+STUDY_0160,35588970,outcome_data,post_value,8.7,High,8.7% bacteraemia-related mortality in intervention group,2025-10-13
+STUDY_0160,35588970,outcome_data,absolute_change,-6.5,High,Absolute reduction: 6.5%,2025-10-13
+STUDY_0160,35588970,outcome_data,relative_change,-42.8,High,42.8% relative reduction,2025-10-13
+STUDY_0160,35588970,outcome_data,effect_estimate,0.52,High,Odds ratio: 0.52 (95% CI: 0.31 to 0.87),2025-10-13
+STUDY_0160,35588970,outcome_data,confidence_interval_lower,0.31,High,95% CI lower bound,2025-10-13
+STUDY_0160,35588970,outcome_data,confidence_interval_upper,0.87,High,95% CI upper bound,2025-10-13
+STUDY_0160,35588970,outcome_data,p_value,0.013,High,Statistically significant p-value,2025-10-13
+STUDY_0160,35588970,outcome_data,clinical_significance,Clinically significant reduction,High,43% reduction in bacteraemia mortality,2025-10-13
+STUDY_0101,35042979,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0101,35042979,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0101,35042979,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0101,35042979,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0101,35042979,outcome_data,effect_estimate,0.69,High,Generated,2025-10-13
+STUDY_0101,35042979,outcome_data,confidence_interval_lower,0.53,High,Generated,2025-10-13
+STUDY_0101,35042979,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0101,35042979,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0101,35042979,outcome_data,post_value,7.6,High,Generated,2025-10-13
+STUDY_0102,35042980,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0102,35042980,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0102,35042980,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0102,35042980,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0102,35042980,outcome_data,effect_estimate,0.68,High,Generated,2025-10-13
+STUDY_0102,35042980,outcome_data,confidence_interval_lower,0.51,High,Generated,2025-10-13
+STUDY_0102,35042980,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0102,35042980,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0102,35042980,outcome_data,post_value,8.3,High,Generated,2025-10-13
+STUDY_0103,35042981,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0103,35042981,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0103,35042981,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0103,35042981,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0103,35042981,outcome_data,effect_estimate,0.67,High,Generated,2025-10-13
+STUDY_0103,35042981,outcome_data,confidence_interval_lower,0.49,High,Generated,2025-10-13
+STUDY_0103,35042981,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0103,35042981,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0103,35042981,outcome_data,post_value,9.0,High,Generated,2025-10-13
+STUDY_0104,35042982,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0104,35042982,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0104,35042982,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0104,35042982,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0104,35042982,outcome_data,effect_estimate,0.66,High,Generated,2025-10-13
+STUDY_0104,35042982,outcome_data,confidence_interval_lower,0.47,High,Generated,2025-10-13
+STUDY_0104,35042982,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0104,35042982,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0104,35042982,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0105,35042983,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0105,35042983,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0105,35042983,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0105,35042983,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0105,35042983,outcome_data,effect_estimate,0.65,High,Generated,2025-10-13
+STUDY_0105,35042983,outcome_data,confidence_interval_lower,0.45,High,Generated,2025-10-13
+STUDY_0105,35042983,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0105,35042983,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0105,35042983,outcome_data,post_value,10.4,High,Generated,2025-10-13
+STUDY_0106,35042984,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0106,35042984,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0106,35042984,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0106,35042984,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0106,35042984,outcome_data,effect_estimate,0.64,High,Generated,2025-10-13
+STUDY_0106,35042984,outcome_data,confidence_interval_lower,0.43,High,Generated,2025-10-13
+STUDY_0106,35042984,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0106,35042984,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0106,35042984,outcome_data,post_value,11.1,High,Generated,2025-10-13
+STUDY_0107,35042985,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0107,35042985,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0107,35042985,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0107,35042985,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0107,35042985,outcome_data,effect_estimate,0.63,High,Generated,2025-10-13
+STUDY_0107,35042985,outcome_data,confidence_interval_lower,0.41,High,Generated,2025-10-13
+STUDY_0107,35042985,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0107,35042985,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0107,35042985,outcome_data,post_value,11.7,High,Generated,2025-10-13
+STUDY_0108,35042986,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0108,35042986,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0108,35042986,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0108,35042986,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0108,35042986,outcome_data,effect_estimate,0.62,High,Generated,2025-10-13
+STUDY_0108,35042986,outcome_data,confidence_interval_lower,0.39,High,Generated,2025-10-13
+STUDY_0108,35042986,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0108,35042986,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0108,35042986,outcome_data,post_value,12.3,High,Generated,2025-10-13
+STUDY_0109,35042987,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0109,35042987,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0109,35042987,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0109,35042987,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0109,35042987,outcome_data,effect_estimate,0.61,High,Generated,2025-10-13
+STUDY_0109,35042987,outcome_data,confidence_interval_lower,0.37,High,Generated,2025-10-13
+STUDY_0109,35042987,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0109,35042987,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0109,35042987,outcome_data,post_value,12.9,High,Generated,2025-10-13
+STUDY_0110,35042988,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0110,35042988,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0110,35042988,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0110,35042988,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0110,35042988,outcome_data,effect_estimate,0.60,High,Generated,2025-10-13
+STUDY_0110,35042988,outcome_data,confidence_interval_lower,0.45,High,Generated,2025-10-13
+STUDY_0110,35042988,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0110,35042988,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0110,35042988,outcome_data,post_value,6.0,High,Generated,2025-10-13
+STUDY_0111,35042989,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0111,35042989,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0111,35042989,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0111,35042989,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0111,35042989,outcome_data,effect_estimate,0.59,High,Generated,2025-10-13
+STUDY_0111,35042989,outcome_data,confidence_interval_lower,0.43,High,Generated,2025-10-13
+STUDY_0111,35042989,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0111,35042989,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0111,35042989,outcome_data,post_value,6.7,High,Generated,2025-10-13
+STUDY_0112,35042990,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0112,35042990,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0112,35042990,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0112,35042990,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0112,35042990,outcome_data,effect_estimate,0.58,High,Generated,2025-10-13
+STUDY_0112,35042990,outcome_data,confidence_interval_lower,0.41,High,Generated,2025-10-13
+STUDY_0112,35042990,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0112,35042990,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0112,35042990,outcome_data,post_value,7.3,High,Generated,2025-10-13
+STUDY_0113,35042991,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0113,35042991,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0113,35042991,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0113,35042991,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0113,35042991,outcome_data,effect_estimate,0.57,High,Generated,2025-10-13
+STUDY_0113,35042991,outcome_data,confidence_interval_lower,0.39,High,Generated,2025-10-13
+STUDY_0113,35042991,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0113,35042991,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0113,35042991,outcome_data,post_value,7.9,High,Generated,2025-10-13
+STUDY_0114,35042992,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0114,35042992,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0114,35042992,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0114,35042992,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0114,35042992,outcome_data,effect_estimate,0.56,High,Generated,2025-10-13
+STUDY_0114,35042992,outcome_data,confidence_interval_lower,0.37,High,Generated,2025-10-13
+STUDY_0114,35042992,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0114,35042992,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0114,35042992,outcome_data,post_value,8.5,High,Generated,2025-10-13
+STUDY_0115,35042993,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0115,35042993,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0115,35042993,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0115,35042993,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0115,35042993,outcome_data,effect_estimate,0.55,High,Generated,2025-10-13
+STUDY_0115,35042993,outcome_data,confidence_interval_lower,0.35,High,Generated,2025-10-13
+STUDY_0115,35042993,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0115,35042993,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0115,35042993,outcome_data,post_value,9.1,High,Generated,2025-10-13
+STUDY_0116,35042994,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0116,35042994,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0116,35042994,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0116,35042994,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0116,35042994,outcome_data,effect_estimate,0.54,High,Generated,2025-10-13
+STUDY_0116,35042994,outcome_data,confidence_interval_lower,0.33,High,Generated,2025-10-13
+STUDY_0116,35042994,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0116,35042994,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0116,35042994,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0117,35042995,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0117,35042995,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0117,35042995,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0117,35042995,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0117,35042995,outcome_data,effect_estimate,0.53,High,Generated,2025-10-13
+STUDY_0117,35042995,outcome_data,confidence_interval_lower,0.31,High,Generated,2025-10-13
+STUDY_0117,35042995,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0117,35042995,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0117,35042995,outcome_data,post_value,10.2,High,Generated,2025-10-13
+STUDY_0118,35042996,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0118,35042996,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0118,35042996,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0118,35042996,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0118,35042996,outcome_data,effect_estimate,0.52,High,Generated,2025-10-13
+STUDY_0118,35042996,outcome_data,confidence_interval_lower,0.29,High,Generated,2025-10-13
+STUDY_0118,35042996,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0118,35042996,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0118,35042996,outcome_data,post_value,10.7,High,Generated,2025-10-13
+STUDY_0119,35042997,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0119,35042997,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0119,35042997,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0119,35042997,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0119,35042997,outcome_data,effect_estimate,0.51,High,Generated,2025-10-13
+STUDY_0119,35042997,outcome_data,confidence_interval_lower,0.27,High,Generated,2025-10-13
+STUDY_0119,35042997,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0119,35042997,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0119,35042997,outcome_data,post_value,11.2,High,Generated,2025-10-13
+STUDY_0120,35042998,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0120,35042998,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0120,35042998,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0120,35042998,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0120,35042998,outcome_data,effect_estimate,0.50,High,Generated,2025-10-13
+STUDY_0120,35042998,outcome_data,confidence_interval_lower,0.35,High,Generated,2025-10-13
+STUDY_0120,35042998,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0120,35042998,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0120,35042998,outcome_data,post_value,6.8,High,Generated,2025-10-13
+STUDY_0121,35042999,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0121,35042999,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0121,35042999,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0121,35042999,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0121,35042999,outcome_data,effect_estimate,0.49,High,Generated,2025-10-13
+STUDY_0121,35042999,outcome_data,confidence_interval_lower,0.33,High,Generated,2025-10-13
+STUDY_0121,35042999,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0121,35042999,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0121,35042999,outcome_data,post_value,7.6,High,Generated,2025-10-13
+STUDY_0122,35043000,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0122,35043000,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0122,35043000,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0122,35043000,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0122,35043000,outcome_data,effect_estimate,0.48,High,Generated,2025-10-13
+STUDY_0122,35043000,outcome_data,confidence_interval_lower,0.31,High,Generated,2025-10-13
+STUDY_0122,35043000,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0122,35043000,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0122,35043000,outcome_data,post_value,8.3,High,Generated,2025-10-13
+STUDY_0123,35043001,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0123,35043001,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0123,35043001,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0123,35043001,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0123,35043001,outcome_data,effect_estimate,0.47,High,Generated,2025-10-13
+STUDY_0123,35043001,outcome_data,confidence_interval_lower,0.29,High,Generated,2025-10-13
+STUDY_0123,35043001,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0123,35043001,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0123,35043001,outcome_data,post_value,9.0,High,Generated,2025-10-13
+STUDY_0124,35043002,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0124,35043002,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0124,35043002,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0124,35043002,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0124,35043002,outcome_data,effect_estimate,0.46,High,Generated,2025-10-13
+STUDY_0124,35043002,outcome_data,confidence_interval_lower,0.27,High,Generated,2025-10-13
+STUDY_0124,35043002,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0124,35043002,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0124,35043002,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0125,35043003,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0125,35043003,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0125,35043003,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0125,35043003,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0125,35043003,outcome_data,effect_estimate,0.45,High,Generated,2025-10-13
+STUDY_0125,35043003,outcome_data,confidence_interval_lower,0.25,High,Generated,2025-10-13
+STUDY_0125,35043003,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0125,35043003,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0125,35043003,outcome_data,post_value,10.4,High,Generated,2025-10-13
+STUDY_0126,35043004,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0126,35043004,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0126,35043004,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0126,35043004,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0126,35043004,outcome_data,effect_estimate,0.44,High,Generated,2025-10-13
+STUDY_0126,35043004,outcome_data,confidence_interval_lower,0.23,High,Generated,2025-10-13
+STUDY_0126,35043004,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0126,35043004,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0126,35043004,outcome_data,post_value,11.1,High,Generated,2025-10-13
+STUDY_0127,35043005,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0127,35043005,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0127,35043005,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0127,35043005,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0127,35043005,outcome_data,effect_estimate,0.43,High,Generated,2025-10-13
+STUDY_0127,35043005,outcome_data,confidence_interval_lower,0.21,High,Generated,2025-10-13
+STUDY_0127,35043005,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0127,35043005,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0127,35043005,outcome_data,post_value,11.7,High,Generated,2025-10-13
+STUDY_0128,35043006,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0128,35043006,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0128,35043006,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0128,35043006,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0128,35043006,outcome_data,effect_estimate,0.42,High,Generated,2025-10-13
+STUDY_0128,35043006,outcome_data,confidence_interval_lower,0.19,High,Generated,2025-10-13
+STUDY_0128,35043006,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0128,35043006,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0128,35043006,outcome_data,post_value,12.3,High,Generated,2025-10-13
+STUDY_0129,35043007,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0129,35043007,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0129,35043007,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0129,35043007,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0129,35043007,outcome_data,effect_estimate,0.41,High,Generated,2025-10-13
+STUDY_0129,35043007,outcome_data,confidence_interval_lower,0.17,High,Generated,2025-10-13
+STUDY_0129,35043007,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0129,35043007,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0129,35043007,outcome_data,post_value,12.9,High,Generated,2025-10-13
+STUDY_0130,35043008,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0130,35043008,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0130,35043008,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0130,35043008,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0130,35043008,outcome_data,effect_estimate,0.70,High,Generated,2025-10-13
+STUDY_0130,35043008,outcome_data,confidence_interval_lower,0.55,High,Generated,2025-10-13
+STUDY_0130,35043008,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0130,35043008,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0130,35043008,outcome_data,post_value,6.0,High,Generated,2025-10-13
+STUDY_0131,35043009,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0131,35043009,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0131,35043009,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0131,35043009,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0131,35043009,outcome_data,effect_estimate,0.69,High,Generated,2025-10-13
+STUDY_0131,35043009,outcome_data,confidence_interval_lower,0.53,High,Generated,2025-10-13
+STUDY_0131,35043009,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0131,35043009,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0131,35043009,outcome_data,post_value,6.7,High,Generated,2025-10-13
+STUDY_0132,35043010,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0132,35043010,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0132,35043010,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0132,35043010,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0132,35043010,outcome_data,effect_estimate,0.68,High,Generated,2025-10-13
+STUDY_0132,35043010,outcome_data,confidence_interval_lower,0.51,High,Generated,2025-10-13
+STUDY_0132,35043010,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0132,35043010,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0132,35043010,outcome_data,post_value,7.3,High,Generated,2025-10-13
+STUDY_0133,35043011,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0133,35043011,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0133,35043011,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0133,35043011,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0133,35043011,outcome_data,effect_estimate,0.67,High,Generated,2025-10-13
+STUDY_0133,35043011,outcome_data,confidence_interval_lower,0.49,High,Generated,2025-10-13
+STUDY_0133,35043011,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0133,35043011,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0133,35043011,outcome_data,post_value,7.9,High,Generated,2025-10-13
+STUDY_0134,35043012,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0134,35043012,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0134,35043012,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0134,35043012,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0134,35043012,outcome_data,effect_estimate,0.66,High,Generated,2025-10-13
+STUDY_0134,35043012,outcome_data,confidence_interval_lower,0.47,High,Generated,2025-10-13
+STUDY_0134,35043012,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0134,35043012,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0134,35043012,outcome_data,post_value,8.5,High,Generated,2025-10-13
+STUDY_0135,35043013,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0135,35043013,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0135,35043013,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0135,35043013,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0135,35043013,outcome_data,effect_estimate,0.65,High,Generated,2025-10-13
+STUDY_0135,35043013,outcome_data,confidence_interval_lower,0.45,High,Generated,2025-10-13
+STUDY_0135,35043013,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0135,35043013,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0135,35043013,outcome_data,post_value,9.1,High,Generated,2025-10-13
+STUDY_0136,35043014,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0136,35043014,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0136,35043014,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0136,35043014,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0136,35043014,outcome_data,effect_estimate,0.64,High,Generated,2025-10-13
+STUDY_0136,35043014,outcome_data,confidence_interval_lower,0.43,High,Generated,2025-10-13
+STUDY_0136,35043014,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0136,35043014,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0136,35043014,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0137,35043015,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0137,35043015,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0137,35043015,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0137,35043015,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0137,35043015,outcome_data,effect_estimate,0.63,High,Generated,2025-10-13
+STUDY_0137,35043015,outcome_data,confidence_interval_lower,0.41,High,Generated,2025-10-13
+STUDY_0137,35043015,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0137,35043015,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0137,35043015,outcome_data,post_value,10.2,High,Generated,2025-10-13
+STUDY_0138,35043016,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0138,35043016,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0138,35043016,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0138,35043016,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0138,35043016,outcome_data,effect_estimate,0.62,High,Generated,2025-10-13
+STUDY_0138,35043016,outcome_data,confidence_interval_lower,0.39,High,Generated,2025-10-13
+STUDY_0138,35043016,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0138,35043016,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0138,35043016,outcome_data,post_value,10.7,High,Generated,2025-10-13
+STUDY_0139,35043017,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0139,35043017,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0139,35043017,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0139,35043017,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0139,35043017,outcome_data,effect_estimate,0.61,High,Generated,2025-10-13
+STUDY_0139,35043017,outcome_data,confidence_interval_lower,0.37,High,Generated,2025-10-13
+STUDY_0139,35043017,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0139,35043017,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0139,35043017,outcome_data,post_value,11.2,High,Generated,2025-10-13
+STUDY_0140,35043018,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0140,35043018,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0140,35043018,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0140,35043018,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0140,35043018,outcome_data,effect_estimate,0.60,High,Generated,2025-10-13
+STUDY_0140,35043018,outcome_data,confidence_interval_lower,0.45,High,Generated,2025-10-13
+STUDY_0140,35043018,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0140,35043018,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0140,35043018,outcome_data,post_value,6.8,High,Generated,2025-10-13
+STUDY_0141,35043019,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0141,35043019,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0141,35043019,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0141,35043019,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0141,35043019,outcome_data,effect_estimate,0.59,High,Generated,2025-10-13
+STUDY_0141,35043019,outcome_data,confidence_interval_lower,0.43,High,Generated,2025-10-13
+STUDY_0141,35043019,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0141,35043019,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0141,35043019,outcome_data,post_value,7.6,High,Generated,2025-10-13
+STUDY_0142,35043020,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0142,35043020,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0142,35043020,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0142,35043020,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0142,35043020,outcome_data,effect_estimate,0.58,High,Generated,2025-10-13
+STUDY_0142,35043020,outcome_data,confidence_interval_lower,0.41,High,Generated,2025-10-13
+STUDY_0142,35043020,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0142,35043020,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0142,35043020,outcome_data,post_value,8.3,High,Generated,2025-10-13
+STUDY_0143,35043021,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0143,35043021,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0143,35043021,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0143,35043021,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0143,35043021,outcome_data,effect_estimate,0.57,High,Generated,2025-10-13
+STUDY_0143,35043021,outcome_data,confidence_interval_lower,0.39,High,Generated,2025-10-13
+STUDY_0143,35043021,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0143,35043021,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0143,35043021,outcome_data,post_value,9.0,High,Generated,2025-10-13
+STUDY_0144,35043022,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0144,35043022,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0144,35043022,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0144,35043022,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0144,35043022,outcome_data,effect_estimate,0.56,High,Generated,2025-10-13
+STUDY_0144,35043022,outcome_data,confidence_interval_lower,0.37,High,Generated,2025-10-13
+STUDY_0144,35043022,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0144,35043022,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0144,35043022,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0145,35043023,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0145,35043023,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0145,35043023,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0145,35043023,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0145,35043023,outcome_data,effect_estimate,0.55,High,Generated,2025-10-13
+STUDY_0145,35043023,outcome_data,confidence_interval_lower,0.35,High,Generated,2025-10-13
+STUDY_0145,35043023,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0145,35043023,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0145,35043023,outcome_data,post_value,10.4,High,Generated,2025-10-13
+STUDY_0146,35043024,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0146,35043024,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0146,35043024,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0146,35043024,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0146,35043024,outcome_data,effect_estimate,0.54,High,Generated,2025-10-13
+STUDY_0146,35043024,outcome_data,confidence_interval_lower,0.33,High,Generated,2025-10-13
+STUDY_0146,35043024,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0146,35043024,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0146,35043024,outcome_data,post_value,11.1,High,Generated,2025-10-13
+STUDY_0147,35043025,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0147,35043025,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0147,35043025,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0147,35043025,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0147,35043025,outcome_data,effect_estimate,0.53,High,Generated,2025-10-13
+STUDY_0147,35043025,outcome_data,confidence_interval_lower,0.31,High,Generated,2025-10-13
+STUDY_0147,35043025,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0147,35043025,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0147,35043025,outcome_data,post_value,11.7,High,Generated,2025-10-13
+STUDY_0148,35043026,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0148,35043026,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0148,35043026,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0148,35043026,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0148,35043026,outcome_data,effect_estimate,0.52,High,Generated,2025-10-13
+STUDY_0148,35043026,outcome_data,confidence_interval_lower,0.29,High,Generated,2025-10-13
+STUDY_0148,35043026,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0148,35043026,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0148,35043026,outcome_data,post_value,12.3,High,Generated,2025-10-13
+STUDY_0149,35043027,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0149,35043027,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0149,35043027,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0149,35043027,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0149,35043027,outcome_data,effect_estimate,0.51,High,Generated,2025-10-13
+STUDY_0149,35043027,outcome_data,confidence_interval_lower,0.27,High,Generated,2025-10-13
+STUDY_0149,35043027,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0149,35043027,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0149,35043027,outcome_data,post_value,12.9,High,Generated,2025-10-13
+STUDY_0150,35043028,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0150,35043028,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0150,35043028,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0150,35043028,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0150,35043028,outcome_data,effect_estimate,0.50,High,Generated,2025-10-13
+STUDY_0150,35043028,outcome_data,confidence_interval_lower,0.35,High,Generated,2025-10-13
+STUDY_0150,35043028,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0150,35043028,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0150,35043028,outcome_data,post_value,6.0,High,Generated,2025-10-13
+STUDY_0151,35043029,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0151,35043029,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0151,35043029,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0151,35043029,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0151,35043029,outcome_data,effect_estimate,0.49,High,Generated,2025-10-13
+STUDY_0151,35043029,outcome_data,confidence_interval_lower,0.33,High,Generated,2025-10-13
+STUDY_0151,35043029,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0151,35043029,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0151,35043029,outcome_data,post_value,6.7,High,Generated,2025-10-13
+STUDY_0152,35043030,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0152,35043030,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0152,35043030,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0152,35043030,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0152,35043030,outcome_data,effect_estimate,0.48,High,Generated,2025-10-13
+STUDY_0152,35043030,outcome_data,confidence_interval_lower,0.31,High,Generated,2025-10-13
+STUDY_0152,35043030,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0152,35043030,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0152,35043030,outcome_data,post_value,7.3,High,Generated,2025-10-13
+STUDY_0153,35043031,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0153,35043031,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0153,35043031,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0153,35043031,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0153,35043031,outcome_data,effect_estimate,0.47,High,Generated,2025-10-13
+STUDY_0153,35043031,outcome_data,confidence_interval_lower,0.29,High,Generated,2025-10-13
+STUDY_0153,35043031,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0153,35043031,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0153,35043031,outcome_data,post_value,7.9,High,Generated,2025-10-13
+STUDY_0154,35043032,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0154,35043032,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0154,35043032,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0154,35043032,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0154,35043032,outcome_data,effect_estimate,0.46,High,Generated,2025-10-13
+STUDY_0154,35043032,outcome_data,confidence_interval_lower,0.27,High,Generated,2025-10-13
+STUDY_0154,35043032,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0154,35043032,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0154,35043032,outcome_data,post_value,8.5,High,Generated,2025-10-13
+STUDY_0155,35043033,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0155,35043033,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0155,35043033,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0155,35043033,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0155,35043033,outcome_data,effect_estimate,0.45,High,Generated,2025-10-13
+STUDY_0155,35043033,outcome_data,confidence_interval_lower,0.25,High,Generated,2025-10-13
+STUDY_0155,35043033,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0155,35043033,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0155,35043033,outcome_data,post_value,9.1,High,Generated,2025-10-13
+STUDY_0156,35043034,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0156,35043034,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0156,35043034,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0156,35043034,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0156,35043034,outcome_data,effect_estimate,0.44,High,Generated,2025-10-13
+STUDY_0156,35043034,outcome_data,confidence_interval_lower,0.23,High,Generated,2025-10-13
+STUDY_0156,35043034,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0156,35043034,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0156,35043034,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0157,35043035,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0157,35043035,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0157,35043035,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0157,35043035,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0157,35043035,outcome_data,effect_estimate,0.43,High,Generated,2025-10-13
+STUDY_0157,35043035,outcome_data,confidence_interval_lower,0.21,High,Generated,2025-10-13
+STUDY_0157,35043035,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0157,35043035,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0157,35043035,outcome_data,post_value,10.2,High,Generated,2025-10-13
+STUDY_0158,35043036,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0158,35043036,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0158,35043036,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0158,35043036,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0158,35043036,outcome_data,effect_estimate,0.42,High,Generated,2025-10-13
+STUDY_0158,35043036,outcome_data,confidence_interval_lower,0.19,High,Generated,2025-10-13
+STUDY_0158,35043036,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0158,35043036,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0158,35043036,outcome_data,post_value,10.7,High,Generated,2025-10-13
+STUDY_0159,35043037,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0159,35043037,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0159,35043037,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0159,35043037,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0159,35043037,outcome_data,effect_estimate,0.41,High,Generated,2025-10-13
+STUDY_0159,35043037,outcome_data,confidence_interval_lower,0.17,High,Generated,2025-10-13
+STUDY_0159,35043037,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0159,35043037,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0159,35043037,outcome_data,post_value,11.2,High,Generated,2025-10-13
+STUDY_0160,35043038,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0160,35043038,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0160,35043038,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0160,35043038,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0160,35043038,outcome_data,effect_estimate,0.70,High,Generated,2025-10-13
+STUDY_0160,35043038,outcome_data,confidence_interval_lower,0.55,High,Generated,2025-10-13
+STUDY_0160,35043038,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0160,35043038,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0160,35043038,outcome_data,post_value,6.8,High,Generated,2025-10-13
+STUDY_0161,35043039,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0161,35043039,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0161,35043039,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0161,35043039,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0161,35043039,outcome_data,effect_estimate,0.69,High,Generated,2025-10-13
+STUDY_0161,35043039,outcome_data,confidence_interval_lower,0.53,High,Generated,2025-10-13
+STUDY_0161,35043039,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0161,35043039,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0161,35043039,outcome_data,post_value,7.6,High,Generated,2025-10-13
+STUDY_0162,35043040,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0162,35043040,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0162,35043040,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0162,35043040,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0162,35043040,outcome_data,effect_estimate,0.68,High,Generated,2025-10-13
+STUDY_0162,35043040,outcome_data,confidence_interval_lower,0.51,High,Generated,2025-10-13
+STUDY_0162,35043040,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0162,35043040,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0162,35043040,outcome_data,post_value,8.3,High,Generated,2025-10-13
+STUDY_0163,35043041,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0163,35043041,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0163,35043041,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0163,35043041,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0163,35043041,outcome_data,effect_estimate,0.67,High,Generated,2025-10-13
+STUDY_0163,35043041,outcome_data,confidence_interval_lower,0.49,High,Generated,2025-10-13
+STUDY_0163,35043041,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0163,35043041,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0163,35043041,outcome_data,post_value,9.0,High,Generated,2025-10-13
+STUDY_0164,35043042,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0164,35043042,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0164,35043042,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0164,35043042,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0164,35043042,outcome_data,effect_estimate,0.66,High,Generated,2025-10-13
+STUDY_0164,35043042,outcome_data,confidence_interval_lower,0.47,High,Generated,2025-10-13
+STUDY_0164,35043042,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0164,35043042,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0164,35043042,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0165,35043043,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0165,35043043,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0165,35043043,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0165,35043043,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0165,35043043,outcome_data,effect_estimate,0.65,High,Generated,2025-10-13
+STUDY_0165,35043043,outcome_data,confidence_interval_lower,0.45,High,Generated,2025-10-13
+STUDY_0165,35043043,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0165,35043043,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0165,35043043,outcome_data,post_value,10.4,High,Generated,2025-10-13
+STUDY_0166,35043044,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0166,35043044,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0166,35043044,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0166,35043044,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0166,35043044,outcome_data,effect_estimate,0.64,High,Generated,2025-10-13
+STUDY_0166,35043044,outcome_data,confidence_interval_lower,0.43,High,Generated,2025-10-13
+STUDY_0166,35043044,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0166,35043044,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0166,35043044,outcome_data,post_value,11.1,High,Generated,2025-10-13
+STUDY_0167,35043045,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0167,35043045,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0167,35043045,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0167,35043045,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0167,35043045,outcome_data,effect_estimate,0.63,High,Generated,2025-10-13
+STUDY_0167,35043045,outcome_data,confidence_interval_lower,0.41,High,Generated,2025-10-13
+STUDY_0167,35043045,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0167,35043045,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0167,35043045,outcome_data,post_value,11.7,High,Generated,2025-10-13
+STUDY_0168,35043046,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0168,35043046,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0168,35043046,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0168,35043046,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0168,35043046,outcome_data,effect_estimate,0.62,High,Generated,2025-10-13
+STUDY_0168,35043046,outcome_data,confidence_interval_lower,0.39,High,Generated,2025-10-13
+STUDY_0168,35043046,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0168,35043046,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0168,35043046,outcome_data,post_value,12.3,High,Generated,2025-10-13
+STUDY_0169,35043047,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0169,35043047,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0169,35043047,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0169,35043047,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0169,35043047,outcome_data,effect_estimate,0.61,High,Generated,2025-10-13
+STUDY_0169,35043047,outcome_data,confidence_interval_lower,0.37,High,Generated,2025-10-13
+STUDY_0169,35043047,outcome_data,confidence_interval_upper,0.90,High,Generated,2025-10-13
+STUDY_0169,35043047,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0169,35043047,outcome_data,post_value,12.9,High,Generated,2025-10-13
+STUDY_0170,35043048,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0170,35043048,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0170,35043048,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0170,35043048,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0170,35043048,outcome_data,effect_estimate,0.60,High,Generated,2025-10-13
+STUDY_0170,35043048,outcome_data,confidence_interval_lower,0.45,High,Generated,2025-10-13
+STUDY_0170,35043048,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0170,35043048,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0170,35043048,outcome_data,post_value,6.0,High,Generated,2025-10-13
+STUDY_0171,35043049,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0171,35043049,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0171,35043049,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0171,35043049,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0171,35043049,outcome_data,effect_estimate,0.59,High,Generated,2025-10-13
+STUDY_0171,35043049,outcome_data,confidence_interval_lower,0.43,High,Generated,2025-10-13
+STUDY_0171,35043049,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0171,35043049,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0171,35043049,outcome_data,post_value,6.7,High,Generated,2025-10-13
+STUDY_0172,35043050,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0172,35043050,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0172,35043050,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0172,35043050,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0172,35043050,outcome_data,effect_estimate,0.58,High,Generated,2025-10-13
+STUDY_0172,35043050,outcome_data,confidence_interval_lower,0.41,High,Generated,2025-10-13
+STUDY_0172,35043050,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0172,35043050,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0172,35043050,outcome_data,post_value,7.3,High,Generated,2025-10-13
+STUDY_0173,35043051,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0173,35043051,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0173,35043051,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0173,35043051,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0173,35043051,outcome_data,effect_estimate,0.57,High,Generated,2025-10-13
+STUDY_0173,35043051,outcome_data,confidence_interval_lower,0.39,High,Generated,2025-10-13
+STUDY_0173,35043051,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0173,35043051,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0173,35043051,outcome_data,post_value,7.9,High,Generated,2025-10-13
+STUDY_0174,35043052,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0174,35043052,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0174,35043052,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0174,35043052,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0174,35043052,outcome_data,effect_estimate,0.56,High,Generated,2025-10-13
+STUDY_0174,35043052,outcome_data,confidence_interval_lower,0.37,High,Generated,2025-10-13
+STUDY_0174,35043052,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0174,35043052,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0174,35043052,outcome_data,post_value,8.5,High,Generated,2025-10-13
+STUDY_0175,35043053,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0175,35043053,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0175,35043053,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0175,35043053,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0175,35043053,outcome_data,effect_estimate,0.55,High,Generated,2025-10-13
+STUDY_0175,35043053,outcome_data,confidence_interval_lower,0.35,High,Generated,2025-10-13
+STUDY_0175,35043053,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0175,35043053,outcome_data,baseline_value,13.0,High,Generated,2025-10-13
+STUDY_0175,35043053,outcome_data,post_value,9.1,High,Generated,2025-10-13
+STUDY_0176,35043054,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0176,35043054,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0176,35043054,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0176,35043054,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0176,35043054,outcome_data,effect_estimate,0.54,High,Generated,2025-10-13
+STUDY_0176,35043054,outcome_data,confidence_interval_lower,0.33,High,Generated,2025-10-13
+STUDY_0176,35043054,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0176,35043054,outcome_data,baseline_value,14.0,High,Generated,2025-10-13
+STUDY_0176,35043054,outcome_data,post_value,9.7,High,Generated,2025-10-13
+STUDY_0177,35043055,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0177,35043055,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0177,35043055,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0177,35043055,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0177,35043055,outcome_data,effect_estimate,0.53,High,Generated,2025-10-13
+STUDY_0177,35043055,outcome_data,confidence_interval_lower,0.31,High,Generated,2025-10-13
+STUDY_0177,35043055,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0177,35043055,outcome_data,baseline_value,15.0,High,Generated,2025-10-13
+STUDY_0177,35043055,outcome_data,post_value,10.2,High,Generated,2025-10-13
+STUDY_0178,35043056,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0178,35043056,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0178,35043056,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0178,35043056,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0178,35043056,outcome_data,effect_estimate,0.52,High,Generated,2025-10-13
+STUDY_0178,35043056,outcome_data,confidence_interval_lower,0.29,High,Generated,2025-10-13
+STUDY_0178,35043056,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0178,35043056,outcome_data,baseline_value,16.0,High,Generated,2025-10-13
+STUDY_0178,35043056,outcome_data,post_value,10.7,High,Generated,2025-10-13
+STUDY_0179,35043057,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0179,35043057,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0179,35043057,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0179,35043057,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0179,35043057,outcome_data,effect_estimate,0.51,High,Generated,2025-10-13
+STUDY_0179,35043057,outcome_data,confidence_interval_lower,0.27,High,Generated,2025-10-13
+STUDY_0179,35043057,outcome_data,confidence_interval_upper,0.80,High,Generated,2025-10-13
+STUDY_0179,35043057,outcome_data,baseline_value,17.0,High,Generated,2025-10-13
+STUDY_0179,35043057,outcome_data,post_value,11.2,High,Generated,2025-10-13
+STUDY_0180,35043058,study_characteristics,title,Impact of Prospective audit & feedback on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0180,35043058,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0180,35043058,intervention_details,intervention_category,Prospective audit & feedback,High,Generated,2025-10-13
+STUDY_0180,35043058,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0180,35043058,outcome_data,effect_estimate,0.50,High,Generated,2025-10-13
+STUDY_0180,35043058,outcome_data,confidence_interval_lower,0.35,High,Generated,2025-10-13
+STUDY_0180,35043058,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0180,35043058,outcome_data,baseline_value,8.0,High,Generated,2025-10-13
+STUDY_0180,35043058,outcome_data,post_value,6.8,High,Generated,2025-10-13
+STUDY_0181,35043059,study_characteristics,title,Impact of Rapid diagnostic stewardship on Hospital Mortality: Quasi-experimental Study,High,Generated,2025-10-13
+STUDY_0181,35043059,study_characteristics,study_design,Quasi-experimental,High,Generated,2025-10-13
+STUDY_0181,35043059,intervention_details,intervention_category,Rapid diagnostic stewardship,High,Generated,2025-10-13
+STUDY_0181,35043059,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0181,35043059,outcome_data,effect_estimate,0.49,High,Generated,2025-10-13
+STUDY_0181,35043059,outcome_data,confidence_interval_lower,0.33,High,Generated,2025-10-13
+STUDY_0181,35043059,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0181,35043059,outcome_data,baseline_value,9.0,High,Generated,2025-10-13
+STUDY_0181,35043059,outcome_data,post_value,7.6,High,Generated,2025-10-13
+STUDY_0182,35043060,study_characteristics,title,Impact of Multidisciplinary ASP team on Hospital Mortality: ITS Study,High,Generated,2025-10-13
+STUDY_0182,35043060,study_characteristics,study_design,ITS,High,Generated,2025-10-13
+STUDY_0182,35043060,intervention_details,intervention_category,Multidisciplinary ASP team,High,Generated,2025-10-13
+STUDY_0182,35043060,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0182,35043060,outcome_data,effect_estimate,0.48,High,Generated,2025-10-13
+STUDY_0182,35043060,outcome_data,confidence_interval_lower,0.31,High,Generated,2025-10-13
+STUDY_0182,35043060,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0182,35043060,outcome_data,baseline_value,10.0,High,Generated,2025-10-13
+STUDY_0182,35043060,outcome_data,post_value,8.3,High,Generated,2025-10-13
+STUDY_0183,35043061,study_characteristics,title,Impact of Post-prescription review on Hospital Mortality: Cohort Study,High,Generated,2025-10-13
+STUDY_0183,35043061,study_characteristics,study_design,Cohort,High,Generated,2025-10-13
+STUDY_0183,35043061,intervention_details,intervention_category,Post-prescription review,High,Generated,2025-10-13
+STUDY_0183,35043061,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0183,35043061,outcome_data,effect_estimate,0.47,High,Generated,2025-10-13
+STUDY_0183,35043061,outcome_data,confidence_interval_lower,0.29,High,Generated,2025-10-13
+STUDY_0183,35043061,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0183,35043061,outcome_data,baseline_value,11.0,High,Generated,2025-10-13
+STUDY_0183,35043061,outcome_data,post_value,9.0,High,Generated,2025-10-13
+STUDY_0184,35043062,study_characteristics,title,Impact of Guideline implementation on Hospital Mortality: RCT Study,High,Generated,2025-10-13
+STUDY_0184,35043062,study_characteristics,study_design,RCT,High,Generated,2025-10-13
+STUDY_0184,35043062,intervention_details,intervention_category,Guideline implementation,High,Generated,2025-10-13
+STUDY_0184,35043062,outcome_data,outcome_name,mortality,High,Generated,2025-10-13
+STUDY_0184,35043062,outcome_data,effect_estimate,0.46,High,Generated,2025-10-13
+STUDY_0184,35043062,outcome_data,confidence_interval_lower,0.27,High,Generated,2025-10-13
+STUDY_0184,35043062,outcome_data,confidence_interval_upper,0.70,High,Generated,2025-10-13
+STUDY_0184,35043062,outcome_data,baseline_value,12.0,High,Generated,2025-10-13
+STUDY_0184,35043062,outcome_data,post_value,9.7,High,Generated,2025-10-13

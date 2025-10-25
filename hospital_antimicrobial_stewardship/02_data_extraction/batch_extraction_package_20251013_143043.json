@@ -1,0 +1,1433 @@
+{
+  "batch_metadata": {
+    "batch_number": 1,
+    "creation_date": "2025-10-13T14:30:43.271143",
+    "batch_size": 8,
+    "estimated_completion_time": "416 minutes (45-60 min per study)",
+    "priority_level": "Medium (High priority array was empty)",
+    "extraction_deadline": "2025-10-27"
+  },
+  "studies_list": [
+    {
+      "study_id": "STUDY_0096",
+      "pmid": 25011604,
+      "title": "Antibiotic rotation strategies to reduce antimicrobial resistance in Gram-negative bacteria in European intensive care units: study protocol for a cluster-randomized crossover controlled trial.",
+      "screening_date": "2025-10-13T10:05:08.420618",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital adult population identified', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics",
+        "microbiology_methods"
+      ]
+    },
+    {
+      "study_id": "STUDY_0281",
+      "pmid": 39732716,
+      "title": "Swab Testing to Optimize Pneumonia treatment with empiric Vancomycin (STOP-Vanc): study protocol for a randomized controlled trial.",
+      "screening_date": "2025-10-13T10:05:08.474139",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital setting (assuming adult population)', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics"
+      ]
+    },
+    {
+      "study_id": "STUDY_0314",
+      "pmid": 32272171,
+      "title": "Enhanced antimicrobial stewardship based on rapid phenotypic antimicrobial susceptibility testing for bacteraemia in patients with haematological malignancies: a randomized controlled trial.",
+      "screening_date": "2025-10-13T10:05:08.488154",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital adult population identified', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics"
+      ]
+    },
+    {
+      "study_id": "STUDY_0405",
+      "pmid": 29514268,
+      "title": "Effects of primary care antimicrobial stewardship outreach on antibiotic use by general practice staff: pragmatic randomized controlled trial of the TARGET antibiotics workshop.",
+      "screening_date": "2025-10-13T10:05:08.509264",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital setting (assuming adult population)', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics"
+      ]
+    },
+    {
+      "study_id": "STUDY_0784",
+      "pmid": 34460904,
+      "title": "Impact of Antibiotic Stewardship Rounds in the Intensive Care Setting: A Prospective Cluster-Randomized Crossover Study.",
+      "screening_date": "2025-10-13T10:05:08.674726",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital setting (assuming adult population)', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics"
+      ]
+    },
+    {
+      "study_id": "STUDY_0881",
+      "pmid": 23743088,
+      "title": "Long-term survival in patients included in a randomized controlled trial of TREAT, a decision support system for antibiotic treatment.",
+      "screening_date": "2025-10-13T10:05:08.716313",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital adult population identified', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics"
+      ]
+    },
+    {
+      "study_id": "STUDY_1198",
+      "pmid": 28159671,
+      "title": "Effect of an antibiotic checklist on length of hospital stay and appropriate antibiotic use in adult patients treated with intravenous antibiotics: a stepped wedge cluster randomized trial.",
+      "screening_date": "2025-10-13T10:05:08.875673",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital adult population identified', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics"
+      ]
+    },
+    {
+      "study_id": "STUDY_1317",
+      "pmid": 40032084,
+      "title": "Impact of a smartphone application for appropriate antibiotic prescribing at three tertiary hospitals: an international, multicentre stepped-wedge cluster randomized trial.",
+      "screening_date": "2025-10-13T10:05:08.940129",
+      "include": true,
+      "reasons": "['study_design: RCT or ITS design identified', 'population: Hospital setting (assuming adult population)', 'intervention: Stewardship intervention identified', 'outcomes: Relevant outcomes identified']",
+      "exclusion_reasons": "[]",
+      "priority_level": "Medium",
+      "estimated_time": "45-60 minutes",
+      "extraction_targets": [
+        "precise_effect_estimates",
+        "confidence_intervals",
+        "statistical_significance",
+        "sample_size_per_arm",
+        "baseline_characteristics"
+      ]
+    }
+  ],
+  "extraction_forms": {
+    "batch_info": {
+      "batch_number": 1,
+      "batch_size": 8,
+      "priority_level": "Medium (High priority array was empty)",
+      "selection_criteria": "Top 10 Medium priority studies from review plan",
+      "estimated_completion_time": "416 minutes (45-60 min per study)",
+      "extraction_priorities": [
+        "mortality",
+        "cdi",
+        "mdro",
+        "antibiotic_consumption"
+      ]
+    },
+    "study_characteristics_form": {
+      "columns": [
+        "study_id",
+        "pmid",
+        "title",
+        "author",
+        "journal",
+        "year",
+        "doi",
+        "study_design",
+        "unit_randomization",
+        "study_duration_months",
+        "number_arms",
+        "sample_size_per_arm",
+        "inclusion_criteria",
+        "exclusion_criteria",
+        "setting_type",
+        "hospital_beds",
+        "geographic_region",
+        "country",
+        "funding_source",
+        "ethical_approval",
+        "trial_registration",
+        "extractor_initials",
+        "extraction_date",
+        "verification_status",
+        "verification_notes"
+      ],
+      "data_types": {
+        "sample_size_per_arm": "integer",
+        "study_duration_months": "float",
+        "number_arms": "integer",
+        "hospital_beds": "integer"
+      },
+      "required_fields": [
+        "study_id",
+        "pmid",
+        "title",
+        "study_design",
+        "sample_size_per_arm",
+        "setting_type",
+        "geographic_region",
+        "extractor_initials",
+        "extraction_date"
+      ],
+      "validation_rules": {
+        "sample_size_per_arm": ">0",
+        "study_duration_months": ">0",
+        "number_arms": ">0 and <=10"
+      },
+      "initial_data": [
+        {
+          "study_id": "STUDY_0096",
+          "pmid": 25011604,
+          "title": "Antibiotic rotation strategies to reduce antimicrobial resistance in Gram-negative bacteria in European intensive care units: study protocol for a cluster-randomized crossover controlled trial.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        },
+        {
+          "study_id": "STUDY_0281",
+          "pmid": 39732716,
+          "title": "Swab Testing to Optimize Pneumonia treatment with empiric Vancomycin (STOP-Vanc): study protocol for a randomized controlled trial.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        },
+        {
+          "study_id": "STUDY_0314",
+          "pmid": 32272171,
+          "title": "Enhanced antimicrobial stewardship based on rapid phenotypic antimicrobial susceptibility testing for bacteraemia in patients with haematological malignancies: a randomized controlled trial.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        },
+        {
+          "study_id": "STUDY_0405",
+          "pmid": 29514268,
+          "title": "Effects of primary care antimicrobial stewardship outreach on antibiotic use by general practice staff: pragmatic randomized controlled trial of the TARGET antibiotics workshop.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        },
+        {
+          "study_id": "STUDY_0784",
+          "pmid": 34460904,
+          "title": "Impact of Antibiotic Stewardship Rounds in the Intensive Care Setting: A Prospective Cluster-Randomized Crossover Study.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        },
+        {
+          "study_id": "STUDY_0881",
+          "pmid": 23743088,
+          "title": "Long-term survival in patients included in a randomized controlled trial of TREAT, a decision support system for antibiotic treatment.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        },
+        {
+          "study_id": "STUDY_1198",
+          "pmid": 28159671,
+          "title": "Effect of an antibiotic checklist on length of hospital stay and appropriate antibiotic use in adult patients treated with intravenous antibiotics: a stepped wedge cluster randomized trial.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        },
+        {
+          "study_id": "STUDY_1317",
+          "pmid": 40032084,
+          "title": "Impact of a smartphone application for appropriate antibiotic prescribing at three tertiary hospitals: an international, multicentre stepped-wedge cluster randomized trial.",
+          "author": "",
+          "journal": "",
+          "year": "",
+          "doi": "",
+          "study_design": "",
+          "unit_randomization": "",
+          "study_duration_months": "",
+          "number_arms": "",
+          "sample_size_per_arm": "",
+          "inclusion_criteria": "",
+          "exclusion_criteria": "",
+          "setting_type": "",
+          "hospital_beds": "",
+          "geographic_region": "",
+          "country": "",
+          "funding_source": "",
+          "ethical_approval": "",
+          "trial_registration": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13",
+          "verification_status": "Pending",
+          "verification_notes": ""
+        }
+      ]
+    },
+    "intervention_details_form": {
+      "columns": [
+        "study_id",
+        "pmid",
+        "study_design",
+        "intervention_category",
+        "intervention_components",
+        "intervention_intensity",
+        "intervention_frequency",
+        "intervention_duration_months",
+        "technology_requirements",
+        "personnel_fte",
+        "training_provided",
+        "training_method",
+        "implementation_team",
+        "fidelity_measures",
+        "process_measures",
+        "comparator_description",
+        "standard_practices",
+        "intervention_development",
+        "implementation_challenges",
+        "sustainability_plan",
+        "extractor_initials",
+        "extraction_date"
+      ],
+      "intervention_categories": [
+        "Pre-authorization/prior approval",
+        "Prospective audit and feedback (PAF)",
+        "Rapid diagnostic pathways",
+        "Computerized decision support (CDSS)/e-prescribing",
+        "Education and guidelines",
+        "Combination interventions"
+      ],
+      "required_fields": [
+        "study_id",
+        "pmid",
+        "intervention_category",
+        "intervention_components",
+        "implementation_team",
+        "comparator_description",
+        "extractor_initials"
+      ],
+      "initial_data": [
+        {
+          "study_id": "STUDY_0096",
+          "pmid": 25011604,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0281",
+          "pmid": 39732716,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0314",
+          "pmid": 32272171,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0405",
+          "pmid": 29514268,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0784",
+          "pmid": 34460904,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0881",
+          "pmid": 23743088,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1198",
+          "pmid": 28159671,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1317",
+          "pmid": 40032084,
+          "study_design": "ITS",
+          "intervention_category": "",
+          "intervention_components": "",
+          "intervention_intensity": "",
+          "intervention_frequency": "",
+          "intervention_duration_months": "",
+          "technology_requirements": "",
+          "personnel_fte": "",
+          "training_provided": "",
+          "training_method": "",
+          "implementation_team": "",
+          "fidelity_measures": "",
+          "process_measures": "",
+          "comparator_description": "",
+          "standard_practices": "",
+          "intervention_development": "",
+          "implementation_challenges": "",
+          "sustainability_plan": "",
+          "extractor_initials": "TBD",
+          "extraction_date": "2025-10-13"
+        }
+      ]
+    },
+    "outcome_data_form": {
+      "columns": [
+        "study_id",
+        "pmid",
+        "outcome_name",
+        "outcome_definition",
+        "measurement_method",
+        "time_points",
+        "baseline_value",
+        "post_value",
+        "absolute_change",
+        "relative_change",
+        "effect_estimate",
+        "confidence_interval_lower",
+        "confidence_interval_upper",
+        "p_value",
+        "statistical_model",
+        "adjustment_variables",
+        "missing_data_handling",
+        "intention_to_treat",
+        "clinical_significance",
+        "extractor_initials",
+        "extraction_date",
+        "data_source_page"
+      ],
+      "outcome_categories": {
+        "mortality": [
+          "30-day mortality",
+          "In-hospital mortality",
+          "All-cause mortality"
+        ],
+        "cdi_incidence": [
+          "CDI cases per 10,000 patient-days"
+        ],
+        "mdro_incidence": [
+          "MRSA bacteremia",
+          "VRE bacteremia",
+          "CRE bacteremia",
+          "ESBL+ bacteremia"
+        ],
+        "antibiotic_consumption": [
+          "DOT per 1,000 patient-days",
+          "DDD per 1,000 patient-days"
+        ],
+        "length_of_stay": [
+          "Mean LOS (days)"
+        ],
+        "costs": [
+          "Total antibiotic costs ($)",
+          "Cost per patient ($)"
+        ]
+      },
+      "data_types": {
+        "baseline_value": "float",
+        "post_value": "float",
+        "absolute_change": "float",
+        "relative_change": "float",
+        "confidence_interval_lower": "float",
+        "confidence_interval_upper": "float",
+        "p_value": "float",
+        "data_source_page": "string"
+      },
+      "validation_rules": {
+        "p_value": ">=0 and <=1",
+        "effect_estimate": "!=0",
+        "confidence_interval_lower": "!=\"\"",
+        "confidence_interval_upper": "!=\"\""
+      },
+      "initial_data": []
+    },
+    "quality_assessment_form": {
+      "rob_2_domains": {
+        "1_randomization_process": {
+          "description": "Randomization process adequately described?",
+          "options": [
+            "Yes",
+            "No",
+            "Not applicable (not RCT)"
+          ]
+        },
+        "2_deviations_from_intervention": {
+          "description": "Deviations from intended interventions avoided?",
+          "options": [
+            "Yes",
+            "No",
+            "Not applicable (not RCT)"
+          ]
+        },
+        "3_missing_outcome_data": {
+          "description": "Missing outcome data adequately addressed?",
+          "options": [
+            "Yes",
+            "No",
+            "Not applicable"
+          ]
+        },
+        "4_measurement_of_outcomes": {
+          "description": "Outcome measures well-defined and consistently applied?",
+          "options": [
+            "Yes",
+            "No",
+            "Not applicable"
+          ]
+        },
+        "5_selection_of_reported_results": {
+          "description": "Selection of reported results appropriate?",
+          "options": [
+            "Yes",
+            "No",
+            "Not applicable"
+          ]
+        }
+      },
+      "its_domains": {
+        "1_secular_trends": {
+          "description": "Protection against secular changes?",
+          "options": [
+            "Adequate",
+            "Inadequate",
+            "Unsure"
+          ]
+        },
+        "2_detection_bias": {
+          "description": "Protection against detection bias?",
+          "options": [
+            "Adequate",
+            "Inadequate",
+            "Unsure"
+          ]
+        },
+        "3_outcome_completeness": {
+          "description": "Completeness of outcome data adequate?",
+          "options": [
+            "Adequate",
+            "Inadequate",
+            "Unsure"
+          ]
+        },
+        "4_baseline_characteristics": {
+          "description": "Baseline characteristics similar?",
+          "options": [
+            "Similar",
+            "Not similar",
+            "Unsure"
+          ]
+        }
+      },
+      "columns": [
+        "study_id",
+        "pmid",
+        "assessment_type",
+        "domain",
+        "assessment",
+        "supporting_evidence",
+        "judgment",
+        "overall_rob",
+        "comments",
+        "assessor_initials",
+        "assessment_date"
+      ],
+      "initial_data": [
+        {
+          "study_id": "STUDY_0096",
+          "pmid": 25011604,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0096",
+          "pmid": 25011604,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0096",
+          "pmid": 25011604,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0096",
+          "pmid": 25011604,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0281",
+          "pmid": 39732716,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0281",
+          "pmid": 39732716,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0281",
+          "pmid": 39732716,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0281",
+          "pmid": 39732716,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0314",
+          "pmid": 32272171,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0314",
+          "pmid": 32272171,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0314",
+          "pmid": 32272171,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0314",
+          "pmid": 32272171,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0405",
+          "pmid": 29514268,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0405",
+          "pmid": 29514268,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0405",
+          "pmid": 29514268,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0405",
+          "pmid": 29514268,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0784",
+          "pmid": 34460904,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0784",
+          "pmid": 34460904,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0784",
+          "pmid": 34460904,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0784",
+          "pmid": 34460904,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0881",
+          "pmid": 23743088,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0881",
+          "pmid": 23743088,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0881",
+          "pmid": 23743088,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_0881",
+          "pmid": 23743088,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1198",
+          "pmid": 28159671,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1198",
+          "pmid": 28159671,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1198",
+          "pmid": 28159671,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1198",
+          "pmid": 28159671,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1317",
+          "pmid": 40032084,
+          "assessment_type": "ITS",
+          "domain": "Protection against secular changes?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1317",
+          "pmid": 40032084,
+          "assessment_type": "ITS",
+          "domain": "Protection against detection bias?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1317",
+          "pmid": 40032084,
+          "assessment_type": "ITS",
+          "domain": "Completeness of outcome data adequate?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        },
+        {
+          "study_id": "STUDY_1317",
+          "pmid": 40032084,
+          "assessment_type": "ITS",
+          "domain": "Baseline characteristics similar?",
+          "assessment": "",
+          "supporting_evidence": "",
+          "judgment": "",
+          "overall_rob": "",
+          "comments": "",
+          "assessor_initials": "TBD",
+          "assessment_date": "2025-10-13"
+        }
+      ]
+    },
+    "extraction_checklist": [
+      {
+        "step": 1,
+        "description": "Obtain full-text article",
+        "required_actions": [
+          "Access PDF or PMC",
+          "Note access date",
+          "Check for supplementary materials"
+        ],
+        "completion_criteria": [
+          "PDF obtained and readable"
+        ],
+        "estimated_time": "5-10 minutes"
+      },
+      {
+        "step": 2,
+        "description": "Read abstract and introduction",
+        "required_actions": [
+          "Note study objectives",
+          "Identify study design",
+          "Note inclusion/exclusion criteria"
+        ],
+        "completion_criteria": [
+          "Study purpose understood"
+        ],
+        "estimated_time": "10 minutes"
+      },
+      {
+        "step": 3,
+        "description": "Extract study characteristics",
+        "required_actions": [
+          "Complete all required fields",
+          "Note any missing information",
+          "Document data sources"
+        ],
+        "completion_criteria": [
+          "All required fields completed"
+        ],
+        "estimated_time": "15-20 minutes"
+      },
+      {
+        "step": 4,
+        "description": "Extract intervention details",
+        "required_actions": [
+          "Identify primary intervention type",
+          "Document all components",
+          "Note implementation team"
+        ],
+        "completion_criteria": [
+          "Intervention fully characterized"
+        ],
+        "estimated_time": "20-25 minutes"
+      },
+      {
+        "step": 5,
+        "description": "Extract outcome data",
+        "required_actions": [
+          "Record all effect estimates with CIs",
+          "Note measurement methods",
+          "Document statistical models"
+        ],
+        "completion_criteria": [
+          "Effect estimates and uncertainty measures captured"
+        ],
+        "estimated_time": "25-30 minutes"
+      },
+      {
+        "step": 6,
+        "description": "Complete quality assessment",
+        "required_actions": [
+          "Score all domains",
+          "Provide supporting evidence",
+          "Make overall judgment"
+        ],
+        "completion_criteria": [
+          "All domains assessed"
+        ],
+        "estimated_time": "15-20 minutes"
+      },
+      {
+        "step": 7,
+        "description": "Cross-check extractions",
+        "required_actions": [
+          "Verify data consistency",
+          "Check calculations",
+          "Flag uncertainties"
+        ],
+        "completion_criteria": [
+          "Extraction validated"
+        ],
+        "estimated_time": "10 minutes"
+      },
+      {
+        "step": 8,
+        "description": "Complete and submit",
+        "required_actions": [
+          "Save all forms",
+          "Generate extraction report",
+          "Submit for verification"
+        ],
+        "completion_criteria": [
+          "All forms submitted"
+        ],
+        "estimated_time": "5 minutes"
+      }
+    ],
+    "validation_rules": {
+      "study_characteristics": {
+        "sample_size_per_arm": {
+          "type": "integer",
+          "range": [
+            1,
+            10000
+          ]
+        },
+        "study_duration_months": {
+          "type": "float",
+          "range": [
+            1,
+            120
+          ]
+        },
+        "number_arms": {
+          "type": "integer",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "outcome_data": {
+        "effect_estimate": {
+          "type": "float",
+          "range": [
+            -100,
+            100
+          ]
+        },
+        "confidence_interval_lower": {
+          "type": "float"
+        },
+        "confidence_interval_upper": {
+          "type": "float"
+        },
+        "p_value": {
+          "type": "float",
+          "range": [
+            0,
+            1
+          ]
+        }
+      },
+      "cross_validation_rules": [
+        "CI lower bound should be < effect estimate",
+        "CI upper bound should be > effect estimate",
+        "Effect direction should match verbal description",
+        "Sample sizes should be consistent between text and tables"
+      ]
+    }
+  },
+  "quality_control": {
+    "double_extraction_required": true,
+    "minimum_double_extraction_percentage": 20,
+    "discrepancy_resolution_process": "Third reviewer arbitration",
+    "acceptance_criteria": "100% agreement on intervention classification, effect estimates within 10% for continuous outcomes"
+  },
+  "progress_tracking": {
+    "total_studies": 8,
+    "completed_studies": 0,
+    "verified_studies": 0,
+    "pending_verification": 8
+  },
+  "resources": {
+    "extraction_manual": "Refer to workflow guide in main directory",
+    "data_dictionary": "Available in project docs",
+    "support_contact": "Team lead for extraction questions"
+  }
+}

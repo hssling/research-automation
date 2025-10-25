@@ -1,0 +1,60 @@
+Full-Text Review Workflow Guide
+===================================
+
+Generated on: 2025-10-13 14:26:03
+
+REVIEW PLAN SUMMARY:
+Total studies requiring full-text review: 76
+Estimated completion time: 66.6 hours
+Recommended timeline: 4.8 weeks
+
+STUDIES BY PRIORITY:
+  High: 0 studies
+  Medium: 8 studies
+  Low: 68 studies
+
+WORKFLOW CHECKLIST:
+  1. Obtain full-text article (PDF/PMC)
+  2. Read title and abstract for context
+  3. Review methods section thoroughly
+  4. Extract study characteristics
+  5. Extract intervention details
+  6. Extract outcome data with precision
+  7. Complete quality assessment
+  8. Document any uncertainties
+  9. Cross-check all extracted data
+  10. Submit for verification
+
+QUALITY CONTROL REMINDERS:
+  • Cross-check sample sizes between text and tables
+  • Verify effect estimates against reported statistics
+  • Confirm statistical test appropriateness
+  • Validate baseline balance between groups
+  • Check for selective outcome reporting
+
+TROUBLESHOOTING COMMON ISSUES:
+  missing_data: Note what is missing and why
+  unclear_methods: Contact corresponding author if critical
+  inconsistent_results: Check for data entry errors
+  protocol_deviations: Document and assess impact
+
+DATA EXTRACTION SECTIONS:
+  • study_characteristics
+  • intervention_details
+  • outcome_data
+  • quality_assessment
+  • extraction_notes
+
+EXTRACTION TIPS:
+  • Extract exact values, not rounded approximations
+  • Note page numbers for future reference
+  • Document any uncertainties or assumptions
+  • Cross-check numbers between text and tables
+  • Flag any data inconsistencies for resolution
+  • Complete quality assessment for each study
+
+FINAL REMINDERS:
+  • Maintain detailed extraction notes
+  • Follow protocol definitions strictly
+  • Submit completed extractions for verification
+  • Contact team lead for any uncertainties

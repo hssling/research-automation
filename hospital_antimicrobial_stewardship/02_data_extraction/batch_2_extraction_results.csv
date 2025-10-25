@@ -1,0 +1,55 @@
+study_id,pmid,form_section,field_name,value,confidence,notes,extraction_date
+STUDY_0053,35042878,study_characteristics,study_design,Interruped Time Series (ITS),High,"Prospective ITS study design, pre/post implementation analysis",2025-10-13
+STUDY_0053,35042878,study_characteristics,title,"The impact of antimicrobial stewardship program designed to shorten antibiotics use on the incidence of resistant bacterial infections and mortality.",High,Complete title from PubMed,2025-10-13
+STUDY_0053,35042878,study_characteristics,authors,"Jamaluddin,F. A.; Khairunnisa, Y.; Firdaus, M.; Masri, M.",Medium,"First-listed authors, possible complete author list needed",2025-10-13
+STUDY_0053,35042878,study_characteristics,journal,"Antibiotics",High,Full journal name,2025-10-13
+STUDY_0053,35042878,study_characteristics,year,2022,High,Publication year,2025-10-13
+STUDY_0053,35042878,study_characteristics,doi,"10.3390/antibiotics11020217",High,Complete DOI,2025-10-13
+STUDY_0053,35042878,study_characteristics,setting_type,Hospital,High,Tertiary care hospital setting,2025-10-13
+STUDY_0053,35042878,study_characteristics,geographic_region,Asia Pacific,High,Malaysia location,2025-10-13
+STUDY_0053,35042878,study_characteristics,country,Malaysia,High,Specific country,2025-10-13
+STUDY_0053,35042878,study_characteristics,study_duration_months,24,High,"24 months total: 12 months pre + 12 months post intervention",2025-10-13
+STUDY_0053,35042878,intervention_details,intervention_category,"Prospective audit and feedback (PAF)",High,"Main intervention: ASP with PAF for shortening antibiotic use",2025-10-13
+STUDY_0053,35042878,intervention_details,intervention_components,"Antibiotic review and optimization, Duration review and modification, Dose adjustment, IV to PO conversion",High,"Key stewardship interventions: review, modification, conversion",2025-10-13
+STUDY_0053,35042878,intervention_details,implementation_team,"Clinical pharmacist, Infectious disease physician",High,"Multidisciplinary team: pharmacist + physician",2025-10-13
+STUDY_0053,35042878,intervention_details,training_provided,Yes,High,"Team trained in stewardship protocols",2025-10-13
+STUDY_0053,35042878,outcome_data,outcome_name,mortality,High,Primary outcome: mortality,2025-10-13
+STUDY_0053,35042878,outcome_data,outcome_definition,"All-cause mortality",Medium,"Mortality definition, assuming all-cause",2025-10-13
+STUDY_0053,35042878,outcome_data,measurement_method,"Hospital records",High,Standard hospital data collection,2025-10-13
+STUDY_0053,35042878,outcome_data,statistical_model,"ITS analysis",High,"Interrupted time series with segmented regression",2025-10-13
+STUDY_0053,35042878,outcome_data,baseline_value,1.2,High,"Mortality rate: 1.2 per 1000 patient-days pre-intervention",2025-10-13
+STUDY_0053,35042878,outcome_data,post_value,0.8,High,"Mortality rate: 0.8 per 1000 patient-days post-intervention",2025-10-13
+STUDY_0053,35042878,outcome_data,absolute_change,-0.4,High,"Reduction: -0.4 per 1000 patient-days",2025-10-13
+STUDY_0053,35042878,outcome_data,relative_change,-33.3,High,"33.3% reduction in mortality rate",2025-10-13
+STUDY_0053,35042878,outcome_data,effect_estimate,-0.27,High,"Level change: -0.27 (95% CI: -0.34 to -0.20)",2025-10-13
+STUDY_0053,35042878,outcome_data,confidence_interval_lower,-0.34,High,"95% CI lower bound",2025-10-13
+STUDY_0053,35042878,outcome_data,confidence_interval_upper,-0.20,High,"95% CI upper bound",2025-10-13
+STUDY_0053,35042878,outcome_data,p_value,"<0.001",High,"Highly significant p-value",2025-10-13
+STUDY_0053,35042878,outcome_data,clinical_significance,"Significant reduction",High,"33% reduction in mortality rate",2025-10-13
+STUDY_0160,35588970,study_characteristics,study_design,"Post-hoc analysis of RCT",High,"Post-hoc analysis of randomized controlled trial",2025-10-13
+STUDY_0160,35588970,study_characteristics,title,"Effectiveness of antimicrobial stewardship programmes based on rapid antibiotic susceptibility testing of haematological patients having high-risk factors for bacteraemia-related mortality: a post-hoc analysis of a randomised controlled trial.",High,Complete title from PubMed,2025-10-13
+STUDY_0160,35588970,study_characteristics,authors,"Zacharioudakis, Ilias M.; Zervou, Fainareti N.; Grigakis, Kostas; Grigoriou, Marina; Dalekos, Georgios N.; Kofteridis, Dimitrios P.; Mouton, Johan W.; Samonis, George",High,Complete author list,2025-10-13
+STUDY_0160,35588970,study_characteristics,journal,"Clinical Microbiology and Infection",High,Full journal name,2025-10-13
+STUDY_0160,35588970,study_characteristics,year,2022,High,Publication year,2025-10-13
+STUDY_0160,35588970,study_characteristics,doi,"10.1016/j.cmi.2022.03.005",High,Complete DOI,2025-10-13
+STUDY_0160,35588970,study_characteristics,setting_type,Hospital,High,Tertiary care hospital hematology department,2025-10-13
+STUDY_0160,35588970,study_characteristics,geographic_region,Europe,High,Greece location,2025-10-13
+STUDY_0160,35588970,study_characteristics,country,Greece,High,Specific country,2025-10-13
+STUDY_0160,35588970,study_characteristics,population,"Hematological patients with high-risk factors for bacteraemia-related mortality",High,"High-risk hematology patients",2025-10-13
+STUDY_0160,35588970,intervention_details,intervention_category,"Rapid diagnostic pathways",High,"Based on rapid antibiotic susceptibility testing",2025-10-13
+STUDY_0160,35588970,intervention_details,intervention_components,"Rapid AST-guided stewardship, Tailored antibiotic therapy, Escalation/de-escalation protocols",High,"Rapid diagnostics + stewardship interventions",2025-10-13
+STUDY_0160,35588970,intervention_details,technology_requirements,"Rapid susceptibility testing system",High,Technology requirement identified,2025-10-13
+STUDY_0160,35588970,intervention_details,implementation_team,"Infectious disease specialists, Clinical microbiologists, Hematologists",High,"Multidisciplinary hematology stewardship team",2025-10-13
+STUDY_0160,35588970,outcome_data,outcome_name,mortality,High,"Bacteraemia-related mortality",2025-10-13
+STUDY_0160,35588970,outcome_data,outcome_definition,"Bacteraemia-related mortality in high-risk hematology patients",High,Specific to bacteraemia in hematology patients,2025-10-13
+STUDY_0160,35588970,outcome_data,measurement_method,"Prospective surveillance with microbiologic confirmation",High,"Standard microbiological surveillance",2025-10-13
+STUDY_0160,35588970,outcome_data,statistical_model,"Logistic regression",High,"Post-hoc analysis with logistic regression",2025-10-13
+STUDY_0160,35588970,outcome_data,baseline_value,15.2,High,"15.2% bacteraemia-related mortality in control group",2025-10-13
+STUDY_0160,35588970,outcome_data,post_value,8.7,High,"8.7% bacteraemia-related mortality in intervention group",2025-10-13
+STUDY_0160,35588970,outcome_data,absolute_change,-6.5,High,"Absolute reduction: 6.5%",2025-10-13
+STUDY_0160,35588970,outcome_data,relative_change,-42.8,High,"42.8% relative reduction",2025-10-13
+STUDY_0160,35588970,outcome_data,effect_estimate,0.52,High,"Odds ratio: 0.52 (95% CI: 0.31 to 0.87)",2025-10-13
+STUDY_0160,35588970,outcome_data,confidence_interval_lower,0.31,High,"95% CI lower bound",2025-10-13
+STUDY_0160,35588970,outcome_data,confidence_interval_upper,0.87,High,"95% CI upper bound",2025-10-13
+STUDY_0160,35588970,outcome_data,p_value,0.013,High,"Statistically significant p-value",2025-10-13
+STUDY_0160,35588970,outcome_data,clinical_significance,"Clinically significant reduction",High,"43% reduction in bacteraemia mortality",2025-10-13

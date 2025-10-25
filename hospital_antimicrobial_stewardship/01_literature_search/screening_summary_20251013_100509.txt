@@ -1,0 +1,38 @@
+Hospital Antimicrobial Stewardship Study Screening Summary
+============================================================
+
+Screening completed on: 2025-10-13 10:05:09
+
+SCREENING RESULTS:
+Total studies screened: 1526
+Studies included: 76
+Studies excluded: 1450
+Inclusion rate: 5.0%
+
+PRISMA FLOW DIAGRAM DATA:
+Records identified: 1526
+Records screened: 1526
+Records excluded: 1450
+Records included: 76
+
+EXCLUSION REASONS:
+Outpatient or long-term care setting: 613
+Not original research: 261
+Pediatric population: 163
+study_design: No RCT or ITS design identified: 941
+outcomes: No relevant outcomes identified: 763
+population: Not hospital/acute care setting: 437
+intervention: No stewardship intervention identified: 398
+
+TOP 10 INCLUDED STUDIES:
+------------------------------
+1. The impact of a non-restrictive Antimicrobial Stewardship Program in the emergency department of a s... [PMID: 37700179]
+2. Optimizing rapid diagnostics and diagnostic stewardship in Gram-negative bacteremia.... [PMID: 34131939]
+3. Changes in antibiotic consumption, AMR and Clostridioides difficile infections in a large tertiary-c... [PMID: 34648594]
+4. Effect of a "handshake" stewardship program versus a formulary restriction policy on High-End antibi... [PMID: 32364030]
+5. Implementation and impact of an audit and feedback antimicrobial stewardship intervention in the ort... [PMID: 29339298]
+6. Lessons from an Educational Invasive Fungal Disease Conference on Hospital Antifungal Stewardship Pr... [PMID: 34682223]
+7. Duration of pneumonia therapy and the role of biomarkers.... [PMID: 28079629]
+8. The impact of antimicrobial stewardship program designed to shorten antibiotics use on the incidence... [PMID: 35042878]
+9. [Antimicrobial stewardship program during the COVID-19 pandemic].... [PMID: 36220019]
+10. The Interventions and Challenges of Antimicrobial Stewardship in the Emergency Department.... [PMID: 37887223]

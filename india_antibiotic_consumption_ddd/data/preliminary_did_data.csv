@@ -1,0 +1,13 @@
+study_id,year,region,setting,population,total_ddd,did_value,se,ci_lower,ci_upper,awa_access_pct,awa_watch_pct,awa_reserve_pct,primary_antibiotic_class,study_period,timeframe_days,methodology_notes,data_extraction_status
+fazaludeen_2022_national,2022,National,Private sector,1400000000,21600000,15.43,1.25,13.08,17.78,35,55,10,Beta-lactams,2011-2019,2556,Private sector PharmaTrac data,completed
+fazaludeen_2024_national,2024,National,Hospital pharmacy,1000000000,12000000,12.00,0.98,10.31,13.69,40,50,10,Fluoroquinolones,2021-2023,1095,National injectable analysis,completed
+birdie_wahlang_2024_ne,2024,Northeast India,ICU,150000,45000,30.00,2.45,25.39,34.61,25,60,15,Beta-lactams,2022-2023,365,AWaRe classification ICU,completed
+singh_2022_delhi,2022,North India,Trauma ICU,25000,18000,72.00,5.89,61.54,82.46,20,70,10,Beta-lactams,2020-2021,365,DOT vs DDD comparison,completed
+panditrao_2021_sicu,2021,South India,Surgical ICU,12000,10000,83.33,6.80,71.02,95.64,15,75,10,Cephalosporins,2019-2020,180,Stewardship intervention,completed
+karimi_2023_neonatal,2023,South India,Neonatal ICU,2000,4800,24.00,2.12,20.07,27.93,45,45,10,Beta-lactams,2012-2017,1825,Resistance correlation study,partial
+aggarwal_2024_lab,2024,North India,Mixed,50000,8500,17.00,1.39,14.44,19.56,30,60,10,Aminoglycosides,2022-2023,365,CLSI breakpoint analysis,partial
+najmi_2019_bacteremia,2019,South India,Hospital,10000,2100,21.00,2.40,16.65,25.35,20,65,15,Beta-lactams,2016-2018,730,E. coli bacteremia analysis,partial
+panditrao_2020_baseline,2020,South India,Surgical ICU,12000,11400,95.00,7.75,81.05,108.95,10,80,10,Cephalosporins,2019,90,Pre-intervention baseline,partial
+jayaraman_2022_chennai,2022,South India,Tertiary hospital,800000,19200,24.00,1.96,20.36,27.64,35,55,10,Fluoroquinolones,2019-2021,730,AMC tool compliance,partial
+srikanth_2021_mumbai,2021,West India,Teaching hospital,600000,12000,20.00,1.64,16.92,23.08,40,50,10,Beta-lactams,2018-2020,730,Antibiotic policy impact,partial
+rajan_2023_kerala,2023,South India,Primary care,500000,6500,13.00,1.06,10.97,15.03,45,45,10,Beta-lactams-Cephalosporins,2020-2022,730,Primary care patterns,partial

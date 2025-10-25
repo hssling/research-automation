@@ -1,0 +1,1116 @@
+{
+  "total_studies": 76,
+  "studies_by_priority": {
+    "High": [],
+    "Medium": [
+      {
+        "study_id": "STUDY_0096",
+        "pmid": 25011604,
+        "title": "Antibiotic rotation strategies to reduce antimicrobial resistance in Gram-negati...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "microbiology_methods"
+        ]
+      },
+      {
+        "study_id": "STUDY_0281",
+        "pmid": 39732716,
+        "title": "Swab Testing to Optimize Pneumonia treatment with empiric Vancomycin (STOP-Vanc)...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0314",
+        "pmid": 32272171,
+        "title": "Enhanced antimicrobial stewardship based on rapid phenotypic antimicrobial susce...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0405",
+        "pmid": 29514268,
+        "title": "Effects of primary care antimicrobial stewardship outreach on antibiotic use by ...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0784",
+        "pmid": 34460904,
+        "title": "Impact of Antibiotic Stewardship Rounds in the Intensive Care Setting: A Prospec...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0881",
+        "pmid": 23743088,
+        "title": "Long-term survival in patients included in a randomized controlled trial of TREA...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1198",
+        "pmid": 28159671,
+        "title": "Effect of an antibiotic checklist on length of hospital stay and appropriate ant...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1317",
+        "pmid": 40032084,
+        "title": "Impact of a smartphone application for appropriate antibiotic prescribing at thr...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      }
+    ],
+    "Low": [
+      {
+        "study_id": "STUDY_0741",
+        "pmid": 35451671,
+        "title": "Short- and long-term impact of a multifaceted approach targeting fluoroquinolone...",
+        "estimated_time": "60+ minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0793",
+        "pmid": 38372558,
+        "title": "A Prospective Quasi-Experimental Study of Multifaceted Interventions Including C...",
+        "estimated_time": "60+ minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0001",
+        "pmid": 37700179,
+        "title": "The impact of a non-restrictive Antimicrobial Stewardship Program in the emergen...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0025",
+        "pmid": 34131939,
+        "title": "Optimizing rapid diagnostics and diagnostic stewardship in Gram-negative bactere...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0031",
+        "pmid": 34648594,
+        "title": "Changes in antibiotic consumption, AMR and Clostridioides difficile infections i...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0038",
+        "pmid": 32364030,
+        "title": "Effect of a \"handshake\" stewardship program versus a formulary restriction polic...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "microbiology_methods"
+        ]
+      },
+      {
+        "study_id": "STUDY_0043",
+        "pmid": 29339298,
+        "title": "Implementation and impact of an audit and feedback antimicrobial stewardship int...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0044",
+        "pmid": 34682223,
+        "title": "Lessons from an Educational Invasive Fungal Disease Conference on Hospital Antif...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0048",
+        "pmid": 28079629,
+        "title": "Duration of pneumonia therapy and the role of biomarkers.",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0053",
+        "pmid": 35042878,
+        "title": "The impact of antimicrobial stewardship program designed to shorten antibiotics ...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "detailed_mortality_results"
+        ]
+      },
+      {
+        "study_id": "STUDY_0058",
+        "pmid": 36220019,
+        "title": "[Antimicrobial stewardship program during the COVID-19 pandemic].",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0061",
+        "pmid": 37887223,
+        "title": "The Interventions and Challenges of Antimicrobial Stewardship in the Emergency D...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0065",
+        "pmid": 36716763,
+        "title": "Efficacy and safety of antimicrobial stewardship prospective audit and feedback ...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0066",
+        "pmid": 34635529,
+        "title": "Infectious diseases experts as part of the antibiotic stewardship team in primar...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0084",
+        "pmid": 21679144,
+        "title": "How could we reduce antibiotic use in critically ill patients?",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0095",
+        "pmid": 40547325,
+        "title": "Bacteriological Spectrum and Drug Resistance Among Patients Associated With Bloo...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "microbiology_methods"
+        ]
+      },
+      {
+        "study_id": "STUDY_0132",
+        "pmid": 27385708,
+        "title": "Antimicrobial Stewardship in the Microbiology Laboratory: Impact of Selective Su...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0136",
+        "pmid": 36830213,
+        "title": "Antimicrobial Stewardship Program for Patients in the Hematological Department R...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0144",
+        "pmid": 28947463,
+        "title": "Maltese Antibiotic Stewardship Programme in the Community (MASPIC): protocol of ...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0145",
+        "pmid": 38092304,
+        "title": "Enforcing surveillance of antimicrobial resistance and antibiotic use to drive s...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "microbiology_methods"
+        ]
+      },
+      {
+        "study_id": "STUDY_0146",
+        "pmid": 38141837,
+        "title": "The changes of different restriction level adjustments on antibiotic use in Chin...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0160",
+        "pmid": 35588970,
+        "title": "Effectiveness of antimicrobial stewardship programmes based on rapid antibiotic ...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "detailed_mortality_results"
+        ]
+      },
+      {
+        "study_id": "STUDY_0172",
+        "pmid": 35077523,
+        "title": "Effects of infectious disease consultation and antimicrobial stewardship program...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0175",
+        "pmid": 38752207,
+        "title": "Time is running out. No excuses to delay implementation of antimicrobial steward...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0176",
+        "pmid": 38863389,
+        "title": "Impact of an antimicrobial stewardship programme on antibiotic utilization and r...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "microbiology_methods"
+        ]
+      },
+      {
+        "study_id": "STUDY_0182",
+        "pmid": 33653766,
+        "title": "Multicentre stepped-wedge cluster randomised controlled trial of an antimicrobia...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0183",
+        "pmid": 35178569,
+        "title": "Impact of drug safety warnings and antimicrobial stewardship programme implement...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0184",
+        "pmid": 35383069,
+        "title": "Evaluating antibiotic stewardship and healthcare-associated infections surveilla...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0203",
+        "pmid": 30283084,
+        "title": "Impact of an infectious diseases specialist-led antimicrobial stewardship progra...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "microbiology_methods"
+        ]
+      },
+      {
+        "study_id": "STUDY_0249",
+        "pmid": 33677793,
+        "title": "Short and long term impact of combining restrictive and enabling interventions t...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0255",
+        "pmid": 17082202,
+        "title": "The potential role of computerized decision support systems to improve empirical...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0297",
+        "pmid": 32893441,
+        "title": "Impact of the multidisciplinary antimicrobial stewardship team intervention focu...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0333",
+        "pmid": 32016346,
+        "title": "A behavioural approach to specifying interventions: what insights can be gained ...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0349",
+        "pmid": 38161969,
+        "title": "The use of routinely collected electronic prescribing data to benchmark intraven...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0382",
+        "pmid": 33517926,
+        "title": "Association between a rapid diagnostic test to detect methicillin-resistant ",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0403",
+        "pmid": 29661158,
+        "title": "Effect of an intervention targeting inappropriate continued empirical parenteral...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0421",
+        "pmid": 28927475,
+        "title": "Impact of Discontinuing Contact Precautions for MRSA and ESBLE in an Intensive C...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0426",
+        "pmid": 36009945,
+        "title": "Control of Healthcare-Associated Carbapenem-Resistant ",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0457",
+        "pmid": 27422026,
+        "title": "Effectiveness of biomarker-based exclusion of ventilator-acquired pneumonia to r...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0460",
+        "pmid": 36075750,
+        "title": "Impact of Respiratory Viral Panel Results on Piperacillin-Tazobactam Use in a Me...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0468",
+        "pmid": 37125081,
+        "title": "Estimating treatment effects for time-to-treatment antibiotic stewardship in sep...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0486",
+        "pmid": 36914995,
+        "title": "Evaluating Methicillin-Resistant Staphylococcus aureus Polymerase Chain Reaction...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0551",
+        "pmid": 26661392,
+        "title": "Effect of an antimicrobial stewardship bundle for patients with Clostridium diff...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "cdi_diagnostic_methods"
+        ]
+      },
+      {
+        "study_id": "STUDY_0612",
+        "pmid": 39906215,
+        "title": "Rapid diagnostic testing combined with an immediate infectious disease consultat...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0649",
+        "pmid": 40888899,
+        "title": "Antibiotic therapy for severe bacterial infections.",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0656",
+        "pmid": 31620836,
+        "title": "The association of cardiovascular failure with treatment for ventilator-associat...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0697",
+        "pmid": 40032196,
+        "title": "Revisiting antimicrobial stewardship in the paediatric intensive care unit: insi...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0745",
+        "pmid": 33563619,
+        "title": "Deimplementation strategy to reduce overtreatment of asymptomatic bacteriuria: a...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0786",
+        "pmid": 39931585,
+        "title": "Carbapenem Usage in the Initial Antibiotic Therapy of Sepsis in Japanese Intensi...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0802",
+        "pmid": 35578243,
+        "title": "Evaluation of an audit and feedback intervention to reduce gentamicin prescripti...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0803",
+        "pmid": 27452782,
+        "title": "Reducing unnecessary antibiotic use in the neonatal intensive care unit (SCOUT):...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0827",
+        "pmid": 30786942,
+        "title": "Diagnostic stewardship of C. difficile testing: a quasi-experimental antimicrobi...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0840",
+        "pmid": 27887595,
+        "title": "Antimicrobial stewardship of Chinese ministry of health reduces multidrug-resist...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0850",
+        "pmid": 40982183,
+        "title": "Antibiotic Consumption in Danish Intensive Care Units, 2013-2023: A Nationwide S...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0896",
+        "pmid": 20673259,
+        "title": "Balancing the benefits and costs of antibiotic drugs: the TREAT model.",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "cost_effectiveness_data"
+        ]
+      },
+      {
+        "study_id": "STUDY_0903",
+        "pmid": 33232831,
+        "title": "The impact of a stewardship program on antibiotic administration in community-ac...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0963",
+        "pmid": 28756579,
+        "title": "Evaluation of effects of an operational multidisciplinary team on antibiotic use...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_0980",
+        "pmid": 31692076,
+        "title": "Impact of infection control measures on the related costs and the amount of broa...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics",
+          "cost_effectiveness_data"
+        ]
+      },
+      {
+        "study_id": "STUDY_1045",
+        "pmid": 36803370,
+        "title": "Evaluation of duration of antibiotic therapy across hospitals in Scotland includ...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1061",
+        "pmid": 31202924,
+        "title": "Selective antibiotic susceptibility reporting and broad-spectrum intravenous ant...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1094",
+        "pmid": 31650816,
+        "title": "What Stops Doctors Switching from Intravenous to Oral Antibiotics?",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1121",
+        "pmid": 30732979,
+        "title": "Effect of carbapenem restriction on prescribing trends for immunocompromised war...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1142",
+        "pmid": 18319126,
+        "title": "Practical solutions to improve safety in the obstetrics/gynecology office settin...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1151",
+        "pmid": 30820545,
+        "title": "Association Between Antibiotic Use and Hospital-onset Clostridioides difficile I...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1177",
+        "pmid": 16415039,
+        "title": "Reduction of broad-spectrum antibiotic use with computerized decision support in...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1181",
+        "pmid": 15367178,
+        "title": "Oral quinolones in hospitalized patients: an evaluation of a computerized decisi...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1452",
+        "pmid": 34297040,
+        "title": "Effect of rapid methicillin-resistant Staphylococcus aureus nasal polymerase cha...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      },
+      {
+        "study_id": "STUDY_1516",
+        "pmid": 40338678,
+        "title": "Methicillin-Resistant Staphylococcus aureus Nasal Screening With Polymerase Chai...",
+        "estimated_time": "45-60 minutes",
+        "key_targets": [
+          "precise_effect_estimates",
+          "confidence_intervals",
+          "statistical_significance",
+          "sample_size_per_arm",
+          "baseline_characteristics"
+        ]
+      }
+    ]
+  },
+  "estimated_review_time": {
+    "total_studies": 76,
+    "total_hours": 66.6,
+    "time_by_priority": {
+      "High": 0.0,
+      "Medium": 6.9,
+      "Low": 59.7
+    },
+    "average_time_per_study": 52.6
+  },
+  "review_timeline": {
+    "estimated_completion_weeks": 4.8,
+    "high_priority_studies": 0,
+    "medium_priority_studies": 8,
+    "low_priority_studies": 68,
+    "recommended_schedule": {
+      "week_1_2": "Complete all high priority studies",
+      "week_3_4": "Complete medium priority studies",
+      "week_5_6": "Complete low priority studies and quality checks"
+    }
+  },
+  "quality_control_plan": {
+    "double_extraction_requirement": "20% of studies or minimum 10 studies",
+    "discrepancy_resolution": "Third reviewer arbitration",
+    "data_validation_checks": [
+      "Effect estimates within plausible ranges",
+      "Confidence intervals properly calculated",
+      "Baseline characteristics balanced between groups",
+      "Outcome definitions consistent with protocol",
+      "Statistical methods appropriate for study design"
+    ],
+    "quality_metrics": [
+      "Inter-rater agreement (Kappa statistic)",
+      "Data completeness percentage",
+      "Extraction error rate",
+      "Protocol adherence score"
+    ]
+  },
+  "data_extraction_templates": {
+    "study_characteristics_template": {
+      "required_fields": [
+        "exact_sample_size_per_arm",
+        "detailed_baseline_characteristics",
+        "precise_study_duration",
+        "exact_inclusion_exclusion_criteria",
+        "detailed_setting_description"
+      ],
+      "optional_but_important": [
+        "power_calculation_details",
+        "interim_analysis_plans",
+        "protocol_deviations",
+        "loss_to_follow_up_reasons"
+      ],
+      "extraction_notes": [
+        "Extract exact numbers, not rounded values",
+        "Note any discrepancies between protocol and implementation",
+        "Document all baseline characteristics, even if not statistically significant"
+      ]
+    },
+    "intervention_details_template": {
+      "required_fields": [
+        "exact_intervention_components",
+        "implementation_fidelity_measures",
+        "training_programs_details",
+        "resource_requirements",
+        "intervention_timing_and_duration"
+      ],
+      "implementation_checklist": [
+        "Was intervention implemented as planned?",
+        "Were there any modifications during study?",
+        "How was intervention fidelity monitored?",
+        "What was the uptake rate among eligible patients?",
+        "Were there any barriers to implementation?"
+      ]
+    },
+    "outcome_data_template": {
+      "required_fields": [
+        "exact_effect_estimates_with_ci",
+        "precise_p_values",
+        "time_to_event_data",
+        "intention_to_treat_results",
+        "per_protocol_results"
+      ],
+      "outcome_specific_instructions": {
+        "mortality": "Extract hazard ratios if time-to-event analysis used",
+        "cdi": "Note diagnostic criteria and testing frequency",
+        "mdro": "Document resistance definitions and testing methods",
+        "antibiotic_consumption": "Extract both DOT and DDD if available"
+      }
+    },
+    "quality_assessment_template": {
+      "rob_2_assessment": [
+        "Randomization process",
+        "Deviations from intended interventions",
+        "Missing outcome data",
+        "Measurement of outcomes",
+        "Selection of reported results"
+      ],
+      "its_quality_assessment": [
+        "Protection against secular changes",
+        "Protection against detection bias",
+        "Completeness of outcome data",
+        "Protection against selection bias",
+        "Appropriate analysis methods"
+      ]
+    }
+  }
+}

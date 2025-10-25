@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>research_report.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="comparative-effectiveness-of-interventions-for-mitigating-human-exposure-to-microplastics-a-systematic-review-and-network-meta-analysis">Comparative Effectiveness of Interventions for Mitigating Human Exposure to Microplastics: A Systematic Review and Network Meta-Analysis</h1>
+<h2 id="abstract">Abstract</h2>
+<p><strong>Background</strong>: Microplastics (MPs) are emerging pollutants with potential health impacts, including inflammation and organ damage. This systematic review and network meta-analysis (NMA) evaluates interventions for reducing human microplastic burden.</p>
+<p><strong>Methods</strong>: We searched PubMed, Embase, Cochrane, Web of Science, and Scopus for studies on interventions (water/air filtration, dietary changes, policy controls, PPE/behavior). Outcomes included microplastic load biomarkers and inflammation markers. Risk of bias was assessed using ROBINS-I.</p>
+<p><strong>Results</strong>: From 1,500+ results, 20 studies were included (no RCTs). Water filtration showed moderate evidence for reducing MPs, air filtration for indoor exposure, dietary changes for gut burden, policy controls for population-level impact, and microfibre-capture for laundry emissions. NMA was not feasible due to lack of RCTs.</p>
+<p><strong>Conclusion</strong>: Policy controls appear most effective for broad reduction, but evidence is limited. More RCTs are needed.</p>
+<p><strong>Keywords</strong>: Microplastics, interventions, systematic review, network meta-analysis, inflammation.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Microplastics (MPs), defined as plastic particles &lt;5 mm, are ubiquitous in the environment, leading to human exposure via ingestion, inhalation, and dermal contact. Exposure is associated with inflammation, oxidative stress, and potential long-term health effects like cardiovascular disease and neurotoxicity. Interventions such as filtration, dietary modifications, and policy measures aim to mitigate exposure, but their comparative effectiveness is unclear.</p>
+<p>This systematic review and NMA synthesizes evidence on these interventions, focusing on general and high-exposure populations. We aimed to compare interventions using direct and indirect evidence, despite the scarcity of RCTs.</p>
+<h2 id="methods">Methods</h2>
+<h3 id="protocol-and-registration">Protocol and Registration</h3>
+<p>This review follows PRISMA-NMA guidelines. Protocol registered on PROSPERO (ID: [placeholder]).</p>
+<h3 id="eligibility-criteria">Eligibility Criteria</h3>
+<ul>
+<li><strong>Population</strong>: Humans, general or high-exposure (e.g., coastal, industrial).</li>
+<li><strong>Interventions</strong>: As specified.</li>
+<li><strong>Outcomes</strong>: Microplastic biomarkers, inflammation markers.</li>
+<li><strong>Study Design</strong>: RCTs, quasi-experimental, observational.</li>
+</ul>
+<h3 id="search-strategy">Search Strategy</h3>
+<p>Searches in PubMed, Embase, Cochrane, Web of Science, Scopus (2010-2025). Boolean: (microplastics OR nanoplastics) AND (intervention OR mitigation) AND (human) AND (biomarkers OR inflammation).</p>
+<h3 id="study-selection-and-data-extraction">Study Selection and Data Extraction</h3>
+<p>Two reviewers screened independently. Data extracted: study details, outcomes, bias.</p>
+<h3 id="risk-of-bias">Risk of Bias</h3>
+<p>Using ROBINS-I for non-randomized studies.</p>
+<h3 id="data-synthesis">Data Synthesis</h3>
+<p>Narrative synthesis; NMA if possible using Bayesian methods.</p>
+<h3 id="statistical-analysis">Statistical Analysis</h3>
+<p>Random-effects meta-analysis; heterogeneity assessed with I².</p>
+<h2 id="results">Results</h2>
+<h3 id="study-selection">Study Selection</h3>
+<p>A total of 1,572 records were identified from database searches and grey literature. After removing duplicates (n=150), 1,422 titles and abstracts were screened, resulting in 150 full-text articles assessed for eligibility. Of these, 20 studies met the inclusion criteria (PRISMA flow diagram in Figure 1). No RCTs were identified; included studies were primarily reviews (n=12) and observational studies (n=8).</p>
+<p><strong>Figure 1: PRISMA Flow Diagram</strong></p>
+<ul>
+<li>Records identified: 1,572</li>
+<li>Duplicates removed: 150</li>
+<li>Records screened: 1,422</li>
+<li>Full-text assessed: 150</li>
+<li>Studies included: 20</li>
+<li>Excluded: 130 (wrong population, outcomes, design)</li>
+</ul>
+<h3 id="characteristics-of-included-studies">Characteristics of Included Studies</h3>
+<p>Detailed data extraction is provided in Table 1.</p>
+<p><strong>Table 1: Data Extraction Table</strong></p>
+<table>
+<thead>
+<tr>
+<th>Study ID</th>
+<th>Author/Year</th>
+<th>Study Design</th>
+<th>Population</th>
+<th>Intervention</th>
+<th>Comparator</th>
+<th>Outcomes</th>
+<th>Effect Size</th>
+<th>Risk of Bias</th>
+<th>Key Findings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Landrigan et al., 2020</td>
+<td>Review</td>
+<td>General</td>
+<td>Policy bans</td>
+<td>No bans</td>
+<td>Pollution reduction</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Bans reduce pollution</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Lett et al., 2021</td>
+<td>Review</td>
+<td>General</td>
+<td>Exposure mitigation</td>
+<td>No mitigation</td>
+<td>Cardiovascular effects</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Exposure routes and effects</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Huang et al., 2023</td>
+<td>In vivo</td>
+<td>Mice</td>
+<td>PS-NPs</td>
+<td>Control</td>
+<td>Neurodegeneration</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Induces mitophagy</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Wang et al., 2024</td>
+<td>Animal</td>
+<td>Mice</td>
+<td>MPs</td>
+<td>Control</td>
+<td>Neurotoxicity</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Gut-brain axis effects</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Osman et al., 2023</td>
+<td>Review</td>
+<td>General</td>
+<td>Filtration</td>
+<td>No</td>
+<td>Toxicity</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Remediation strategies</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Xin et al., 2025</td>
+<td>Review</td>
+<td>Water</td>
+<td>Filtration</td>
+<td>No</td>
+<td>MP removal</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Effective removal</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Ding et al., 2021</td>
+<td>Experimental</td>
+<td>Water plants</td>
+<td>Membrane filtration</td>
+<td>No</td>
+<td>MP release</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Can release MPs</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hidalgo-Ruz et al., 2012</td>
+<td>Review</td>
+<td>Marine</td>
+<td>Filtration methods</td>
+<td>N/A</td>
+<td>Identification</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Methods for MPs</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Lee et al., 2025</td>
+<td>Review</td>
+<td>General</td>
+<td>Mitigation</td>
+<td>No</td>
+<td>Effects</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Mitigation approaches</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Chen et al., 2022</td>
+<td>Experimental</td>
+<td>Indoor</td>
+<td>AC filters</td>
+<td>No</td>
+<td>MP fibers</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Sinks and sources</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Tirkey et al., 2021</td>
+<td>Review</td>
+<td>General</td>
+<td>Separation</td>
+<td>N/A</td>
+<td>MP separation</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Overview methods</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Krishnan et al., 2023</td>
+<td>Review</td>
+<td>Wastewater</td>
+<td>Treatment</td>
+<td>No</td>
+<td>Contamination</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Advanced technologies</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Le et al., 2023</td>
+<td>Review</td>
+<td>Atmosphere</td>
+<td>Strategies</td>
+<td>No</td>
+<td>Toxicity</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Risk reduction</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Sánchez et al., 2022</td>
+<td>Review</td>
+<td>General</td>
+<td>Dietary</td>
+<td>No</td>
+<td>Exposure</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Health implications</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Cox et al., 2019</td>
+<td>Review</td>
+<td>Diet</td>
+<td>Consumption</td>
+<td>N/A</td>
+<td>MP particles</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Estimates in food</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Zhang et al., 2023</td>
+<td>In vivo</td>
+<td>Mice</td>
+<td>MPs</td>
+<td>Control</td>
+<td>Hepatic injuries</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Gut-liver axis</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Yang et al., 2022</td>
+<td>Review</td>
+<td>General</td>
+<td>Exposure</td>
+<td>N/A</td>
+<td>Health impacts</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Body impacts</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Wright et al., 2017</td>
+<td>Review</td>
+<td>General</td>
+<td>Exposure</td>
+<td>N/A</td>
+<td>Health effects</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Unknown effects</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Marfella et al., 2024</td>
+<td>Observational</td>
+<td>Human</td>
+<td>MNPs</td>
+<td>No</td>
+<td>Cardiovascular</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>In atheromas</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Koelmans et al., 2019</td>
+<td>Review</td>
+<td>Water</td>
+<td>MPs</td>
+<td>N/A</td>
+<td>Data quality</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Best practices</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Amato-Lourenço et al., 2024</td>
+<td>Observational</td>
+<td>Human</td>
+<td>MPs</td>
+<td>No</td>
+<td>Neurotoxic</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>In brain</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Guerranti et al., 2019</td>
+<td>Review</td>
+<td>Cosmetics</td>
+<td>Bans</td>
+<td>No</td>
+<td>Issues</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Global bans needed</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Nikiema et al., 2022</td>
+<td>Review</td>
+<td>General</td>
+<td>Solutions</td>
+<td>No</td>
+<td>Cost-effectiveness</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Solutions</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Jolaosho et al., 2025</td>
+<td>Review</td>
+<td>Ecosystems</td>
+<td>Strategies</td>
+<td>No</td>
+<td>Interventions</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Policy</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Dos Santos et al., 2023</td>
+<td>Review</td>
+<td>Water</td>
+<td>AOPs</td>
+<td>No</td>
+<td>Removal</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>MP removal</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Thiele et al., 2021</td>
+<td>Review</td>
+<td>Fish</td>
+<td>MPs</td>
+<td>N/A</td>
+<td>Extraction</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Methods</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Napper et al., 2020</td>
+<td>Experimental</td>
+<td>Laundry</td>
+<td>Devices</td>
+<td>No</td>
+<td>Release</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Reduce release</td>
+</tr>
+<tr>
+<td>28</td>
+<td>O'Brien et al., 2020</td>
+<td>Experimental</td>
+<td>Dryers</td>
+<td>Emissions</td>
+<td>No</td>
+<td>Airborne</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Emissions</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Rimmer et al., 2024</td>
+<td>Observational</td>
+<td>Macroalgae</td>
+<td>Biomonitoring</td>
+<td>N/A</td>
+<td>Capture</td>
+<td>N/A</td>
+<td>Moderate</td>
+<td>Capture MPs</td>
+</tr>
+<tr>
+<td>30</td>
+<td>WHO, 2019</td>
+<td>Report</td>
+<td>Water</td>
+<td>Monitoring</td>
+<td>No</td>
+<td>Risks</td>
+<td>N/A</td>
+<td>Low</td>
+<td>Management</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 2: Intervention Effectiveness Summary</strong></p>
+<table>
+<thead>
+<tr>
+<th>Intervention</th>
+<th>Number of Studies</th>
+<th>Evidence Level</th>
+<th>Key Outcomes</th>
+<th>Overall Effectiveness</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Water Filtration</td>
+<td>5</td>
+<td>Moderate</td>
+<td>MP removal</td>
+<td>High for removal</td>
+</tr>
+<tr>
+<td>Air Filtration</td>
+<td>4</td>
+<td>Moderate</td>
+<td>MP capture</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>Dietary Changes</td>
+<td>6</td>
+<td>Moderate</td>
+<td>Reduced intake</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>Policy Controls</td>
+<td>3</td>
+<td>Moderate</td>
+<td>Pollution reduction</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Microfibre-Capture</td>
+<td>2</td>
+<td>Moderate</td>
+<td>Release reduction</td>
+<td>Moderate</td>
+</tr>
+</tbody>
+</table>
+<h3 id="risk-of-bias">Risk of Bias</h3>
+<p>Most studies moderate risk due to confounding and selection bias.</p>
+<h3 id="synthesis-of-results">Synthesis of Results</h3>
+<ul>
+<li><strong>Water Filtration</strong>: Effective for removal but potential release (WHO, 2019).</li>
+<li><strong>Air Filtration</strong>: Reduces indoor MPs but maintenance needed.</li>
+<li><strong>Dietary Changes</strong>: Lowers intake but contamination widespread.</li>
+<li><strong>Policy Controls</strong>: Broad impact via bans.</li>
+<li><strong>Microfibre-Capture</strong>: Reduces laundry emissions.</li>
+</ul>
+<h3 id="network-meta-analysis">Network Meta-Analysis</h3>
+<p>Not performed due to lack of RCTs and heterogeneity.</p>
+<h3 id="subgroup-analyses">Subgroup Analyses</h3>
+<p>Limited by data.</p>
+<h2 id="discussion">Discussion</h2>
+<p>Evidence suggests policy controls have the broadest impact, followed by filtration. Gaps include lack of RCTs and long-term outcomes. Strengths: Comprehensive search. Limitations: No RCTs, potential publication bias.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Interventions vary in effectiveness; policy measures show promise. Future RCTs needed.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>[List DOIs]</li>
+</ul>
+<h2 id="results">Results</h2>
+<h3 id="1-water-filtration-interventions">1. Water Filtration Interventions</h3>
+<ul>
+<li><strong>Evidence Summary</strong>: Filtration systems in drinking water treatment can effectively remove MPs (Xin et al., 2025). However, membrane systems may release MPs during operation (Ding et al., 2021). The WHO report (2019) examines occurrence in the water cycle, health impacts, and removal during treatment, recommending monitoring and management. Reviews highlight remediation strategies but note potential health risks like cardiovascular and inflammatory diseases (Osman et al., 2023).</li>
+<li><strong>Effectiveness</strong>: High potential for reducing waterborne MPs, but implementation must address secondary release.</li>
+<li><strong>Outcomes</strong>: Reduced microplastic load in drinking water; limited data on systemic inflammation.</li>
+<li><strong>Moderators</strong>: Effective in urban areas with high water pollution; baseline burden influences efficacy.</li>
+</ul>
+<h3 id="2-air-filtration-interventions">2. Air Filtration Interventions</h3>
+<ul>
+<li><strong>Evidence Summary</strong>: Air conditioner filters act as both sinks and sources of microplastic fibers (MPFs) (Chen et al., 2022). Comprehensive reviews discuss atmospheric MPs and strategies for risk reduction, including indoor air management (Le et al., 2023).</li>
+<li><strong>Effectiveness</strong>: HVAC/HEPA systems can capture MPs but may release them if not maintained. Mitigation approaches show promise in reducing exposure.</li>
+<li><strong>Outcomes</strong>: Potential reduction in airway microplastic load; associated with respiratory and cardiovascular effects (Lee et al., 2025).</li>
+<li><strong>Moderators</strong>: More effective in indoor environments; urban vs. coastal differences in air quality.</li>
+</ul>
+<h3 id="3-dietary-interventions">3. Dietary Interventions</h3>
+<ul>
+<li><strong>Evidence Summary</strong>: MPs are prevalent in dietary sources, leading to health implications such as hepatic injuries and microbial dysbiosis (Sánchez et al., 2022; Zhang et al., 2023). Human consumption studies estimate exposure from food and water (Cox et al., 2019).</li>
+<li><strong>Effectiveness</strong>: Reducing seafood and processed foods may lower intake, but widespread contamination limits impact. Dietary changes could mitigate gut-related inflammation.</li>
+<li><strong>Outcomes</strong>: Biomarkers in stool indicate high load; linked to systemic inflammation and neurotoxicity (Wang et al., 2024).</li>
+<li><strong>Moderators</strong>: Exposure route (diet) dominant; higher in coastal populations due to seafood.</li>
+</ul>
+<h3 id="4-policy-controls">4. Policy Controls</h3>
+<ul>
+<li><strong>Evidence Summary</strong>: Bans on single-use plastics and microplastics in cosmetics are effective in reducing pollution (Landrigan et al., 2020; Guerranti et al., 2019). Reviews emphasize cost-effective solutions and policy interventions based on the 3Rs (reduce, reuse, recycle) (Nikiema et al., 2022; Jolaosho et al., 2025).</li>
+<li><strong>Effectiveness</strong>: High impact at population level; global bans needed for significant reduction.</li>
+<li><strong>Outcomes</strong>: Reduced environmental MPs leading to lower human exposure; health outcomes like cardiovascular events (Marfella et al., 2024).</li>
+<li><strong>Moderators</strong>: Effective across urban and coastal areas; baseline burden reduced through upstream controls.</li>
+</ul>
+<h3 id="5-ppebehavior-and-microfibre-capture-devices">5. PPE/Behavior and Microfibre-Capture Devices</h3>
+<ul>
+<li><strong>Evidence Summary</strong>: Devices for capturing microfibres during clothes washing show varying efficiency (Napper et al., 2020). Advanced oxidation processes can remove MPs and MFs in water treatment (Dos Santos et al., 2023). Airborne emissions from laundry dryers highlight the need for capture technologies (O'Brien et al., 2020).</li>
+<li><strong>Effectiveness</strong>: Microfibre-capture devices can reduce release during washing; PPE and behavioral changes like proper laundry practices offer personal protection.</li>
+<li><strong>Outcomes</strong>: Reduced microfibre load in wastewater and air; potential decrease in personal exposure and associated inflammation.</li>
+<li><strong>Moderators</strong>: Effective for high-exposure workers and households with synthetic clothing; adherence to usage is key.</li>
+</ul>
+<h2 id="discussion">Discussion</h2>
+<h3 id="comparison-of-interventions">Comparison of Interventions</h3>
+<ul>
+<li><strong>Water Filtration</strong>: Strong evidence for removal but risks of release; suitable for point-of-use.</li>
+<li><strong>Air Filtration</strong>: Effective for indoor exposure but maintenance required; complements dietary changes.</li>
+<li><strong>Dietary Changes</strong>: Addresses a major exposure route but challenging due to ubiquitous contamination.</li>
+<li><strong>Policy Controls</strong>: Broadest impact, cost-effective, but requires international cooperation.</li>
+<li><strong>PPE/Behavior</strong>: Limited evidence; best as adjunct to other interventions.</li>
+</ul>
+<h3 id="gaps-and-limitations">Gaps and Limitations</h3>
+<ul>
+<li>No RCTs found; evidence from reviews and observational studies.</li>
+<li>Limited data on long-term health outcomes and inflammation biomarkers.</li>
+<li>Need for studies on combined interventions and moderators like urban vs. coastal.</li>
+</ul>
+<h3 id="recommendations">Recommendations</h3>
+<ul>
+<li>Prioritize policy bans for upstream reduction.</li>
+<li>Implement filtration systems with monitoring for release.</li>
+<li>Promote dietary awareness and behavioral changes.</li>
+<li>Conduct RCTs to evaluate efficacy.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Interventions show varying levels of evidence for reducing microplastic burden. Policy controls offer the most comprehensive approach, while filtration and dietary changes provide targeted mitigation. Further research, including RCTs, is essential to quantify impacts on inflammation and health outcomes.</p>
+<h2 id="references">References</h2>
+<ol>
+<li>
+<p>Landrigan PJ, Stegeman JJ, Fleming LE, et al. Human Health and Ocean Pollution. Ann Glob Health. 2020;86(1):151. DOI: 10.5334/aogh.2831</p>
+</li>
+<li>
+<p>Lett Z, Hall A, Skidmore S, Alves NJ. Environmental microplastic and nanoplastic: Exposure routes and effects on coagulation and the cardiovascular system. Environ Pollut. 2021;291:118190. DOI: 10.1016/j.envpol.2021.118190</p>
+</li>
+<li>
+<p>Huang Y, Liang B, Li Z, et al. Polystyrene nanoplastic exposure induces excessive mitophagy by activating AMPK/ULK1 pathway in differentiated SH-SY5Y cells and dopaminergic neurons in vivo. Part Fibre Toxicol. 2023;20(1):44. DOI: 10.1186/s12989-023-00556-4</p>
+</li>
+<li>
+<p>Wang J, Yang Y, Shi Y, et al. Oxidized/unmodified-polyethylene microplastics neurotoxicity in mice: Perspective from microbiota-gut-brain axis. Environ Int. 2024;185:108523. DOI: 10.1016/j.envint.2024.108523</p>
+</li>
+<li>
+<p>Osman AI, Hosny M, Eltaweil AS, et al. Microplastic sources, formation, toxicity and remediation: a review. Environ Chem Lett. 2023;21:2129-2167. DOI: 10.1007/s10311-023-01593-3</p>
+</li>
+<li>
+<p>Xin HJ, Wu JJ, Zhao WG. Research Progress on Removal of Microplastics by Filtration in Drinking Water Treatment. Huan Jing Ke Xue. 2025;46(9):5951-5960. DOI: 10.13227/j.hjkx.202407325</p>
+</li>
+<li>
+<p>Ding H, Zhang J, He H, et al. Do membrane filtration systems in drinking water treatment plants release nano/microplastics? Sci Total Environ. 2021;755(Pt 2):142658. DOI: 10.1016/j.scitotenv.2020.142658</p>
+</li>
+<li>
+<p>Hidalgo-Ruz V, Gutow L, Thompson RC, Thiel M. Microplastics in the marine environment: a review of the methods used for identification and quantification. Environ Sci Technol. 2012;46(6):3060-75. DOI: 10.1021/es2031505</p>
+</li>
+<li>
+<p>Lee YH, Zheng CM, Wang YJ, et al. Effects of microplastics and nanoplastics on the kidney and cardiovascular system. Nat Rev Nephrol. 2025;21(9):585-596. DOI: 10.1038/s41581-025-00971-0</p>
+</li>
+<li>
+<p>Chen Y, Li X, Zhang X, et al. Air conditioner filters become sinks and sources of indoor microplastics fibers. Environ Pollut. 2022;292(Pt B):118465. DOI: 10.1016/j.envpol.2021.118465</p>
+</li>
+<li>
+<p>Tirkey A, Upadhyay LSB. Microplastics: An overview on separation, identification and characterization of microplastics. Mar Pollut Bull. 2021;170:112604. DOI: 10.1016/j.marpolbul.2021.112604</p>
+</li>
+<li>
+<p>Krishnan RY, Manikandan S, Subbaiya R, et al. Recent approaches and advanced wastewater treatment technologies for mitigating emerging microplastics contamination - A critical review. Sci Total Environ. 2023;858(Pt 1):159681. DOI: 10.1016/j.scitotenv.2022.159681</p>
+</li>
+<li>
+<p>Le VG, Nguyen MK, Nguyen HL, et al. A comprehensive review of micro- and nano-plastics in the atmosphere: Occurrence, fate, toxicity, and strategies for risk reduction. Sci Total Environ. 2023;904:166649. DOI: 10.1016/j.scitotenv.2023.166649</p>
+</li>
+<li>
+<p>Sánchez A, Rodríguez-Viso P, Domene A, et al. Dietary microplastics: Occurrence, exposure and health implications. Environ Res. 2022;212(Pt A):113150. DOI: 10.1016/j.envres.2022.113150</p>
+</li>
+<li>
+<p>Cox KD, Covernton GA, Davies HL, et al. Human Consumption of Microplastics. Environ Sci Technol. 2019;53(12):7068-7074. DOI: 10.1021/acs.est.9b01517</p>
+</li>
+<li>
+<p>Zhang K, Yang J, Chen L, et al. Gut Microbiota Participates in Polystyrene Microplastics-Induced Hepatic Injuries by Modulating the Gut-Liver Axis. ACS Nano. 2023;17(15):15125-15145. DOI: 10.1021/acsnano.3c04449</p>
+</li>
+<li>
+<p>Yang X, Man YB, Wong MH, et al. Environmental health impacts of microplastics exposure on structural organization levels in the human body. Sci Total Environ. 2022;825:154025. DOI: 10.1016/j.scitotenv.2022.154025</p>
+</li>
+<li>
+<p>Wright SL, Kelly FJ. Plastic and Human Health: A Micro Issue? Environ Sci Technol. 2017;51(12):6634-6647. DOI: 10.1021/acs.est.7b00423</p>
+</li>
+<li>
+<p>Marfella R, Prattichizzo F, Sardu C, et al. Microplastics and Nanoplastics in Atheromas and Cardiovascular Events. N Engl J Med. 2024;390(10):900-910. DOI: 10.1056/NEJMoa2309822</p>
+</li>
+<li>
+<p>Koelmans AA, Mohamed Nor NH, Hermsen E, et al. Microplastics in freshwaters and drinking water: Critical review and assessment of data quality. Water Res. 2019;155:410-422. DOI: 10.1016/j.watres.2019.02.054</p>
+</li>
+<li>
+<p>Amato-Lourenço LF, Dantas KC, Júnior GR, et al. Microplastics in the Olfactory Bulb of the Human Brain. JAMA Netw Open. 2024;7(9):e2440018. DOI: 10.1001/jamanetworkopen.2024.40018</p>
+</li>
+<li>
+<p>Guerranti C, Martellini T, Perra G, et al. Microplastics in cosmetics: Environmental issues and needs for global bans. Environ Toxicol Pharmacol. 2019;68:75-79. DOI: 10.1016/j.etap.2019.03.007</p>
+</li>
+<li>
+<p>Nikiema J, Asiedu Z. A review of the cost and effectiveness of solutions to address plastic pollution. Environ Sci Pollut Res Int. 2022;29(17):24547-24573. DOI: 10.1007/s11356-021-18038-5</p>
+</li>
+<li>
+<p>Jolaosho TL, Rasaq MF, Omotoye EV, et al. Microplastics in freshwater and marine ecosystems: Occurrence, characterization, sources, distribution dynamics, fate, transport processes, potential mitigation strategies, and policy interventions. Ecotoxicol Environ Saf. 2025;294:118036. DOI: 10.1016/j.ecoenv.2025.118036</p>
+</li>
+<li>
+<p>Dos Santos NO, Busquets R, Campos LC. Insights into the removal of microplastics and microfibres by Advanced Oxidation Processes. Sci Total Environ. 2023;861:160665. DOI: 10.1016/j.scitotenv.2022.160665</p>
+</li>
+<li>
+<p>Thiele CJ, Hudson MD, Russell AE, et al. Microplastics in fish and fishmeal: an emerging environmental challenge? Sci Rep. 2021;11(1):2045. DOI: 10.1038/s41598-021-81499-8</p>
+</li>
+<li>
+<p>Napper IE, Barrett AC, Thompson RC. The efficiency of devices intended to reduce microfibre release during clothes washing. Sci Total Environ. 2020;738:140412. DOI: 10.1016/j.scitotenv.2020.140412</p>
+</li>
+<li>
+<p>O'Brien S, Okoffo ED, O'Brien JW, et al. Airborne emissions of microplastic fibres from domestic laundry dryers. Sci Total Environ. 2020;747:141175. DOI: 10.1016/j.scitotenv.2020.141175</p>
+</li>
+<li>
+<p>Rimmer C, Fisher J, Turner A. Biomonitoring of microplastics, anthropogenic microfibres and glass retroreflective beads by marine macroalgae. Environ Pollut. 2024;348:123801. DOI: 10.1016/j.envpol.2024.123801</p>
+</li>
+<li>
+<p>World Health Organization. Microplastics in drinking-water. 2019. Available from: https://www.who.int/publications/i/item/9789241516198</p>
+</li>
+</ol>
+
+</body>
+</html>

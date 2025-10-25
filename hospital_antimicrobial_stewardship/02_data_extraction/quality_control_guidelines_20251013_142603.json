@@ -1,0 +1,21 @@
+{
+  "double_extraction_protocol": {
+    "percentage_required": "20% of studies",
+    "minimum_number": "10 studies",
+    "selection_method": "Random selection across priority levels",
+    "resolution_process": "Third reviewer arbitration for discrepancies"
+  },
+  "data_validation_checks": [
+    "Cross-check sample sizes between text and tables",
+    "Verify effect estimates against reported statistics",
+    "Confirm statistical test appropriateness",
+    "Validate baseline balance between groups",
+    "Check for selective outcome reporting"
+  ],
+  "quality_metrics": [
+    "Inter-rater reliability (Kappa)",
+    "Data completeness percentage",
+    "Extraction accuracy rate",
+    "Protocol adherence score"
+  ]
+}

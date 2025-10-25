@@ -1,0 +1,66 @@
+# Data and results (comment out to track in version control)
+04_results_visualization/
+03_statistical_analysis/*.Rout
+03_statistical_analysis/*.RData
+
+# Logs and temporary files
+*.log
+*.tmp
+*.Rout
+.Rhistory
+.RData
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Large data files (if any)
+*.csv (comment out specific data files you want to track)
+
+# Manuscript drafts
+*_draft.*
+*_backup.*
+
+# Export files
+*.xlsx
+*.pdf
+*.docx
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Temporary directories
+tmp/
+temp/

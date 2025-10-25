@@ -1,0 +1,23 @@
+{
+  "workbook_structure": {
+    "sheet_1": "study_characteristics",
+    "sheet_2": "intervention_details",
+    "sheet_3": "outcome_data",
+    "sheet_4": "quality_assessment",
+    "sheet_5": "extraction_notes"
+  },
+  "validation_rules": [
+    "Sample sizes must be positive integers",
+    "Percentages must be between 0-100",
+    "Effect estimates must include measures of uncertainty",
+    "P-values must be between 0-1",
+    "Dates must be in YYYY-MM-DD format"
+  ],
+  "required_fields_checklist": [
+    "Study design clearly classified",
+    "Sample size per arm recorded",
+    "Effect estimates with CI extracted",
+    "Statistical significance noted",
+    "Quality assessment completed"
+  ]
+}

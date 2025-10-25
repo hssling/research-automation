@@ -1,0 +1,16 @@
+{
+  "identification": {
+    "records_identified": 1526,
+    "records_screened": 1526,
+    "records_excluded": 1450,
+    "records_included": 76
+  },
+  "screening": {
+    "total_screened": 1526,
+    "excluded_wrong_design": 941,
+    "excluded_wrong_population": 437,
+    "excluded_wrong_intervention": 398,
+    "excluded_wrong_outcomes": 763,
+    "excluded_other": -2126
+  }
+}

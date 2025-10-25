@@ -1,0 +1,49 @@
+Hospital Antimicrobial Stewardship Data Extraction Summary
+=================================================================
+
+Extraction completed on: 2025-10-13 10:07:56
+
+EXTRACTION RESULTS:
+Total studies processed: 76
+Study characteristics extracted: 76
+Intervention details extracted: 76
+Outcome data extracted: 76
+
+DATA COMPLETENESS ASSESSMENT:
+Note: This extraction is based on titles and abstracts only.
+Full-text review would be required for complete data extraction.
+
+Study Characteristics Completeness:
+  study_id: 100.0%
+  pmid: 100.0%
+  title: 100.0%
+  extraction_date: 100.0%
+  extractor: 100.0%
+  verification_status: 100.0%
+  journal: 100.0%
+  year: 100.0%
+  authors: 100.0%
+  doi: 100.0%
+  study_design: 100.0%
+  unit_randomization: 100.0%
+  study_duration_months: 100.0%
+  number_arms: 100.0%
+  setting_type: 100.0%
+  hospital_beds: 100.0%
+  geographic_region: 100.0%
+  study_population: 100.0%
+  sample_size: 100.0%
+  baseline_mrsa_rate: 100.0%
+  baseline_vre_rate: 100.0%
+  baseline_esbl_rate: 100.0%
+  baseline_cre_rate: 100.0%
+  baseline_cdi_rate: 100.0%
+  baseline_antibiotic_consumption: 100.0%
+  intervention_duration_months: 100.0%
+  training_provided: 100.0%
+  implementation_team: 100.0%
+  outcomes_measured: 100.0%
+  primary_outcomes: 100.0%
+  ethical_approval: 100.0%
+  clinical_trial_registration: 100.0%
+  funding_disclosure: 100.0%

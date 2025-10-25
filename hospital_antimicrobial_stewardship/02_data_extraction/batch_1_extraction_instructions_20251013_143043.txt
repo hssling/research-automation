@@ -1,0 +1,39 @@
+Batch 1 Data Extraction Instructions
+========================================
+
+Generated on: 2025-10-13 14:30:43
+
+BATCH OVERVIEW:
+  • Batch number: 1
+  • Number of studies: 8
+  • Priority level: Medium (High priority array was empty)
+  • Estimated completion time: 416 minutes (45-60 min per study)
+  • Deadline: 2025-10-27
+
+EXTRACTION PRIORITIES:
+  1. mortality
+  2. cdi
+  3. mdro
+  4. antibiotic_consumption
+
+REQUIRED FILES:
+  • batch_1_studies_*.csv - Study list with priorities
+  • batch_extraction_package_*.json - Complete extraction forms
+  • workflow_guide_*.txt - Step-by-step instructions
+
+QUALITY CONTROL REQUIREMENTS:
+  • Double extraction: 20% of studies
+  • Discrepancy resolution: Third reviewer arbitration
+  • Agreement threshold: 100% on key variables
+
+NEXT STEPS:
+  1. Assign studies to reviewers
+  2. Obtain full-text articles
+  3. Complete extractions using forms
+  4. Cross-validate 20% of studies
+  5. Submit for verification
+
+CONTACT INFORMATION:
+  • For extraction questions: Team lead
+  • For technical support: Data manager
+  • For progress updates: Project coordinator

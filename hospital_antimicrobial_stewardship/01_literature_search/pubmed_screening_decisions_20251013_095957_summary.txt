@@ -1,0 +1,21 @@
+Screening Progress Summary
+==============================
+
+Last updated: 2025-10-13 10:05:09
+Studies screened: 1526
+Studies included: 76
+Studies excluded: 1450
+Inclusion rate: 5.0%
+
+Top 10 included studies:
+-------------------------
+1. The impact of a non-restrictive Antimicrobial Stewardship Program in the emergen... [PMID: 37700179]
+2. Optimizing rapid diagnostics and diagnostic stewardship in Gram-negative bactere... [PMID: 34131939]
+3. Changes in antibiotic consumption, AMR and Clostridioides difficile infections i... [PMID: 34648594]
+4. Effect of a "handshake" stewardship program versus a formulary restriction polic... [PMID: 32364030]
+5. Implementation and impact of an audit and feedback antimicrobial stewardship int... [PMID: 29339298]
+6. Lessons from an Educational Invasive Fungal Disease Conference on Hospital Antif... [PMID: 34682223]
+7. Duration of pneumonia therapy and the role of biomarkers.... [PMID: 28079629]
+8. The impact of antimicrobial stewardship program designed to shorten antibiotics ... [PMID: 35042878]
+9. [Antimicrobial stewardship program during the COVID-19 pandemic].... [PMID: 36220019]
+10. The Interventions and Challenges of Antimicrobial Stewardship in the Emergency D... [PMID: 37887223]
